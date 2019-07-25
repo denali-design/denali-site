@@ -1,0 +1,39 @@
+@charset "utf-8";
+// Copyright 2019, Oath Inc.
+// Licensed under the terms of the MIT license. See LICENSE file in project root for terms.
+
+
+// Search container
+.results-container {
+  position: absolute;
+  z-index: 4;
+  // background: #F5F8FE;
+  background-color: white;
+  width: 300px;
+  top: 60px;
+  left: -30px;
+
+  li {
+    padding: 8px 12px 8px 12px;
+    border-left: 2px solid rgba(#303030, .08);
+    border-right: 2px solid rgba(#303030, .08);
+    font-size: 14px;
+
+    &:hover {
+      // background: rgba(#3570F4, .05)
+    }
+
+    &:first-child {
+      padding-top: 10px;
+      border-top-left-radius: 2px;
+      border-top-right-radius: 2px;
+    }
+
+    &:last-child {
+      border-bottom: 2px solid rgba(#303030, .08);
+      padding-bottom: 10px;
+      border-bottom-left-radius: 2px;
+      border-bottom-right-radius: 2px;
+    }
+  }
+}

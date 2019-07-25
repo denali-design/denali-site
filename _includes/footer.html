@@ -1,0 +1,23 @@
+<footer class="footer">
+  <div class="row">
+    {% if page.previous.url %}
+    <a class="box column space-between is-secondary align-items-center" href="{{site.baseurl}}{{page.previous.url}}">
+      <span class="d-icon d-arrowhead-left"></span>
+      <h3>{{page.previous.title}}</h3>
+    </a>
+    {% endif %}
+    {% if page.next.url %}
+    <a class="box column space-between is-secondary align-items-center" href="{{site.baseurl}}{{page.next.url}}">
+      <h3>{{page.next.title}}</h3>
+      <span class="d-icon d-arrowhead-right"></span>
+    </a>
+    {% endif %}
+  </div>
+    <div class="container m-t-4">
+      <strong>{{ site.title_brand}}</strong> by Platforms &amp; Technology Design
+    </div>
+</footer>
+
+{% if site.site_debug %}
+{% include site-debug.html %}
+{% endif %}

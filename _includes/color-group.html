@@ -1,0 +1,23 @@
+{% assign color = site.data.displayColors.[colorgroup] %}
+{% assign color-family = colorgroup %}
+
+<div class="color-content">
+    <h3 class="m-b-2">{{ color.label }}</h3>
+    <div class="color-group">
+        {% for symbol in color.colors %}
+        <div
+          class="color"
+          onclick="copyColor('{{ symbol.hex }}')"
+          onmouseover="hoverInvert('{{ color-family }}-{{ symbol.weight }}')"
+          onmouseout="hoverInvertReverse('{{ color-family }}-{{ symbol.weight }}')"
+          >
+            <div class="color-chip has-bg-{{ color-family }}-{{ symbol.weight }}">
+              {% if symbol.recommended %}<span class="d-icon d-star-solid is-small"></span>{% endif %}
+            </div>
+            <div class="color-value">
+                <p id="{{ color-family }}-{{ symbol.weight }}">{{ symbol.hex }}</p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>

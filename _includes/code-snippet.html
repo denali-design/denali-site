@@ -1,0 +1,27 @@
+<div class="snippet">
+  <div class="code-render {% if include.inverse == 'true' %}is-inverse{% endif %}">
+    <iframe src="{{ site.baseurl }}/assets/snippets/{{ include.url }}" class="resizable-area" onload="resizeIframe(this)" {% if include.height %}style="height:{{ include.height }}px;"{% endif %}></iframe>
+    <div class="resizable-bar" id="resizable-bar" draggable="true">
+      <span class="d-icon d-drag-handle rotate-90 is-medium"></span>
+    </div>
+  </div>
+  <div class="code-container">
+    <div class="code-nav tabs is-secondary has-bg-grey-800 is-inverse radius-tl-6 radius-tr-6">
+      <ul>
+        <li class="is-active"><a class="code-item">HTML</a></li>
+        <!-- <li><a class="code-item">React</a></li> -->
+        <!-- <li><a class="code-item">Ember</a></li> -->
+      </ul>
+    </div>
+    <div class="code-content">
+      <pre class="highlight html"><code class="language-html" data-lang="html">{{ include.code }}</code></pre>
+      <pre class="react hide"><code class="language-js">import { Button } from 'denali-react';</code></pre>
+      <pre class="ember hide"><code class="language-js">import { Button } from 'denali-react';</code></pre>
+    </div>
+    <div class="code-action p-b-2 p-x-2">
+      <button class="expand button is-secondary is-inverse is-medium">Expand</button>
+      <button class="copy button is-secondary is-inverse is-medium m-l-1">Copy Code</button>
+      <!-- <button class="sandbox button is-secondary is-inverse is-medium m-l-1">Edit in Sandbox</button> -->
+    </div>
+  </div>
+</div>

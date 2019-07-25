@@ -1,0 +1,216 @@
+---
+layout: base
+---
+
+<!-- Nav -->
+<nav class="nav home-nav">
+    <div class="nav-left">
+        <a onclick="toggleTabsLeft()" class="nav-icon hide-small-desktop-up"><i class="d-icon d-menu-hamburger"></i></a>
+        <a href="{{ site.baseurl }}/" class="nav-brand"><img src="{{ site.baseurl }}/assets/images/denali-logo.svg" alt=""></img></a>
+        <span class="chips is-small is-bold is-grey-100 has-bg-brand-400 hide-tablet-down">Styleguide</span>
+    </div>
+    <div id="collapseDropdown" class="collapse-dropdown">
+        <div class="nav-right">
+            <div class="menu">
+                <a class="nav-item menu-trigger">Components<i class="d-icon d-arrowhead-down is-small is-sub"></i></a>
+                <div class="menu-content">
+                    <h5 class="upper is-grey-600">Frameworks</h5>
+                    <a href="https://github.com/pages/denali-system-language/denali-css/dist/index.html">CSS</a>
+                    <a href="https://github.com/pages/denchen/denali-react/">React</a>
+                    <a href="https://github.com/pages/real/ember-denali/#/docs/components/alerts">Ember</a>
+                </div>
+            </div>
+            <div class="menu">
+                <a class="nav-item menu-trigger is-inverse">Icons<i class="d-icon d-arrowhead-down is-small is-sub"></i></a>
+                <div class="menu-content">
+                    <h5 class="upper is-grey-600">Frameworks</h5>
+                    <a href="https://github.com/pages/denali-system-language/denali-icons/dist/">CSS</a>
+                    <a href="https://github.com/pages/denchen/denali-react-icons/">React</a>
+                </div>
+            </div>
+
+            <a href="https://ouroath.slack.com/app_redirect?channel=denali" target="_blank" class="nav-icon">
+              <i class="d-icon d-slack"></i>
+              <span class="nav-icon-text">Slack</span>
+            </a>
+            <a href="https://github.com/denali-system-language/" target="_blank" class="nav-icon">
+              <i class="d-icon d-github"></i>
+              <span class="nav-icon-text">Github</span>
+            </a>
+
+            <div class="menu is-right">
+                <a class="nav-item menu-trigger"><i class="d-icon d-help-circle"></i></a>
+                <div class="menu-content">
+                    <a href="https://github.com/denali-system-language/denali-styleguide/issues/new?labels=feature-request" target="_blank">Feature Requests</a>
+                    <a href="https://github.com/denali-system-language/denali-styleguide/milestones" target="_blank">Roadmap</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="navDropdownToggle" class="nav-toggle-dropdown">
+        <a class="nav-icon"><i class="d-icon d-more-vertical"></i></a>
+    </div>
+</nav>
+
+<!-- Cover -->
+<div class="top">
+    <div class="home">
+        <div>
+            <div>
+                <p class="title m-b-1">Denali System Language</p>
+                <p class="description is-light m-b-2">A comprehensive system language for <br>
+                  creating intuitive enterprise products.
+                </p>
+            </div>
+            <a href="{{ site.baseurl }}/documentation/get-started"
+             class="button is-primary is-large m-r-1">Developer Docs</a>
+            <a href="{{ site.baseurl }}/principles/introduction"
+             class="button is-secondary is-large ">Design Principles</a>
+            <a href="#cards"><i class="d-icon d-arrowhead-down is-large"></i></a>
+        </div>
+        <img src="{{ site.baseurl }}/assets/images/Cover/cover-illustration.png"
+             alt="Cover" />
+      </div>
+        <div class="cards" id="cards">
+            <a href="{{ site.baseurl }}/documentation/get-started">
+          <div class="card">
+            <img src="{{ site.baseurl }}/assets/images/Cards/cards_build.png"
+                 alt="build" />
+            <h2>Build</h2>
+            <p>Develop products efficiently with our comprehensive framework.</p>
+            <div class="link">View Developer Docs</div>
+          </div>
+        </a>
+            <a href="{{ site.baseurl }}/principles/introduction">
+          <div class="card">
+            <img src="{{ site.baseurl }}/assets/images/Cards/cards_design.png"
+                 alt="design" />
+            <h2>Design</h2>
+            <p>Explore the principles we use to guide our design decisions.</p>
+            <div class="link">View Design Principles</div>
+          </div>
+        </a>
+            <a href="https://github.com/pages/denali-system-language/denali-icons/dist/" target="_blank">
+          <div class="card">
+            <img src="{{ site.baseurl }}/assets/images/Cards/cards_icons.png"
+                 alt="icons" />
+            <h2>Icons</h2>
+            <p>Discover over 600 custom icons ready for downloads.</p>
+            <div class="link">View Icon Library</div>
+          </div>
+        </a>
+        </div>
+    </div>
+
+    <!-- Content -->
+    <div class="contents">
+        <div class="content-one">
+            <img class="curve"
+             src="{{ site.baseurl }}/assets/images/Curves/top-curve.svg" />
+            <img class="mobile-curve"
+             src="{{ site.baseurl }}/assets/images/Curves/mobile-top-curve.svg" />
+            <img class="body-image"
+             src="{{ site.baseurl }}/assets/images/Body/functional-design.png" />
+            <div class="home-content">
+                <h1>Functional Design</h1>
+                <h4>DESIGN LANGUAGE</h4>
+                <p>Denali's Design Language was developed with the philosophy that form follows function. The result is
+                    a visual design language that works in support of functionality to provide intuitive product
+                    experiences.</p>
+                <div>
+                    <a href="{{ site.baseurl }}/principles/introduction"
+               class="button is-secondary">
+               Design Principles
+              </a>
+                </div>
+            </div>
+        </div>
+        <div class="content-two">
+            <img class="body-image"
+             src="{{ site.baseurl }}/assets/images/Body/rapid-development.png">
+            <div class="home-content">
+                <h1>Rapid Development</h1>
+                <h4>CSS FRAMEWORK</h4>
+                <p>Get started with Denali in seconds. Install the entire framework or take only what you need, each
+                    component is entirely independent and easily customizable to quickly meet your product's needs.</p>
+                <div>
+                    <a href="{{ site.baseurl }}/get-started"
+               class="button is-secondary">
+                 Developer Docs
+              </a>
+                </div>
+            </div>
+        </div>
+        <div class="content-three">
+            <img class="body-image"
+             src="{{ site.baseurl }}/assets/images/Body/fully-responsive.png">
+            <div class="home-content">
+                <h1>Fully Responsive</h1>
+                <h4>MOBILE FIRST</h4>
+                <p>Denali has what you need to design for every screen size from a fully responsive component library
+                    to flexible grid system.</p>
+                <div>
+                    <a href="{{ site.baseurl }}/documentation/formats/breakpoints"
+               class="button is-secondary">
+               Grid System
+            </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bottom -->
+    <div class="bottom">
+        <div>
+            <h1>Resources</h1>
+            <p class="description">Everything you need to help you create with Denali.</p>
+        </div>
+        <div>
+            <a href="{{ site.baseurl }}/assets/downloads/denali-ui-sketch-v0.1.0.zip" download>
+          <div class="bottom-icon">
+            <img src="{{ site.baseurl }}/assets/images/Resources/resources_sketch.png" />
+          </div>
+          <h3>Sketch UI kit</h3>
+        </a>
+            <a href="{{ site.baseurl }}/resource-downloads">
+          <div class="bottom-icon">
+            <img src="{{ site.baseurl }}/assets/images/Resources/resources_plugins.png" />
+          </div>
+          <h3>Plugins</h3>
+        </a>
+            <a href="{{ site.baseurl }}/assets/downloads/denali-icon-font-v0.3.1.zip" download>
+          <div class="bottom-icon">
+            <img src="{{ site.baseurl }}/assets/images/Resources/resources_font.png" />
+          </div>
+          <h3>Icon Font</h3>
+        </a>
+            <a href="https://github.com/pages/denchen/denali-react/" target="_blank">
+          <div class="bottom-icon">
+            <img src="{{ site.baseurl }}/assets/images/Resources/resources_atom.png" />
+          </div>
+          <h3>React</h3>
+        </a>
+            <a href="https://github.com/real/ember-denali/" target="_blank">
+          <div class="bottom-icon">
+            <img src="{{ site.baseurl }}/assets/images/Resources/resources_ember.png" />
+          </div>
+          <h3>Ember</h3>
+        </a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="homepage-footer">
+        <div class="footer-left">
+            <img src="{{ site.baseurl }}/assets/images/logos/footer_logo.png"
+             width="40px"
+             height="40px"
+             alt="Denali"/>
+      </div>
+            <div class="footer-right">
+                <a href="{{ site.baseurl }}/principles/introduction" class="footer-item">Principles</a>
+                <a href="{{ site.baseurl }}/documentation/get-started" class="footer-item">Documentation</a>
+                <a href="mailto:denali@oath.com" class="footer-item">Contact</a>
+                <a href="https://github.com/denali-system-language/denali-css/issues" target="_blank" class="footer-item">Report Issues</a>
+            </div>
+        </div>

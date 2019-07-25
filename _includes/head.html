@@ -1,0 +1,20 @@
+{% assign base_path = site.url | append: site.baseurl %}
+<base href="{{ base_path }}/">
+<meta charset="utf-8" />
+
+{% include seo.html %}
+{% include meta.html %}
+{% include analytics.html %}
+
+<link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ site.baseurl }}/feed.xml{% endif %}" type="application/atom+xml"
+  rel="alternate" title="{{ site.title }} Feed">
+
+<script>
+    document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/denali-v0.4.1.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/denali-icon-font-v1.0.0.css">
+<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/prismjs@1.16.0/themes/prism-okaidia.css'>
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/styleguide.css">

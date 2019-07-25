@@ -1,0 +1,385 @@
+display-order-palettes:
+  - brand
+  - grey
+  - status
+  - graph
+
+display-order-expanded:
+  - red
+  - orange
+  - yellow
+  - lime
+  - green
+  - sky
+  - blue
+  - purple
+  - violet
+  - pink
+
+#brand color New
+brand:
+  label: "Brand"
+  colors:
+    - hex: "#3448f7"
+      weight: "800"
+    - hex: "#3570f4"
+      weight: "700"
+    - hex: "#3697f2"
+      weight: "600"
+    - hex: "#8ac5ed"
+      weight: "500"
+    - hex: "#5d8cf6"
+      weight: "400"
+    - hex: "#9ab7f9"
+      weight: "300"
+    - hex: "#d7e2fd"
+      weight: "200"
+    - hex: "#f5f8fe"
+      weight: "100"
+
+
+#grey color
+grey:
+  label: "Grey"
+  colors:
+    - hex: "#303030"
+      weight: "800"
+    - hex: "#606060"
+      weight: "700"
+    - hex: "#9a9a9a"
+      weight: "600"
+    - hex: "#d5d5d5"
+      weight: "500"
+    - hex: "#e8e8e8"
+      weight: "400"
+    - hex: "#f2f2f2"
+      weight: "300"
+    - hex: "#f8f8f8"
+      weight: "200"
+    - hex: "#fffff"
+      weight: "100"
+
+
+#status color
+status:
+  label: "Status"
+  colors:
+    - hex: "#ea0000"
+      name: "danger"
+      weight: "danger"
+    - hex: "#f4cb00"
+      name: "warning"
+      weight: "warning"
+    - hex: "#15c046"
+      name: "success"
+      weight: "success"
+    - hex: "#0066df"
+      name: "info"
+      weight: "info"
+
+
+#graph color
+graph:
+  label: "Graph"
+  colors:
+    - hex: "#e21717"
+      weight: "red"
+    - hex: "#f17603"
+      weight: "orange"
+    - hex: "#fed800"
+      weight: "yellow"
+    - hex: "#87d812"
+      weight: "lime"
+    - hex: "#20c05b"
+      weight: "green"
+    - hex: "#19c6f4"
+      weight: "sky"
+    - hex: "#0072df"
+      weight: "blue"
+    - hex: "#6e2ebf"
+      weight: "purple"
+    - hex: "#9a2ead"
+      weight: "violet"
+    - hex: "#ff3390"
+      weight: "pink"
+
+
+# Expaned graph colors
+red:
+  label: "Red"
+  colors:
+    - hex: "#990000"
+      weight: "900"
+      recommended: true
+    - hex: "#ab0606"
+      weight: "800"
+    - hex: "#be0c0c"
+      weight: "700"
+      recommended: true
+    - hex: "#d01111"
+      weight: "600"
+    - hex: "#e21717"
+      weight: "500"
+      recommended: true
+    - hex: "#e94141"
+      weight: "400"
+    - hex: "#f16a6a"
+      weight: "300"
+      recommended: true
+    - hex: "#f89494"
+      weight: "200"
+    - hex: "#ffbdbd"
+      weight: "100"
+      recommended: true
+
+
+orange:
+  label: "Orange"
+  colors:
+    - hex: "#9e4502"
+      weight: "900"
+      recommended: true
+    - hex: "#b35102"
+      weight: "800"
+    - hex: "#c85e03"
+      weight: "700"
+      recommended: true
+    - hex: "#dc6a03"
+      weight: "600"
+    - hex: "#f17603"
+      weight: "500"
+      recommended: true
+    - hex: "#f49032"
+      weight: "400"
+    - hex: "#f8a962"
+      weight: "300"
+      recommended: true
+    - hex: "#fcc391"
+      weight: "200"
+    - hex: "#ffdcc0"
+      weight: "100"
+      recommended: true
+
+
+yellow:
+  label: "Yellow"
+  colors:
+    - hex: "#e28b00"
+      weight: "900"
+      recommended: true
+    - hex: "#e99e00"
+      weight: "800"
+    - hex: "#f0b200"
+      weight: "700"
+      recommended: true
+    - hex: "#f7c500"
+      weight: "600"
+    - hex: "#fed800"
+      weight: "500"
+      recommended: true
+    - hex: "#fee344"
+      weight: "400"
+    - hex: "#ffeb71"
+      weight: "300"
+      recommended: true
+    - hex: "#fff4a9"
+      weight: "200"
+    - hex: "#fffcd2"
+      weight: "100"
+      recommended: true
+
+
+lime:
+  label: "Lime"
+  colors:
+    - hex: "#557f0b"
+      weight: "900"
+      recommended: true
+    - hex: "#62950d"
+      weight: "800"
+    - hex: "#6eac0f"
+      weight: "700"
+      recommended: true
+    - hex: "#7bc210"
+      weight: "600"
+    - hex: "#87d812"
+      weight: "500"
+      recommended: true
+    - hex: "#9fe23e"
+      weight: "400"
+    - hex: "#b8ec69"
+      weight: "300"
+      recommended: true
+    - hex: "#d0f595"
+      weight: "200"
+    - hex: "#e8ffc0"
+      weight: "100"
+      recommended: true
+
+
+green:
+  label: "Green"
+  colors:
+    - hex: "#147233"
+      weight: "900"
+      recommended: true
+    - hex: "#17863d"
+      weight: "800"
+    - hex: "#1a9947"
+      weight: "700"
+      recommended: true
+    - hex: "#1dad51"
+      weight: "600"
+    - hex: "#20c05b"
+      weight: "500"
+      recommended: true
+    - hex: "#4dd079"
+      weight: "400"
+    - hex: "#7ae097"
+      weight: "300"
+      recommended: true
+    - hex: "#a6efb4"
+      weight: "200"
+    - hex: "#d3ffd2"
+      weight: "100"
+      recommended: true
+
+
+sky:
+  label: "Sky"
+  colors:
+    - hex: "#106b75"
+      weight: "900"
+      recommended: true
+    - hex: "#128295"
+      weight: "800"
+    - hex: "#1499b5"
+      weight: "700"
+      recommended: true
+    - hex: "#17afd4"
+      weight: "600"
+    - hex: "#19c6f4"
+      weight: "500"
+      recommended: true
+    - hex: "#43d1f7"
+      weight: "400"
+    - hex: "#6dddfa"
+      weight: "300"
+      recommended: true
+    - hex: "#96e8fc"
+      weight: "200"
+    - hex: "#bef0fc"
+      weight: "100"
+      recommended: true
+
+
+blue:
+  label: "Blue"
+  colors:
+    - hex: "#003e60"
+      weight: "900"
+      recommended: true
+    - hex: "#004b80"
+      weight: "800"
+    - hex: "#0058a0"
+      weight: "700"
+      recommended: true
+    - hex: "#0065bf"
+      weight: "600"
+    - hex: "#0072df"
+      weight: "500"
+      recommended: true
+    - hex: "#308ee7"
+      weight: "400"
+    - hex: "#60abef"
+      weight: "300"
+      recommended: true
+    - hex: "#90c7f7"
+      weight: "200"
+    - hex: "#bee0fc"
+      weight: "100"
+      recommended: true
+
+
+purple:
+  label: "Purple"
+  colors:
+    - hex: "#20004e"
+      weight: "900"
+      recommended: true
+    - hex: "#30006d"
+      weight: "800"
+    - hex: "#40008b"
+      weight: "700"
+      recommended: true
+    - hex: "#5413a8"
+      weight: "600"
+    - hex: "#6e2ebf"
+      weight: "500"
+      recommended: true
+    - hex: "#8c5bd4"
+      weight: "400"
+    - hex: "#aa89ea"
+      weight: "300"
+      recommended: true
+    - hex: "#c8b6ff"
+      weight: "200"
+    - hex: "#d8d0fd"
+      weight: "100"
+      recommended: true
+
+
+violet:
+  label: "Violet"
+  colors:
+    - hex: "#41154c"
+      weight: "900"
+      recommended: true
+    - hex: "#571b64"
+      weight: "800"
+    - hex: "#6e227d"
+      weight: "700"
+      recommended: true
+    - hex: "#842895"
+      weight: "600"
+    - hex: "#9a2ead"
+      weight: "500"
+      recommended: true
+    - hex: "#b152c2"
+      weight: "400"
+    - hex: "#c777d6"
+      weight: "300"
+      recommended: true
+    - hex: "#de9beb"
+      weight: "200"
+    - hex: "#e9b7f3"
+      weight: "100"
+      recommended: true
+
+
+pink:
+  label: "Pink"
+  colors:
+    - hex: "#7f1c57"
+      weight: "900"
+      recommended: true
+    - hex: "#9f2265"
+      weight: "800"
+    - hex: "#bf2874"
+      weight: "700"
+      recommended: true
+    - hex: "#df2d82"
+      weight: "600"
+    - hex: "#ff3390"
+      weight: "500"
+      recommended: true
+    - hex: "#ff56a4"
+      weight: "400"
+    - hex: "#ff7ab8"
+      weight: "300"
+      recommended: true
+    - hex: "#ff9dcc"
+      weight: "200"
+    - hex: "#fabcdc"
+      weight: "100"
+      recommended: true

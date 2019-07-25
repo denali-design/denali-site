@@ -1,0 +1,121 @@
+# FOR STATIC MENUS
+# AKA quick access to urls
+static:
+  docs:
+  - label: "Documentation"
+    url: /docs/overview/start
+
+# debug and cheatsheet links
+sitedebug:
+  - label: "Markdown Cheatsheet"
+    section: "sitedebug"
+    url: /markdown-cheatsheet
+  - label: "Code Highlight Test"
+    section: "sitedebug"
+    url: /code-highlight-test
+
+# principles
+principles:
+  - label: "Design System"
+    url: /principles/introduction
+    subnav: /principles
+    children:
+      - label: "Introduction"
+        url: /principles/introduction
+  - label: "Building Blocks"
+    url: /principles/colors
+    subnav: /principles
+    children:
+      - label: "Colors"
+        url: /principles/colors
+      - label: "Icons"
+        url: /principles/icons
+      - label: "Typography"
+        url: /principles/typography
+  - label: "Components"
+    url: /principles/alerts
+    subnav: /principles
+    children:
+      - label: "Alerts"
+        url: /principles/alerts
+      - label: "Buttons"
+        url: /principles/buttons
+      - label: "Data Visualization"
+        url: /principles/graphs
+      - label: "Selection Controls"
+        url: /principles/selection-controls
+
+# documentation
+documentation:
+  - label: "Developer Guide"
+    url: /documentation/get-started
+    subnav: /documentation
+    children:
+    - label: "Get Started"
+      url: /documentation/get-started
+    - label: "What's New"
+      url: /documentation/whats-new
+  - label: "Aesthetics"
+    url: /documentation/aesthetics/colors
+    subnav: /documentation/aesthetics
+    children:
+      - label: "Colors"
+        url: /documentation/aesthetics/colors
+      - label: "Icons"
+        url: /documentation/aesthetics/icons
+      - label: "Typography"
+        url: /documentation/aesthetics/typography
+  - label: "Formats"
+    url: /documentation/formats/breakpoints
+    subnav: /documentation/formats
+    children:
+      - label: "Breakpoints"
+        url: /documentation/formats/breakpoints
+      - label: "Columns"
+        url: /documentation/formats/columns
+      - label: "Containers"
+        url: /documentation/formats/containers
+      - label: "Rows"
+        url: /documentation/formats/rows
+  - label: "Components"
+    url: /documentation/components/alerts
+    subnav: /documentation/components
+    children:
+      - label: "Alerts"
+        url: /documentation/components/alerts
+      - label: "Box"
+        url: /documentation/components/box
+      - label: "Buttons"
+        url: /documentation/components/buttons
+      - label: "Chips"
+        url: /documentation/components/chips
+      - label: "Fields"
+        url: /documentation/components/fields
+      - label: "Links"
+        url: /documentation/components/links
+      - label: "Lists"
+        url: /documentation/components/lists
+      - label: "Loader"
+        url: /documentation/components/loaders
+      - label: "Menu"
+        url: /documentation/components/menu
+      - label: "Modals"
+        url: /documentation/components/modals
+      - label: "Navbar"
+        url: /documentation/components/navbar
+      - label: "Search"
+        url: /documentation/components/search
+      - label: "Selection Controls"
+        url: /documentation/components/selection-controls
+      - label: "Selects"
+        url: /documentation/components/selects
+      - label: "Table"
+        url: /documentation/components/tables
+      - label: "Tabs"
+        url: /documentation/components/tabs
+      - label: "Tags"
+        url: /documentation/components/tags
+      - label: "Titles"
+        url: /documentation/components/titles
+      - label: "Toggles"
+        url: /documentation/components/toggles

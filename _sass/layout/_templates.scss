@@ -1,0 +1,77 @@
+@charset "utf-8";
+// Copyright 2019, Oath Inc.
+// Licensed under the terms of the MIT license. See LICENSE file in project root for terms.
+
+
+div.template-download {
+  margin-top: 20px;
+  display: flex;
+  a.template {
+    height: 180px;
+    width: 300px;
+    margin-right: 20px;
+    overflow: hidden;
+    border-radius: 4px;
+    border: 2px #f2f2f2 solid;
+    position: relative;
+    img {
+      transition: 300ms;
+      width: 300px;
+      height: auto;
+    }
+    &:hover {
+      &::before {
+        position: absolute;
+        content: "Download";
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        width: 300px;
+        height: 180px;
+        background: rgba(0,0,0,.8);
+        z-index: 99;
+      }
+      img {
+        transition: 300ms;
+        opacity: .4;
+      }
+    }
+  }
+}
+
+.file-downloads {
+  display: flex;
+}
+
+.file-download > a {
+  display: flex;
+  margin-right: 40px;
+
+  &:hover > div.download-bubble {
+    opacity: 1;
+    transition: 300ms;
+    transform: translateY(0px);
+  }
+
+  div.download-bubble {
+    position: relative;
+    margin-left: -14px;
+    margin-top: 34px;
+    opacity: 0;
+    transition: 300ms;
+    transform: translateY(-20px);
+  }
+  div.content {
+    align-self: center;
+    p {
+      color: #303030;
+      font-size: 14px;
+      line-height: 16px;
+      span {
+        color: #9A9A9A;
+        font-size: 12px;
+      }
+    }
+  }
+}

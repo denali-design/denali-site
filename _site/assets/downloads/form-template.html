@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Denali Template 1</title>
+  <link rel="stylesheet" href="css/denali-v0.2.1.css">
+  <link rel="stylesheet" href="css/denali-icons-v0.2.0.css">
+
+  <style media="screen">
+    /* Layout */
+    nav {
+      position: fixed;
+      top: 0;
+      z-index: 99;
+    }
+    div.container {
+      display: flex;
+    }
+    div.content {
+      flex: auto;
+      margin-left: 330px;
+    }
+    div.container > .tabs.is-primary.is-vertical {
+      position: fixed;
+      height: calc(100vh - 60px);
+    }
+
+    /* Specific to this file */
+    div.input > label {
+      width: 160px;
+    }
+    .checkbox {
+      display: flex;
+    }
+
+  </style>
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="nav-left">
+      <img class="nav-brand" src="https://github.com/pages/denali-system-language/denali-css/dist/assets/images/denali-logo.svg" alt="" />
+    </div>
+    <div class="collapse-dropdown">
+      <div class="nav-center">
+        <a class="nav-item is-active">Home</a>
+        <a class="nav-item">Climb</a>
+        <a class="nav-item">Contact</a>
+      </div>
+      <div class="nav-right">
+        <a href="demo.html" class="nav-item">Back to Kitchen Sink</a>
+        <a class="nav-icon"><i class="d-icon d-dashboard"></i></a>
+        <a class="nav-icon"><i class="d-icon d-menu-dialpad"></i></a>
+        <a class="nav-icon"><i class="d-icon d-user-profile-circle"></i></a>
+      </div>
+    </div>
+    <div class="nav-toggle-dropdown">
+      <a class="nav-icon"><i class="d-icon d-more-vertical"></i></a>
+    </div>
+  </nav>
+
+  <div class="container m-t-6">
+
+    <div class="tabs is-primary is-vertical">
+      <ul>
+        <li class="is-active"><a>Request Permits</a></li>
+        <li><a>Permit Status</a></li>
+        <li><a>Equipment Rental</a></li>
+        <li><a>Weather Station</a></li>
+      </ul>
+    </div>
+
+    <div class="content m-3">
+      <h2>Request a Climbing Permit</h2>
+      <div class="tabs is-secondary">
+        <ul>
+          <li class="is-active"><a>Individual Permit</a></li>
+          <li><a>Team Permit</a></li>
+        </ul>
+      </div>
+      <div class="input-group m-t-5">
+        <label>Full Name</label>
+        <div class="input">
+          <input type="text" placeholder="Enter your full name" />
+        </div>
+      </div>
+      <div class="input-group">
+        <label>Email Address</label>
+        <div class="input">
+          <input type="text" placeholder="Enter your email address" />
+        </div>
+      </div>
+      <div class="input-group">
+        <label>Dat of Birth</label>
+        <div class="input">
+          <input type="text" placeholder="MM/DD/YYYY" />
+        </div>
+      </div>
+      <div class="input-group">
+        <label>Sex</label>
+        <div class="input">
+          <div class="radio">
+            <input type="radio" value="A" name="sample" id="radio-sample-a" />
+            <label for="radio-sample-a">Female</label>
+          </div>
+          <div class="radio">
+            <input type="radio" value="B" name="sample" id="radio-sample-b" />
+            <label for="radio-sample-b">Male</label>
+          </div>
+        </div>
+      </div>
+      <div class="input-group">
+        <label>Route</label>
+        <div class="input">
+          <select name="">
+            <option value="" disabled="" selected="">Select a route</option>
+            <option value="">Denali</option>
+            <option value="">Everest</option>
+            <option value="">Mt. Whitney</option>
+          </select>
+        </div>
+      </div>
+      <div class="input-group">
+        <label>Climb Agreement</label>
+        <div class="input">
+          <div class="checkbox w-25">
+            <input class="" id="denali-checkbox-1" type="checkbox" value="value1" />
+            <label for="denali-checkbox-1"></label>
+            <div><h6>Yes, I agree to comply with the rules and guidelines as state on the <a href="">2018 Denali Climbing Regulations and Guidelines</a>.</h6></div>
+          </div>
+        </div>
+      </div>
+      <div class="button-group m-t-2">
+        <button class="button is-primary">Submit</button>
+        <button class="button is-secondary">Cancel</button>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>

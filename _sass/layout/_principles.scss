@@ -1,0 +1,38 @@
+@charset "utf-8";
+// Copyright 2019, Oath Inc.
+// Licensed under the terms of the MIT license. See LICENSE file in project root for terms.
+
+
+////////////////////////////////////////////////
+////////////////////////////////////////////////
+// DENALI SCSS :: FOOTER LAYOUT
+
+* {
+  scroll-behavior: smooth;
+}
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 200;
+}
+img.example {
+  width: 100%;
+  height: auto;
+  max-height: 320px;
+  max-width: 706px;
+}
+img.example.small {
+  max-width: 320px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+.do {
+  border-bottom: 4px solid #15c046;
+}
+.dont {
+  border-bottom: 4px solid #ea0000;
+}
+.recommended {
+  border-bottom: 4px solid #0066df;
+}

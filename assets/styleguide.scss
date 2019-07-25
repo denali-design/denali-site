@@ -1,0 +1,17 @@
+---
+
+---
+
+// IMPORTS
+@import "denali";
+
+// STYLES
+.app-root {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  position: relative;
+}
+
+// IMPORTS TO RESET SOME MARKDOWN SPECIFIC STUFF
+@import "../assets/git-content";

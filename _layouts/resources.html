@@ -1,0 +1,24 @@
+---
+layout: base
+classes:
+  - framed-layouts
+---
+<div class="app-root layout--framed">
+    {% include masthead.html is-transparent=true gradient=true fluid=true %}
+    <!-- content outlet -->
+    <div class="framed-content">
+        <div class="nav-container has-scroller">
+            <div class="is-scroller">
+                {% include side-nav.html nav="primary" %}
+            </div>
+        </div>
+        <main class="main-container has-scroller">
+            <div class="is-scroller">
+                <div class="container is-fluid {% if page.gitcontent %}markdown-body{% endif %}">
+                    {{ content }}
+                </div>
+                {% include footer.html %}
+            </div>
+        </main>
+    </div>
+</div>

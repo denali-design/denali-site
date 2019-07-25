@@ -1,0 +1,32 @@
+<div id="copyColorAlert" class="">
+  <p>Color copied to clipboard</p>
+</div>
+
+<input class="color-copy-hidden" type="text" id="colorCopyInput">
+
+<div class="flex space-between m-b-1">
+<h3>Palettes</h3>
+  <!-- <div class="toggle">
+    <ul>
+      <li onclick="colorSwitchHex()" class="is-active"><a>HEX</a></li>
+      <li onclick="colorSwitchScss()"><a>SCSS</a></li>
+      <li><a>RGBA</a></li>
+    </ul>
+  </div> -->
+</div>
+<p>In order to guide your color selection we have organized our colors into four palettes based on their recommended usage:</p>
+
+<div class="color-container">
+{% for colorgroup in site.data.displayColors.display-order-palettes %}
+  {% include color-group.html %}
+{% endfor %}
+</div>
+
+<h3>Expanded graph colors</h3>
+<p><i class="d-icon d-star-solid"></i> We recommend using colors with the star icon first.</p>
+
+<div class="color-container">
+{% for colorgroup in site.data.displayColors.display-order-expanded %}
+  {% include color-group.html %}
+{% endfor %}
+</div>

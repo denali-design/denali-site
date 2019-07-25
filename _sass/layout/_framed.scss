@@ -1,0 +1,70 @@
+@charset "utf-8";
+// Copyright 2019, Oath Inc.
+// Licensed under the terms of the MIT license. See LICENSE file in project root for terms.
+
+
+.markdown-docs {
+  max-width: 1140px;
+
+  html {
+    background-color: transparent;
+  }
+
+  > table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: helvetica, sans-serif;
+    font-weight: normal;
+    text-align: left;
+    margin-bottom: 40px;
+    tbody > tr > th {
+      color: rgba(48, 48, 48, 0.4);
+      font-size: 12px;
+      font-weight: normal;
+      text-transform: uppercase;
+      padding: 10px;
+      border-bottom: 1px solid rgba(48, 48, 48, 0.4);
+    }
+    tbody > tr > td {
+      color: #303030;
+      font-size: 14px;
+      padding: 14px 10px;
+      border-bottom: 1px solid rgba(48, 48, 48, 0.2);
+    }
+  }
+
+  > h4 {
+    margin-bottom: 10px;
+  }
+  > p {
+    margin-bottom: 30px;
+  }
+
+  code.highlighter-rouge {
+    padding: 1px 4px 3px 4px;
+    background: #f2f2f2;
+    color: #e94141;
+    font-size: inherit;
+    border-radius: 4px;
+  }
+
+  > hr {
+    margin: 70px 0px;
+    background-color: #e8e8e8;
+    border: 0;
+    display: block;
+    height: 1px;
+  }
+
+  ol {
+    margin-bottom: 20px;
+    margin-left: 30px;
+  }
+
+  .principle-intro-image {
+    min-height: 285px;
+    min-width: 400px;
+    max-height: 285px;
+    max-width: 400px;
+  }
+}

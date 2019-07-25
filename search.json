@@ -1,0 +1,38 @@
+---
+---
+[
+  {
+
+    "title"    : "Getting Started",
+    "url"      : "/pages/denali-system-language/denali-styleguide/get-started"
+
+  } ,
+  {
+
+    "title"    : "Resources",
+    "url"      : "/pages/denali-system-language/denali-styleguide/resource-downloads"
+
+  } ,
+  {% for aesthetic in site.aesthetics %}
+    {
+
+      "title"    : "{{ aesthetic.title | escape }}",
+      "url"      : "{{ site.baseurl }}{{ aesthetic.url }}"
+
+    } ,{% endfor %}
+  {% for format in site.formats %}
+    {
+
+      "title"    : "{{ format.title | escape }}",
+      "url"      : "{{ site.baseurl }}{{ format.url }}"
+
+    } ,{% endfor %}
+  {% for component in site.components %}
+    {
+
+      "title"    : "{{ component.title | escape }}",
+      "url"      : "{{ site.baseurl }}{{ component.url }}"
+
+    } {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]

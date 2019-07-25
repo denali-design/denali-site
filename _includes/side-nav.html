@@ -1,0 +1,26 @@
+{% assign navigation = site.data.navigation[include.nav] %}
+
+{% if page.sidebar.title %}
+<h3 class="title is-4">{{ page.sidebar.title }}</h3>
+{% endif %}
+
+<div id="toggleTabsLeft" class="tabs is-primary is-vertical tablet-down-hide-left">
+
+    <!-- {% include search.html %} -->
+
+    <ul>
+        {% for nav in navigation %}
+        <li>
+            <a href="{{ site.baseurl }}{{ nav.url }}" class="is-grey-600 upper font-12">{{ nav.label }}</a>
+        </li>
+        <!-- </div> -->
+        {% if nav.children %}
+        {% for child in nav.children %}
+        <li>
+            <a href="{{ site.baseurl }}{{ child.url }}" class="{% if page.url contains child.url %}is-active{% endif %}">{{ child.label }}</a>
+        </li>
+        {% endfor %}
+        {% endif %}
+        {% endfor %}
+    </ul>
+</div>

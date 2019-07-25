@@ -1,0 +1,172 @@
+@charset "utf-8";
+// Copyright 2019, Oath Inc.
+// Licensed under the terms of the MIT license. See LICENSE file in project root for terms.
+
+
+/*********************
+Fixes
+*********************/
+
+.tabs.is-secondary ul {
+  padding-top: 2px;
+}
+
+.tabs.is-primary.is-inverse ul li.is-active a, .tabs.is-secondary.is-inverse ul li.is-active a {
+  color: white;
+}
+
+.tabs.is-secondary.is-inverse ul {
+  box-shadow: inset 0px -2px 0px 0px rgba(255, 255, 255, 0.05)
+}
+
+/*********************
+Helpers
+*********************/
+
+.rotate-90 {
+  transform: rotate(90deg);
+}
+
+.radius-tl-6 {
+  border-top-left-radius: 6px;
+}
+
+.radius-tr-6 {
+  border-top-right-radius: 6px;
+}
+.transparent {
+  opacity: 0;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  pointer-events: none;
+}
+
+/*********************
+Resets for Prism
+*********************/
+
+pre[class*=language-] {
+  margin: 0px;
+  padding: 0px 20px 10px 20px;
+  background: #303030 !important;
+  font-size: 14px;
+  font-family: monospace;
+}
+
+code[class*=language-] {
+  padding: 0px;
+  margin: 0px;
+  height: auto;
+  font-size: 14px;
+  font-family: monospace;
+}
+
+/*********************
+Code Render
+*********************/
+
+.code-render {
+  display: flex;
+  width: 100%;
+  // border: 2px solid #E8E8E8;
+  // border-radius: 6px;
+
+  .resizable-area {
+    width: 100%;
+    min-width: 280px;
+    border: 2px solid #E8E8E8;
+    overflow: auto;
+    // padding: 10px;
+    padding-right: 20px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    background: #F8F8F8;
+    border-right: none;
+  }
+
+  #resizable-bar {
+    min-width: 30px;
+    width: 30px;
+    height: inherit;
+    background: #F8F8F8;
+    cursor: col-resize;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #E8E8E8;
+    border-left: none;
+    color: #D5D5D5;
+  }
+
+  &.is-inverse {
+    .resizable-area {
+      background: #303030;
+      border: 2px solid #606060;
+      border-right: none;
+    }
+    #resizable-bar {
+      background: #303030;
+      border: 2px solid #606060;
+      border-left: none;
+      color: #606060;
+    }
+  }
+}
+
+
+
+
+/*********************
+Code Snippets
+*********************/
+
+.snippet {
+  margin-bottom: 40px;
+}
+
+.code-container {
+  margin-top: 20px;
+}
+
+.code-content {
+  background: #303030;
+  overflow: hidden;
+  height: 80px;
+  min-height: 80px;
+  .token.tag {
+    background: none;
+    line-height: normal;
+    height: auto;
+    font-family: monospace;
+    margin: 0px;
+    display: -webkit-box;
+    padding: 0px;
+  }
+}
+
+.code-content.active {
+  height: auto;
+}
+
+.code-action {
+  position: relative;
+  background: #303030;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.code-action::before {
+  position: absolute;
+  content: " ";
+  height: 40px;
+  width: 100%;
+  margin-left: -20px;
+  margin-top: -40px;
+  pointer-events: none;
+  -webkit-box-shadow: inset 0px -64px 38px -36px rgba(48,48,48,1);
+  -moz-box-shadow: inset 0px -64px 38px -36px rgba(48,48,48,1);
+  box-shadow: inset 0px -64px 38px -36px rgba(48,48,48,1);
+}
