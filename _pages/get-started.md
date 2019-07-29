@@ -14,9 +14,9 @@ subsections:
     subexample: 'snippets/getstarted-fig2.html'
 sections:
   - header: 'HTML templates'
-    text: 'You can easily get started or test out Denali CSS with prebuilt HTML templates available on our [resources](/pages/denali-system-language/denali-styleguide/resource-downloads) page.'
+    text: 'You can easily get started or test out Denali CSS with prebuilt HTML templates available on our [resources](/denali-site/resource-downloads) page.'
   - header: 'Next steps'
-    text: 'Once you’ve got our CSS and icon library, head over to our [documentation](/pages/denali-system-language/denali-styleguide/documentation/aesthetics/colors) pages to learn how to implement Denali in your own projects.'
+    text: 'Once you’ve got our CSS and icon library, head over to our [documentation](/denali-site/documentation/aesthetics/colors) pages to learn how to implement Denali in your own projects.'
 ---
 
 # {{ page.title }}

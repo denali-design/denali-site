@@ -2,190 +2,190 @@
   {
 
     "title"    : "Getting Started",
-    "url"      : "/pages/denali-system-language/denali-styleguide/get-started"
+    "url"      : "/denali-site/get-started"
 
   } ,
   {
 
     "title"    : "Resources",
-    "url"      : "/pages/denali-system-language/denali-styleguide/resource-downloads"
+    "url"      : "/denali-site/resource-downloads"
 
   } ,
   
     {
 
       "title"    : "Colors",
-      "url"      : "/pages/denali-system-language/denali-styleguide/documentation/aesthetics/colors"
+      "url"      : "/denali-site/documentation/aesthetics/colors"
 
     } ,
     {
 
       "title"    : "Icons",
-      "url"      : "/pages/denali-system-language/denali-styleguide/documentation/aesthetics/icons"
+      "url"      : "/denali-site/documentation/aesthetics/icons"
 
     } ,
     {
 
       "title"    : "Typography",
-      "url"      : "/pages/denali-system-language/denali-styleguide/documentation/aesthetics/typography"
+      "url"      : "/denali-site/documentation/aesthetics/typography"
 
     } ,
   
     {
 
       "title"    : "Breakpoints",
-      "url"      : "/pages/denali-system-language/denali-styleguide/documentation/formats/breakpoints"
+      "url"      : "/denali-site/documentation/formats/breakpoints"
 
     } ,
     {
 
       "title"    : "Columns",
-      "url"      : "/pages/denali-system-language/denali-styleguide/documentation/formats/columns"
+      "url"      : "/denali-site/documentation/formats/columns"
 
     } ,
     {
 
       "title"    : "Containers",
-      "url"      : "/pages/denali-system-language/denali-styleguide/documentation/formats/containers"
+      "url"      : "/denali-site/documentation/formats/containers"
 
     } ,
     {
 
       "title"    : "Rows",
-      "url"      : "/pages/denali-system-language/denali-styleguide/documentation/formats/rows"
+      "url"      : "/denali-site/documentation/formats/rows"
 
     } ,
   
     {
 
       "title"    : "Alerts",
-      "url"      : "/pages/denali-system-language/denali-styleguide/documentation/components/alerts"
+      "url"      : "/denali-site/documentation/components/alerts"
 
     } ,
   
     {
 
       "title"    : "Box",
-      "url"      : "/pages/denali-system-language/denali-styleguide/documentation/components/box"
+      "url"      : "/denali-site/documentation/components/box"
 
     } ,
   
     {
 
       "title"    : "Buttons",
-      "url"      : "/pages/denali-system-language/denali-styleguide/documentation/components/buttons"
+      "url"      : "/denali-site/documentation/components/buttons"
 
     } ,
   
     {
 
       "title"    : "Chips",
-      "url"      : "/pages/denali-system-language/denali-styleguide/documentation/components/chips"
+      "url"      : "/denali-site/documentation/components/chips"
 
     } ,
   
     {
 
       "title"    : "Fields",
-      "url"      : "/pages/denali-system-language/denali-styleguide/documentation/components/fields"
+      "url"      : "/denali-site/documentation/components/fields"
 
     } ,
   
     {
 
       "title"    : "Links",
-      "url"      : "/pages/denali-system-language/denali-styleguide/documentation/components/links"
+      "url"      : "/denali-site/documentation/components/links"
 
     } ,
   
     {
 
       "title"    : "Lists",
-      "url"      : "/pages/denali-system-language/denali-styleguide/documentation/components/lists"
+      "url"      : "/denali-site/documentation/components/lists"
 
     } ,
   
     {
 
       "title"    : "Loaders",
-      "url"      : "/pages/denali-system-language/denali-styleguide/documentation/components/loaders"
+      "url"      : "/denali-site/documentation/components/loaders"
 
     } ,
   
     {
 
       "title"    : "Menu",
-      "url"      : "/pages/denali-system-language/denali-styleguide/documentation/components/menu"
+      "url"      : "/denali-site/documentation/components/menu"
 
     } ,
   
     {
 
       "title"    : "Modals",
-      "url"      : "/pages/denali-system-language/denali-styleguide/documentation/components/modals"
+      "url"      : "/denali-site/documentation/components/modals"
 
     } ,
   
     {
 
       "title"    : "Navbar",
-      "url"      : "/pages/denali-system-language/denali-styleguide/documentation/components/navbar"
+      "url"      : "/denali-site/documentation/components/navbar"
 
     } ,
   
     {
 
       "title"    : "Search",
-      "url"      : "/pages/denali-system-language/denali-styleguide/documentation/components/search"
+      "url"      : "/denali-site/documentation/components/search"
 
     } ,
   
     {
 
       "title"    : "Selection controls",
-      "url"      : "/pages/denali-system-language/denali-styleguide/documentation/components/selection-controls"
+      "url"      : "/denali-site/documentation/components/selection-controls"
 
     } ,
   
     {
 
       "title"    : "Selects",
-      "url"      : "/pages/denali-system-language/denali-styleguide/documentation/components/selects"
+      "url"      : "/denali-site/documentation/components/selects"
 
     } ,
   
     {
 
       "title"    : "Tables",
-      "url"      : "/pages/denali-system-language/denali-styleguide/documentation/components/tables"
+      "url"      : "/denali-site/documentation/components/tables"
 
     } ,
   
     {
 
       "title"    : "Tabs",
-      "url"      : "/pages/denali-system-language/denali-styleguide/documentation/components/tabs"
+      "url"      : "/denali-site/documentation/components/tabs"
 
     } ,
   
     {
 
       "title"    : "Tags",
-      "url"      : "/pages/denali-system-language/denali-styleguide/documentation/components/tags"
+      "url"      : "/denali-site/documentation/components/tags"
 
     } ,
   
     {
 
       "title"    : "Titles",
-      "url"      : "/pages/denali-system-language/denali-styleguide/documentation/components/titles"
+      "url"      : "/denali-site/documentation/components/titles"
 
     } ,
   
     {
 
       "title"    : "Toggles",
-      "url"      : "/pages/denali-system-language/denali-styleguide/documentation/components/toggles"
+      "url"      : "/denali-site/documentation/components/toggles"
 
     } 
   

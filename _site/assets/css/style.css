@@ -82,14 +82,11 @@ template,
 /* Links
    ========================================================================== */
 /**
- * 1. Remove the gray background on active links in IE 10.
- * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ * Remove the gray background on active links in IE 10.
  */
 a {
   background-color: transparent;
   /* 1 */
-  -webkit-text-decoration-skip: objects;
-  /* 2 */
 }
 
 /**
@@ -474,6 +471,14 @@ th {
 
 button {
   cursor: pointer;
+  border-radius: 0;
+}
+
+details summary {
+  cursor: pointer;
+}
+details:not([open]) > *:not(summary) {
+  display: none !important;
 }
 
 h1,
@@ -569,6 +574,7 @@ pre {
   vertical-align: text-bottom;
 }
 
+/* Fade in an element */
 .anim-fade-in {
   animation-name: fade-in;
   animation-duration: 1s;
@@ -584,6 +590,24 @@ pre {
   }
   100% {
     opacity: 1;
+  }
+}
+/* Fade out an element */
+.anim-fade-out {
+  animation-name: fade-out;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+}
+.anim-fade-out.fast {
+  animation-duration: 0.3s;
+}
+
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
   }
 }
 /* Fade in and slide up an element */
@@ -706,6 +730,14 @@ pre {
     transform: scale3d(1, 1, 1);
   }
 }
+/* Increase scale of an element on hover */
+.hover-grow {
+  transition: transform 0.3s;
+}
+.hover-grow:hover {
+  transform: scale(1.025);
+}
+
 /* Add a gray border */
 .border {
   border: 1px #e1e4e8 solid !important;
@@ -834,6 +866,11 @@ pre {
 /* Add a 2x border-radius to all corners */
 .rounded-2 {
   border-radius: 6px !important;
+}
+
+/* Add a 50% border-radius to make something into a circle */
+.circle {
+  border-radius: 50% !important;
 }
 
 .box-shadow {
@@ -1698,6 +1735,11 @@ pre {
   vertical-align: text-bottom !important;
 }
 
+/* Vertical align to the parent's baseline */
+.v-align-baseline {
+  vertical-align: baseline !important;
+}
+
 /* Set the overflow hidden */
 .overflow-hidden {
   overflow: hidden !important;
@@ -1813,6 +1855,11 @@ pre {
   width: 100% !important;
 }
 
+/* Max height 100% */
+.height-fit {
+  max-height: 100% !important;
+}
+
 /* Set the height to 100% */
 .height-full {
   height: 100% !important;
@@ -1823,16 +1870,18 @@ pre {
   min-width: 0 !important;
 }
 
+/* Set the direction to rtl */
 .direction-rtl {
   direction: rtl !important;
 }
 
+/* Set the direction to ltr */
 .direction-ltr {
   direction: ltr !important;
 }
 
 @media (min-width: 544px) {
-  /* Set the direction to ltr at the sm breakpoint */
+  /* Set the direction to rtl at the sm breakpoint */
   .direction-sm-rtl {
     direction: rtl !important;
   }
@@ -1843,7 +1892,7 @@ pre {
   }
 }
 @media (min-width: 768px) {
-  /* Set the direction to ltr at the md breakpoint */
+  /* Set the direction to rtl at the md breakpoint */
   .direction-md-rtl {
     direction: rtl !important;
   }
@@ -1854,7 +1903,7 @@ pre {
   }
 }
 @media (min-width: 1012px) {
-  /* Set the direction to ltr at the lg breakpoint */
+  /* Set the direction to rtl at the lg breakpoint */
   .direction-lg-rtl {
     direction: rtl !important;
   }
@@ -1865,7 +1914,7 @@ pre {
   }
 }
 @media (min-width: 1280px) {
-  /* Set the direction to ltr at the xl breakpoint */
+  /* Set the direction to rtl at the xl breakpoint */
   .direction-xl-rtl {
     direction: rtl !important;
   }
@@ -6682,6 +6731,9 @@ pre {
   margin-top: 0;
   margin-bottom: 0;
 }
+.markdown-body li {
+  word-wrap: break-all;
+}
 .markdown-body li > p {
   margin-top: 16px;
 }
@@ -6820,19 +6872,11 @@ pre {
 
 .markdown-body code,
 .markdown-body tt {
-  padding: 0;
-  padding-top: 0.2em;
-  padding-bottom: 0.2em;
+  padding: 0.2em 0.4em;
   margin: 0;
   font-size: 85%;
   background-color: rgba(27, 31, 35, 0.05);
   border-radius: 3px;
-}
-.markdown-body code::before, .markdown-body code::after,
-.markdown-body tt::before,
-.markdown-body tt::after {
-  letter-spacing: -0.2em;
-  content: "\00a0";
 }
 .markdown-body code br,
 .markdown-body tt br {
@@ -6880,11 +6924,6 @@ pre {
   word-wrap: normal;
   background-color: transparent;
   border: 0;
-}
-.markdown-body pre code::before, .markdown-body pre code::after,
-.markdown-body pre tt::before,
-.markdown-body pre tt::after {
-  content: normal;
 }
 
 .markdown-body .csv-data td,
