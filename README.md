@@ -1,6 +1,6 @@
 # Denali Site
 
-![version](https://img.shields.io/badge/version-1.0.0-blue.svg) ![slack](https://img.shields.io/badge/slack-Denali-3570f4.svg?cacheSeconds=2592000)
+![version](https://img.shields.io/badge/version-1.0.0-blue.svg) [![slack](https://img.shields.io/badge/slack-Denali-3570f4.svg)](https://denali-design.slack.com/app_redirect?channel=general)
 <!-- ![build](https://img.shields.io/badge/build-1.2.3-brightgreen.svg) -->
 ## Table of contents
 - [Background](#background)
@@ -58,7 +58,7 @@ You should be prompted with a success message and the url to use to view the sit
 -  **Safari** on iOS and macOS
 
 ## Versioning
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the tags on this [repository]().
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the tags on this [repository](https://github.com/denali-design/denali-site).
 
 ## Contribute
 To start contributing to Denali, have a look at our guidelines, as well as pointers on where to start making changes, in our [contributing guide](CONTRIBUTE.md).

@@ -27,8 +27,8 @@ Denali loaders can be implemented three ways: through a class on any element, in
 Loaders come at a default size of 24px, but can be customized by adding the `.is-small`, `.is-medium`, or `.is-large` classes to the loader `<div>`.
 
 {% capture loader_sizes %}{% highlight html %}
+<div class="loader is-extrasmall"></div>
 <div class="loader is-small"></div>
-<div class="loader"></div>
 <div class="loader is-medium"></div>
 <div class="loader is-large"></div>
 {% endhighlight %}{% endcapture %}

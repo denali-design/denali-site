@@ -13,7 +13,7 @@ excerpt: "Denali&#39;s icon library offers hundreds of icons in outline and soli
 
 
 ### Implementation
-To access icons in the Denali Icon Library create an `<i>` or `<span>` tag with the `.d-icon` class followed by the `.d-$icon-name` class that corresponds to the icon you would like to use. For a list of all icon names visit [Denali icons page](https://github.com/pages/denali-system-language/denali-icons/dist/){:target='blank'}. 
+To access icons in the Denali Icon Library create an `<i>` or `<span>` tag with the `.d-icon` class followed by the `.d-$icon-name` class that corresponds to the icon you would like to use. For a list of all icon names visit [Denali icons page](https://denali-design.github.io/denali-icon-font/dist/){:target='blank'}. 
 
 {% capture icon_default %}{% highlight html %}
 <i class="d-icon d-user-profile-circle is-medium"></i>

@@ -138,13 +138,13 @@
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="/denali-site/assets/denali-v0.4.1.css">
+<link rel="stylesheet" href="/denali-site/assets/denali-v0.4.2.css">
 <link rel="stylesheet" href="/denali-site/assets/denali-icon-font-v1.0.0.css">
 <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/prismjs@1.16.0/themes/prism-okaidia.css'>
 <link rel="stylesheet" href="/denali-site/assets/styleguide.css">
 
     </head>
-    <body class="layout--framed framed-layouts">
+    <body class="denali-default-theme layout--framed framed-layouts">
         <nav class="nav">
     <div class="nav-left">
         <a onclick="toggleTabsLeft()" class="nav-icon hide-small-desktop-up"><i class="d-icon d-menu-hamburger"></i></a>
@@ -162,25 +162,22 @@
                 <a class="nav-item menu-trigger">Components<i class="d-icon d-arrowhead-down is-small is-sub"></i></a>
                 <div class="menu-content">
                     <h5 class="upper is-grey-600">Frameworks</h5>
-                    <a href="https://github.com/pages/denali-system-language/denali-css/dist/index.html">CSS</a>
-                    <a href="https://github.com/pages/denchen/denali-react/">React</a>
-                    <a href="https://github.com/pages/real/ember-denali/#/docs/components/alerts">Ember</a>
+                    <a href="https://denali-design.github.io/denali-css/dist/index.html">CSS</a>
                 </div>
             </div>
             <div class="menu">
                 <a class="nav-item menu-trigger is-inverse">Icons<i class="d-icon d-arrowhead-down is-small is-sub"></i></a>
                 <div class="menu-content">
                     <h5 class="upper is-grey-600">Frameworks</h5>
-                    <a href="https://github.com/pages/denali-system-language/denali-icons/dist/">CSS</a>
-                    <a href="https://github.com/pages/denchen/denali-react-icons/">React</a>
+                    <a href="https://denali-design.github.io/denali-icon-font/dist/">CSS</a>
                 </div>
             </div>
 
-            <a href="https://ouroath.slack.com/app_redirect?channel=denali" target="_blank" class="nav-icon">
+            <a href="https://denali-design.slack.com/app_redirect?channel=general" target="_blank" class="nav-icon">
               <i class="d-icon d-slack"></i>
               <span class="nav-icon-text">Slack</span>
             </a>
-            <a href="https://github.com/denali-system-language/" target="_blank" class="nav-icon">
+            <a href="https://github.com/denali-design/" target="_blank" class="nav-icon">
               <i class="d-icon d-github"></i>
               <span class="nav-icon-text">Github</span>
             </a>
@@ -188,8 +185,8 @@
             <div class="menu is-right">
                 <a class="nav-item menu-trigger"><i class="d-icon d-help-circle"></i></a>
                 <div class="menu-content">
-                    <a href="https://github.com/denali-system-language/denali-styleguide/issues/new?labels=feature-request" target="_blank">Feature Requests</a>
-                    <a href="https://github.com/denali-system-language/denali-styleguide/milestones" target="_blank">Roadmap</a>
+                    <a href="https://github.com/denali-design/denali-site/issues/new?labels=feature-request" target="_blank">Feature Requests</a>
+                    <a href="https://github.com/denali-design/denali-site/milestones" target="_blank">Roadmap</a>
                 </div>
             </div>
         </div>
@@ -198,6 +195,7 @@
         <a class="nav-icon"><i class="d-icon d-more-vertical"></i></a>
     </div>
 </nav>
+
 
 <!-- content outlet -->
 <div class="flex h-minus-nav">
@@ -261,18 +259,6 @@
             <a href="/denali-site/documentation/formats/breakpoints" class="">Breakpoints</a>
         </li>
         
-        <li>
-            <a href="/denali-site/documentation/formats/columns" class="">Columns</a>
-        </li>
-        
-        <li>
-            <a href="/denali-site/documentation/formats/containers" class="">Containers</a>
-        </li>
-        
-        <li>
-            <a href="/denali-site/documentation/formats/rows" class="">Rows</a>
-        </li>
-        
         
         
         <li>
@@ -306,10 +292,6 @@
         </li>
         
         <li>
-            <a href="/denali-site/documentation/components/lists" class="">Lists</a>
-        </li>
-        
-        <li>
             <a href="/denali-site/documentation/components/loaders" class="">Loader</a>
         </li>
         
@@ -323,10 +305,6 @@
         
         <li>
             <a href="/denali-site/documentation/components/navbar" class="">Navbar</a>
-        </li>
-        
-        <li>
-            <a href="/denali-site/documentation/components/search" class="">Search</a>
         </li>
         
         <li>
@@ -375,7 +353,7 @@
 
 <h4 id="1-denali-css">1. Denali CSS</h4>
 
-<p>Download or clone Denali CSS from Github.</p>
+<p>Download Denali CSS from Github.</p>
 
 <style>
 
@@ -429,7 +407,7 @@
 </style>
 
 <div class="input m-t-1 m-b-3" style="display: flex; align-items: stretch; justify-content: center; width: 500px;">
-    <input type="text" value="git@github.com:denali-system-language/denali-css.git" id="git-css" style="flex: 1; border-bottom:none;" />
+    <input type="text" value="https://denali-design.github.io/denali-css/dist/css/denali-v0.4.2.min.css" id="git-css" style="flex: 1; border-bottom:none;" />
     <a class="toolTipLink" style="display: inline-flex; align-items: center; padding-right:12px; border-radius:0px 2px 2px 0px; background: rgba(53, 112, 244, 0.05);" onclick="copyCSS()"><span>Copy</span></a>
     <div class="tooltip toolTipFade" id="toolTipCSS">
         <span class="tooltiptext">Copied to clipboard!</span>
@@ -461,7 +439,7 @@
 
 <h4 id="2-denali-icons">2. Denali icons</h4>
 
-<p>Download or clone the Denali icon library from Github.</p>
+<p>Download Denali icon library from Github.</p>
 
 <style>
 
@@ -509,7 +487,7 @@
 </style>
 
 <div class="input m-t-1 m-b-3" style="display: flex; align-items: stretch; justify-content: center; width: 500px;">
-    <input type="text" value="git@github.com:denali-system-language/denali-icons.git" id="git-icons" style="flex: 1; border-bottom:none;" />
+    <input type="text" value="https://denali-design.github.io/denali-icon-font/dist/css/denali-icon-font-v1.0.0.css" id="git-icons" style="flex: 1; border-bottom:none;" />
     <a class="toolTipLinkTwo" style="display: inline-flex; align-items: center; padding-right:12px; border-radius:0px 2px 2px 0px; background: rgba(53, 112, 244, 0.05);" onclick="copyIcons()"><span>Copy</span></a>
     <div class="tooltip" id="toolTipIcons">
         <span class="tooltiptext toolTipFadeTwo">Copied to clipboard!</span>
@@ -551,7 +529,7 @@
 
 
         </div>
-        <footer class="footer">
+        <!-- <footer class="footer">
   <div class="row">
     
     
@@ -609,7 +587,7 @@
 </section>
 
 
-
+ -->
     </div>
 </div>
 

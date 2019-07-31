@@ -8,7 +8,7 @@ excerpt: 'These downloads, links, and themes are provided to help you and your t
 
 sections:
   - header: 'Icons'
-    text: 'Download the open source icon set in SVG format or as an icon font. This section will soon be deprecated please go to <a href="https://github.com/denali-system-language/denali-icons/" target="_blank">Denali Icons Repo</a>'
+    text: 'Download the open source icon set in SVG format or as an icon font. This section will soon be deprecated please go to <a href="https://github.com/denali-design/denali-icon-font" target="_blank">Denali Icons Repo</a>'
     example: 'resources/font-download.html'
   - header: 'UI Kit'
     text: 'Download the sketch file containing all our UI elements.'

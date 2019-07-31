@@ -89,10 +89,10 @@ To insert a search bar start with `<div class="input-group has-button">`. Inside
 </div>
 <div class="nav-center">
 <div class="input-group has-button">
-<div class="input is-dark">
+<div class="input is-inverse">
 <input type="text" placeholder="Search" />
 </div>
-<button class="button is-primary has-icon">
+<button class="button is-solid has-icon">
 <i class="d-icon d-search is-small"></i>
 </button>
 </div>
@@ -133,4 +133,11 @@ Customize a navbar&#39;s background color by changing the `$navbar-background-co
 ### Variables
 You can use these variables to customize this component. Simply set one or multiple of these variables and recompile the SCSS.
 
-#### Coming soon
+`$navbar-config:`
+
+|**Name**|**Type**|**Default value**|**Computed value**|
+|`backgound-color`  |background     |`#0A2D45`  |       |
+|`text-color`  |color     |`$grey-100`  |       |
+|`height`  |height     |`60px`  |       |
+|`nav-items:text-color`  |color     |`$grey-100`  |       |
+|`nav-items:active-border-color`  |border-color     |`#3697F2`  |       |

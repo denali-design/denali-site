@@ -7,10 +7,10 @@ gitcontent: true
 excerpt: 'Follow the steps below to get started with Denali.'
 subsections:
   - subheader: '1. Denali CSS'
-    subtext: 'Download or clone Denali CSS from Github.'
+    subtext: 'Download Denali CSS from Github.'
     subexample: 'snippets/getstarted-fig1.html'
   - subheader: '2. Denali icons'
-    subtext: 'Download or clone the Denali icon library from Github.'
+    subtext: 'Download Denali icon library from Github.'
     subexample: 'snippets/getstarted-fig2.html'
 sections:
   - header: 'HTML templates'
