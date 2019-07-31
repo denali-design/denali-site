@@ -12,7 +12,7 @@ excerpt: 'Denali&#39;s color library is used to style components and convey mean
 ***
 
 ### Modifiers
-Component color and background color can be modified using values from [Denali&#39;s SCSS color map](https://github.com/denali-system-language/denali-css/blob/master/scss/maps/color-maps.scss){:target='blank'}.
+Component color and background color can be modified using values from [Denali&#39;s SCSS color map](https://github.com/denali-design/denali-css/blob/master/scss/maps/color-maps.scss){:target='blank'}.
 #### Color modifier
 Component color can be modified using the `.is-$color-$value` class, for example `.is-orange-500`.
 

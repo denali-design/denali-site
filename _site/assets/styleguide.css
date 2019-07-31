@@ -391,7 +391,7 @@ nav.home-nav .d-github {
 .bottom > div:last-child {
   cursor: pointer;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 900px;
 }
 .bottom > div:last-child > a {

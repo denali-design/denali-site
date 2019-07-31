@@ -129,4 +129,4 @@ The default position of select dropdown labels is to the left. However, labels c
 ### Variables
 You can use these variables to customize this component. Simply set one or multiple of these variables and recompile the SCSS.
 
-#### Coming Soon
+The selects component utilized the fields variables, please refer to this [page]({{ site.baseurl }}/documentation/components/fields#variables).

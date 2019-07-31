@@ -7,16 +7,16 @@ gitcontent: true
 excerpt: 'Follow the steps below to get started with Denali.'
 subsections:
   - subheader: '1. Denali CSS'
-    subtext: 'Download or clone Denali CSS from Github.'
+    subtext: 'Download Denali CSS from Github.'
     subexample: 'snippets/getstarted-fig1.html'
   - subheader: '2. Denali icons'
-    subtext: 'Download or clone the Denali icon library from Github.'
+    subtext: 'Download Denali icon library from Github.'
     subexample: 'snippets/getstarted-fig2.html'
 sections:
   - header: 'HTML templates'
-    text: 'You can easily get started or test out Denali CSS with prebuilt HTML templates available on our [resources](/pages/denali-system-language/denali-styleguide/resource-downloads) page.'
+    text: 'You can easily get started or test out Denali CSS with prebuilt HTML templates available on our [resources](/denali-site/resource-downloads) page.'
   - header: 'Next steps'
-    text: 'Once you’ve got our CSS and icon library, head over to our [documentation](/pages/denali-system-language/denali-styleguide/documentation/aesthetics/colors) pages to learn how to implement Denali in your own projects.'
+    text: 'Once you’ve got our CSS and icon library, head over to our [documentation](/denali-site/documentation/aesthetics/colors) pages to learn how to implement Denali in your own projects.'
 ---
 
 # {{ page.title }}

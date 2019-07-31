@@ -20,7 +20,7 @@ Insert brand logos by adding an `<img>` tag with the class `.nav-brand` within a
 {% capture navbar_left %}{% highlight html %}
 <nav class="nav">
 <div class="nav-left">
-<img class="nav-brand" src="/pages/denali-system-language/denali-styleguide/assets/images/denali-logo.svg"/>
+<img class="nav-brand" src="/denali-site/assets/images/denali-logo.svg"/>
 </div>
 </nav>
 {% endhighlight %}{% endcapture %}
@@ -39,7 +39,7 @@ Insert icons by adding `<i>` or `<span>` tags with the `.d-icon` and `.d-$icon-n
 {% capture navbar_right %}{% highlight html %}
 <nav class="nav">
 <div class="nav-left">
-<img class="nav-brand" src="/pages/denali-system-language/denali-styleguide/assets/images/denali-logo.svg" alt="" />
+<img class="nav-brand" src="/denali-site/assets/images/denali-logo.svg" alt="" />
 </div>
 <div class="nav-right">
 <a class="nav-icon"><i class="d-icon d-dashboard"></i></a>
@@ -62,7 +62,7 @@ To insert nav links wrap link text in `<a>` tags with the `.nav-item` class. To 
 {% capture navbar_center_list %}{% highlight html %}
 <nav class="nav">
 <div class="nav-left">
-<img class="nav-brand" src="/pages/denali-system-language/denali-styleguide/assets/images/denali-logo.svg" alt="" />
+<img class="nav-brand" src="/denali-site/assets/images/denali-logo.svg" alt="" />
 </div>
 <div class="nav-center">
 <a class="nav-item is-active">Home</a>
@@ -85,14 +85,14 @@ To insert a search bar start with `<div class="input-group has-button">`. Inside
 {% capture navbar_center_search %}{% highlight html %}
 <nav class="nav">
 <div class="nav-left">
-<img class="nav-brand" src="/pages/denali-system-language/denali-styleguide/assets/images/denali-logo.svg" alt="" />
+<img class="nav-brand" src="/denali-site/assets/images/denali-logo.svg" alt="" />
 </div>
 <div class="nav-center">
 <div class="input-group has-button">
-<div class="input is-dark">
+<div class="input is-inverse">
 <input type="text" placeholder="Search" />
 </div>
-<button class="button is-primary has-icon">
+<button class="button is-solid has-icon">
 <i class="d-icon d-search is-small"></i>
 </button>
 </div>
@@ -115,7 +115,7 @@ Customize a navbar&#39;s background color by changing the `$navbar-background-co
 {% capture navbar_bg_color %}{% highlight html %}
 <nav class="nav" style="background:#0C301E;">
 <div class="nav-left">
-<img class="nav-brand" src="/pages/denali-system-language/denali-styleguide/assets/images/paas-logo.png" alt="" />
+<img class="nav-brand" src="/denali-site/assets/images/paas-logo.png" alt="" />
 </div>
 <div class="nav-right">
 <a class="nav-icon"><i class="d-icon d-dashboard"></i></a>
@@ -133,4 +133,11 @@ Customize a navbar&#39;s background color by changing the `$navbar-background-co
 ### Variables
 You can use these variables to customize this component. Simply set one or multiple of these variables and recompile the SCSS.
 
-#### Coming soon
+`$navbar-config:`
+
+|**Name**|**Type**|**Default value**|**Computed value**|
+|`backgound-color`  |background     |`#0A2D45`  |       |
+|`text-color`  |color     |`$grey-100`  |       |
+|`height`  |height     |`60px`  |       |
+|`nav-items:text-color`  |color     |`$grey-100`  |       |
+|`nav-items:active-border-color`  |border-color     |`#3697F2`  |       |

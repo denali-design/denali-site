@@ -5,7 +5,7 @@
     <head>
         {% include head.html %}
     </head>
-    <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
+    <body class="denali-default-theme layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
         {{ content }}
         {% include scripts.html %}
     </body>

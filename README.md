@@ -1,22 +1,22 @@
 # Denali Site
 
-![version](https://img.shields.io/badge/version-1.0.0-blue.svg) ![slack](https://img.shields.io/badge/slack-Denali-3570f4.svg?cacheSeconds=2592000)
+![version](https://img.shields.io/badge/version-1.0.0-blue.svg) [![slack](https://img.shields.io/badge/slack-Denali-3570f4.svg)](https://denali-design.slack.com/app_redirect?channel=general)
 <!-- ![build](https://img.shields.io/badge/build-1.2.3-brightgreen.svg) -->
 ## Table of contents
-- [Background]()
-- [Install]()
-- [Usage]()
-- [Browser support]()
-- [Versioning]()
-- [Contribute]()
-- [License]()
+- [Background](#background)
+- [Install](#install)
+- [Usage](#run-local-website)
+- [Browser support](#browser-support)
+- [Versioning](#versioning)
+- [Contribute](#contribute)
+- [License](#license)
 
 ---
 
 ## Background
 The Denali System Language was created by the Platforms and Technology Design team at Verizon Media as a scalable method for designing and developing visually consistent and functional internal products. The Denali website houses our entire component library, icon font family, and CSS framework complete with corresponding code snippets and documentation. Additionally, the site is also home to our design principles, which outline the proper implementation of our components within a product’s UI.
 
-You can view the site at [www.denali.design]().
+You can view the site at [here](https://denali-design.github.io/denali-site/).
 
 ## Install
 
@@ -58,7 +58,7 @@ You should be prompted with a success message and the url to use to view the sit
 -  **Safari** on iOS and macOS
 
 ## Versioning
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the tags on this [repository]().
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the tags on this [repository](https://github.com/denali-design/denali-site).
 
 ## Contribute
 To start contributing to Denali, have a look at our guidelines, as well as pointers on where to start making changes, in our [contributing guide](CONTRIBUTE.md).

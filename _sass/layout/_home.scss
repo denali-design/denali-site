@@ -454,7 +454,7 @@ nav.home-nav {
     &:last-child {
       cursor: pointer;
       display: flex;
-      justify-content: space-between;
+      justify-content: space-around;
       width: $tablet;
 
       > a {
