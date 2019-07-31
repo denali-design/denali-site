@@ -38,12 +38,12 @@ principles:
     children:
       - label: "Alerts"
         url: /principles/alerts
-      - label: "Buttons"
-        url: /principles/buttons
+      #- label: "Buttons"
+      #  url: /principles/buttons
       - label: "Data Visualization"
         url: /principles/graphs
-      - label: "Selection Controls"
-        url: /principles/selection-controls
+      #- label: "Selection Controls"
+      #  url: /principles/selection-controls
 
 # documentation
 documentation:
@@ -71,12 +71,12 @@ documentation:
     children:
       - label: "Breakpoints"
         url: /documentation/formats/breakpoints
-      - label: "Columns"
-        url: /documentation/formats/columns
-      - label: "Containers"
-        url: /documentation/formats/containers
-      - label: "Rows"
-        url: /documentation/formats/rows
+      #- label: "Columns"
+      #  url: /documentation/formats/columns
+      #- label: "Containers"
+      #  url: /documentation/formats/containers
+      #- label: "Rows"
+      #  url: /documentation/formats/rows
   - label: "Components"
     url: /documentation/components/alerts
     subnav: /documentation/components
@@ -93,8 +93,8 @@ documentation:
         url: /documentation/components/fields
       - label: "Links"
         url: /documentation/components/links
-      - label: "Lists"
-        url: /documentation/components/lists
+      #- label: "Lists"
+      #  url: /documentation/components/lists
       - label: "Loader"
         url: /documentation/components/loaders
       - label: "Menu"
@@ -103,8 +103,8 @@ documentation:
         url: /documentation/components/modals
       - label: "Navbar"
         url: /documentation/components/navbar
-      - label: "Search"
-        url: /documentation/components/search
+      #- label: "Search"
+      #  url: /documentation/components/search
       - label: "Selection Controls"
         url: /documentation/components/selection-controls
       - label: "Selects"

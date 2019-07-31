@@ -91,4 +91,9 @@ You can use these variables to customize this component. Simply set one or multi
 
 |**Name**|**Type**|**Default value**|**Computed value**|
 |`overlay-color`                      |background           |`rgba(#e8e8e8,0.9)`    |           |
+|`corner-radius`   |border-radius           |`4px`                 |           |
 |`modal-container:background-color`   |background           |`#fff`                 |           |
+|`modal-container:border:color`|border-color|`map-get($denali-grey-colors, '400')`|#E8E8E8|
+|`modal-container:border:width`|width|`width`||
+|`modal-container:border:style`|border-style|`solid`||
+|`modal-container:close-icon-color`|color|`map-get($denali-grey-colors, '800')`|#303030|
