@@ -1,6 +1,6 @@
 # Denali Site
 
-![version](https://img.shields.io/badge/version-1.0.0-blue.svg) [![slack](https://img.shields.io/badge/slack-Denali-3570f4.svg)](https://denali-design.slack.com/app_redirect?channel=general)
+[![slack](https://img.shields.io/badge/slack-Denali-3570f4.svg)](https://denali-design.slack.com/app_redirect?channel=general)
 <!-- ![build](https://img.shields.io/badge/build-1.2.3-brightgreen.svg) -->
 ## Table of contents
 - [Background](#background)

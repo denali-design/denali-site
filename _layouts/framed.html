@@ -8,6 +8,7 @@ classes:
 
 <!-- content outlet -->
 <div class="flex h-minus-nav">
+  
     {% if page.url contains "documentation" %}
     {% include side-nav.html nav="documentation" %}
     {% endif %}
@@ -16,8 +17,7 @@ classes:
     {% include side-nav.html nav="principles" %}
     {% endif %}
 
-
-    <div id="container" style="overflow-x:hidden" class="overflow-y-auto flex-auto">
+    <div id="container" style="overflow-x:hidden; -webkit-overflow-scrolling: touch;" class="overflow-y-auto flex-auto">
         <div class="markdown-docs container-fluid p-t-3 m-b-10">
             {{ content }}
         </div>
