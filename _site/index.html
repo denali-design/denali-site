@@ -143,7 +143,6 @@
         <!-- Nav -->
 <nav class="nav home-nav">
     <div class="nav-left">
-        <a onclick="toggleTabsLeft()" class="nav-icon hide-small-desktop-up"><i class="d-icon d-menu-hamburger"></i></a>
         <a href="/denali-site/" class="nav-brand"><img src="/denali-site/assets/images/denali-logo.svg" alt=""></img></a>
         <span class="chips is-small is-bold is-grey-100 has-bg-brand-400 hide-tablet-down">Styleguide</span>
     </div>
@@ -396,6 +395,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         var toggleTabsLeft = document.getElementById("toggleTabsLeft");
         toggleTabsLeft.classList.toggle('tablet-down-toggle-tabs-left');
     };
+
+    // Nav Dropdown on Mobile
+    document.getElementById("navDropdownToggle").addEventListener("click", function() {
+      var element = document.getElementById("collapseDropdown");
+      element.classList.toggle("show");
+    });
 
     // Nav Active Scroll
     var content = document.getElementById("container");

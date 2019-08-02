@@ -48,7 +48,7 @@
 
 
   <meta property="og:type" content="article">
-  <meta property="article:published_time" content="2019-07-30T21:58:36-07:00">
+  <meta property="article:published_time" content="2019-08-02T09:19:11-07:00">
 
 
 
@@ -202,6 +202,7 @@
 
 <!-- content outlet -->
 <div class="flex h-minus-nav">
+  
     
     
 
@@ -346,8 +347,7 @@
 
     
 
-
-    <div id="container" style="overflow-x:hidden" class="overflow-y-auto flex-auto">
+    <div id="container" style="overflow-x:hidden; -webkit-overflow-scrolling: touch;" class="overflow-y-auto flex-auto">
         <div class="markdown-docs container-fluid p-t-3 m-b-10">
             <h1 id="tabs">Tabs</h1>
 
@@ -864,6 +864,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         var toggleTabsLeft = document.getElementById("toggleTabsLeft");
         toggleTabsLeft.classList.toggle('tablet-down-toggle-tabs-left');
     };
+
+    // Nav Dropdown on Mobile
+    document.getElementById("navDropdownToggle").addEventListener("click", function() {
+      var element = document.getElementById("collapseDropdown");
+      element.classList.toggle("show");
+    });
 
     // Nav Active Scroll
     var content = document.getElementById("container");

@@ -120,8 +120,8 @@ nav.home-nav .d-github {
   }
   .top .home img {
     height: auto;
-    max-width: 400px;
-    width: 80%;
+    min-width: 350px;
+    width: 50%;
   }
 }
 
