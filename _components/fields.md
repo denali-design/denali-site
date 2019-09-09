@@ -121,6 +121,26 @@ Add a label to fields by wrapping inline or text area fields within a `<div>` ta
 {% endhighlight %}{% endcapture %}
 {% include code-snippet.html code=field_label_position url='field_label_position.html' %}
 
+### Responsive Field labels
+By default input groups are not responsive, but by adding a helper class of `responsive` to the element, will stack the label and input while increasing the width to 100% of the viewport when the screen size is broken down to mobile.
+
+{% capture field_label_responsive %}{% highlight html %}
+<div class="input-group responsive">
+<label>Label</label>
+<div class="input">
+<input type="text" placeholder="Repsonsive Input"></input>
+</div>
+</div>
+<br>
+<div class="input-group responsive">
+<label>Label</label>
+<div class="input">
+<textarea type="text" placeholder="Repsonsive Text Area"></textarea>
+</div>
+</div>
+{% endhighlight %}{% endcapture %}
+{% include code-snippet.html code=field_label_responsive url='field_label_responsive.html' %}
+
 
 ***
 

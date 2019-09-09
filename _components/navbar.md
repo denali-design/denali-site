@@ -55,25 +55,28 @@ Insert icons by adding `<i>` or `<span>` tags with the `.d-icon` and `.d-$icon-n
 
 
 ### Center section
-Implement a navbar by creating a `<nav>` tag and adding the `.nav` class. Then, insert `<div class="nav-center">` to place content in the center of the navbar.
+Implement a navbar by creating a `<nav>` tag and adding the `.nav` class. Then group the various sections by using `.nav-group` in `.nav-right` and add the helper `.space-between-small-desktop-up` which will add space between on small desktop media query.
+
 #### Nav links
 To insert nav links wrap link text in `<a>` tags with the `.nav-item` class. To set an active link add `.is-active` to the link&#39;s `<a>` tag.
 
 {% capture navbar_center_list %}{% highlight html %}
 <nav class="nav">
-<div class="nav-left">
-<img class="nav-brand" src="/denali-site/assets/images/denali-logo.svg" alt="" />
-</div>
-<div class="nav-center">
-<a class="nav-item is-active">Home</a>
-<a class="nav-item">About</a>
-<a class="nav-item">Contact</a>
-</div>
-<div class="nav-right">
-<a class="nav-icon"><i class="d-icon d-dashboard"></i></a>
-<a class="nav-icon"><i class="d-icon d-menu-dialpad"></i></a>
-<a class="nav-icon"><i class="d-icon d-user-profile-circle"></i></a>
-</div>
+  <div class="nav-left">
+    <img class="nav-brand" src="/denali-site/assets/images/denali-logo.svg" alt="" />
+  </div>
+  <div class="nav-right space-between-small-desktop-up">
+    <div class="nav-group">
+      <a class="nav-item is-active">Home</a>
+      <a class="nav-item">About</a>
+      <a class="nav-item">Contact</a>
+    </div>
+    <div class="nav-group">
+      <a class="nav-icon"><i class="d-icon d-dashboard"></i><span class="nav-icon-text"></span></a>
+      <a class="nav-icon"><i class="d-icon d-menu-dialpad"></i><span class="nav-icon-text"></span></a>
+      <a class="nav-icon"><i class="d-icon d-user-profile-circle"></i><span class="nav-icon-text"></span></a>
+    </div>
+  </div>
 </nav>
 {% endhighlight %}{% endcapture %}
 {% include code-snippet.html code=navbar_center_list url='navbar_center_list.html' %}
@@ -84,27 +87,55 @@ To insert a search bar start with `<div class="input-group has-button">`. Inside
 
 {% capture navbar_center_search %}{% highlight html %}
 <nav class="nav">
-<div class="nav-left">
-<img class="nav-brand" src="/denali-site/assets/images/denali-logo.svg" alt="" />
-</div>
-<div class="nav-center">
-<div class="input-group has-button">
-<div class="input is-inverse">
-<input type="text" placeholder="Search" />
-</div>
-<button class="button is-solid has-icon">
-<i class="d-icon d-search is-small"></i>
-</button>
-</div>
-</div>
-<div class="nav-right">
-<a class="nav-icon"><i class="d-icon d-dashboard"></i></a>
-<a class="nav-icon"><i class="d-icon d-menu-dialpad"></i></a>
-<a class="nav-icon"><i class="d-icon d-user-profile-circle"></i></a>
-</div>
+  <div class="nav-left">
+    <img class="nav-brand" src="/denali-site/assets/images/denali-logo.svg" alt="" />
+  </div>
+  <div class="nav-right">
+    <div class="nav-group">
+      <div class="input-group has-button">
+        <div class="input is-inverse">
+          <input type="text" placeholder="Search" />
+        </div>
+        <button class="button is-solid has-icon">
+          <i class="d-icon d-search is-small"></i>
+        </button>
+      </div>
+    </div>
+    <div class="nav-group">
+      <a class="nav-icon"><i class="d-icon d-dashboard"></i><span class="nav-icon-text"></span></a>
+      <a class="nav-icon"><i class="d-icon d-menu-dialpad"></i><span class="nav-icon-text"></span></a>
+      <a class="nav-icon"><i class="d-icon d-user-profile-circle"></i><span class="nav-icon-text"></span></a>
+    </div>
+  </div>
 </nav>
 {% endhighlight %}{% endcapture %}
 {% include code-snippet.html code=navbar_center_search url='navbar_center_search.html' %}
+
+
+***
+
+
+### Responsive
+Just by adding a couple classes and elements you can make the navbar component responsive. We tend to add a more icon `<i class="d-icon d-more-vertical"></i>`, but you can use a link if you would like. We wrap that element in an `<a>` tag and add the class `nav-toggle-dropdown`. Then we add the `.responsive` class to the `.nav-right` element. When you get to a certain breakpoint the more icon will show and if you hover over it the `.nav-right` will show below.
+
+{% capture navbar_responsive %}{% highlight html %}
+<nav class="nav">
+  <div class="nav-left">
+    <img class="nav-brand" src="/denali-site/assets/images/denali-logo.svg" alt=""></img>
+  </div>
+  <a class="nav-icon nav-toggle-dropdown"><i class="d-icon d-more-vertical"></i></a>
+  <div class="nav-right responsive">
+    <a class="nav-item is-active">Home</a>
+    <a class="nav-item">Climb</a>
+    <a class="nav-item">Contact</a>
+    <a class="nav-icon"><i class="d-icon d-dashboard"></i></a>
+    <a class="nav-icon"><i class="d-icon d-menu-dialpad"></i></a>
+    <a class="nav-icon"><i class="d-icon d-user-profile-circle"></i></a>
+  </div>
+</nav>
+{% endhighlight %}{% endcapture %}
+{% include code-snippet.html code=navbar_responsive url='navbar_responsive.html' %}
+
 
 ***
 

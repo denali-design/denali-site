@@ -1,0 +1,37 @@
+@charset "utf-8";
+// Copyright 2019, Oath Inc.
+// Licensed under the terms of the MIT license. See LICENSE file in project root for terms.
+
+blockquote {
+  background: rgba(0,102,223,0.06);
+  border-radius: 4px;
+  padding: 20px;
+  border-left: solid #0066DF 4px;
+  margin: 20px 0px;
+  padding-left: 60px;
+  position: relative;
+
+  &:before {
+    font-family: 'denali-icon-font' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    font-size: 28px;
+    vertical-align: middle;
+    text-decoration: inherit;
+    text-rendering: optimizeLegibility;
+    /* Better Font Rendering */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: '\ebeb';
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    margin-left: -44px;
+    margin-top: -3px;
+    color: #0066DF;
+  }
+}
