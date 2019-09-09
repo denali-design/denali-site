@@ -48,6 +48,25 @@ To create a small toggle, add the `.is-small` class to a toggle&#39;s outer `<di
 
 ***
 
+### Inverse toggle
+When a toggle is on a darker background apply `.is-inverse` class to a toggle&#39;s outer `<div>` container.
+
+{% capture toggle_inverse %}{% highlight html %}
+<div class="toggle is-inverse">
+<ul>
+<li><a>Toggle 1</a></li>
+<li class="is-active"><a>Toggle 2</a></li>
+<li><a>Toggle 3</a></li>
+<li><a>Toggle 4</a></li>
+<li class="is-disabled"><a>Toggle 5</a></li>
+</ul>
+</div>
+{% endhighlight %}{% endcapture %}
+{% include code-snippet.html code=toggle_inverse url='toggle_inverse.html' inverse='true' %}
+
+
+***
+
 
 ### Variables
 You can use these variables to customize this component. Simply set one or multiple of these variables and recompile the SCSS.

@@ -1,11 +1,11 @@
-<section class="container-fluid p-t-4 p-b-4 has-bg-pink-100">
+<section class="container-full p-t-40 p-b-40 has-bg-pink-100">
 
-  <h1 class="m-b-3">Site Debug</h1>
+  <h1 class="m-b-30">Site Debug</h1>
 
   <h4>Useful Links</h4>
-  <div class="m-b-3">
+  <div class="m-b-30">
       {% for nav in site.data.navigation.sitedebug %}
-      <a class="m-r-2" href="{{ site.baseurl }}{{ nav.url }}">{{ nav.label }}</a>
+      <a class="m-r-20" href="{{ site.baseurl }}{{ nav.url }}">{{ nav.label }}</a>
       {% endfor %}
   </div>
 
