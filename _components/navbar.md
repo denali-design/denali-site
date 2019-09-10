@@ -31,7 +31,7 @@ Insert brand logos by adding an `<img>` tag with the class `.nav-brand` within a
 
 
 ### Right section
-Implement a navbar by creating a `<nav>` tag and adding the `.nav` class. Then, insert `<div class="nav-right">` to place content to the right of the navbar.
+Insert `<div class="nav-right">` to place content to the right of the navbar.
 
 #### Nav icons
 Insert icons by adding `<i>` or `<span>` tags with the `.d-icon` and `.d-$icon-name` classes wrapped in `<a class="nav-icon">` within a navbar&#39;s `<div>` tag.
@@ -55,7 +55,7 @@ Insert icons by adding `<i>` or `<span>` tags with the `.d-icon` and `.d-$icon-n
 
 
 ### Center section
-Implement a navbar by creating a `<nav>` tag and adding the `.nav` class. Then group the various sections by using `.nav-group` in `.nav-right` and add the helper `.space-between-small-desktop-up` which will add space between on small desktop media query.
+To create a center section add a `.nav-right` element and group center and right content using the `.nav-group` class. To center content on small desktop sizes and up add the `.space-between-small-desktop-up` helper class.
 
 #### Nav links
 To insert nav links wrap link text in `<a>` tags with the `.nav-item` class. To set an active link add `.is-active` to the link&#39;s `<a>` tag.
@@ -116,7 +116,7 @@ To insert a search bar start with `<div class="input-group has-button">`. Inside
 
 
 ### Responsive
-Just by adding a couple classes and elements you can make the navbar component responsive. We tend to add a more icon `<i class="d-icon d-more-vertical"></i>`, but you can use a link if you would like. We wrap that element in an `<a>` tag and add the class `nav-toggle-dropdown`. Then we add the `.responsive` class to the `.nav-right` element. When you get to a certain breakpoint the more icon will show and if you hover over it the `.nav-right` will show below.
+Add the class `.responsive` to a navbar's `.nav-right` element to hide navbar content on mobile screen sizes. Add a link or "more" icon `<i class="d-icon d-more-vertical"></i>` wrapped in an `<a>` tag with the class `nav-toggle-dropdown`to display hidden navbar content on hover.
 
 {% capture navbar_responsive %}{% highlight html %}
 <nav class="nav">
