@@ -14,9 +14,8 @@ excerpt: 'Follow the steps below to get started with Denali.'
 
 ***
 
-## Denali Components
-Denali has three easy ways to quickly get started, each one appealing to a different skill level and use case.
-Read through to see what suits your particular needs.
+## Denali components
+Denali components have three easy ways to get started, each one appealing to a different skill level and use case. Read on to see what suits your particular needs:
 
 ### Use NPM (recommended)
 {% include copy-input.html id='denaliCssNpm' copy-text='npm install denali-css' %}
@@ -29,9 +28,8 @@ or
 
 ***
 
-## Denali Icons
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+## Denali icon font
+Denali's icon font has three easy ways to get started, each one appealing to a different skill level and use case. Read on to see what suits your particular needs:
 
 ### Use NPM (recommended)
 {% include copy-input.html id='denaliIconNpm' copy-text='npm install denali-icon-font' %}
@@ -45,7 +43,7 @@ or
 ***
 
 ## Code Requirements
-For Denali to work correctly, you need to remember a few requirements when working with Denali.
+For Denali to work correctly, the following items are required:
 
 ### Use the HTML5 doctype
 ```css
@@ -62,8 +60,7 @@ For Denali to work correctly, you need to remember a few requirements when worki
 ***
 
 ## Starter Template
-If you want to get started right away, you can use this HTML starter template. Just copy/paste this code in a file and
-save it on your computer.
+If you want to get started right away, you can use this HTML starter template.
 
 ```css
 <!DOCTYPE html>
@@ -89,7 +86,7 @@ save it on your computer.
 ***
 
 ## Community Support
-Stay up to date on the development of Bootstrap and reach out to the community with these helpful resources.
+Stay up to date with Denali's development and join the community:
 
 - Join the official [Denali Slack](https://denali-design.slack.com/app_redirect?channel=general)
 - Follow [@denali_designs](https://twitter.com/denali_design) on Twitter
