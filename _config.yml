@@ -13,8 +13,8 @@ title_separator          : "-"
 title_brand              : "Denali"
 name                     : &name "Denali Team" # &name is a YAML anchor which can be *referenced later
 description              : &description "Documentation for the Denali styleguide"
-url                      : https://denali-design.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : /denali-site # the subpath of your site, e.g. "/blog"
+url                      : https://denali.design # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : denali-design/denali-styleguide
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)

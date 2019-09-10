@@ -4,13 +4,13 @@
   {
 
     "title"    : "Getting Started",
-    "url"      : "/denali-site/get-started"
+    "url"      : "/get-started"
 
   } ,
   {
 
     "title"    : "Resources",
-    "url"      : "/denali-site/resource-downloads"
+    "url"      : "/resource-downloads"
 
   } ,
   {% for aesthetic in site.aesthetics %}

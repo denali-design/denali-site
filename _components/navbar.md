@@ -20,7 +20,7 @@ Insert brand logos by adding an `<img>` tag with the class `.nav-brand` within a
 {% capture navbar_left %}{% highlight html %}
 <nav class="nav">
 <div class="nav-left">
-<img class="nav-brand" src="/denali-site/assets/images/denali-logo.svg"/>
+<img class="nav-brand" src="/assets/images/denali-logo.svg"/>
 </div>
 </nav>
 {% endhighlight %}{% endcapture %}
@@ -39,7 +39,7 @@ Insert icons by adding `<i>` or `<span>` tags with the `.d-icon` and `.d-$icon-n
 {% capture navbar_right %}{% highlight html %}
 <nav class="nav">
 <div class="nav-left">
-<img class="nav-brand" src="/denali-site/assets/images/denali-logo.svg" alt="" />
+<img class="nav-brand" src="/assets/images/denali-logo.svg" alt="" />
 </div>
 <div class="nav-right">
 <a class="nav-icon"><i class="d-icon d-dashboard"></i></a>
@@ -63,7 +63,7 @@ To insert nav links wrap link text in `<a>` tags with the `.nav-item` class. To 
 {% capture navbar_center_list %}{% highlight html %}
 <nav class="nav">
   <div class="nav-left">
-    <img class="nav-brand" src="/denali-site/assets/images/denali-logo.svg" alt="" />
+    <img class="nav-brand" src="/assets/images/denali-logo.svg" alt="" />
   </div>
   <div class="nav-right space-between-small-desktop-up">
     <div class="nav-group">
@@ -88,7 +88,7 @@ To insert a search bar start with `<div class="input-group has-button">`. Inside
 {% capture navbar_center_search %}{% highlight html %}
 <nav class="nav">
   <div class="nav-left">
-    <img class="nav-brand" src="/denali-site/assets/images/denali-logo.svg" alt="" />
+    <img class="nav-brand" src="/assets/images/denali-logo.svg" alt="" />
   </div>
   <div class="nav-right">
     <div class="nav-group">
@@ -121,7 +121,7 @@ Add the class `.responsive` to a navbar's `.nav-right` element to hide navbar co
 {% capture navbar_responsive %}{% highlight html %}
 <nav class="nav">
   <div class="nav-left">
-    <img class="nav-brand" src="/denali-site/assets/images/denali-logo.svg" alt=""></img>
+    <img class="nav-brand" src="/assets/images/denali-logo.svg" alt=""></img>
   </div>
   <a class="nav-icon nav-toggle-dropdown"><i class="d-icon d-more-vertical"></i></a>
   <div class="nav-right responsive">
@@ -146,7 +146,7 @@ Customize a navbar&#39;s background color by changing the `$navbar-background-co
 {% capture navbar_bg_color %}{% highlight html %}
 <nav class="nav" style="background:#0C301E;">
 <div class="nav-left">
-<img class="nav-brand" src="/denali-site/assets/images/paas-logo.png" alt="" />
+<img class="nav-brand" src="/assets/images/paas-logo.png" alt="" />
 </div>
 <div class="nav-right">
 <a class="nav-icon"><i class="d-icon d-dashboard"></i></a>

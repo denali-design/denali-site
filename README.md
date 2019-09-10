@@ -16,7 +16,7 @@
 ## Background
 The Denali System Language was created by the Platforms and Technology Design team at Verizon Media as a scalable method for designing and developing visually consistent and functional internal products. The Denali website houses our entire component library, icon font family, and CSS framework complete with corresponding code snippets and documentation. Additionally, the site is also home to our design principles, which outline the proper implementation of our components within a product’s UI.
 
-You can view the site at [here](https://denali-design.github.io/denali-site/).
+You can view the site at [here](https://denali.design/).
 
 ## Install
 
