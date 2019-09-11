@@ -13,7 +13,7 @@ sections:
   - header: 'Sketch Libraries'
     text: 'Sync these Sketch libraries to your Sketch App. Get automatic updates when we publish new components or elements in the library'
     example: 'resources/library-download.html'
-  - header: 'Ui Kits'
+  - header: 'UI Kits'
     text: 'Based on the Sketch Libraries these kits help you design sites faster with prebuilt components at various sizes.'
     example: 'resources/kits-download.html'
   - header: 'Templates'
