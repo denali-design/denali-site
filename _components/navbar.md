@@ -20,7 +20,7 @@ Insert brand logos by adding an `<img>` tag with the class `.nav-brand` within a
 {% capture navbar_left %}{% highlight html %}
 <nav class="nav">
 <div class="nav-left">
-<img class="nav-brand" src="/denali-site/assets/images/denali-logo.svg"/>
+<img class="nav-brand" src="/assets/images/denali-logo.svg"/>
 </div>
 </nav>
 {% endhighlight %}{% endcapture %}
@@ -31,7 +31,7 @@ Insert brand logos by adding an `<img>` tag with the class `.nav-brand` within a
 
 
 ### Right section
-Implement a navbar by creating a `<nav>` tag and adding the `.nav` class. Then, insert `<div class="nav-right">` to place content to the right of the navbar.
+Insert `<div class="nav-right">` to place content to the right of the navbar.
 
 #### Nav icons
 Insert icons by adding `<i>` or `<span>` tags with the `.d-icon` and `.d-$icon-name` classes wrapped in `<a class="nav-icon">` within a navbar&#39;s `<div>` tag.
@@ -39,7 +39,7 @@ Insert icons by adding `<i>` or `<span>` tags with the `.d-icon` and `.d-$icon-n
 {% capture navbar_right %}{% highlight html %}
 <nav class="nav">
 <div class="nav-left">
-<img class="nav-brand" src="/denali-site/assets/images/denali-logo.svg" alt="" />
+<img class="nav-brand" src="/assets/images/denali-logo.svg" alt="" />
 </div>
 <div class="nav-right">
 <a class="nav-icon"><i class="d-icon d-dashboard"></i></a>
@@ -55,25 +55,28 @@ Insert icons by adding `<i>` or `<span>` tags with the `.d-icon` and `.d-$icon-n
 
 
 ### Center section
-Implement a navbar by creating a `<nav>` tag and adding the `.nav` class. Then, insert `<div class="nav-center">` to place content in the center of the navbar.
+To create a center section add a `.nav-right` element and group center and right content using the `.nav-group` class. To center content on small desktop sizes and up add the `.space-between-small-desktop-up` helper class.
+
 #### Nav links
 To insert nav links wrap link text in `<a>` tags with the `.nav-item` class. To set an active link add `.is-active` to the link&#39;s `<a>` tag.
 
 {% capture navbar_center_list %}{% highlight html %}
 <nav class="nav">
-<div class="nav-left">
-<img class="nav-brand" src="/denali-site/assets/images/denali-logo.svg" alt="" />
-</div>
-<div class="nav-center">
-<a class="nav-item is-active">Home</a>
-<a class="nav-item">About</a>
-<a class="nav-item">Contact</a>
-</div>
-<div class="nav-right">
-<a class="nav-icon"><i class="d-icon d-dashboard"></i></a>
-<a class="nav-icon"><i class="d-icon d-menu-dialpad"></i></a>
-<a class="nav-icon"><i class="d-icon d-user-profile-circle"></i></a>
-</div>
+  <div class="nav-left">
+    <img class="nav-brand" src="/assets/images/denali-logo.svg" alt="" />
+  </div>
+  <div class="nav-right space-between-small-desktop-up">
+    <div class="nav-group">
+      <a class="nav-item is-active">Home</a>
+      <a class="nav-item">About</a>
+      <a class="nav-item">Contact</a>
+    </div>
+    <div class="nav-group">
+      <a class="nav-icon"><i class="d-icon d-dashboard"></i><span class="nav-icon-text"></span></a>
+      <a class="nav-icon"><i class="d-icon d-menu-dialpad"></i><span class="nav-icon-text"></span></a>
+      <a class="nav-icon"><i class="d-icon d-user-profile-circle"></i><span class="nav-icon-text"></span></a>
+    </div>
+  </div>
 </nav>
 {% endhighlight %}{% endcapture %}
 {% include code-snippet.html code=navbar_center_list url='navbar_center_list.html' %}
@@ -84,27 +87,55 @@ To insert a search bar start with `<div class="input-group has-button">`. Inside
 
 {% capture navbar_center_search %}{% highlight html %}
 <nav class="nav">
-<div class="nav-left">
-<img class="nav-brand" src="/denali-site/assets/images/denali-logo.svg" alt="" />
-</div>
-<div class="nav-center">
-<div class="input-group has-button">
-<div class="input is-inverse">
-<input type="text" placeholder="Search" />
-</div>
-<button class="button is-solid has-icon">
-<i class="d-icon d-search is-small"></i>
-</button>
-</div>
-</div>
-<div class="nav-right">
-<a class="nav-icon"><i class="d-icon d-dashboard"></i></a>
-<a class="nav-icon"><i class="d-icon d-menu-dialpad"></i></a>
-<a class="nav-icon"><i class="d-icon d-user-profile-circle"></i></a>
-</div>
+  <div class="nav-left">
+    <img class="nav-brand" src="/assets/images/denali-logo.svg" alt="" />
+  </div>
+  <div class="nav-right">
+    <div class="nav-group">
+      <div class="input-group has-button">
+        <div class="input is-inverse">
+          <input type="text" placeholder="Search" />
+        </div>
+        <button class="button is-solid has-icon">
+          <i class="d-icon d-search is-small"></i>
+        </button>
+      </div>
+    </div>
+    <div class="nav-group">
+      <a class="nav-icon"><i class="d-icon d-dashboard"></i><span class="nav-icon-text"></span></a>
+      <a class="nav-icon"><i class="d-icon d-menu-dialpad"></i><span class="nav-icon-text"></span></a>
+      <a class="nav-icon"><i class="d-icon d-user-profile-circle"></i><span class="nav-icon-text"></span></a>
+    </div>
+  </div>
 </nav>
 {% endhighlight %}{% endcapture %}
 {% include code-snippet.html code=navbar_center_search url='navbar_center_search.html' %}
+
+
+***
+
+
+### Responsive
+Add the class `.responsive` to a navbar's `.nav-right` element to hide navbar content on mobile screen sizes. Add a link or "more" icon `<i class="d-icon d-more-vertical"></i>` wrapped in an `<a>` tag with the class `nav-toggle-dropdown`to display hidden navbar content on hover.
+
+{% capture navbar_responsive %}{% highlight html %}
+<nav class="nav">
+  <div class="nav-left">
+    <img class="nav-brand" src="/assets/images/denali-logo.svg" alt=""></img>
+  </div>
+  <a class="nav-icon nav-toggle-dropdown"><i class="d-icon d-more-vertical"></i></a>
+  <div class="nav-right responsive">
+    <a class="nav-item is-active">Home</a>
+    <a class="nav-item">Climb</a>
+    <a class="nav-item">Contact</a>
+    <a class="nav-icon"><i class="d-icon d-dashboard"></i></a>
+    <a class="nav-icon"><i class="d-icon d-menu-dialpad"></i></a>
+    <a class="nav-icon"><i class="d-icon d-user-profile-circle"></i></a>
+  </div>
+</nav>
+{% endhighlight %}{% endcapture %}
+{% include code-snippet.html code=navbar_responsive url='navbar_responsive.html' %}
+
 
 ***
 
@@ -115,7 +146,7 @@ Customize a navbar&#39;s background color by changing the `$navbar-background-co
 {% capture navbar_bg_color %}{% highlight html %}
 <nav class="nav" style="background:#0C301E;">
 <div class="nav-left">
-<img class="nav-brand" src="/denali-site/assets/images/paas-logo.png" alt="" />
+<img class="nav-brand" src="/assets/images/paas-logo.png" alt="" />
 </div>
 <div class="nav-right">
 <a class="nav-icon"><i class="d-icon d-dashboard"></i></a>

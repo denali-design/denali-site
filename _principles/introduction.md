@@ -11,34 +11,34 @@ excerpt: 'Denali was developed as a way to quickly create unified product famili
 ***
 
 
-<div class="row align-items-center m-b-4">
-  <div class="column flex-column">
+<div class="row align-items-center m-b-40">
+  <div class="col">
     <h3>Create Consistency</h3>
-    <p class="m-t-1">
+    <p class="m-t-10">
       Enable users to move through a product seamlessly by applying the same design solutions where possible to create consistent usability patterns.
     </p>
   </div>
-  <div class="column flex-1 justify-content-center">
+  <div class="col justify-content-center">
     <img class="principle-intro-image" src="{{ site.baseurl }}/assets/images/principles-intro/consistency.png" alt="">
   </div>
 </div>
 
-<div class="row tablet-up-reversed align-items-center m-b-4">
-  <div class="column flex-column">
+<div class="row tablet-up-reversed align-items-center m-b-40">
+  <div class="col">
     <h3>Usability First</h3>
-    <p class="m-t-1">
+    <p class="m-t-10">
       Ensure an effortless and intuitive user experience, no matter how complex the workflow, by making all design decisions with a “usability first” approach.
     </p>
   </div>
-  <div class="column flex-1 justify-content-center">
+  <div class="col justify-content-center">
     <img class="principle-intro-image" src="{{ site.baseurl }}/assets/images/principles-intro/usability.png" alt="">
   </div>
 </div>
 
-<div class="row align-items-center m-b-4">
-  <div class="column flex-column">
+<div class="row align-items-center m-b-40">
+  <div class="col">
     <h3>Form Follows Function</h3>
-    <p class="m-t-1">
+    <p class="m-t-10">
       Enhance the user experience by using visual design to communicate meaning and guide users through their workflows - not distract from them.
     </p>
   </div>

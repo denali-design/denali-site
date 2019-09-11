@@ -125,6 +125,30 @@ Add a label to fields by wrapping inline or text area fields within a `<div>` ta
 ***
 
 
+### Responsive fields
+By default fields are not responsive. Add the helper class `responsive` to fields in order to stack field labels and increase field width to 100% of the viewport at mobile screen sizes.
+
+{% capture field_label_responsive %}{% highlight html %}
+<div class="input-group responsive">
+<label>Label</label>
+<div class="input">
+<input type="text" placeholder="Responsive field"></input>
+</div>
+</div>
+<br>
+<div class="input-group responsive">
+<label>Label</label>
+<div class="input">
+<textarea type="text" placeholder="Responsive text area"></textarea>
+</div>
+</div>
+{% endhighlight %}{% endcapture %}
+{% include code-snippet.html code=field_label_responsive url='field_label_responsive.html' %}
+
+
+***
+
+
 ### Icons in fields
 To insert an icon into a field add a `<span>` tag with the `.d-icon` and `.d-$icon-name` classes before or after the `<input>` tag. You can also customize icon color using the `.is-$color-$value` class.
 

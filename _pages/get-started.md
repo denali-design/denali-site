@@ -5,45 +5,89 @@ title: "Getting started"
 layout: framed
 gitcontent: true
 excerpt: 'Follow the steps below to get started with Denali.'
-subsections:
-  - subheader: '1. Denali CSS'
-    subtext: 'Download Denali CSS from Github.'
-    subexample: 'snippets/getstarted-fig1.html'
-  - subheader: '2. Denali icons'
-    subtext: 'Download Denali icon library from Github.'
-    subexample: 'snippets/getstarted-fig2.html'
-sections:
-  - header: 'HTML templates'
-    text: 'You can easily get started or test out Denali CSS with prebuilt HTML templates available on our [resources](/denali-site/resource-downloads) page.'
-  - header: 'Next steps'
-    text: 'Once you’ve got our CSS and icon library, head over to our [documentation](/denali-site/documentation/aesthetics/colors) pages to learn how to implement Denali in your own projects.'
 ---
 
 # {{ page.title }}
 {{ page.excerpt }}
 
-<br>
+{% include copy-alert.html %}
 
-{% if page.example %}
-{% include {{ page.example }} %}
-{% endif %}
-
-{% for section in page.subsections %}
-#### {{ section.subheader }}
-{% if section.subtext %}
-{{ section.subtext }}
-{% endif %}
-{% if section.subexample %}
-{% include {{ section.subexample }} %}
-{% endif %}
-{% endfor %}
-{% for section in page.sections %}
 ***
-### {{ section.header }}
-{% if section.text %}
-{{ section.text }}
-{% endif %}
-{% if section.example %}
-{% include {{ section.example }} %}
-{% endif %}
-{% endfor %}
+
+## Denali components
+Denali components have three easy ways to get started, each one appealing to a different skill level and use case. Read on to see what suits your particular needs:
+
+### Use NPM (recommended)
+{% include copy-input.html id='denaliCssNpm' copy-text='npm install denali-css' %}
+or
+### Use jsdelivr CDN
+{% include copy-input.html id='denaliCssJsdeliver' copy-text='https://cdn.jsdelivr.net/npm/denali-css/css/denali.css' %}
+or
+### Clone/Fork Git Repository
+{% include copy-input.html id='denaliCssGit' copy-text='git@github.com:denali-design/denali-css.git' %}
+
+***
+
+## Denali icon font
+Denali's icon font has three easy ways to get started, each one appealing to a different skill level and use case. Read on to see what suits your particular needs:
+
+### Use NPM (recommended)
+{% include copy-input.html id='denaliIconNpm' copy-text='npm install denali-icon-font' %}
+or
+### Use jsdelivr CDN
+{% include copy-input.html id='denaliIconJsdeliver' copy-text='https://cdn.jsdelivr.net/npm/denali-icon-font/dist/denali-icon-font.css' %}
+or
+### Clone/Fork Git Repository
+{% include copy-input.html id='denaliIconGit' copy-text='git@github.com:denali-design/denali-icon-font.git' %}
+
+***
+
+## Code Requirements
+For Denali to work correctly, the following items are required:
+
+### Use the HTML5 doctype
+```css
+<!DOCTYPE html>
+```
+<br>
+### Add the responsive viewport meta tag
+```css
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+```
+
+***
+
+## Starter Template
+If you want to get started right away, you can use this HTML starter template.
+
+```css
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Hello Denali!</title>
+    <!-- Denali CSS & Icons -->
+    <link rel="stylesheet" href="../css/denali.css" />
+    <link rel="stylesheet" href="../css/denali-icon-font-v1.0.0.css" />
+  </head>
+  <body class="denali-default-theme">
+    <div class="container">
+      <h1>Hello World</h1>
+      <p>My first website with <strong>Denali</strong>!</p>
+    </div>
+  </body>
+</html>
+```
+
+***
+
+## Community Support
+Stay up to date with Denali's development and join the community:
+
+- Join the official [Denali Slack](https://denali-design.slack.com/app_redirect?channel=general)
+- Follow [@denali_designs](https://twitter.com/denali_design) on Twitter
+- Read our blog on [Medium](https://medium.com/denali-design)
