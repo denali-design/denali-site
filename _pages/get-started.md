@@ -17,11 +17,11 @@ excerpt: 'Follow the steps below to get started with Denali.'
 ## Denali components
 Denali components have three easy ways to get started, each one appealing to a different skill level and use case. Read on to see what suits your particular needs:
 
-### Use NPM (recommended)
+<!-- ### Use NPM (recommended)
 {% include copy-input.html id='denaliCssNpm' copy-text='npm install denali-css' %}
-or
+or -->
 ### Use jsdelivr CDN
-{% include copy-input.html id='denaliCssJsdeliver' copy-text='https://cdn.jsdelivr.net/npm/denali-css/css/denali.css' %}
+{% include copy-input.html id='denaliCssJsdeliver' copy-text='https://cdn.jsdelivr.net/gh/denali-design/denali-css/css/denali.css' %}
 or
 ### Clone/Fork Git Repository
 {% include copy-input.html id='denaliCssGit' copy-text='git@github.com:denali-design/denali-css.git' %}
@@ -31,11 +31,11 @@ or
 ## Denali icon font
 Denali's icon font has three easy ways to get started, each one appealing to a different skill level and use case. Read on to see what suits your particular needs:
 
-### Use NPM (recommended)
+<!-- ### Use NPM (recommended)
 {% include copy-input.html id='denaliIconNpm' copy-text='npm install denali-icon-font' %}
-or
+or -->
 ### Use jsdelivr CDN
-{% include copy-input.html id='denaliIconJsdeliver' copy-text='https://cdn.jsdelivr.net/npm/denali-icon-font/dist/denali-icon-font.css' %}
+{% include copy-input.html id='denaliIconJsdeliver' copy-text='https://cdn.jsdelivr.net/gh/denali-design/denali-icon-font/dist/denali-icon-font.css' %}
 or
 ### Clone/Fork Git Repository
 {% include copy-input.html id='denaliIconGit' copy-text='git@github.com:denali-design/denali-icon-font.git' %}
@@ -71,8 +71,8 @@ If you want to get started right away, you can use this HTML starter template.
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Hello Denali!</title>
     <!-- Denali CSS & Icons -->
-    <link rel="stylesheet" href="../css/denali.css" />
-    <link rel="stylesheet" href="../css/denali-icon-font-v1.0.0.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/denali-design/denali-css/css/denali.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/denali-design/denali-icon-font/dist/denali-icon-font.css">
   </head>
   <body class="denali-default-theme">
     <div class="container">
