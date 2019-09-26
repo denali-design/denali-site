@@ -53,6 +53,7 @@ Inverse link styling can also be adopted by adding the `.is-inverse` class to `<
 {% endhighlight %}{% endcapture %}
 {% include code-snippet.html code=icon_inverse url='icon_inverse.html' inverse='true' %}
 
+<blockquote class="accessible">When using an icon as a link, you are creating functional images that must have appropriate <span class="chips has-bg-grey-100 is-red-500 is-mono">alt</span> tags to describe the icon.</blockquote>
 
 ***
 

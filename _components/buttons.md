@@ -100,6 +100,7 @@ To place an icon in a button on its own, add the `.has-icon` class to the outer 
 {% endhighlight %}{% endcapture %}
 {% include code-snippet.html code=button_icon url='button_icon.html' %}
 
+<blockquote class="accessible">When using icons with buttons, reduce redundancy by adding <span class="chips has-bg-grey-100 is-red-500 is-mono">aria-hidden="true"</span> and set <span class="chips has-bg-grey-100 is-red-500 is-mono">tabindex="-1"</span> will make sure only textual link is read and focused on by screenreader.</blockquote>
 
 ***
 

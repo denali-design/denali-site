@@ -28,6 +28,7 @@ To implement a menu start with a `<div>` tag and add the `.menu` class. Inside, 
 {% endhighlight %}{% endcapture %}
 {% include code-snippet.html code=menu_default url='menu_default.html' height='230' %}
 
+<blockquote class="accessible">Apply <span class="chips has-bg-grey-100 is-red-500 is-mono">tabindex="0"</span> attribute to the parent a tag to allow users to open the menu when tabbing through the website.</blockquote>
 
 ***
 

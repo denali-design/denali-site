@@ -28,6 +28,7 @@ To create a toggle, open a `<div>` tag with the `.toggle` class. Inside, wrap a 
 {% endhighlight %}{% endcapture %}
 {% include code-snippet.html code=toggle_default url='toggle_default.html' %}
 
+<blockquote class="accessible">Users who do not or cannot use pointing devices can tab through links. These links should be in a logical tabbing order, but if they aren't use the <span class="chips has-bg-grey-100 is-red-500 is-mono">tabindex</span> attribute to allow you to define the order.</blockquote>
 
 ***
 
@@ -63,6 +64,7 @@ When a toggle is on a darker background apply `.is-inverse` class to a toggle&#3
 </div>
 {% endhighlight %}{% endcapture %}
 {% include code-snippet.html code=toggle_inverse url='toggle_inverse.html' inverse='true' %}
+
 
 
 ***
