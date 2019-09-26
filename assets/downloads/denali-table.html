@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Data Table Template</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/denali-design/denali-css/css/denali.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/denali-design/denali-icon-font/dist/denali-icon-font.css">
+
+    <style media="screen">
+      .tabs {
+        border-left: 2px solid #f8f8f8;
+      }
+      .tabs.is-primary.is-vertical > ul > li > a {
+        padding-top: 4px;
+        padding-bottom: 4px;
+      }
+    </style>
+  </head>
+
+  <body class="denali-default-theme">
+
+    <nav class="nav">
+      <div class="nav-left">
+        <a tabindex="0" class="nav-icon hide-small-desktop-up"><i class="d-icon d-menu-hamburger"></i></a>
+        <img class="nav-brand" src="https://denali.design/assets/images/denali-logo.svg" alt=""></img>
+      </div>
+      <a class="nav-icon nav-toggle-dropdown" tabindex="0"><i class="d-icon d-more-vertical"></i></a>
+      <div class="nav-right responsive">
+        <div class="nav-group">
+          <div class="input-group has-button">
+            <div class="input is-inverse">
+              <input type="text" placeholder="Search" />
+            </div>
+            <button class="button is-solid has-icon">
+              <i class="d-icon d-search is-small"></i>
+            </button>
+          </div>
+          <a class="nav-icon"><i class="d-icon d-dashboard"></i></a>
+          <a class="nav-icon"><i class="d-icon d-menu-dialpad"></i></a>
+          <a class="nav-icon"><i class="d-icon d-user-profile-circle"></i></a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="flex h-minus-nav">
+      <div class="overflow-y-auto flex-auto">
+        <div class="container-fluid is-marginless">
+          <div class="tabs is-primary">
+            <div class="m-l-30 m-b-10">
+              <p class="is-grey-600 p-t-20">
+                <a class="is-black"
+                  ><span
+                    class="d-icon d-arrowhead-left is-sub is-small"
+                  ></span></a
+                ><a href="">&nbsp;&nbsp;Seven Summits&nbsp;&nbsp;&nbsp;</a
+                >/&nbsp;&nbsp;&nbsp;Denali
+              </p>
+            </div>
+            <div class="flex align-items-center m-l-30">
+              <h2>Denali</h2>
+              <h4 class="m-l-10 is-regular">(Mount McKinley)</h4>
+            </div>
+            <ul>
+              <li class="is-active"><a>Recorded Summits</a></li>
+              <li><a>Routes</a></li>
+              <li><a>Weather</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="container-full m-t-20 m-b-40">
+          <table class="table">
+            <tr>
+              <th>Date</th>
+              <th>Climbers</th>
+              <th>Route</th>
+              <th>Snow Depth</th>
+              <th>Completed</th>
+            </tr>
+            <tr>
+              <td>10/19/2017</td>
+              <td>
+                Robert Mudlow <br />
+                George Eldridge <br />
+                Alfred Brooks
+              </td>
+              <td>East Buttress</td>
+              <td>4.6m</td>
+              <td>Yes</td>
+            </tr>
+            <tr>
+              <td>08/9/2017</td>
+              <td>Noami Uemura</td>
+              <td>West Rib</td>
+              <td>3.4m</td>
+              <td>No</td>
+            </tr>
+            <tr>
+              <td>05/29/2017</td>
+              <td>
+                Barbra Washburn <br />
+                Bardford Washburn
+              </td>
+              <td>West Buttress</td>
+              <td>5.3m</td>
+              <td>Yes</td>
+            </tr>
+            <tr>
+              <td>05/23/2017</td>
+              <td>
+                Hudson Stuck <br />
+                Harry Karstens <br />
+                Walter Harper <br />
+                Robert Tatum
+              </td>
+              <td>Muldrow Glacier</td>
+              <td>4.5m</td>
+              <td>Yes</td>
+            </tr>
+            <tr>
+              <td>04/14/2017</td>
+              <td>
+                Robert Mudlow <br />
+                George Eldridge <br />
+                Alfred Brooks
+              </td>
+              <td>Unknown</td>
+              <td>4.9m</td>
+              <td>Yes</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <div class="tabs is-primary is-vertical has-bg-grey-100 hide-tablet-down">
+        <ul>
+          <h6 class="is-regular m-l-30 m-t-20 upper is-grey-600">
+            Nearby Mountains
+          </h6>
+          <li><a>Mount Foraker</a></li>
+          <li><a>Mount Silverthorne</a></li>
+          <li><a>Mount Hunter</a></li>
+          <li><a>Mount Huntington</a></li>
+          <li><a>Mount Dickey</a></li>
+          <li><a>The Moose's Tooth</a></li>
+          <h6 class="is-regular m-l-30 m-t-20 upper is-grey-600">Subpeaks</h6>
+          <li><a>South Buttress</a></li>
+          <li><a>East Buttress</a></li>
+          <li><a>Browne Tower</a></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
