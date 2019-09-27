@@ -31,6 +31,7 @@ Background color can be modified using the `.has-bg-$color-$value` class, for ex
 {% endhighlight %}{% endcapture %}
 {% include code-snippet.html code=color_modifier_background url='color_modifier_background.html' %}
 
+<blockquote class="accessible">When selecting text and background colors remember to abide by accessiblity standards and make sure the color contrast is 4.5:1. More information about color contrast can be found on the <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html" target="blank">WCAG site</a>.</blockquote>
 
 ***
 

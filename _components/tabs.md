@@ -47,6 +47,9 @@ Create a vertical primary tab by adding the `.is-vertical` class to a tab&#39;s 
 {% endhighlight %}{% endcapture %}
 {% include code-snippet.html code=tab_primary_vertical url='tab_primary_vertical.html' %}
 
+<blockquote class="accessible">Users who do not or cannot use pointing devices can tab through links. These links should be in a logical tabbing order, but if they aren't use the <span class="chips has-bg-grey-100 is-red-500 is-mono">tabindex</span> attribute to allow you to define the order.</blockquote>
+
+
 ***
 
 

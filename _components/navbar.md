@@ -81,6 +81,8 @@ To insert nav links wrap link text in `<a>` tags with the `.nav-item` class. To 
 {% endhighlight %}{% endcapture %}
 {% include code-snippet.html code=navbar_center_list url='navbar_center_list.html' %}
 
+<blockquote class="accessible">Users who do not or cannot use pointing devices can tab through links. These links should be in a logical tabbing order, but if they aren't use the <span class="chips has-bg-grey-100 is-red-500 is-mono">tabindex</span> attribute to allow you to define the order. Apply these to nav-icons and nav-links.</blockquote>
+
 #### Search
 To insert a search bar start with `<div class="input-group has-button">`. Inside, add `< div class="input is-dark">` wrapped around `< input type="text" placeholder="Search" />` followed by `< button class="button is-primary has-icon">` wrapped around  `<i class="d-icon d-search is-small"></i>`.
 
@@ -136,6 +138,7 @@ Add the class `.responsive` to a navbar's `.nav-right` element to hide navbar co
 {% endhighlight %}{% endcapture %}
 {% include code-snippet.html code=navbar_responsive url='navbar_responsive.html' %}
 
+<blockquote class="accessible">Apply <span class="chips has-bg-grey-100 is-red-500 is-mono">tabindex="0"</span> attribute to allow users to open the collapsed nav section when tabbing through the website.</blockquote>
 
 ***
 

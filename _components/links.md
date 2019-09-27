@@ -7,6 +7,7 @@ excerpt: 'Links connect pages to each other and allow users to perform actions w
 # {{ page.title }}
 {{ page.excerpt }}
 
+<blockquote class="accessible">Be sure to add descriptive text to links that provides users with the proper context of when the link will take them when clicking. More information can be found on the <a href="https://www.w3.org/TR/WCAG20/#navigation-mechanisms" target="blank">WCAG site</a>.</blockquote>
 
 ***
 
@@ -65,6 +66,7 @@ To place an icon to the back of a link add `.has-icon-back` to the `<a>` tag.
 {% endhighlight %}{% endcapture %}
 {% include code-snippet.html code=link_icons_back url='link_icons_back.html' %}
 
+<blockquote class="accessible">When using icons with links, reduce redundancy by adding <span class="chips has-bg-grey-100 is-red-500 is-mono">aria-hidden="true"</span> and set <span class="chips has-bg-grey-100 is-red-500 is-mono">tabindex="-1"</span> will make sure only textual link is read and focused on by screenreader.</blockquote>
 
 ***
 

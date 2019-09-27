@@ -3,7 +3,7 @@
 // Licensed under the terms of the MIT license. See LICENSE file in project root for terms.
 
 blockquote {
-  background: rgba(0,102,223,0.06);
+  background: rgba(#0066DF,0.06);
   border-radius: 4px;
   padding: 20px;
   border-left: solid #0066DF 4px;
@@ -33,5 +33,15 @@ blockquote {
     margin-left: -44px;
     margin-top: -3px;
     color: #0066DF;
+  }
+
+  &.accessible {
+    background: rgba(#9a2ead,0.06);
+    border-left: solid #9a2ead 4px;
+
+    &:before {
+      content: '\ea16';
+      color: #9a2ead;
+    }
   }
 }
