@@ -10,10 +10,23 @@ excerpt: "We list all the updates, bug fixes, and new features."
 # {{ page.title }}
 {{ page.excerpt }}
 
+
 ***
 
-## v1.1.0
-#### September 10th 2019
+
+## October 10th 2019
+
+#### **Components**
+<span class="chips">New</span> **Grouped Chips** We added grouped chips to help you display key value pairs. [View docs](/documentation/components/chips#grouped-chips)
+
+#### **Principles**
+<span class="chips">New</span> **Fields** - These principles includes the basic foundation, types, positioning and states. [View Principle](/principles/buttons)
+
+
+***
+
+
+## September 10th 2019
 
 #### **Components**
 <span class="chips">New</span> **Fields** Responsiveness - By default input groups are not responsive, but by adding a helper class of `responsive` to the element, will stack the label and input while increasing the width to 100% of the viewport when the screen size is broken down to mobile. [View docs](/documentation/components/fields#responsive-field-labels)

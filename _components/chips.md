@@ -66,6 +66,21 @@ To customize a chip's background color add the `.has-bg-$color-$value` class to 
 ***
 
 
+### Grouped Chips
+Grouped chips come in handy when you need to display key value pairs. We've made grouping chips easy by wrapping two chips in a `<span>` tag with the class of `.chip-group`.
+
+{% capture chip_grouped %}{% highlight html %}
+<span class="chip-group">
+  <span class="chips has-bg-purple-500">Grouped</span><span class="chips has-bg-purple-300">Chip</span>
+</span>
+{% endhighlight %}{% endcapture %}
+{% include code-snippet.html code=chip_grouped url='chip_grouped.html' %}
+
+
+***
+
+
+
 ### Variables
 You can use these variables to customize this component. Simply set one or multiple of these variables and recompile the SCSS.
 

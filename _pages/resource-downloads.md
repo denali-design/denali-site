@@ -2,7 +2,7 @@
 permalink: /resource-downloads
 section: "resources"
 title: "Resource Downloads"
-layout: framed
+layout: container
 gitcontent: true
 excerpt: 'These downloads, links, and themes are provided to help you and your team easily build products with the Denali framework.'
 
