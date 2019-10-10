@@ -17,9 +17,9 @@ excerpt: 'Follow the steps below to get started with Denali.'
 ## Denali components
 Denali components have three easy ways to get started, each one appealing to a different skill level and use case. Read on to see what suits your particular needs:
 
-<!-- ### Use NPM (recommended)
+### Use NPM (recommended)
 {% include copy-input.html id='denaliCssNpm' copy-text='npm install denali-css' %}
-or -->
+or
 ### Use jsdelivr CDN
 {% include copy-input.html id='denaliCssJsdeliver' copy-text='https://cdn.jsdelivr.net/gh/denali-design/denali-css/css/denali.css' %}
 or
@@ -31,9 +31,9 @@ or
 ## Denali icon font
 Denali's icon font has three easy ways to get started, each one appealing to a different skill level and use case. Read on to see what suits your particular needs:
 
-<!-- ### Use NPM (recommended)
+### Use NPM (recommended)
 {% include copy-input.html id='denaliIconNpm' copy-text='npm install denali-icon-font' %}
-or -->
+or
 ### Use jsdelivr CDN
 {% include copy-input.html id='denaliIconJsdeliver' copy-text='https://cdn.jsdelivr.net/gh/denali-design/denali-icon-font/dist/denali-icon-font.css' %}
 or
