@@ -1,7 +1,7 @@
 ---
 title: "Icons"
 permalink: /documentation/aesthetics/icons
-excerpt: "Denali&#39;s icon library offers hundreds of icons in outline and solid styles that have been carefully crafted to ensure a coherent and unified UI."
+excerpt: "Denali's icon library offers hundreds of icons in outline and solid styles that have been carefully crafted to ensure a coherent and unified UI."
 ---
 
 # {{ page.title }}

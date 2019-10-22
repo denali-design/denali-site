@@ -44,16 +44,40 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </script>
 
 <!-- Search Script -->
-<!-- <script src="{{ site.baseurl }}/assets/scripts/search-script.js" type="text/javascript"></script> -->
+<script src="{{ site.baseurl }}/assets/scripts/search-script.js" type="text/javascript"></script>
 
 <!-- Simple Jekyll Search Config -->
-<!-- <script>
+<script>
     SimpleJekyllSearch({
         searchInput: document.getElementById('search-input'),
         resultsContainer: document.getElementById('results-container'),
         json: '{{ site.baseurl }}/search.json'
-    })
-</script> -->
+    });
+
+    document.getElementById("search-input").addEventListener('keydown', displaySearchCount);
+
+    document.getElementsByTagName('footer')[1].classList.add('hide');
+
+    function displaySearchCount() {
+      setTimeout(function(){
+        var searchCount = document.getElementById("results-container").childElementCount;
+        document.getElementById('searchResultsCount').innerHTML = searchCount;
+
+        var searchValue = document.getElementById("search-input").value;
+
+        if (searchCount > 0) {
+          document.getElementById('searchMessage').innerHTML = 'Results for "' + searchValue + '"'
+          document.getElementsByTagName('footer')[1].classList.remove('hide');
+        } else if (searchValue === "") {
+          document.getElementById('searchMessage').innerHTML = "Start typing and we'll show you the results"
+          document.getElementsByTagName('footer')[1].classList.add('hide');
+        }
+
+      }, 200);
+    }
+</script>
+
+
 
 <!-- Principles -->
 <script type="text/javascript">
@@ -117,10 +141,6 @@ function copyColor(colorValue) {
   copyAlert.classList.add('animate');
 };
 
-
-
-
-
   // Resize snippets
   var resizeBar = document.getElementsByClassName("resizable-bar");
   var i;
@@ -141,8 +161,6 @@ function copyColor(colorValue) {
     }, false);
   };
 
-
-
   // Setting Ghost Image *Not completely necessary
   var elementsArray = document.querySelectorAll(".resizable-bar");
 
@@ -154,8 +172,6 @@ function copyColor(colorValue) {
         e.dataTransfer.setDragImage(dragImgEl, 0, 0);
       }, false);
   });
-
-
 
   // Expand and collapse code snippet
   var expandButton = document.getElementsByClassName("expand");
@@ -178,8 +194,6 @@ function copyColor(colorValue) {
       }
     });
   }
-
-
 
   // Toggle between code React
   var codeToggle = document.getElementsByClassName("code-item");

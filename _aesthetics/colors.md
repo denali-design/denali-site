@@ -1,7 +1,7 @@
 ---
 title: 'Colors'
 permalink: /documentation/aesthetics/colors
-excerpt: 'Denali&#39;s color library is used to style components and convey meaning.'
+excerpt: "Denali's color library is used to style components and convey meaning."
 ---
 
 # {{ page.title }}

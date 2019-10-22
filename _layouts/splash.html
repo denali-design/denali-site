@@ -8,19 +8,22 @@ layout: base
     <a href="{{ site.baseurl }}/" class="nav-brand"><img src="{{ site.baseurl }}/assets/images/denali-logo.svg" alt=""></img></a>
   </div>
   <div class="nav-right hide-small-desktop-up">
+    <a href="#search" class="nav-icon">
+      <i class="d-icon d-search"></i>
+    </a>
     <a href="https://denali-design.slack.com/app_redirect?channel=general" target="_blank" class="nav-icon">
       <i class="d-icon d-slack"></i>
     </a>
     <a href="https://github.com/denali-design" target="_blank" class="nav-icon">
       <i class="d-icon d-github"></i>
     </a>
-    <div class="menu is-right">
+    <!-- <div class="menu is-right">
       <a class="nav-icon menu-trigger" tabindex="0"><i class="d-icon d-help-circle"></i></a>
       <div class="menu-content">
         <a href="https://github.com/denali-design/issues/new?labels=feature-request" target="_blank">Feature Requests</a>
         <a href="https://github.com/denali-design/milestones" target="_blank">Roadmap</a>
       </div>
-    </div>
+    </div> -->
   </div>
   <a class="nav-icon nav-toggle-dropdown" tabindex="0"><i class="d-icon d-more-vertical"></i></a>
   <div class="nav-right space-between responsive">
@@ -44,19 +47,22 @@ layout: base
           <a href="https://denali-design.github.io/denali-icon-font/docs/">Icon Font</a>
         </div>
       </div>
+      <a href="#search" class="nav-icon hide-tablet-down">
+        <i class="d-icon d-search"></i>
+      </a>
       <a href="https://denali-design.slack.com/app_redirect?channel=general" target="_blank" class="nav-icon hide-tablet-down">
         <i class="d-icon d-slack"></i>
       </a>
       <a href="https://github.com/denali-design" target="_blank" class="nav-icon hide-tablet-down">
         <i class="d-icon d-github"></i>
       </a>
-      <div class="menu is-right">
+      <!-- <div class="menu is-right">
         <a class="nav-icon menu-trigger hide-tablet-down" tabindex="0"><i class="d-icon d-help-circle"></i></a>
         <div class="menu-content">
           <a href="https://github.com/denali-design/denali-site/issues/new?labels=feature-request" target="_blank">Feature Requests</a>
           <a href="https://github.com/denali-design/denali-site/milestones" target="_blank">Roadmap</a>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </nav>
@@ -204,3 +210,5 @@ layout: base
                 <a href="https://github.com/denali-design/denali-site/issues/" target="_blank" class="footer-item">Report Issues</a>
             </div>
         </div>
+
+    {% include modals.html %}
