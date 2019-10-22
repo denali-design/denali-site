@@ -1,38 +1,62 @@
 ---
 ---
 [
+  {% for aesthetic in site.aesthetics %}{
+    "title"    : "{{ aesthetic.title | escape }}",
+    "desc"     : "{{ aesthetic.excerpt | escape }}",
+    "collection" : "Documentation",
+    "url"      : "{{ site.baseurl }}{{ aesthetic.url }}"
+
+  } ,{% endfor %}
+  {% for principle in site.principles %}{
+    "title"    : "{{ principle.title | escape }}",
+    "desc"     : "{{ principle.excerpt | escape }}",
+    "collection" : "Principles",
+    "url"      : "{{ site.baseurl }}{{ principle.url }}"
+
+  },{% endfor %}
+  {% for format in site.formats %}{
+    "title"    : "{{ format.title | escape }}",
+    "desc"     : "{{ format.excerpt | escape }}",
+    "collection" : "Documentation",
+    "url"      : "{{ site.baseurl }}{{ format.url }}"
+
+  } ,{% endfor %}
+  {% for component in site.components %}{
+    "title"    : "{{ component.title | escape }}",
+    "desc"     : "{{ component.excerpt | escape }}",
+    "collection" : "Documentation",
+    "url"      : "{{ site.baseurl }}{{ component.url }}"
+  } ,{% endfor %}
   {
+    "title"       : "Getting Started",
+    "desc"        : "Follow the steps below to get started with Denali.",
+    "collection"  : "Documentation",
+    "url"         : "/documentation/get-started"
 
-    "title"    : "Getting Started",
-    "url"      : "/get-started"
-
-  } ,
+  },
   {
-
-    "title"    : "Resources",
-    "url"      : "/resource-downloads"
-
-  } ,
-  {% for aesthetic in site.aesthetics %}
-    {
-
-      "title"    : "{{ aesthetic.title | escape }}",
-      "url"      : "{{ site.baseurl }}{{ aesthetic.url }}"
-
-    } ,{% endfor %}
-  {% for format in site.formats %}
-    {
-
-      "title"    : "{{ format.title | escape }}",
-      "url"      : "{{ site.baseurl }}{{ format.url }}"
-
-    } ,{% endfor %}
-  {% for component in site.components %}
-    {
-
-      "title"    : "{{ component.title | escape }}",
-      "url"      : "{{ site.baseurl }}{{ component.url }}"
-
-    } {% unless forloop.last %},{% endunless %}
-  {% endfor %}
+    "title"       : "Resources",
+    "desc"        : "These downloads, links, and themes are provided to help you and your team easily build products with the Denali framework.",
+    "collection"  : "Resources",
+    "url"         : "/resource-downloads"
+  },
+  {
+    "title"       : "Sketch Library",
+    "desc"        : "These downloads, links, and themes are provided to help you and your team easily build products with the Denali framework.",
+    "collection"  : "Resources",
+    "url"         : "/resource-downloads"
+  },
+  {
+    "title"       : "Ui Kit",
+    "desc"        : "These downloads, links, and themes are provided to help you and your team easily build products with the Denali framework.",
+    "collection"  : "Resources",
+    "url"         : "/resource-downloads"
+  },
+  {
+    "title"       : "Framer",
+    "desc"        : "These downloads, links, and themes are provided to help you and your team easily build products with the Denali framework.",
+    "collection"  : "Resources",
+    "url"         : "/resource-downloads"
+  }
 ]
