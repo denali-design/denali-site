@@ -2,6 +2,14 @@
 // Copyright 2019, Oath Inc.
 // Licensed under the terms of the MIT license. See LICENSE file in project root for terms.
 
+.color-snippet-header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 200;
+  background: white;
+  padding: 14px 0px;
+}
 
 // COLOR GROUPS
 .color-copy-hidden {
