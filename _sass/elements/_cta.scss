@@ -1,0 +1,60 @@
+@charset "utf-8";
+// Copyright 2019, Oath Inc.
+// Licensed under the terms of the MIT license. See LICENSE file in project root for terms.
+
+.cta-contribute {
+  background: #3570f4;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+
+  @media screen and (min-width: $mobile) {
+    flex-direction: row;
+  }
+
+  .cta-content {
+    flex: 1;
+    padding: 40px 50px 0px 50px;
+    align-self: center;
+
+    @media screen and (min-width: $mobile) {
+      padding: 40px 50px 50px 50px;
+    }
+
+    @media screen and (min-width: 1100px) {
+      max-width: 50%;
+      padding: 50px 6% 60px 6%;
+    }
+
+    @media screen and (min-width: 1200px) {
+      padding: 50px 8% 60px 8%;
+    }
+
+    p {
+      font-size: 1.6rem;
+    }
+
+    a.button {
+      min-width: 150px;
+    }
+  }
+
+  .cta-img {
+    flex: auto;
+    height: 320px;
+    background-image: url("images/cta-contribute-mobile.png");
+    background-position: top center;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-size: cover;
+
+    @media screen and (min-width: $mobile) {
+      height: auto;
+      background-image: url("images/cta-contribute-desktop.png");
+      background-position: left center;
+      border-top-right-radius: 20px;
+      border-bottom-left-radius: 0px;
+    }
+  }
+}
