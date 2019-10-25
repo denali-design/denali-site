@@ -67,4 +67,18 @@
     max-height: 285px;
     max-width: 400px;
   }
+
+
+  // HTML highlighter
+  .highlight.language-html {
+    border-radius: 12px;
+    padding: 20px;
+
+    .token.tag {
+      display: inline;
+      padding: 0px;
+      margin: 0px;
+      background: transparent;
+    }
+  }
 }

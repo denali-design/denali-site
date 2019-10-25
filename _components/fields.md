@@ -11,7 +11,7 @@ excerpt: 'Fields allow users to enter text information. They come in two styles,
 ***
 
 
-### Inline field
+### Field
 Inline fields can be implemented by wrapping an `<input>` tag in a `<div>` tag with the `.input` class. Add a hint label to fields by inserting the `placeholder` attribute in the `<input>` tag.
 
 {% capture field_default %}{% highlight html %}
@@ -25,7 +25,7 @@ Inline fields can be implemented by wrapping an `<input>` tag in a `<div>` tag w
 ***
 
 
-### Text area field
+### Textarea
 Text area fields can be implemented by wrapping a `<textarea>` tag in a `<div>` tag with the `.input` class. Add a hint label to text area fields by inserting the `placeholder` attribute in the `<textarea>` tag.
 
 {% capture field_textarea %}{% highlight html %}
@@ -55,10 +55,6 @@ Inline fields are available in default, medium, and small sizes. The default fie
 {% endhighlight %}{% endcapture %}
 {% include code-snippet.html code=field_size url='field_size.html' %}
 
-
-***
-
-
 ### States
 Inline fields and text area fields have `.is-active`,`.is-warning`, and disabled states. Active and warning states can be forced by adding the corresponding state class to a field&#39;s outer `<div>`tag. To add an error message to `.is-warning` fields, wrap text in a `<p>` tag with the `.message` class and insert it within the field&#39;s`<input>` tag. To implement a disabled state, add the `disabled` attribute to a field&#39;s`<input>` tag.
 
@@ -76,7 +72,7 @@ Inline fields and text area fields have `.is-active`,`.is-warning`, and disabled
 {% endhighlight %}{% endcapture %}
 {% include code-snippet.html code=field_state url='field_state.html' %}
 
-### Type attributes
+### Type Attributes
 Email, number and password fields can be implemented by adding the `type` attribute to a field's `<input>` tag and setting the value to `email`, `number`, or `password`.
 
 {% capture field_types %}{% highlight html %}
@@ -102,7 +98,7 @@ Email, number and password fields can be implemented by adding the `type` attrib
 ***
 
 
-### Field label
+### Labels
 Add a label to fields by wrapping inline or text area fields within a `<div>` tag with the `.input-group` class. Field labels are positioned to the left by default but can be repositioned on top by adding the `.is-stacked` class to the field&#39;s outer `<div>` tag.
 
 {% capture field_label_position %}{% highlight html %}
@@ -125,9 +121,8 @@ Add a label to fields by wrapping inline or text area fields within a `<div>` ta
 ***
 
 
-### Responsive fields
+### Responsive Fields
 By default fields are not responsive. Add the helper class `responsive` to fields in order to stack field labels and increase field width to 100% of the viewport at mobile screen sizes.
-
 {% capture field_label_responsive %}{% highlight html %}
 <div class="input-group responsive">
 <label>Label</label>

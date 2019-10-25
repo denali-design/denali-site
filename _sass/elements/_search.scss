@@ -35,12 +35,22 @@
     a {
       display: block;
       padding: 40px;
+
+      @media screen and (max-width: $tablet) {
+        padding: 30px;
+      }
     }
 
     .results-title {
       font-size: 48px;
       color: #303030;
       font-weight: bold;
+
+      @media screen and (max-width: $tablet) {
+        font-size: 36px;
+        line-height: 3.8rem;
+        margin: 10px 0px;
+      }
     }
 
     .results-desc, .results-url {
