@@ -46,15 +46,24 @@ or
 For Denali to work correctly, the following items are required:
 
 ### Use the HTML5 doctype
-```css
+```html
 <!DOCTYPE html>
 ```
+
 <br>
+
 ### Add the responsive viewport meta tag
-```css
+```html
 <meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+```
+
+<br>
+
+### Add the theme class to the body tag
+```html
+<body class="denali-default-theme">
 ```
 
 ***
@@ -62,7 +71,7 @@ For Denali to work correctly, the following items are required:
 ## Starter Template
 If you want to get started right away, you can use this HTML starter template.
 
-```css
+```html
 <!DOCTYPE html>
 <html>
   <head>

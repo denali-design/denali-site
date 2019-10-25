@@ -8,6 +8,10 @@
   .footer-links {
     padding: 60px 40px 0px 40px;
 
+    @media screen and (max-width: $mobile) {
+      padding: 60px 10px 0px 10px;
+    }
+
     ul {
       flex: 1;
       li {
@@ -33,5 +37,9 @@
 
   .footer-social {
     padding: 60px 40px 40px 40px;
+
+    @media screen and (max-width: $mobile) {
+      padding: 60px 10px 0px 10px;
+    }
   }
 }
