@@ -87,3 +87,25 @@
     border-top: solid 2px transparent;
   }
 }
+
+.denali-dark-theme {
+  .results-container {
+    li {
+      border-top: solid 2px rgba(255, 255, 255, 0.1);
+      transition: 300ms;
+
+      &:hover {
+        border-top: solid 2px rgba(#d7e2fd, 0);
+        background: rgba(#d7e2fd, 0.2);
+
+        a > .results-url {
+          color: #3697f2;
+        }
+      }
+
+      .results-title {
+        color: #fff;
+      }
+    }
+  }
+}

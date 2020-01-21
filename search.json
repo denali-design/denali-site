@@ -28,6 +28,12 @@
     "collection" : "Documentation",
     "url"      : "{{ site.baseurl }}{{ component.url }}"
   } ,{% endfor %}
+  {% for helper in site.helpers %}{
+    "title"    : "{{ helper.title | escape }}",
+    "desc"     : "{{ helper.excerpt | escape }}",
+    "collection" : "Documentation",
+    "url"      : "{{ site.baseurl }}{{ helper.url }}"
+  } ,{% endfor %}
   {
     "title"       : "Getting Started",
     "desc"        : "Follow the steps below to get started with Denali.",

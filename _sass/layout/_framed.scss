@@ -4,20 +4,57 @@
 
 
 .markdown-docs {
-  max-width: 1140px;
+  // max-width: 1140px;
 
   html {
     background-color: transparent;
   }
 
-  > table {
+  details {
+    summary {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      align-items: flex-start;
+      position: relative;
+
+      &:focus {
+        outline: none;
+      }
+
+      &::-webkit-details-marker {
+        // background: url('/assets/images/arrow-closed-black.svg');
+        // background-color: #f2f2f2;
+        background-repeat: no-repeat;
+        height: 32px;
+        width: 32px;
+        color: transparent;
+        border-radius: 50%;
+      }
+    }
+
+    &[open] summary::-webkit-details-marker,
+    summary::-webkit-details-marker {
+      background: url('/assets/images/arrow-right-black.svg');
+      background-color: #f2f2f2;
+      transition: 300ms transform ease-in-out;
+    }
+
+    &[open] summary::-webkit-details-marker {
+      transform: rotate(90deg);
+    }
+  }
+
+  table {
     border-collapse: collapse;
     width: 100%;
     font-family: helvetica, sans-serif;
     font-weight: normal;
     text-align: left;
-    margin-bottom: 40px;
-    tbody > tr > th {
+    margin: 40px 0px;
+    border-bottom: transparent;
+
+    thead > tr > th {
       color: rgba(48, 48, 48, 0.4);
       font-size: 12px;
       font-weight: normal;
@@ -25,12 +62,17 @@
       padding: 10px;
       border-bottom: 1px solid rgba(48, 48, 48, 0.4);
     }
+
     tbody > tr > td {
       color: #303030;
       font-size: 14px;
       padding: 14px 10px;
       border-bottom: 1px solid rgba(48, 48, 48, 0.2);
     }
+  }
+
+  table tbody tr:last-child td {
+    border: transparent !important;
   }
 
   > h4 {
@@ -70,15 +112,56 @@
 
 
   // HTML highlighter
-  .highlight.language-html {
+  .highlight.language-html,
+  .highlight.language-css {
     border-radius: 12px;
     padding: 20px;
+    margin: 40px 0px;
 
     .token.tag {
       display: inline;
       padding: 0px;
       margin: 0px;
       background: transparent;
+    }
+  }
+
+  h2 {
+    margin-bottom: 10px;
+  }
+}
+
+.denali-dark-theme {
+  .markdown-docs {
+
+    details {
+      &[open] summary::-webkit-details-marker,
+      summary::-webkit-details-marker {
+        background: url('/assets/images/arrow-right-white.svg');
+        background-color: #2A3035;
+      }
+    }
+
+    hr {
+      background-color: #303030;
+    }
+
+    table {
+      thead > tr > th {
+        color: #fff;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+      }
+      tbody > tr > td {
+        color: #fff;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      }
+    }
+
+    code.highlighter-rouge {
+      background: rgba(255, 255, 255, 0.1);
+      color: #f16a6a;
+      font-size: inherit;
+      border-radius: 4px;
     }
   }
 }

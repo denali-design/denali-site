@@ -2,7 +2,7 @@
 permalink: /documentation/whats-new
 section: "whats-new"
 title: "What's New"
-layout: framed
+layout: framed-space
 gitcontent: true
 excerpt: "We list all the updates, bug fixes, and new features."
 ---

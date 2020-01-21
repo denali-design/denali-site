@@ -1,10 +1,3 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
-
 # Site Settings
 environment              : "prod"
 locale                   : "en-US"
@@ -69,7 +62,7 @@ yandex_site_verification :
 social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  links                  : # An array of links to social media profiles
     - ""
     - ""
 
@@ -185,6 +178,9 @@ collections:
   components:
     output: true
     permalink: /:collection/:path/
+  helpers:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -224,7 +220,7 @@ defaults:
       path: "_principles"
       type: principles
     values:
-      layout: framed
+      layout: framed-space
       read_time: false
       author_profile: false
       share: false
@@ -271,6 +267,19 @@ defaults:
       section: "components"
       nav: "docs"
       gitcontent: true
+  # _helpers
+  - scope:
+      path: "_helpers"
+      type: helpers
+    values:
+      layout: framed
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      section: "helpers"
+      nav: "docs"
+      gitcontent: true
 
 
 # Sass/SCSS
@@ -287,7 +296,7 @@ timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database
 
 
 # Plugins
-gems:
+plugins:
   - jekyll-sass-converter
   - jekyll-paginate
   - jekyll-sitemap

@@ -69,15 +69,12 @@ Code Render
 .code-render {
   display: flex;
   width: 100%;
-  // border: 2px solid #E8E8E8;
-  // border-radius: 6px;
 
   .resizable-area {
     width: 100%;
     min-width: 280px;
     border: 2px solid #E8E8E8;
     overflow: auto;
-    // padding: 10px;
     padding-right: 20px;
     border-top-left-radius: 6px;
     border-bottom-left-radius: 6px;
@@ -102,6 +99,22 @@ Code Render
   }
 
   &.is-inverse {
+    .resizable-area {
+      background: #303030;
+      border: 2px solid #606060;
+      border-right: none;
+    }
+    #resizable-bar {
+      background: #303030;
+      border: 2px solid #606060;
+      border-left: none;
+      color: #606060;
+    }
+  }
+}
+
+.denali-dark-theme {
+  .code-render {
     .resizable-area {
       background: #303030;
       border: 2px solid #606060;
@@ -144,6 +157,10 @@ Code Snippets
     margin: 0px;
     display: -webkit-box;
     padding: 0px;
+  }
+
+  > pre.highlight {
+    margin: 0px !important;
   }
 }
 

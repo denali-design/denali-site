@@ -32,6 +32,16 @@ principles:
         url: /principles/icons
       - label: "Typography"
         url: /principles/typography
+  - label: "Layout"
+    url: /principles/responsive-grid
+    subnav: /principles
+    children:
+      - label: "Responsive Grid"
+        url: /principles/responsive-grid
+      - label: "Component Behavior"
+        url: /principles/component-behavior
+      - label: "Page Density & Spacing"
+        url: /principles/page-density-spacing
   - label: "Components"
     url: /principles/alerts
     subnav: /principles
@@ -55,6 +65,8 @@ documentation:
     children:
     - label: "Get Started"
       url: /documentation/get-started
+    - label: "Theme Your App"
+      url: /documentation/themeable
     - label: "What's New"
       url: /documentation/whats-new
   - label: "Aesthetics"
@@ -121,3 +133,13 @@ documentation:
         url: /documentation/components/titles
       - label: "Toggles"
         url: /documentation/components/toggles
+  - label: "Helpers"
+    url: /documentation/helpers/breakpoints
+    subnav: /documentation/helpers
+    children:
+      - label: "Flexbox"
+        url: /documentation/helpers/flexbox
+      - label: "Margins"
+        url: /documentation/helpers/margins
+      - label: "Padding"
+        url: /documentation/helpers/padding
