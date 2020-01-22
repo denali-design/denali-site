@@ -75,12 +75,12 @@ Icons are available in variety of sizes. Implement these sizes by adding the `.i
 
 
 ### Variables
-You can use these variables to customize this component. Simply set one or multiple of these variables and recompile the SCSS.
+You can use these variables in a `override.css` file to customize this component.
 
-`$icon-config:`
-
-|**Name**|**Type**|**Default value**|**Computed value**|
-|`sizes:extra-small`      |font-size          |`1.2rem`          |12px           |
-|`sizes:small`            |font-size          |`1.8rem`          |18px           |
-|`sizes:medium`           |font-size          |`3.6rem`          |36px           |
-|`sizes:large`            |font-size          |`4.8rem`          |48px           |
+|Variable Name|CSS Property|
+| - | - |
+|`--icon-size-xs`|font-size|
+|`--icon-size-sm`|font-size|
+|`--icon-size-default`|font-size|
+|`--icon-size-md`|font-size|
+|`--icon-size-lg`|font-size|

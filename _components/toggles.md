@@ -71,20 +71,26 @@ When a toggle is on a darker background apply `.is-inverse` class to a toggle&#3
 
 
 ### Variables
-You can use these variables to customize this component. Simply set one or multiple of these variables and recompile the SCSS.
+You can use these variables in a `override.css` file to customize this component.
 
-`$toggle-config:`
-
-|**Name**|**Type**|**Default value**|**Computed value**|
-|`corner-radius`            |border-radius  |`2px`                                              |    |
-|`background-color`         |background     |`rgba(map-get($denali-brand-colors, '700'), .08)`  |rgba(#3570f4,0.08)           |
-|`text-size`                |font-size      |`1.4rem`                                           |14px    |
-|`active:text-color`        |font-size      |`map-get($denali-grey-colors, '800')`              |#303030           |
-|`active:background-color`  |background     |`map-get($denali-grey-colors, '100')`              |#ffffff   |
-|`active:corner-radius`     |border-radius  |`4px`                                              |   |
-|`active:border:style`      |border-style   |`solid`                                            |   |
-|`active:border:width`      |border-width   |`2px`                                              |   |
-|`active:border:color`      |border-color   |`map-get($denali-brand-colors, '700')`             |#3570f4   |
-|`disabled:text-color`      |color          |`rgba(map-get($denali-grey-colors, '800'), 0.2)`   |rgba(#3448f7,0.2)           |
-|`padding`                  |padding        |`7px 10px 8px 10px`                                |           |
-|`small:padding`            |padding        |`3px 10px 4px 10px`                                |           |
+|Variable Name|CSS Property|
+| - | - |
+|`--toggle-corner-radius`| border-radius|
+|`--toggle-bg-color`| background|
+|`--toggle-text-color`| color|
+|`--toggle-text-hover-color`| color|
+|`--toggle-text-size`| 1.4rem|
+|`--toggle-padding`| padding|
+|`--toggle-height`| height|
+|`--toggle-active-text-color`| color|
+|`--toggle-active-bg-color`| background|
+|`--toggle-active-corner-radius`| border-radius|
+|`--toggle-active-border-width`| 2px|
+|`--toggle-active-border-color`| border-color|
+|`--toggle-disabled-text-color`| color|
+|`--toggle-small-padding`| padding|
+|`--toggle-small-height`| height|
+|`--toggle-inverse-text-color`| color|
+|`--toggle-inverse-bg-color`| background|
+|`--toggle-inverse-active-text-color`| color|
+|`--toggle-inverse-active-bg-color`| background|

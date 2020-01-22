@@ -67,6 +67,8 @@ documentation:
       url: /documentation/get-started
     - label: "Theme Your App"
       url: /documentation/themeable
+    - label: "Global Variables"
+      url: /documentation/global-variables
     - label: "What's New"
       url: /documentation/whats-new
   - label: "Aesthetics"

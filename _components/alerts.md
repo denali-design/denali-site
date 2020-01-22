@@ -122,28 +122,24 @@ Inline alerts appear as a full-width bar at the top of their container. Implemen
 
 
 ### Variables
-You can use these variables to customize this component. Simply set one or multiple of these variables and recompile the SCSS.
+You can use these variables in a `override.css` file to customize this component.
 
-#### Alert
-`$alert-config:`
-
-|**Name**|**Type**|**Default value**|**Computed value**|
-|`width`            |width          |`400px`                                |           |
-|`backgound-color`  |background     |`map-get($denali-grey-colors, '100')`  |#fff       |
-|`color`            |color          |`null`                                 |           |
-|`border-radius`    |border-radius  |`2px`                                  |           |
-|`box-shadow`       |box-shadow     |`0px 4px 8px rgba(0, 0, 0, 0.16)`      |           |
-|`border-top:color` |border-top-color     |`map-get($denali-brand-colors, '400')` |#5d8cf6    |
-|`border-top:width` |border-top-width     |`4px`                                  |           |
-|`border-top:style` |border-top-style     |`solid`                                |           |
-
-#### Inline alert
-`$alert-inline-config:`
-
-|**Name**|**Type**|**Default value**|**Computed value**|
-|`backgound-color`  |background     |`map-get($denali-brand-colors, '200')` |#d7e2fd    |
-|`color`            |color          |`map-get($denali-grey-colors, '800')`  |#303030    |
-|`font-size`        |font-size      |`inherit`                              |           |
-|`alignemnt:text`   |text-align     |`center`                               |           |
-|`alignment:content`|justify-content|`center`                               |           |
-|`padding`          |padding        |`4px 10px`                             |           |
+|Variable Name|CSS Property|
+| - | - |
+|`--alert-bg-color`|background|
+|`--alert-text-color`|color|
+|`--alert-corner-radius`|border-radius|
+|`--alert-shadow`|box-shadow|
+|`--alert-border-color`|border-color|
+|`--alert-border-width`|border-width|
+|`--alert-border-style`|border-style|
+|`--alert-close-icon-color`|color|
+|`--alert-inline-text-color`|color|
+|`--alert-inline-bg-color`|background|
+|`--alert-inline-font-size`|font-size|
+|`--alert-inline-alignment-text`|text-align|
+|`--alert-inline-alignment-justify-content`|justify-content|
+|`--alert-inline-padding-top`|padding-top|
+|`--alert-inline-padding-right`|padding-right|
+|`--alert-inline-padding-bottom`|padding-bottom|
+|`--alert-inline-padding-left`|padding-left|

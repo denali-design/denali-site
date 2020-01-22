@@ -42,6 +42,13 @@
 
   },
   {
+    "title"       : "Global Variables",
+    "desc"        : "These variables can be used to customize multiple components.",
+    "collection"  : "Documentation",
+    "url"         : "/documentation/global-variables"
+
+  },
+  {
     "title"       : "Resources",
     "desc"        : "These downloads, links, and themes are provided to help you and your team easily build products with the Denali framework.",
     "collection"  : "Resources",

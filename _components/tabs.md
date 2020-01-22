@@ -115,31 +115,33 @@ It is useful to hide vertical tabs on screens tablet size and smaller. To do thi
 
 
 ### Variables
-You can use these variables to customize this component. Simply set one or multiple of these variables and recompile the SCSS.
+You can use these variables in a `override.css` file to customize this component.
 
-`$tabs-config:`
-
-|**Name**|**Type**|**Default value**|**Computed value**|
-|`text-size`                                  |font-size      |`1.6rem`                                         |16px    |
-|`primary:background-color`                   |background     |`$brand-100`                                     |#f5f8fe           |
-|`primary:padding`                            |padding        |`20px 0px 0px 30px`                              |    |
-|`primary:tab-item:height`                    |height         |`40px`                                           |           |
-|`primary:tab-item:padding`                   |padding        |`0px 20px`                                       |   |
-|`primary:tab-item:corner-radius`             |border-radius  |`2px`                                            |   |
-|`primary:tab-item:active:background-color`   |background     |`map-get($denali-grey-colors, '100')`            |#ffffff   |
-|`primary:tab-item:active:text-color`         |color          |`map-get($denali-grey-colors, '800')`            |#303030   |
-|`primary:tab-item:disabled:text-color`       |color          |`rgba(map-get($denali-grey-colors, '800'), 0.2)` |rgba(#303030, 0.2)   |
-|`vertical:width`                             |width          |`300px`  ||
-|`vertical:padding`                           |padding        |`12px 0px 40px 0px`||
-|`vertical:tab-item:height`                   |height         |`46px`||
-|`vertical:tab-item:active:background-color`  |background     |`map-get($denali-grey-colors, '100')`|#ffffff|
-|`vertical:tab-item:active:border-left`       |border-left    |`inset 4px 0px map-get($denali-brand-colors, '600')`|inset 4px 0px #3697f2|
-|`vertical:tab-item:active-accordion:background-color`    |background     |`map-get($denali-brand-colors, '200')`|#d7e2fd|
-|`vertical:tab-item:active-accordion:text-color`          |color          |`map-get($denali-brand-colors, '600')`|#3697f2|
-|`vertical:tab-item:active-accordion:text-weight`         |font-weight    |`bold`||
-|`vertical:tab-item:active-accordion:corner-radius`       |border-radius  |`8px`||
-|`secondary:border-bottom` |border-bottom  |`inset 0px -2px rgba(map-get($denali-brand-colors, '700'), .05)`|inset 0px -2px rgba(#3570f4,0.05)|
-|`secondary:tab-item:height` |height  |`40px`||
-|`secondary:tab-item:padding` |padding  |`0px 20px`||
-|`secondary:tab-item:active:text-color` |color  |`map-get($denali-grey-colors, '800')`|#303030|
-|`secondary:tab-item:active:border-bottom` |border-bottom  |`solid 2px map-get($denali-brand-colors, '600')`|solid 2px #3697f2|
+|Variable Name|CSS Property|
+| - | - |
+|`--tabs-font-size`| font-size|
+|`--tabs-primary-bg-color`| background|
+|`--tabs-primary-padding`| padding|
+|`--tabs-parimary-tab-item-height`| height|
+|`--tabs-parimary-tab-item-padding`| padding|
+|`--tabs-parimary-tab-item-corner-radius`| border-radius|
+|`--tabs-parimary-tab-item-text-color`| color|
+|`--tabs-parimary-tab-item-active-bg-color`| background|
+|`--tabs-parimary-tab-item-active-text-color`| color|
+|`--tabs-parimary-tab-item-disabled-text-color`| color|
+|`--tabs-primary-vertical-width`| width|
+|`--tabs-primary-vertical-padding`| padding|
+|`--tabs-primary-vertical-tab-item-height`| height|
+|`--tabs-primary-vertical-tab-item-padding`| padding|
+|`--tabs-primary-vertical-tab-item-active-bg-color`| background|
+|`--tabs-primary-vertical-tab-item-active-border`| box-shadow|
+|`--tabs-primary-vertical-active-accordion-bg-color`| background|
+|`--tabs-primary-vertical-active-accordion-text-color`| color|
+|`--tabs-primary-vertical-active-accordion-text-weight`| bold|
+|`--tabs-primary-vertical-active-accordion-corner-radius`| border-radius|
+|`--tabs-secondary-border`| box-shadow|
+|`--tabs-secondary-tab-item-height`| height|
+|`--tabs-secondary-tab-item-padding`| padding|
+|`--tabs-secondary-tab-item-text-color`| color|
+|`--tabs-secondary-tab-item-active-text-color`| color|
+|`--tabs-secondary-tab-item-active-border`| box-shadow|

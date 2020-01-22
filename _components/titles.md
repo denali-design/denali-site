@@ -70,14 +70,12 @@ Title text content is fully customizable. Replace `<h3>` or `<h6>` tags with an 
 
 
 ### Variables
-You can use these variables to customize this component. Simply set one or multiple of these variables and recompile the SCSS.
+You can use these variables in a `override.css` file to customize this component.
 
-#### Titles
-`$title-config:`
-
-|**Name**|**Type**|**Default value**|**Computed value**|
-|`height`                  |height         |`52px`                                |           |
-|`bar:border-radius`       |border-radius  |`4px`                                 |           |
-|`bar:background-color`    |background     |`map-get($denali-grey-colors, '500')` |#d5d5d5    |
-|`bar:width`               |width          |`2px`                                 |           |
-|`bar:wider:width`         |width          |`4px`                                 |           |
+|Variable Name|CSS Property|
+| - | - |
+|--titles-height| height|
+|--titles-bar-corner-radius| border-radius|
+|--titles-bar-bg-color| background|
+|--titles-bar-width| width|
+|--titles-bar-wider-width| width|

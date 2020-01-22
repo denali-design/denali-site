@@ -105,18 +105,17 @@ Table header cells and standard cells are aligned to the left by default. To ali
 
 
 ### Variables
-You can use these variables to customize this component. Simply set one or multiple of these variables and recompile the SCSS.
+You can use these variables in a `override.css` file to customize this component.
 
-`$table-config:`
-
-|**Name**|**Type**|**Default value**|**Computed value**|
-|`header:text:color`                |color           |`rgba(map-get($denali-grey-colors, '800'), 0.4)`            |rgba(#303030,0.4)    |
-|`header:text:size`                 |font-size       |`1.2rem`                                                    |12px           |
-|`header:text:transform`            |text-transform  |`uppercase`                                                 |    |
-|`header:text:weight`               |font-weight     |`normal`                                                    |           |
-|`header:padding`                   |padding         |`10px`                                                      |   |
-|`header:border-bottom`             |border-bottom   |`1px solid rgba(map-get($denali-grey-colors, '800'), 0.4)`  |1px solid rgba(#303030,0.4)|
-|`header:background-color`          |background      |`transparent`                                               |   |
-|`row:padding`                      |padding         |`14px 10px`                                                 |   |
-|`row:border-bottom`                |border-bottom   |`1px solid rgba(map-get($denali-grey-colors, '800'), 0.2)`  |1px solid rgba(#303030,0.2)|
-|`striped-row:background-color`     |background      |`rgba(map-get($denali-brand-colors, '700'), 0.05)`          |1px solid rgba(#3570f4,0.05)|
+|Variable Name|CSS Property|
+| - | - |
+|--table-header-text-color | color|
+|--table-header-text-size | font-size|
+|--table-header-text-transform | text-transform|
+|--table-header-text-weight | font-weight|
+|--table-header-padding | padding|
+|--table-header-border-bottom | border-bottom|
+|--table-header-bg-color | background|
+|--table-row-padding | padding|
+|--table-row-border-bottom | border-bottom|
+|--table-striped-row-bg-color | background|

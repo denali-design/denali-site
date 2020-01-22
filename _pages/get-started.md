@@ -1,6 +1,5 @@
 ---
 permalink: /documentation/get-started
-section: "resources"
 title: "Getting started"
 layout: framed-space
 gitcontent: true

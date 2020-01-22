@@ -67,38 +67,28 @@ Implement body text with the `<p>` tag. Body text styles can be modified by addi
 ***
 
 ### Variables
-You can use these variables to customize this component. Simply set one or multiple of these variables and recompile the SCSS.
+You can use these variables in a `override.css` file to customize this component.
 
-`$type-config:`
-
-|**Name**|**Type**|**Default value**|**Computed value**|
-|`global:font-family`       |font-family    |`Helvetica`    |           |
-|`global:text-color`        |color          |`map-get($denali-grey-colors, '800')`    |#303030    |
-|`headline-1:font:size`     |font-size      |`2.8 rem`      |28px       |
-|`headline-1:font:style`    |font-style     |`null`         |           |
-|`headline-1:font:weight`   |font-weight    |`600`          |           |
-|`headline-1:line-height`   |line-height    |`null`         |           |
-|`headline-2:font:size`     |font-size      |`2.6 rem`      |26px       |
-|`headline-2:font:style`    |font-style     |`null`         |           |
-|`headline-2:font:weight`   |font-weight    |`600`          |           |
-|`headline-2:line-height`   |line-height    |`3.2rem`       |32px       |
-|`headline-3:font:size`     |font-size      |`2.0 rem`      |20px       |
-|`headline-3:font:style`    |font-style     |`null`         |           |
-|`headline-3:font:weight`   |font-weight    |`600`          |           |
-|`headline-3:line-height`   |line-height    |`null`         |           |
-|`headline-4:font:size`     |font-size      |`1.6 rem`      |16px       |
-|`headline-4:font:style`    |font-style     |`null`         |           |
-|`headline-4:font:weight`   |font-weight    |`600`          |           |
-|`headline-4:line-height`   |line-height    |`null`         |           |
-|`headline-5:font:size`     |font-size      |`1.4 rem`      |14px       |
-|`headline-5:font:style`    |font-style     |`null`         |           |
-|`headline-5:font:weight`   |font-weight    |`600`          |           |
-|`headline-5:line-height`   |line-height    |`null`         |           |
-|`headline-6:font:size`     |font-size      |`1.2 rem`      |12px       |
-|`headline-6:font:style`    |font-style     |`null`         |           |
-|`headline-6:font:weight`   |font-weight    |`400`          |           |
-|`headline-6:line-height`   |line-height    |`1.6rem`       |16px       |
-|`paragraph:font:size`      |font-size      |`1.4 rem`      |14px       |
-|`paragraph:font:style`     |font-style     |`null`         |           |
-|`paragraph:font:weight`    |font-weight    |`400`          |           |
-|`paragraph:line-height`    |line-height    |`2.2rem`       |22px       |
+|Variable Name|CSS Property|
+| - | - |
+|`--headline-color`| color|
+|`--headline-font-family`| font-family|
+|`--paragraph-color`| color|
+|`--paragraph-font-family`| font-family|
+|`--h1-font-size`| font-size|
+|`--h2-font-size`| font-size|
+|`--h3-font-size`| font-size|
+|`--h4-font-size`| font-size|
+|`--h5-font-size`| font-size|
+|`--h6-font-size`| font-size|
+|`--p-font-size`| font-size|
+|`--h1-font-weight`| font-weight|
+|`--h2-font-weight`| font-weight|
+|`--h3-font-weight`| font-weight|
+|`--h4-font-weight`| font-weight|
+|`--h5-font-weight`| font-weight|
+|`--h6-font-weight`| font-weight|
+|`--p-font-weight`| font-weight|
+|`--line-height-compact`| line-height|
+|`--line-height-normal`| line-height|
+|`--line-height-expanded`| line-height|

@@ -104,47 +104,41 @@ Radio buttons are built by wrapping the `<input>` tag with the type radio and `<
 
 
 ### Variables
-You can use these variables to customize this component. Simply set one or multiple of these variables and recompile the SCSS.
+You can use these variables in a `override.css` file to customize this component.
 
-#### Switch
-`$switch-config:`
+|Variable Name|CSS Property|
+| - | - |
+|`--checkbox-box-border-color-standard`| box-shadow|
+|`--checkbox-box-border-color-hover`| box-shadow|
+|`--checkbox-box-border-color-active`| box-shadow|
+|`--checkbox-box-border-color-disabled`| box-shadow|
+|`--checkbox-box-partial-color`| background|
+|`--checkbox-box-bg-color-active`| background|
+|`--checkbox-box-label-text-color`| color|
+|`--checkbox-box-label-disabled-text-color`| color|
 
-|**Name**|**Type**|**Default value**|**Computed value**|
-|`circle:border-color:standard`  |border-color     |`rgba(map-get($denali-brand-colors, '600'), 0.5)` |rgba(#3697f2. 0.5)    |
-|`circle:border-color:hover`  |border-color     |`map-get($denali-brand-colors, '600')` |#3697f2    |
-|`circle:border-color:active`  |border-color     |`map-get($denali-status-colors, 'success')` |#15c046    |
-|`circle:border-color:disabled`  |border-color     |`map-get($denali-grey-colors, '500')` |#d5d5d5    |
-|`circle:background-color:standard`  |background     |`map-get($denali-grey-colors, '100')` |#ffffff    |
-|`circle:background-color:active`  |background     |`map-get($denali-status-colors, 'success')` |#15c046    |
-|`circle:background-color:disabled`  |background     |`map-get($denali-grey-colors, '100')` |#ffffff    |
-|`circle:background-color:active-disabled`  |background     |`map-get($denali-grey-colors, '500')` |#d5d5d5    |
-|`slider:standard-color`  |background     |`map-get($denali-grey-colors, '500')` |#d5d5d5    |
-|`slider:active-color`  |background     |`rgba(map-get($denali-status-colors, 'success'), 0.45)` |rgba(#15c046, 0.45)    |
-|`slider:disabled-color`  |background     |`map-get($denali-grey-colors, '400')` |#e8e8e8    |
-|`label:text-color`  |color     |`map-get($denali-grey-colors, '800')` |#303030    |
-|`label:disabled-text-color`            |color          |`map-get($denali-grey-colors, '500')`  |#d5d5d5    |
+|Variable Name|CSS Property|
+| - | - |
+|`--radio-circle-border-standard`| box-shadow|
+|`--radio-circle-border-hover`| box-shadow|
+|`--radio-circle-border-active`| box-shadow|
+|`--radio-circle-border-disabled`| box-shadow|
+|`--radio-circle-bg-color-active`| background|
+|`--radio-label-text-color`| color|
+|`--radio-label-disabled-text-color`| color|
 
-#### Radio
-`$radio-config:`
-
-|**Name**|**Type**|**Default value**|**Computed value**|
-|`circle:border-color:standard`  |border-color     |`rgba(map-get($denali-brand-colors, '600'), 0.5)` |rgba(#3697f2. 0.5)    |
-|`circle:border-color:hover`  |border-color     |`map-get($denali-brand-colors, '600')` |#3697f2    |
-|`circle:border-color:active`  |border-color     |`map-get($denali-brand-colors, '600')` |#3697f2    |
-|`circle:border-color:disabled`  |border-color     |`map-get($denali-grey-colors, '500')` |#d5d5d5    |
-|`circle:backgound-color`  |background     |`map-get($denali-brand-colors, '600')` |#3697f2    |
-|`label:text-color`  |color     |`map-get($denali-grey-colors, '800')` |#303030    |
-|`label:disabled-text-color`            |color          |`map-get($denali-grey-colors, '500')`  |#d5d5d5    |
-
-#### Checkbox
-`$checkbox-config:`
-
-|**Name**|**Type**|**Default value**|**Computed value**|
-|`checkbox:border-color:standard`  |border-color     |`rgba(map-get($denali-brand-colors, '600'), 0.5)` |rgba(#3697f2. 0.5)    |
-|`checkbox:border-color:hover`  |border-color     |`map-get($denali-brand-colors, '600')` |#3697f2    |
-|`checkbox:border-color:active`  |border-color     |`map-get($denali-brand-colors, '600')` |#3697f2    |
-|`checkbox:border-color:disabled`  |border-color     |`map-get($denali-grey-colors, '500')` |#d5d5d5    |
-|`checkbox:border-color:partial`  |border-color     |`rgba(map-get($denali-brand-colors, '600'), 0.5)` |rgba(#3697f2. 0.5)    |
-|`checkbox:backgound-color`  |background     |`map-get($denali-brand-colors, '600')` |#3697f2    |
-|`label:text-color`  |color     |`map-get($denali-grey-colors, '800')` |#303030    |
-|`label:disabled-text-color`            |color          |`map-get($denali-grey-colors, '500')`  |#d5d5d5    |
+|Variable Name|CSS Property|
+| - | - |
+|`--switch-circle-border-color-standard`| border-color|
+|`--switch-circle-border-color-hover`| border-color|
+|`--switch-circle-border-color-active`| border-color|
+|`--switch-circle-border-color-disabled`| border-color|
+|`--switch-circle-bg-color-standard`| background|
+|`--switch-circle-bg-color-active`| background|
+|`--switch-circle-bg-color-disabled`| background|
+|`--switch-circle-bg-color-active-disabled`| background|
+|`--switch-slider-standard-color`| background|
+|`--switch-slider-active-color`| background|
+|`--switch-slider-disabled-color`| background|
+|`--switch-label-text-color`| color|
+|`--switch-label-disabled-text-color`| color|

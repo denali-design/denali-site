@@ -73,10 +73,12 @@ div.template-download {
   }
 }
 
-.file-download > a {
-  div.content {
-    p {
-      color: #fff;
+.denali-dark-theme {
+  .file-download > a {
+    div.content {
+      p {
+        color: #fff;
+      }
     }
   }
 }
