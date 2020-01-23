@@ -33,7 +33,7 @@ Let’s imagine that you’ve been tasked to design the following website:
 You’ve built the site using Denali’s framework and it now looks like this:
 
 {% include principles-1-col.html
-  standard-image='themeable-dennit-denali-style.png'
+  standard-image='themeable/themeable-dennit-denali-style.png'
 %}
 
 Unfortunately, Denali’s visual style does not match the original design. Luckily, Denali was built to support custom theming which will allow you to update the visual style of Denali’s components and match the original design in two easy steps:
