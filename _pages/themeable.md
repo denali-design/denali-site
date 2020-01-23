@@ -27,10 +27,16 @@ Download the <a href="/assets/downloads/guides/themeable-guide.zip" download>exe
 Let’s imagine that you’ve been tasked to design the following website:
 
 {% include principles-1-col.html
-  standard-image='themeable/themeable-end.png'
+  standard-image='themeable/themeable-guide-01.png'
 %}
 
-You want to use Denali’s framework, but Denali’s visual style does not match the design you’ve been given. Luckily, Denali was built to support custom theming in two easy steps:
+You’ve built the site using Denali’s framework and it now looks like this:
+
+{% include principles-1-col.html
+  standard-image='themeable/themeable-guide-02.png'
+%}
+
+Unfortunately, Denali’s visual style does not match the original design. Luckily, Denali was built to support custom theming which will allow you to update the visual style of Denali’s components and match the original design in two easy steps:
 
 1. Create a CSS file to store your custom CSS styling and link to it in your project, this is your theme.
 2. Save global and component overrides within that file that will override Denali’s visual style.
@@ -72,37 +78,47 @@ Let's start with a global override. By default Denali uses Helvetica, but our de
 And just like that, with a single line of code, Helvetica has been updated to Kanit across our entire project:
 
 {% include principles-1-col.html
-  standard-image='themeable/themeable-type-updated.png'
+  standard-image='themeable/themeable-guide-03.png'
 %}
 
 ### Component Overrides
-Now let’s finish our design by moving onto component overrides. By default, Denali’s button component is a blue rectangle with rounded corners and white text, but the design we’ve been given calls for dark blue pill shaped buttons. To remedy this, we’ll reference the buttons documentation page to determine which overrides are needed to match our design and assign them the correct values.
+Next we’ll make updates to a specific component using component overrides. By default, Denali’s navbar component has a dark blue background and uses a solid blue line to indicate the current page. However, the design we’ve been given calls for a black background with a solid red line indicator. To remedy this, we’ll reference the navbar documentation page to determine which component overrides are needed to match our design and assign them the correct values:
 
 ```css
 :root {
   ...
 
-  --button-corner-radius: var(--border-radius-pill);
-  --button-solid-default-bg-color: #0065bf;
-  --button-solid-focus-bg-color: #004b80;
-  --button-outline-default-text-color: #0065bf;
-  --button-outline-default-border: solid 2px #0065bf;
-  --button-outline-focus-bg-color: #bee0fc;
-  --button-outline-focus-text-color: #004b80;
-  --button-outline-focus-border: transparent;
+  --navbar-height: 92px;
+  --navbar-bg-color: #27292B;
+  --navbar-item-text-color: #fff;
+  --navbar-item-hover-text-color: #ff5454;
+  --navbar-item-active-border-color: #E13030;
 }
 ```
 
-After saving our changes we see that our buttons now match the design.
+To finish up the navbar we’ll also need to use component overrides to update our button: 
+
+```css
+:root {
+  ...
+  
+  --button-corner-radius: var(--border-radius-pill);
+  --button-solid-default-bg-color: #E72B2B;
+  --button-solid-focus-bg-color: #606060;
+
+}
+```
+
+After saving our changes we see that our nav bar now matches the design:
 
 {% include principles-1-col.html
-  standard-image='themeable/themeable-components-updated.png'
+  standard-image='themeable/themeable-guide-04.png'
 %}
 
-We’ll repeat this process with the remaining components until we’ve finished matching our design.
+We’ll repeat this process with the remaining components until we’ve finished matching our design:
 
 {% include principles-1-col.html
-  standard-image='themeable/themeable-end.png'
+  standard-image='themeable/themeable-guide-01.png'
 %}
 
 ***
