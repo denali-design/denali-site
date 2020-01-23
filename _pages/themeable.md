@@ -27,13 +27,13 @@ Download the <a href="/assets/downloads/guides/themeable-guide.zip" download>exe
 Let’s imagine that you’ve been tasked to design the following website:
 
 {% include principles-1-col.html
-  standard-image='themeable/themeable-end.png'
+  standard-image='themeable/themeable-guide-01.png'
 %}
 
 You’ve built the site using Denali’s framework and it now looks like this:
 
 {% include principles-1-col.html
-  standard-image='themeable/themeable-dennit-denali-style.png'
+  standard-image='themeable/themeable-guide-02.png'
 %}
 
 Unfortunately, Denali’s visual style does not match the original design. Luckily, Denali was built to support custom theming which will allow you to update the visual style of Denali’s components and match the original design in two easy steps:
@@ -78,7 +78,7 @@ Let's start with a global override. By default Denali uses Helvetica, but our de
 And just like that, with a single line of code, Helvetica has been updated to Kanit across our entire project:
 
 {% include principles-1-col.html
-  standard-image='themeable/themeable-type-updated.png'
+  standard-image='themeable/themeable-guide-03.png'
 %}
 
 ### Component Overrides
@@ -112,13 +112,13 @@ To finish up the navbar we’ll also need to use component overrides to update o
 After saving our changes we see that our nav bar now matches the design:
 
 {% include principles-1-col.html
-  standard-image='themeable/themeable-components-updated.png'
+  standard-image='themeable/themeable-guide-04.png'
 %}
 
 We’ll repeat this process with the remaining components until we’ve finished matching our design:
 
 {% include principles-1-col.html
-  standard-image='themeable/themeable-end.png'
+  standard-image='themeable/themeable-guide-01.png'
 %}
 
 ***
