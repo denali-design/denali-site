@@ -74,16 +74,15 @@ Reposition a menu&#39;s tooltip to the right by adding an `.is-right` class to a
 
 
 ### Variables
-You can use these variables to customize this component. Simply set one or multiple of these variables and recompile the SCSS.
+You can use these variables in a `override.css` file to customize this component.
 
-`$menu-config:`
-
-|**Name**|**Type**|**Default value**|**Computed value**|
-|`corner-radius`            |border-radius          |`4px`                                |           |
-|`backgound-color`  |background     |`#ffffff`  |       |
-|`shadow`  |box-shadow     |`0px 4px 8px rgba(0, 0, 0, 0.16)`  |       |
-|`border:style`  |solid     |`solid`  |       |
-|`border:width`  |width     |`2px`  |       |
-|`border:color`  |color     |`#e8e8e8`  |       |
-|`line-break:size`  |border-width     |`2px`  |       |
-|`line-break:color`  |border-color     |`#e8e8e8`  |       |
+|Variable Name|CSS Property|
+| - | - |
+|--menu-bg-color|background|
+|--menu-corner-radius|border-radius|
+|--menu-shadow|box-shadow|
+|--menu-border-color|border-color|
+|--menu-border-width| border-width|
+|--menu-border-style|border-style|
+|--menu-line-break-size|height|
+|--menu-line-break-color|background|

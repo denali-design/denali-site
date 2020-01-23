@@ -80,16 +80,14 @@ Grouped chips come in handy when you need to display key value pairs. We've made
 ***
 
 
-
 ### Variables
-You can use these variables to customize this component. Simply set one or multiple of these variables and recompile the SCSS.
+You can use these variables in a `override.css` file to customize this component.
 
-`$chip-config:`
-
-|**Name**|**Type**|**Default value**|**Computed value**|
-|`backgound`        |background           |`map-get($denali-brand-colors, '200')`   |#d7e2fd    |
-|`border-radius`    |border-radius        |`4px`                                    |           |
-|`color`            |border-top-color     |`map-get($denali-grey-colors, '800')`    |#303030    |
-|`padding`          |padding              |`4px 6px`                                |           |
-|`small:font-size`  |font-size            |`1.2rem`                                 |12px       |
-|`small:padding`    |padding              |`2px 4px`                                |           |
+|Variable Name|CSS Property|
+| - | - |
+|`--chips-bg-color`|background|
+|`--chips-corner-radius`|border-radius|
+|`--chips-text-color`|color|
+|`--chips-padding`|padding|
+|`--chips-small-font-size`|font-size|
+|`--chips-small-padding`|padding|

@@ -98,16 +98,15 @@ Sub action links can be blue or grey in color but appear a lower opacity. To cre
 
 
 ### Variables
-You can use these variables to customize this component. Simply set one or multiple of these variables and recompile the SCSS.
+You can use these variables in a `override.css` file to customize this component.
 
-`$link-config:`
-
-|**Name**|**Type**|**Default value**|**Computed value**|
-|`text-color`                  |color     |`map-get($denali-brand-colors, '600')`             |#3697f2           |
-|`hover-text-color`            |color     |`map-get($denali-brand-colors, '700')`             |#3570f4           |
-|`disabled-text-color`         |color     |`rgba(map-get($denali-grey-colors, '800'), .2)`    |rgba(#303030, .2) |
-|`secondary:text-color`        |color     |`map-get($denali-grey-colors, '700')`              |#606060           |
-|`secondary:hover-text-color`  |color     |`map-get($denali-grey-colors, '800')`              |#303030           |
-|`inverse:text-color`          |color     |`map-get($denali-grey-colors, '100')`              |#fffff            |
-|`inverse:hover-text-color`    |color     |`rgba(map-get($denali-grey-colors, '100'), .4)`    |rgba(#ffffff, .4) |
-|`small:text-size`             |font-size |`1.2rem`                                           |12px              |
+|Variable Name|CSS Property|
+| - | - |
+|`--links-text-color`|color|
+|`--links-hover-text-color`|color|
+|`--links-disabled-text-color`|color|
+|`--links-secondary-text-color`|color|
+|`--links-secondary-hover-text-color`|color|
+|`--links-inverse-text-color`|color|
+|`--links-inverse-hover-text-color`|color|
+|`--links-small-text-size`|font-size|

@@ -35,5 +35,14 @@ Background color can be modified using the `.has-bg-$color-$value` class, for ex
 
 ***
 
-
 {% include color-snippet.html %}
+
+***
+
+### Variables
+You can use these variables in a `override.css` file to customize this component.
+
+|Variable Name|CSS Property|
+| - | - |
+|`--color-{name}-{weight}`|Hex e.g.`#3697f2`|
+|`--color-{name}-{weight}-rgb`|RGB e.g.`54,151,242`|

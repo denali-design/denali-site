@@ -165,13 +165,14 @@ Customize a navbar&#39;s background color by changing the `$navbar-background-co
 
 
 ### Variables
-You can use these variables to customize this component. Simply set one or multiple of these variables and recompile the SCSS.
+You can use these variables in a `override.css` file to customize this component.
 
-`$navbar-config:`
-
-|**Name**|**Type**|**Default value**|**Computed value**|
-|`backgound-color`  |background     |`#0A2D45`  |       |
-|`text-color`  |color     |`$grey-100`  |       |
-|`height`  |height     |`60px`  |       |
-|`nav-items:text-color`  |color     |`$grey-100`  |       |
-|`nav-items:active-border-color`  |border-color     |`#3697F2`  |       |
+|Variable Name|CSS Property|
+| - | - |
+|--navbar-bg-color| background|
+|--navbar-text-color| color|
+|--navbar-height| height|
+|--navbar-item-text-color| color|
+|--navbar-item-hover-text-color| color|
+|--navbar-item-active-text-color| color|
+|--navbar-item-active-border-color| border-color|

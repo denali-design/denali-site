@@ -61,16 +61,15 @@ Customize boxes with a footer by adding a `<footer>` tag to the end of your box 
 
 
 ### Variables
-You can use these variables to customize this component. Simply set one or multiple of these variables and recompile the SCSS.
+You can use these variables in a `override.css` file to customize this component.
 
-`$box-config:`
-
-|**Name**|**Type**|**Default value**|**Computed value**|
-|`backgound`        |background           |`map-get($denali-grey-colors, '200')`  |#f8f8f8    |
-|`border-radius`    |border-radius        |`2px`                                  |           |
-|`border:color`     |border-top-color     |`map-get($denali-grey-colors, '500')`  |#d5d5d5    |
-|`border:width`     |border-top-width     |`1px`                                  |           |
-|`border:style`     |border-top-style     |`solid`                                |   |
-|`padding`          |padding              |`20px`                                 |   |
-|`footer:padding`   |padding              |`22px`                                 |   |
-|`footer:margin`    |margin               |`22px`                                 |   |
+|Variable Name|CSS Property|
+| - | - |
+|`--box-bg-color`|background|
+|`--box-corner-radius`|border-radius|
+|`--box-border-color`|border-color|
+|`--box-border-width`|border-width|
+|`--box-border-style`|border-style|
+|`--box-padding`|padding|
+|`--box-footer-padding`|padding|
+|`--box-footer-margin`|margin|

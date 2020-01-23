@@ -133,128 +133,86 @@ Buttons can also be made to be the full length of the parent container. You can 
 
 
 ### Variables
-You can use these variables to customize this component. Simply set one or multiple of these variables and recompile the SCSS.
+You can use these variables in a `override.css` file to customize this component.
 
+|Variable Name|CSS Property|
+| - | - |
+|`--button-corner-radius`| border-radius|
+|`--button-sizes-sm-height`| height|
+|`--button-sizes-sm-font-size`| font-size|
+|`--button-sizes-sm-min-width`| min-width|
+|`--button-sizes-md-height`| height|
+|`--button-sizes-md-font-size`| font-size|
+|`--button-sizes-md-min-width`| min-width|
+|`--button-sizes-default-height`| height|
+|`--button-sizes-default-font-size`| font-size|
+|`--button-sizes-default-min-width`| min-width|
+|`--button-sizes-lg-height`| height|
+|`--button-sizes-lg-font-size`| font-size|
+|`--button-sizes-lg-min-width`| min-width|
 
+|Variable Name|CSS Property|
+| - | - |
+|`--button-solid-default-bg-color`| background|
+|`--button-solid-default-text-color`| color|
+|`--button-solid-default-inverse-bg-color`| background|
+|`--button-solid-default-inverse-text-color`| color|
+|`--button-solid-focus-bg-color`| background|
+|`--button-solid-focus-text-color`| color|
+|`--button-solid-focus-inverse-bg-color`| background|
+|`--button-solid-focus-inverse-text-color`| color|
+|`--button-solid-disabled-bg-color`| background|
+|`--button-solid-disabled-text-color`| color|
+|`--button-solid-disabled-inverse-bg-color`| background|
+|`--button-solid-disabled-inverse-text-color`| color|
 
-### Global
-`$button-config:`
+|Variable Name|CSS Property|
+| - | - |
+|`--button-ghost-default-bg-color`| background|
+|`--button-ghost-default-text-color`| color|
+|`--button-ghost-default-inverse-bg-color`| background|
+|`--button-ghost-default-inverse-text-color`| color|
+|`--button-ghost-focus-bg-color`| background|
+|`--button-ghost-focus-text-color`| color|
+|`--button-ghost-focus-inverse-bg-color`| background|
+|`--button-ghost-focus-inverse-text-color`| color|
+|`--button-ghost-disabled-bg-color`| background|
+|`--button-ghost-disabled-text-color`| color|
+|`--button-ghost-disabled-inverse-bg-color`| background|
+|`--button-ghost-disabled-inverse-text-color`| color|
 
-|**Name**|**Type**|**Default value**|**Computed value**|
-|`border-radius`      |border-radius          |`4px`             |           |
-|`sizes:small:height` |height                 |`24px`            |           |
-|`sizes:small:font-size` |font-size                 |`12px`            |           |
-|`sizes:small:min-width` |min-width                 |`80px`            |           |
-|`sizes:medium:height`     |height                 |`32px`            |           |
-|`sizes:medium:font-size` |font-size                 |`inherit`            |           |
-|`sizes:medium:min-width` |min-width                 |`null`            |           |
-|`sizes:default:height`     |height                 |`36px`            |           |
-|`sizes:default:font-size` |font-size                 |`inherit`            |           |
-|`sizes:default:min-width` |min-width                 |`120px`            |           |
-|`sizes:large:height`     |height                 |`44px`            |           |
-|`sizes:large:font-size` |font-size                 |`16px`            |           |
-|`sizes:large:min-width` |min-width                 |`null`            |           |
+|Variable Name|CSS Property|
+| - | - |
+|`--button-outline-default-bg-color`| background|
+|`--button-outline-default-text-color`| color|
+|`--button-outline-default-border`| border|
+|`--button-outline-default-inverse-bg-color`| background|
+|`--button-outline-default-inverse-text-color`| color|
+|`--button-outline-default-inverse-border`| border|
+|`--button-outline-focus-bg-color`| background|
+|`--button-outline-focus-text-color`| color|
+|`--button-outline-focus-border`| border|
+|`--button-outline-focus-inverse-bg-color`| background|
+|`--button-outline-focus-inverse-text-color`| color|
+|`--button-outline-focus-inverse-border`| border|
+|`--button-outline-disabled-bg-color`| background|
+|`--button-outline-disabled-text-color`| color|
+|`--button-outline-disabled-border`| border|
+|`--button-outline-disabled-inverse-bg-color`| background|
+|`--button-outline-disabled-inverse-text-color`| color|
+|`--button-outline-disabled-inverse-border`| border|
 
-### Solid
-`$button-config:solid`
-
-|**Name**|**Type**|**Default value**|**Computed value**|
-|`default:background-color`|background|`linear-gradient(to right, map-get($denali-brand-colors, '600'), map-get($denali-brand-colors, '700'))`|linear-gradient(to right, #3697F2, #3570F4)|
-|`default:text-color`|color|`map-get($denali-grey-colors, '100')`|#ffffff|
-|`default:inverse:background-color`|background|`linear-gradient(to right, map-get($denali-brand-colors, '600'), map-get($denali-brand-colors, '700'))`|linear-gradient(to right, #3697F2, #3570F4)|
-|`default:inverse:text-color`|color|`map-get($denali-grey-colors, '100')`|#ffffff|
-|`focus:background-color`|background|`linear-gradient(to right, map-get($denali-brand-colors, '700'), map-get($denali-brand-colors, '800'))`|linear-gradient(to right, #3570F4, #0044E0)|
-|`focus:text-color`|color|`map-get($denali-grey-colors, '100')`|#ffffff|
-|`focus:inverse:background-color`|background|`linear-gradient(to right, map-get($denali-brand-colors, '700'), map-get($denali-brand-colors, '800'))`|linear-gradient(to right, #3570F4, #0044E0)|
-|`focus:inverse:text-color`|color|`map-get($denali-grey-colors, '100')`|#ffffff|
-|`disabled:background-color`|background|`rgba(map-get($denali-grey-colors, '800'), .12)`|rgba(#303030), .12)|
-|`disabled:text-color`|color|`rgba(map-get($denali-grey-colors, '800'), .5)`|rgba(#303030), .5)|
-|`disabled:inverse:background-color`|background|`rgba(map-get($denali-grey-colors, '100'), .12)`|rgba(#ffffff), .12)|
-|`disabled:inverse:text-color`|color|`rgba(map-get($denali-grey-colors, '100'), .5)`|rgba(#ffffff), .5)|
-
-### Outline
-`$button-config:outline`
-
-|**Name**|**Type**|**Default value**|**Computed value**|
-|`default:background-color`|background|`transparent`||
-|`default:text-color`|color|`#3697F2`||
-|`default:border:color`|border-color|`map-get($denali-brand-colors, '600')`|#3697F2|
-|`default:border:width`|border-width|`1px`||
-|`default:border:style`|border-style|`solid`||
-|`default:inverse:background-color`|background|`transparent`||
-|`default:inverse:text-color`|color|`map-get($denali-grey-colors, '100')`|#ffffff|
-|`default:inverse:border:color`|border-color|`map-get($denali-brand-colors, '600')`|#3697F2|
-|`default:inverse:border:width`|border-width|`1px`||
-|`default:inverse:border:style`|border-style|`solid`||
-|`focus:background-color`|background|`rgba(#0044E0,.26)`||
-|`focus:text-color`|color|`#0044E0`||
-|`focus:border:color`|border-color|`map-get($denali-brand-colors, '700')`|#0044E0|
-|`focus:border:width`|border-width|`1px`||
-|`focus:border:style`|border-style|`solid`||
-|`focus:inverse:background-color`|background|`rgba(#0044E0,.26`||
-|`focus:inverse:text-color`|color|`map-get($denali-grey-colors, '100')`|#ffffff|
-|`focus:inverse:border:color`|border-color|`map-get($denali-brand-colors, '600')`|#0044E0|
-|`focus:inverse:border:width`|border-width|`1px`||
-|`focus:inverse:border:style`|border-style|`solid`||
-|`disabled:background-color`|background|`rgba(map-get($denali-grey-colors, '800'), .12)`|rgba(#303030), .12)|
-|`disabled:text-color`|color|`rgba(map-get($denali-grey-colors, '800'), .5)`|rgba(#303030), .5)|
-|`disabled:border:color`|border-color|`rgba(map-get($denali-grey-colors, '800'), .5)`|rgba(#303030), .5)|
-|`disabled:border:width`|border-width|`1px`||
-|`disabled:border:style`|border-style|`solid`||
-|`disabled:inverse:background-color`|background|`rgba(map-get($denali-grey-colors, '100'), .12)`|rgba(#ffffff), .12)|
-|`disabled:inverse:text-color`|color|`rgba(map-get($denali-grey-colors, '100'), .5)`|rgba(#ffffff), .5)|
-|`disabled:inverse:border:color`|border-color|`rgba(map-get($denali-grey-colors, '100'), .5)`|rgba(#ffffff), .5)|
-|`disabled:inverse:border:width`|border-width|`1px`||
-|`disabled:inverse:border:style`|border-style|`solid`||
-
-
-### Ghost
-`$button-config:ghost`
-
-|**Name**|**Type**|**Default value**|**Computed value**|
-|`default:background-color`|background|`rgba(#3697F2,.16)`||
-|`default:text-color`|color|`#3697F2`||
-|`default:inverse:background-color`|background|`rgba(#3697F2,.16)`||
-|`default:inverse:text-color`|color|`map-get($denali-grey-colors, '100')`||
-|`focus:background-color`|background|`rgba(#0044E0,.26)`||
-|`focus:text-color`|color|`#0044E0`||
-|`focus:inverse:background-color`|background|`rgba(#0044E0,.26)`||
-|`focus:inverse:text-color`|color|`map-get($denali-grey-colors, '100')`|#ffffff|
-|`disabled:background-color`|background|`rgba(map-get($denali-grey-colors, '800'), .12)`|rgba(#303030, .12)|
-|`disabled:text-color`|color|`rgba(map-get($denali-grey-colors, '800'), .5)`|rgba(#303030, .5)|
-|`disabled:inverse:background-color`|background|`rgba(map-get($denali-grey-colors, '100'), .12)`|rgba(#ffffff, .12)|
-|`disabled:inverse:text-color`|color|`rgba(map-get($denali-grey-colors, '100'), .5)`|rgba(#ffffff, .5)|
-
-### Text
-`$button-config:text`
-
-|**Name**|**Type**|**Default value**|**Computed value**|
-|`default:background-color`|background|`transparent`||
-|`default:text-color`|color|`#3697F2`||
-|`default:inverse:background-color`|background|`transparent`||
-|`default:inverse:text-color`|color|`map-get($denali-grey-colors, '100')`|#ffffff|
-|`focus:background-color`|background|`rgba(#0044E0,.26)`||
-|`focus:text-color`|color|`#0044E0`||
-|`focus:inverse:background-color`|background|`rgba(#0044E0,.26)`||
-|`focus:inverse:text-color`|color|`map-get($denali-grey-colors, '100')`|#ffffff|
-|`disabled:background-color`|background|`transparent`||
-|`disabled:text-color`|color|`rgba(map-get($denali-grey-colors, '800'), .5)`|rgba(#303030, .5)|
-|`disabled:inverse:background-color`|background|`transparent`||
-|`disabled:inverse:text-color`|color|`rgba(map-get($denali-grey-colors, '100'), .5)`|rgba(#ffffff, .5)|
-
-### Danger
-`$button-config:danger`
-
-|**Name**|**Type**|**Default value**|**Computed value**|
-|`default:background-color`|background|`#EA0000`||
-|`default:text-color`|color|`map-get($denali-grey-colors, '100')`|#ffffff|
-|`default:inverse:background-color`|background|`#EA0000`||
-|`default:inverse:text-color`|color|`map-get($denali-grey-colors, '100')`|#ffffff|
-|`focus:background-color`|background|`#BB0000`||
-|`focus:text-color`|color|`map-get($denali-grey-colors, '100')`|#ffffff|
-|`focus:inverse:background-color`|background|`#BB0000`||
-|`focus:inverse:text-color`|color|`map-get($denali-grey-colors, '100')`|#ffffff|
-|`disabled:background-color`|background|`rgba(map-get($denali-grey-colors, '800'), .12)`|rgba(#303030, .12)|
-|`disabled:text-color`|color|`rgba(map-get($denali-grey-colors, '800'), .5)`|rgba(#303030, .5)|
-|`disabled:inverse:background-color`|background|`rgba(map-get($denali-grey-colors, '100'), .12)`|rgba(#ffffff, .12)|
-|`disabled:inverse:text-color`|color|`rgba(map-get($denali-grey-colors, '100'), .5)`|rgba(#ffffff, .5)|
+|Variable Name|CSS Property|
+| - | - |
+|`--button-text-default-bg-color`| background|
+|`--button-text-default-text-color`| color|
+|`--button-text-default-inverse-bg-color`| background|
+|`--button-text-default-inverse-text-color`| color|
+|`--button-text-focus-bg-color`| background|
+|`--button-text-focus-text-color`| color|
+|`--button-text-focus-inverse-bg-color`| background|
+|`--button-text-focus-inverse-text-color`| color|
+|`--button-text-disabled-bg-color`| background|
+|`--button-text-disabled-text-color`| color|
+|`--button-text-disabled-inverse-bg-color`| background|
+|`--button-text-disabled-inverse-text-color`| color|
