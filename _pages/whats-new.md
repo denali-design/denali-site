@@ -2,13 +2,39 @@
 permalink: /documentation/whats-new
 section: "whats-new"
 title: "What's New"
-layout: framed
+layout: framed-space
 gitcontent: true
 excerpt: "We list all the updates, bug fixes, and new features."
 ---
 
 # {{ page.title }}
 {{ page.excerpt }}
+
+
+***
+
+
+## January 22nd 2020
+
+#### **Components**
+<span class="chips">New</span> **Radio Toggle** We added css to support radio toggles.
+
+#### **Principles**
+<span class="chips">New</span> **Responsive Grid** - Denali’s responsive grid allows content to adapt seamlessly to different screen sizes. [View Principle](/principles/responsive-grid)
+<br><br>
+<span class="chips">New</span> **Component Behavior** - Component behavior refers to the way that Denali’s components adapt to fit within the different breakpoints. [View Principle](/principles/component-behavior)
+<br><br>
+<span class="chips">New</span> **Page Density & Spacing** - Balancing page density and spacing is fundamental to creating interfaces that are easy to consume. [View Principle](/principles/page-density-spacing)
+
+#### **Documentation**
+<span class="chips">New</span> **Helpers - Flex** - Flex helpers, based on flexbox, help layout responsive elements within a container. [View Docs](/documentation/helpers/flexbox)
+<br><br>
+<span class="chips">New</span> **Helpers - Margins** - Margin helpers are used to space out elements. [View Docs](/documentation/helpers/margins)
+<br><br>
+<span class="chips">New</span> **Helpers - Padding** - Padding helpers are used to control an elements padding. [View Docs](/documentation/helpers/padding)
+
+#### **Guides**
+<span class="chips">New</span> **Theme Your App** - Follow the steps below to theme your app with Denali. [View Guide](/documentation/themeable)
 
 
 ***

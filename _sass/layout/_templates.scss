@@ -72,3 +72,13 @@ div.template-download {
     }
   }
 }
+
+.denali-dark-theme {
+  .file-download > a {
+    div.content {
+      p {
+        color: #fff;
+      }
+    }
+  }
+}

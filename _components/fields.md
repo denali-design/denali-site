@@ -206,27 +206,23 @@ When adding an input to a dark background, like a navbar. Add `.is-inverse` to t
 
 
 ### Variables
-You can use these variables to customize this component. Simply set one or multiple of these variables and recompile the SCSS.
+You can use these variables in a `override.css` file to customize this component.
 
-`$fields-config:`
-
-|**Name**|**Type**|**Default value**|**Computed value**|
-|`corner-radius`|border-radius|`4px`||
-|`sizes:default:height`|height|`36px`||
-|`sizes:default:width`|width|`250px`||
-|`sizes:medium:height`|height|`30px`||
-|`sizes:medium:width`|width|`250px`||
-|`sizes:small:height`|height|`28px`||
-|`sizes:small:width`|width|`250px`||
-|`placeholder:text-color`|color|`rgba($grey-800, 0.6)`||
-|`default:text-color`|color|`$grey-800`|#303030|
-|`default:text-background`|background|`rgba($brand-700, 0.08)`|rgba(#3570F4, 0.08)|
-|`focus:border-bottom:size`|border-width|`2px`||
-|`focus:border-bottom:color`|border-color|`rgba($brand-700, 1)`|#3570F4|
-|`disabled:background`|background|`rgba($grey-800, 0.05)`|rgba(#303030, 0.05)|
-|`disabled:text-color`|color|`rgba($grey-800, 0.25)`|rgba(#303030, 0.25)|
-|`disabled:border-bottom:size`|border-width|`2px`||
-|`disabled:border-bottom:color`|border-color|`rgba($grey-800, 0.05)`|rgba(#303030, 0.05)|
-|`error:border-bottom:size`|border-width|`2px`||
-|`error:border-bottom:color`|border-color|`$status-danger`|#EA0000|
-|`dropdown-arrow-color`|color|`black`||
+|Variable Name|CSS Property|
+| - | - |
+|`--fields-corner-radius`|border-radius|
+|`--fields-dropdown-arrow-color`| color|
+|`--fields-padding`| padding|
+|`--fields-placeholder-text-color`| color|
+|`--fields-default-bg`| background|
+|`--fields-default-text-color`| color|
+|`--fields-default-border`| border|
+|`--fields-focus-border`| border|
+|`--fields-disabled-bg`| background|
+|`--fields-disabled-text-color`| color|
+|`--fields-disabled-border`| border|
+|`--fields-error-border`| border|
+|`--fields-sizes-default-width`| width|
+|`--fields-sizes-default-height`| height|
+|`--fields-sizes-medium-height`| height|
+|`--fields-sizes-small-height`| height|

@@ -70,13 +70,12 @@ We've made it so every button can house a loader. To add a loader to a button st
 
 
 ### Variables
-You can use these variables to customize this component. Simply set one or multiple of these variables and recompile the SCSS.
+You can use these variables in a `override.css` file to customize this component.
 
-`$loader-config:`
-
-|**Name**|**Type**|**Default value**|**Computed value**|
-|`size:extrasmall`    |width, height     |`12px`  |           |
-|`size:small`         |width, height     |`18px`  |           |
-|`size:default`       |width, height     |`24px`  |           |
-|`size:medium`        |width, height     |`36px`  |           |
-|`size:large`         |width, height     |`38px`  |           |
+|Variable Name|CSS Property|
+| - | - |
+|`--loader-size-xs`|font-size|
+|`--loader-size-sm`|font-size|
+|`--loader-size-default`|font-size|
+|`--loader-size-md`|font-size|
+|`--loader-size-lg`|font-size|

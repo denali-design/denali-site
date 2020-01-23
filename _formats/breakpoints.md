@@ -1,6 +1,7 @@
 ---
 title: "Breakpoints"
 permalink: /documentation/formats/breakpoints
+layout: framed-space
 excerpt: 'Denali was created to be mobile first. Build responsive layouts using media queries to create breakpoints.'
 
 ---
@@ -24,7 +25,7 @@ We use the following media query ranges or breakpoints in our SCSS files for our
 /* HD */
 @media (min-width: 1440px)  { ... }
 ```
-
+<br>
 Since we write our source CSS as SCSS files, all media queries are available as Sass mixins.
 ```css
 /* Mobile */
@@ -55,7 +56,7 @@ We also provide these media queries in the opposite direction.
 /* HD */
 /* No media query since the extra-large breakpoint has no upper bound on its width */
 ```
-
+<br>
 These media queries are also available as Sass mixins:
 ```css
 /* Mobile */
@@ -84,7 +85,7 @@ If you only want to target a single segment, we give you the option to do that a
 /* HD */
 @media (min-width: 1440px)                          { ... }
 ```
-
+<br>
 These media queries are also available as Sass mixins:
 ```css
 /* Mobile */
@@ -108,6 +109,7 @@ Occasionally you will need to use media queries across multiple breakpoints.
 /* Apply the start for example tablet and the end for example desktop-end */
 @media (min-width: 600px) and (max-width: 1439px)   { ... }
 ```
+<br>
 These media queries are also available as Sass mixins:
 ```css
 /* Example */

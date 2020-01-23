@@ -3,7 +3,7 @@
 // Licensed under the terms of the MIT license. See LICENSE file in project root for terms.
 
 .footer {
-  margin-top: 120px;
+  margin-top: 160px;
 
   .footer-links {
     padding: 60px 40px 0px 40px;
@@ -40,6 +40,27 @@
 
     @media screen and (max-width: $mobile) {
       padding: 60px 10px 0px 10px;
+    }
+  }
+}
+
+.denali-dark-theme {
+  .footer {
+    .footer-links {
+      ul {
+        li {
+          &.header {
+            color: #fff;
+          }
+          a {
+            color: rgba(255, 255, 255, 0.4);
+
+            &:hover {
+              color: rgba(255, 255, 255, 1);
+            }
+          }
+        }
+      }
     }
   }
 }

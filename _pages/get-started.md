@@ -1,8 +1,7 @@
 ---
 permalink: /documentation/get-started
-section: "resources"
 title: "Getting started"
-layout: framed
+layout: framed-space
 gitcontent: true
 excerpt: 'Follow the steps below to get started with Denali.'
 ---
@@ -59,13 +58,6 @@ For Denali to work correctly, the following items are required:
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 ```
 
-<br>
-
-### Add the theme class to the body tag
-```html
-<body class="denali-default-theme">
-```
-
 ***
 
 ## Starter Template
@@ -83,7 +75,7 @@ If you want to get started right away, you can use this HTML starter template.
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/denali-design/denali-css/css/denali.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/denali-design/denali-icon-font/dist/denali-icon-font.css">
   </head>
-  <body class="denali-default-theme">
+  <body>
     <div class="container">
       <h1>Hello World</h1>
       <p>My first website with <strong>Denali</strong>!</p>

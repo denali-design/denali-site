@@ -116,7 +116,7 @@ Tag lists automatically wrap when the list gets too long for its container.
 {% include code-snippet.html code=tag_list_wrap url='tag_list_wrap.html' %}
 
 #### No wrapping
-To override wrapping and implement a vertical scroll to tag lists add the class `.nowrap` to a tag list `<div>` 
+To override wrapping and implement a vertical scroll to tag lists add the class `.nowrap` to a tag list `<div>`
 
 {% capture tag_list_nowrap %}{% highlight html %}
 <div class="tags nowrap">
@@ -140,32 +140,31 @@ To override wrapping and implement a vertical scroll to tag lists add the class 
 
 
 ### Variables
-You can use these variables to customize this component. Simply set one or multiple of these variables and recompile the SCSS.
+You can use these variables in a `override.css` file to customize this component.
 
-`$tag-config:`
-
-|**Name**                             |**Type**         |**Default value**                                    |**Computed value**|
-|`corner-radius`                      |border-radius    |`14px`                                               |           |
-|`padding`                            |padding          |`0px 10px`                                           |           |
-|`margin`                             |margin           |`3px`                                                |    |
-|`height`                             |height           |`28px`                                               |               |
-|`icon-size`                          |font-size        |`2rem`                                               |20px           |
-|`icon-color`                         |color            |`map-get($denali-grey-colors, '800')`                |#303030            |
-|`background-color`                   |background       |`rgba(map-get($denali-brand-colors, '700'),0.20)`    |rgba(#3570f4, .2)|
-|`text-color`                         |color            |`map-get($denali-grey-colors, '800')`                |#303030|
-|`active:background-color`            |background       |`rgba(map-get($denali-brand-colors, '700'),0.5)`     |rgba(#3570f4, .5)|
-|`disabled:background-color`          |background       |`rgba(map-get($denali-grey-colors, '800'), .1)`      |rgba(#303030,.1)|
-|`disabled:text-color`                |color            |`rgba(map-get($denali-grey-colors, '800'), .1)`      |rgba(#303030,.1)|
-|`small:text-size`                    |font-size        |`1.2rem`                                             |12px|
-|`small:padding`                      |padding          |`0px 8px`                                            ||
-|`small:height`                       |height           |`22px`                                               ||
-|`small:icon-size`                    |font-size        |`1.6rem`                                             |16px|
-|`outlined:text-color`                |color            |`map-get($denali-grey-colors, '800')`                |#303030|
-|`outlined:border`                    |border           |`1px solid map-get($denali-brand-colors, '600')`     |1px solid #3697f2|
-|`outlined:background-color`          |background       |`transparent`                                        ||
-|`outlined:hover-background-color`    |background       |`rgba(map-get($denali-brand-colors, '600'),0.2)`     |rgba(#3697f2,.2)|
-|`outlined:active:text-color`         |color            |`map-get($denali-grey-colors, '100')`                |#ffffff|
-|`outlined:active:background-color`   |background       |`rgba(map-get($denali-brand-colors, '600'),1)`       |rgba(#3697f2,.1)|
-|`outlined:disabled:text-color`       |color            |`rgba(map-get($denali-grey-colors, '800'), .4)`      |rgba(#303030,.4)|
-|`outlined:disabled:background-color` |background       |`rgba(map-get($denali-grey-colors, '800'), .1)`      |rgba(#303030,.1)|
-|`outlined:disabled:border-color`     |border-color     |`rgba(map-get($denali-grey-colors, '800'), .4)`      |rgba(#303030,.4)|
+|Variable Name|CSS Property|
+| - | - |
+|`--tags-corner-radius`| border-radius|
+|`--tags-padding`| padding|
+|`--tags-margin`| margin|
+|`--tags-height`| height|
+|`--tags-icon-size`| font-size|
+|`--tags-icon-color`| color|
+|`--tags-bg-color`| background|
+|`--tags-text-color`| color|
+|`--tags-active-bg-color`| background|
+|`--tags-disabled-bg-color`| background|
+|`--tags-disabled-text-color`| color|
+|`--tags-small-text-size`| font-size|
+|`--tags-small-padding`| padding|
+|`--tags-small-height`| height|
+|`--tags-small-icon-size`| font-size|
+|`--tags-outlined-text-color`| color|
+|`--tags-outlined-border`| border|
+|`--tags-outlined-bg-color`| background|
+|`--tags-outlined-hover-bg-color`| background|
+|`--tags-outlined-active-text-color`| color|
+|`--tags-outlined-active-bg-color`| background|
+|`--tags-outlined-disabled-text-color`| color|
+|`--tags-outlined-disabled-bg-color`| background|
+|`--tags-outlined-disabled-border-color`| border-color|

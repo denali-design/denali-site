@@ -6,9 +6,15 @@
   position: -webkit-sticky;
   position: sticky;
   top: 0px;
-  z-index: 200;
+  z-index: 90;
   background: white;
   padding: 14px 0px;
+}
+
+.denali-dark-theme {
+  .color-snippet-header {
+    background: #12191F;
+  }
 }
 
 // COLOR GROUPS
@@ -138,5 +144,15 @@
   100% {
     bottom: 30px;
     opacity: 0;
+  }
+}
+
+.denali-dark-theme {
+  .color-group {
+    .color {
+      .color-value {
+        color: #fff;
+      }
+    }
   }
 }
