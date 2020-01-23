@@ -19,22 +19,21 @@ But what happens when the visual design of a project you’ve been tasked to dev
 
 Well not anymore! In this guide, you’ll learn how to use a single CSS file to override Denali’s default visual style and create a custom theme for any project.
 
-Download the exercise files and let’s get started!
-
-<<EXCERISE DOWNLOAD SNIPPET>>
+Download the <a href="/assets/downloads/guides/themeable-guide.zip" download>exercise files</a> and let’s get started!
 
 ***
 
 ## Understanding theming
 Let’s imagine that you’ve been tasked to design the following website:
 
-<<IMAGE: Image of what we’re designing>>
+{% include principles-1-col.html
+  standard-image='themeable/themeable-end.png'
+%}
 
 You want to use Denali’s framework, but Denali’s visual style does not match the design you’ve been given. Luckily, Denali was built to support custom theming in two easy steps:
 
-Create a CSS file to store your custom CSS styling and link to it in your project, this is your theme.
-
-Save global and component overrides within that file that will override Denali’s visual style.
+1. Create a CSS file to store your custom CSS styling and link to it in your project, this is your theme.
+2. Save global and component overrides within that file that will override Denali’s visual style.
 
 Let’s walk through these steps together and create a custom theme to match our design.
 
@@ -68,12 +67,13 @@ Let's start with a global override. By default Denali uses Helvetica, but our de
   --font-family-sans-serif: 'Kanit', sans-serif;
 }
 ```
+> Kanit is a google font. In order to load Kanit into your project you’ll also need to add the `@import` code Google provides for [Kanit](https://fonts.google.com/specimen/Kanit?selection.family=Kanit) to the top of your theme CSS file.
 
 And just like that, with a single line of code, Helvetica has been updated to Kanit across our entire project:
 
-<<IMAGE: Image showing just the type updated>>
-
-Info box: Kanit is a google font. In order to load Kanit into your project you’ll also need to add the @import code google provides for Kanit to the top of your theme CSS file.
+{% include principles-1-col.html
+  standard-image='themeable/themeable-type-updated.png'
+%}
 
 ### Component Overrides
 Now let’s finish our design by moving onto component overrides. By default, Denali’s button component is a blue rectangle with rounded corners and white text, but the design we’ve been given calls for dark blue pill shaped buttons. To remedy this, we’ll reference the buttons documentation page to determine which overrides are needed to match our design and assign them the correct values.
@@ -95,11 +95,15 @@ Now let’s finish our design by moving onto component overrides. By default, De
 
 After saving our changes we see that our buttons now match the design.
 
-<<IMAGE: Image showing buttons updated but all other components not>>
+{% include principles-1-col.html
+  standard-image='themeable/themeable-components-updated.png'
+%}
 
 We’ll repeat this process with the remaining components until we’ve finished matching our design.
 
-<<IMAGE: Image showing all components updated but not our type>>
+{% include principles-1-col.html
+  standard-image='themeable/themeable-end.png'
+%}
 
 ***
 

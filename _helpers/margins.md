@@ -2,7 +2,7 @@
 title: "Margins"
 permalink: /documentation/helpers/margins
 layout: framed-space
-excerpt: 'Margins helpers used to space out elements.'
+excerpt: 'Margin helpers are used to space out elements.'
 ---
 {::options parse_block_html="true" /}
 

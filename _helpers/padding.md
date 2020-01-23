@@ -2,7 +2,7 @@
 title: "Padding"
 permalink: /documentation/helpers/padding
 layout: framed-space
-excerpt: 'Padding helpers used to control an elements padding.'
+excerpt: 'Padding helpers are used to control an elements padding.'
 ---
 {::options parse_block_html="true" /}
 
