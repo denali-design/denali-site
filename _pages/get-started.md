@@ -20,7 +20,7 @@ Denali components have three easy ways to get started, each one appealing to a d
 {% include copy-input.html id='denaliCssNpm' copy-text='npm install denali-css' %}
 or
 ### Use jsdelivr CDN
-{% include copy-input.html id='denaliCssJsdeliver' copy-text='https://cdn.jsdelivr.net/gh/denali-design/denali-css/css/denali.css' %}
+{% include copy-input.html id='denaliCssJsdeliver' copy-text='https://cdn.jsdelivr.net/npm/denali-css/css/denali.css' %}
 or
 ### Clone/Fork Git Repository
 {% include copy-input.html id='denaliCssGit' copy-text='git@github.com:denali-design/denali-css.git' %}
@@ -34,7 +34,7 @@ Denali's icon font has three easy ways to get started, each one appealing to a d
 {% include copy-input.html id='denaliIconNpm' copy-text='npm install denali-icon-font' %}
 or
 ### Use jsdelivr CDN
-{% include copy-input.html id='denaliIconJsdeliver' copy-text='https://cdn.jsdelivr.net/gh/denali-design/denali-icon-font/dist/denali-icon-font.css' %}
+{% include copy-input.html id='denaliIconJsdeliver' copy-text='https://cdn.jsdelivr.net/npm/denali-icon-font/dist/denali-icon-font.css' %}
 or
 ### Clone/Fork Git Repository
 {% include copy-input.html id='denaliIconGit' copy-text='git@github.com:denali-design/denali-icon-font.git' %}
