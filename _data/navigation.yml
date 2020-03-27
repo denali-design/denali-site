@@ -54,8 +54,6 @@ principles:
         url: /principles/graphs
       - label: "Fields"
         url: /principles/fields
-      - label: "Selection Controls"
-        url: /principles/selection-controls
 
 # documentation
 documentation:
