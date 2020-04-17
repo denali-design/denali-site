@@ -1,0 +1,275 @@
+[
+  {
+    "title"       : "Colors",
+    "desc"        : "Denali&#39;s color library is used to style components and convey meaning.",
+    "collection"  : "Documentation",
+    "url"         : "/docs/1.0.3/aesthetics/colors"
+  },{
+    "title"       : "Icons",
+    "desc"        : "Denali&#39;s icon library offers hundreds of icons in outline and solid styles that have been carefully crafted to ensure a coherent and unified UI.",
+    "collection"  : "Documentation",
+    "url"         : "/docs/1.0.3/aesthetics/icons"
+  },{
+    "title"       : "Typography",
+    "desc"        : "Denali offers a Sans Serif and Monospace font-family in a variety of weights and heading styles.",
+    "collection"  : "Documentation",
+    "url"         : "/docs/1.0.3/aesthetics/typography"
+  },{
+    "title"       : "Alerts",
+    "desc"        : "Alerts are used to provide feedback and information to users. They come in a variety of styles and colors to fit specific use cases.",
+    "collection"  : "Documentation",
+    "url"         : "/docs/1.0.3/components/alerts"
+  },{
+    "title"       : "Box",
+    "desc"        : "Boxes provide a simple container for other elements. They can be customized with headers and footers",
+    "collection"  : "Documentation",
+    "url"         : "/docs/1.0.3/components/box"
+  },{
+    "title"       : "Buttons",
+    "desc"        : "Buttons allow users to take actions within a product. Denali buttons come in a variety of styles, sizes, and states.",
+    "collection"  : "Documentation",
+    "url"         : "/docs/1.0.3/components/buttons"
+  },{
+    "title"       : "Chips",
+    "desc"        : "Chips are used to highlight important text information. They come in two sizes and their color can be customized.",
+    "collection"  : "Documentation",
+    "url"         : "/docs/1.0.3/components/chips"
+  },{
+    "title"       : "Fields",
+    "desc"        : "Fields allow users to enter text information. They come in two styles, inline and text area. Buttons and icons can be added to both field styles.",
+    "collection"  : "Documentation",
+    "url"         : "/docs/1.0.3/components/fields"
+  },{
+    "title"       : "Links",
+    "desc"        : "Links connect pages to each other and allow users to perform actions within a page. They come in a variety of sizes and styles and can be used together with icons.",
+    "collection"  : "Documentation",
+    "url"         : "/docs/1.0.3/components/links"
+  },{
+    "title"       : "Loaders",
+    "desc"        : "Loaders signify that content is being loaded or up-loaded on a page. They come in a variety of sizes and styles and can be added to buttons.",
+    "collection"  : "Documentation",
+    "url"         : "/docs/1.0.3/components/loader"
+  },{
+    "title"       : "Menu",
+    "desc"        : "Menus contain discoverable content such as links and user information. They can be aligned to the left or the right.",
+    "collection"  : "Documentation",
+    "url"         : "/docs/1.0.3/components/menu"
+  },{
+    "title"       : "Modals",
+    "desc"        : "Modals overlay pages to display secondary information. They come in default and fullscreen styles and can be customized with a header and footer.",
+    "collection"  : "Documentation",
+    "url"         : "/docs/1.0.3/components/modals"
+  },{
+    "title"       : "Navbar",
+    "desc"        : "The Navbar is a horizontal bar that serves as the primary navigation for your product or site. Denali&amp;#39;s navbar is versatile and responsive. It can contain a variety of elements including logos, links, icons, and search fields.",
+    "collection"  : "Documentation",
+    "url"         : "/docs/1.0.3/components/navbar"
+  },{
+    "title"       : "Search",
+    "desc"        : "Search fields allow users to search for content.",
+    "collection"  : "Documentation",
+    "url"         : "/docs/1.0.3/components/search"
+  },{
+    "title"       : "Selection controls",
+    "desc"        : "Selection controls allow users to make decisions via controls such as switches, radio buttons, and checkboxes.",
+    "collection"  : "Documentation",
+    "url"         : "/docs/1.0.3/components/selection-controls"
+  },{
+    "title"       : "Selects",
+    "desc"        : "Selects are used to store selectable options and collect user input. They come in a variety of sizes and states. Their labels can be positioned either to the left or the right.",
+    "collection"  : "Documentation",
+    "url"         : "/docs/1.0.3/components/selects"
+  },{
+    "title"       : "Tables",
+    "desc"        : "Tables organize information in columns and rows. Table cells can be aligned to the left, center, or right. Stripes can also be added to tables to differentiate between rows.",
+    "collection"  : "Documentation",
+    "url"         : "/docs/1.0.3/components/tables"
+  },{
+    "title"       : "Tabs",
+    "desc"        : "Tabs provide additional navigation within a page or sub section of a page. They are available in primary and secondary styles.",
+    "collection"  : "Documentation",
+    "url"         : "/docs/1.0.3/components/tabs"
+  },{
+    "title"       : "Tags",
+    "desc"        : "Tags display descriptive text information. They come in solid, outline, and selectable styles. Tags can be grouped into scrolling or wrapping lists. Icons can also be added to tags.",
+    "collection"  : "Documentation",
+    "url"         : "/docs/1.0.3/components/tag"
+  },{
+    "title"       : "Titles",
+    "desc"        : "Titles are stylized headings that call out important information or data. They are comprised of a title bar, headline, and caption. Title text styles and color can be customized.",
+    "collection"  : "Documentation",
+    "url"         : "/docs/1.0.3/components/titles"
+  },{
+    "title"       : "Toggles",
+    "desc"        : "Toggles are a group of selectable options that are related to each other. The options are contained within a single component and one option is always selected by default. Toggles are available in default and small sizes.",
+    "collection"  : "Documentation",
+    "url"         : "/docs/1.0.3/components/toggles"
+  },{
+    "title"       : "Getting started",
+    "desc"        : "Follow the steps below to get started with Denali.",
+    "collection"  : "Documentation",
+    "url"         : "/docs/1.0.3/guides/get-started"
+  },{
+    "title"       : "Global Variables",
+    "desc"        : "These variables can be used to customize multiple components.",
+    "collection"  : "Documentation",
+    "url"         : "/docs/1.0.3/guides/global-variables"
+  },{
+    "title"       : "Themeable",
+    "desc"        : "Follow the steps below to theme your app with Denali.",
+    "collection"  : "Documentation",
+    "url"         : "/docs/1.0.3/guides/themeable"
+  },{
+    "title"       : "What&#39;s New",
+    "desc"        : "We list all the updates, bug fixes, and new features.",
+    "collection"  : "Documentation",
+    "url"         : "/docs/1.0.3/guides/whats-new"
+  },{
+    "title"       : "Flexbox",
+    "desc"        : "Flex helpers, based on flexbox, help layout responsive elements within a container.",
+    "collection"  : "Documentation",
+    "url"         : "/docs/1.0.3/helpers/flexbox"
+  },{
+    "title"       : "Margins",
+    "desc"        : "Margin helpers are used to space out elements.",
+    "collection"  : "Documentation",
+    "url"         : "/docs/1.0.3/helpers/margins"
+  },{
+    "title"       : "Padding",
+    "desc"        : "Padding helpers are used to control an elements padding.",
+    "collection"  : "Documentation",
+    "url"         : "/docs/1.0.3/helpers/padding"
+  },{
+    "title"       : "Breakpoints",
+    "desc"        : "Denali was created to be mobile first. Build responsive layouts using media queries to create breakpoints.",
+    "collection"  : "Documentation",
+    "url"         : "/docs/1.0.3/layouts/breakpoints"
+  },{
+    "title"       : "Columns",
+    "desc"        : "Columns must always be wrapped within rows and are used to layout content vertically or horizontally. ",
+    "collection"  : "Documentation",
+    "url"         : "/docs/1.0.3/layouts/columns"
+  },{
+    "title"       : "Containers",
+    "desc"        : "Containers are a foundational layout element. Denali offers a choice between a basic container and a full container. Basic containers can be placed within full containers for added flexibility.",
+    "collection"  : "Documentation",
+    "url"         : "/docs/1.0.3/layouts/containers"
+  },{
+    "title"       : "Rows",
+    "desc"        : "Rows horizontally layout content and are direct children of containers.",
+    "collection"  : "Documentation",
+    "url"         : "/docs/1.0.3/layouts/rows"
+  },
+  
+  {
+    "title"    : "Alerts",
+    "desc"     : "Alerts provide users with information and to notify them of actions that need to be taken. Denali categorizes alerts into 3 distinct types with specific use cases for each.",
+    "collection" : "Principles",
+    "url"      : "/principles/alerts"
+
+  },{
+    "title"    : "Buttons",
+    "desc"     : "Buttons allow users to take actions within your product. ",
+    "collection" : "Principles",
+    "url"      : "/principles/buttons"
+
+  },{
+    "title"    : "Colors",
+    "desc"     : "From differentiating elements on a screen to conveying meaning, color plays a key role in creating products with effective interfaces and user experiences.",
+    "collection" : "Principles",
+    "url"      : "/principles/colors"
+
+  },{
+    "title"    : "Component Behavior",
+    "desc"     : "Component behavior refers to the way that Denali’s components adapt to fit within the different breakpoint ranges of Denali’s responsive grid.",
+    "collection" : "Principles",
+    "url"      : "/principles/component-behavior"
+
+  },{
+    "title"    : "Fields",
+    "desc"     : "Fields allow users to enter text information within your product.",
+    "collection" : "Principles",
+    "url"      : "/principles/fields"
+
+  },{
+    "title"    : "Data Visualization",
+    "desc"     : "",
+    "collection" : "Principles",
+    "url"      : "/principles/graphs"
+
+  },{
+    "title"    : "Icons",
+    "desc"     : "Icons are an important part of our interfaces. They allow us to visually communicate actions and create patterns that allow users to work through our interfaces efficiently.",
+    "collection" : "Principles",
+    "url"      : "/principles/icons"
+
+  },{
+    "title"    : "Introduction",
+    "desc"     : "Denali was developed as a way to quickly create unified product families with intuitive user experiences. Our design principles support this goal by providing designers with immediate visual design solutions that allow them to spend less time debating small design decisions and more time developing effective flow structures.",
+    "collection" : "Principles",
+    "url"      : "/principles/introduction"
+
+  },{
+    "title"    : "Page Density Spacing",
+    "desc"     : "Balancing page density and spacing is fundamental to creating interfaces that are easy to consume. This balance is achieved by using space effectively and consistently to ensure scannability and clear visual hierarchy in both high and low density interfaces.",
+    "collection" : "Principles",
+    "url"      : "/principles/page-density-spacing"
+
+  },{
+    "title"    : "Responsive Grid",
+    "desc"     : "Denali’s responsive grid allows content to adapt seamlessly to different screen sizes. The grid is based on a 12 column grid and is comprised of margins, columns, rows, and gutters. These components adjust automatically at predetermined breakpoints.",
+    "collection" : "Principles",
+    "url"      : "/principles/responsive-grid"
+
+  },{
+    "title"    : "Alerts",
+    "desc"     : "Alerts provide users with information and to notify them of actions that need to be taken. Denali categorizes alerts into 3 distinct types with specific use cases for each.",
+    "collection" : "Principles",
+    "url"      : "/principles/test/alerts"
+
+  },{
+    "title"    : "Typography",
+    "desc"     : "Words are our primary means of communication. Therefore careful selection of typography and the use of typographic patterns is essential to a successful product.",
+    "collection" : "Principles",
+    "url"      : "/principles/typography"
+
+  },
+  {
+    "title"       : "Getting Started",
+    "desc"        : "Follow the steps below to get started with Denali.",
+    "collection"  : "Documentation",
+    "url"         : "/documentation/get-started"
+
+  },
+  {
+    "title"       : "Global Variables",
+    "desc"        : "These variables can be used to customize multiple components.",
+    "collection"  : "Documentation",
+    "url"         : "/documentation/global-variables"
+
+  },
+  {
+    "title"       : "Resources",
+    "desc"        : "These downloads, links, and themes are provided to help you and your team easily build products with the Denali framework.",
+    "collection"  : "Resources",
+    "url"         : "/resource-downloads"
+  },
+  {
+    "title"       : "Sketch Library",
+    "desc"        : "These downloads, links, and themes are provided to help you and your team easily build products with the Denali framework.",
+    "collection"  : "Resources",
+    "url"         : "/resource-downloads"
+  },
+  {
+    "title"       : "Ui Kit",
+    "desc"        : "These downloads, links, and themes are provided to help you and your team easily build products with the Denali framework.",
+    "collection"  : "Resources",
+    "url"         : "/resource-downloads"
+  },
+  {
+    "title"       : "Framer",
+    "desc"        : "These downloads, links, and themes are provided to help you and your team easily build products with the Denali framework.",
+    "collection"  : "Resources",
+    "url"         : "/resource-downloads"
+  }
+]
