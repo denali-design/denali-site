@@ -1,214 +1,412 @@
 ---
 layout: base
 ---
+<div class="splash-page" onscroll="themeScroll()">
 
-<!-- Nav -->
-<nav class="nav">
-  <div class="nav-left">
-    <a href="{{ site.baseurl }}/" class="nav-brand"><img src="{{ site.baseurl }}/assets/images/denali-logo.svg" alt=""></img></a>
-  </div>
-  <div class="nav-right hide-small-desktop-up">
-    <a href="#search" class="nav-icon">
-      <i class="d-icon d-search"></i>
-    </a>
-    <a href="https://join.slack.com/t/denali-design/shared_invite/enQtNzk0MTE2NjU3MzE0LTM5NWFmMGFmZmFhZjVhMzdjMzYzMDQ4ZGNhZjYxNGUwMzgxMWRmODc4MWIzYTE3YzQ5OWMyM2IzMTkxZGExYWY" target="_blank" class="nav-icon">
-      <i class="d-icon d-slack"></i>
-    </a>
-    <a href="https://github.com/denali-design" target="_blank" class="nav-icon">
-      <i class="d-icon d-github"></i>
-    </a>
-    <!-- <div class="menu is-right">
-      <a class="nav-icon menu-trigger" tabindex="0"><i class="d-icon d-help-circle"></i></a>
-      <div class="menu-content">
-        <a href="https://github.com/denali-design/issues/new?labels=feature-request" target="_blank">Feature Requests</a>
-        <a href="https://github.com/denali-design/milestones" target="_blank">Roadmap</a>
+  <!-- Navbar -->
+  <nav class="nav is-fixed-top" style="z-index: 100;">
+    <div class="nav-left">
+      <img style="height: 60px;" class="nav-brand" src="{{ site.url }}/assets/images/denali-logo-white.svg"
+        alt=""></img>
+      <div class="float-right hide-small-desktop-up">
+        <a class="nav-icon" id="navToggle"><i class="d-icon d-more-vertical"></i></a>
       </div>
-    </div> -->
-  </div>
-  <a class="nav-icon nav-toggle-dropdown" tabindex="0"><i class="d-icon d-more-vertical"></i></a>
-  <div class="nav-right space-between responsive">
-    <div class="nav-group">
-      <a class="nav-item {% if page.url contains "documentation" %}is-active{% endif %}" href="{{ site.baseurl }}/documentation/get-started">Documentation</a>
-      <a class="nav-item {% if page.url contains "principles" %}is-active{% endif %}" href="{{ site.baseurl }}/principles/introduction">Principles</a>
-      <a class="nav-item {% if page.url contains "resource" %}is-active{% endif %}" href="{{ site.baseurl }}/resource-downloads">Resources</a>
     </div>
-    <div class="nav-group">
-      <div class="menu">
-        <a class="nav-item menu-trigger" tabindex="0">Components<i class="d-icon d-arrowhead-down is-small is-sub"></i></a>
-        <div class="menu-content">
-          <h5 class="upper is-grey-600">Frameworks</h5>
-          <a href="https://denali-design.github.io/denali-css/docs/">CSS</a>
-        </div>
+    <div class="nav-responsive" id="navMenuContent">
+      <div class="nav-center">
+        <a class="nav-item" href="{{ site.data.navigation.static.docs }}guides/get-started">Docs</a>
+        <a class="nav-item" href="{{ site.data.navigation.static.principles }}">Principles</a>
+        <a class="nav-item" href="{{ site.data.navigation.static.resources }}">Resources</a>
+        <a class="nav-item" href="https://denali-design.github.io/denali-css/docs/" target="_blank">CSS</a>
+        <a class="nav-item" href="https://denali-design.github.io/denali-icon-font/docs/" target="_blank">Icons</a>
       </div>
-      <div class="menu">
-        <a class="nav-item menu-trigger is-inverse" tabindex="0">Icons<i class="d-icon d-arrowhead-down is-small is-sub"></i></a>
-        <div class="menu-content">
-          <h5 class="upper is-grey-600">Frameworks</h5>
-          <a href="https://denali-design.github.io/denali-icon-font/docs/">Icon Font</a>
-        </div>
-      </div>
-      <a href="#search" class="nav-icon hide-tablet-down">
-        <i class="d-icon d-search"></i>
-      </a>
-      <a href="https://join.slack.com/t/denali-design/shared_invite/enQtNzk0MTE2NjU3MzE0LTM5NWFmMGFmZmFhZjVhMzdjMzYzMDQ4ZGNhZjYxNGUwMzgxMWRmODc4MWIzYTE3YzQ5OWMyM2IzMTkxZGExYWY" target="_blank" class="nav-icon hide-tablet-down">
-        <i class="d-icon d-slack"></i>
-      </a>
-      <a href="https://github.com/denali-design" target="_blank" class="nav-icon hide-tablet-down">
-        <i class="d-icon d-github"></i>
-      </a>
-      <!-- <div class="menu is-right">
-        <a class="nav-icon menu-trigger hide-tablet-down" tabindex="0"><i class="d-icon d-help-circle"></i></a>
-        <div class="menu-content">
-          <a href="https://github.com/denali-design/denali-site/issues/new?labels=feature-request" target="_blank">Feature Requests</a>
-          <a href="https://github.com/denali-design/denali-site/milestones" target="_blank">Roadmap</a>
-        </div>
-      </div> -->
-    </div>
-  </div>
-</nav>
-
-<!-- Cover -->
-<div class="top">
-    <div class="home">
-        <div>
-            <div>
-                <h1 class="title m-b-1 is-grey-100">Denali System Language</h1>
-                <p class="description is-light m-b-2">A comprehensive system language for <br>
-                  creating intuitive enterprise products.
-                </p>
-            </div>
-            <a href="{{ site.baseurl }}/documentation/get-started"
-             class="button is-solid is-large m-r-1">Developer Docs</a>
-            <a href="{{ site.baseurl }}/principles/introduction"
-             class="button is-outline is-inverse is-large">Design Principles</a>
-            <a href="#cards"><i class="d-icon d-arrowhead-down is-large"></i></a>
-        </div>
-        <img src="{{ site.baseurl }}/assets/images/Cover/cover-illustration.png"
-             alt="Cover" />
-      </div>
-        <div class="cards" id="cards">
-            <a href="{{ site.baseurl }}/documentation/get-started">
-          <div class="card">
-            <img src="{{ site.baseurl }}/assets/images/Cards/cards_build.png"
-                 alt="build" />
-            <h2>Build</h2>
-            <p>Develop products efficiently with our comprehensive framework.</p>
-            <div class="link">View Developer Docs</div>
-          </div>
+      <div class="nav-right">
+        <a href="{{ site.baseurl }}{{ page.url }}#search" class="nav-icon">
+          <i class="d-icon d-search"></i>
+          <span class="icon-name">Search</span>
         </a>
-            <a href="{{ site.baseurl }}/principles/introduction">
-          <div class="card">
-            <img src="{{ site.baseurl }}/assets/images/Cards/cards_design.png"
-                 alt="design" />
-            <h2>Design</h2>
-            <p>Explore the principles we use to guide our design decisions.</p>
-            <div class="link">View Design Principles</div>
-          </div>
+        <a href="https://github.com/denali-design" target="_blank" class="nav-icon">
+          <i class="d-icon d-github"></i>
+          <span class="icon-name">Github</span>
         </a>
-            <a href="https://denali-design.github.io/denali-icon-font/docs/" target="_blank">
-          <div class="card">
-            <img src="{{ site.baseurl }}/assets/images/Cards/cards_icons.png"
-                 alt="icons" />
-            <h2>Icons</h2>
-            <p>Discover over 600 custom icons ready for downloads.</p>
-            <div class="link">View Icon Library</div>
-          </div>
-        </a>
-        </div>
-    </div>
-
-    <!-- Content -->
-    <div class="contents">
-        <div class="content-one">
-            <img class="curve"
-             src="{{ site.baseurl }}/assets/images/Curves/top-curve.svg" />
-            <img class="mobile-curve"
-             src="{{ site.baseurl }}/assets/images/Curves/mobile-top-curve.svg" />
-            <img class="body-image"
-             src="{{ site.baseurl }}/assets/images/Body/functional-design.png" />
-            <div class="home-content">
-                <h1>Functional Design</h1>
-                <h4>DESIGN LANGUAGE</h4>
-                <p>Denali's Design Language was developed with the philosophy that form follows function. The result is
-                    a visual design language that works in support of functionality to provide intuitive product
-                    experiences.</p>
-                <div>
-                    <a href="{{ site.baseurl }}/principles/introduction"
-               class="button is-outline">
-               Design Principles
-              </a>
-                </div>
-            </div>
-        </div>
-        <div class="content-two">
-            <img class="body-image"
-             src="{{ site.baseurl }}/assets/images/Body/rapid-development.png">
-            <div class="home-content">
-                <h1>Rapid Development</h1>
-                <h4>CSS FRAMEWORK</h4>
-                <p>Get started with Denali in seconds. Install the entire framework or take only what you need, each
-                    component is entirely independent and easily customizable to quickly meet your product's needs.</p>
-                <div>
-                    <a href="{{ site.baseurl }}/documentation/get-started"
-               class="button is-outline">
-                 Developer Docs
-              </a>
-                </div>
-            </div>
-        </div>
-        <div class="content-three">
-            <img class="body-image"
-             src="{{ site.baseurl }}/assets/images/Body/fully-responsive.png">
-            <div class="home-content">
-                <h1>Fully Responsive</h1>
-                <h4>MOBILE FIRST</h4>
-                <p>Denali has what you need to design for every screen size from a fully responsive component library
-                    to flexible grid system.</p>
-                <div>
-                    <a href="{{ site.baseurl }}/documentation/formats/breakpoints"
-               class="button is-outline">
-               Grid System
+        <div class="nav-menu">
+          <div class="nav-icon menu-trigger">
+            <i class="d-icon d-help-circle"></i>
+            <span class="icon-name">Help</span></div>
+          <div class="menu-content is-right">
+            <a href="https://github.com/denali-design/issues/new?labels=feature-request" target="_blank">
+              Feature Requests
             </a>
+            <a href="https://github.com/denali-design/milestones" target="_blank">Roadmap</a>
+            <a href="https://join.slack.com/t/denali-design/shared_invite/enQtNzk0MTE2NjU3MzE0LTM5NWFmMGFmZmFhZjVhMzdjMzYzMDQ4ZGNhZjYxNGUwMzgxMWRmODc4MWIzYTE3YzQ5OWMyM2IzMTkxZGExYWY"
+              target="_blank">Slack
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Cover -->
+  <div class="container-full cover">
+    <div class="container">
+      <div class="row">
+        <div
+          class="xs-col-12-12 sm-col-10-12 sm-col-off-1-12 md-col-8-12 md-col-off-2-12 lg-col-6-12 lg-col-off-3-12
+          xl-col-6-12 xl-col-off-3-12 p-x-20">
+          <h1 class="is-grey-100">Build and theme products like never before</h1>
+          <p class="is-grey-100 m-t-40">We built our components to be themeable by nature which means you aren’t tied to
+            our components visual.</p>
+            <div class="button-group">
+              <a href="{{ site.data.navigation.static.docs }}guides/get-started" class="cover-button inverse">Start
+                building <i class="d-icon d-arrow-right m-l-18"></i></a>
+              <a href="{{ site.data.navigation.static.principles }}" class="cover-button inverse outline">View
+                Principles</a>
+            </div>
+        </div>
+      </div>
+      <div class="row m-t-40 p-b-80 cover-image">
+        <div class="col-12-12 lg-col-10-12 lg-col-off-1-12 xl-col-10-12 xl-col-off-1-12">
+          <img src="assets/images/splash/cover-image.png" alt="">
+        </div>
+      </div>
+    </div>
+    <!-- Blobs -->
+    <img class="blob-big" src="assets/images/splash/cover-blob-big.png" alt="">
+    <img class="blob-small" src="assets/images/splash/cover-blob-small.png" alt="">
+  </div>
+
+  <!-- Develop -->
+  <div class="container-full re-theme">
+    <div class="container">
+      <div class="row">
+        <div class="xs-col-12-12 sm-col-10-12 sm-col-off-1-12 md-col-8-12 md-col-off-2-12 lg-col-6-12 lg-col-off-3-12
+          xl-col-6-12 xl-col-off-3-12">
+          <p class="is-grey-600 m-b-24"><i class="d-icon d-computer-code m-r-12"></i><span class="mono">Develop</span></p>
+          <h1 class="is-grey-800 p-x-40">Ready to go components re-themed in a snap.</h1>
+          <p class="is-grey-800 m-t-40">We built our components to be themeable by nature which means you aren’t tied to our components visual design.</p>
+          <div class="flex justify-content-center">
+            <a href="{{ site.data.navigation.static.docs }}guides/get-started" class="cover-button m-t-40">Start
+              building <i class="d-icon d-arrow-right m-l-18"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Blobs -->
+    <!-- <img class="blob-big" src="assets/images/splash/cover-blob-big.png" alt=""> -->
+    <!-- <img class="blob-small" src="assets/images/splash/cover-blob-small.png" alt=""> -->
+  </div>
+
+  <!-- Theme Images -->
+  <div class="theme-image">
+    <div class="theme-code-container">
+      <div class="theme-code">&#60;body class="<div id="themeImageCode" class=""></div>"&#62;</div>
+    </div>
+    <div id="image" class="denali"></div>
+  </div>
+
+  <!-- Icons -->
+  <div class="container-full icons-container">
+    <div class="container icons">
+      <div class="row">
+        <div class="xs-col-12-12 sm-col-10-12 sm-col-off-1-12 col-7-12 content">
+          <div class="row">
+            <div class="xs-col-10-12 xs-col-off-1-12 sm-col-10-12 sm-col-off-1-12 col-4-7 col-off-1-7 p-y-100">
+              <p class="is-grey-600 m-b-24"><i class="d-icon d-partners m-r-12"></i><span class="mono">Design +
+                  Develop</span></p>
+              <h1 class="is-grey-100">1,000+ solid and outline icons. Available as png, svg, or font.</h1>
+              <p class="is-grey-100 m-t-40">Adding icons to your products is as easy as adding a CSS class - because that’s what they are!</p>
+              <div class="flex justify-content-start">
+                <a href="https://denali-design.github.io/denali-icon-font/docs/" target="_blank"
+                  class="cover-button m-t-40">View Icon Library <i class="d-icon d-arrow-right m-l-18"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="xs-col-8-12 xs-col-off-2-12 sm-col-8-12 sm-col-off-2-12 md-col-6-12 md-col-off-6-12 col-6-12 col-off-6-12 image"></div>
+      </div>
+      <!-- Design Principles -->
+      <div class="row align-items-center">
+        <div class="xs-col-10-12 xs-col-off-1-12 sm-col-10-12 sm-col-off-1-12 col-6-12">
+          <img src="assets/images/splash/design-principles.png" alt="">
+        </div>
+        <div class="xs-col-10-12 xs-col-off-1-12 sm-col-10-12 sm-col-off-1-12 col-6-12">
+          <div class="row">
+            <div class="xs-col-10-12 xs-col-off-1-12 sm-col-10-12 sm-col-off-1-12 col-4-6 col-off-1-6">
+              <p class="is-grey-600 m-b-24"><i class="d-icon d-partners m-r-12"></i><span class="mono">Design</span></p>
+              <h1 class="is-grey-800">Design fundamentals + UX best practices</h1>
+              <p class="is-grey-800 m-t-40">Whether it’s a question about typography or responsive behavior, our
+                principles have the answers you’re looking for.</p>
+              <div class="flex justify-content-start">
+                <a href="{{ site.data.navigation.static.principles }}" class="cover-button m-t-40">View Principles <i
+                    class="d-icon d-arrow-right m-l-18"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Guides -->
+    <div class="container" style="margin-bottom: 230px;">
+      <div class="row" style="margin-top: 300px; margin-bottom: 80px;">
+        <div class="xs-col-10-12 xs-col-off-1-12 sm-col-8-12 md-col-6-12 lg-col-5-12 xl-col-5-12">
+          <p class="is-grey-600 m-b-24"><i class="d-icon d-partners m-r-12"></i><span class="mono">Design + Develop</span></p>
+          <h1 class="is-grey-800">Everything you need to jump right in</h1>
+          <p class="is-grey-800 m-t-40">Whether it’s a question about typography or responsive behavior, our principles
+            have the answers you’re looking for.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <a class="col has-bg-orange-500 p-50 m-20 guides getting-started"
+          href="{{ site.data.navigation.static.docs }}guides/get-started">
+          <p class="is-grey-800 m-b-24"><i class="d-icon d-ai m-r-12"></i><span class="mono">Guides</span></p>
+          <h1 class="is-grey-800 m-b-50">Setting up your project</h1>
+          <i class="d-icon d-arrow-right is-large is-grey-800"></i>
+        </a>
+
+        <a class="col has-bg-yellow-500 p-50 m-20 guides templates" href="{{ site.data.navigation.static.resources }}">
+          <p class="is-grey-800 m-b-24"><i class="d-icon d-tools m-r-12"></i><span class="mono">Resources</span></p>
+          <h1 class="is-grey-800 m-b-50">UI Kits + HTML starter templates</h1>
+          <i class="d-icon d-arrow-right is-large is-grey-800"></i>
+        </a>
+      </div>
+
+      <div class="row">
+        <a class="col has-bg-lime-500 p-50 m-20 guides custom-theme"
+          href="{{ site.data.navigation.static.docs }}guides/themeable">
+          <p class="is-grey-800 m-b-24"><i class="d-icon d-ai m-r-12"></i><span class="mono">Guides</span></p>
+          <h1 class="is-grey-800 m-b-50">Creating custom themes</h1>
+          <i class="d-icon d-arrow-right is-large is-grey-800"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Updates -->
+  <div class="container">
+    <div class="row" style="margin-top: 0px; margin-bottom: 0px;">
+
+      <div class="xs-col-10-12 xs-col-off-1-12 sm-col-8-12 md-col-6-12 lg-col-5-12 xl-col-5-12">
+        <p class="is-grey-600 m-b-24"><i class="d-icon d-star m-r-12"></i><span class="mono">Updates</span>
+        </p>
+        <h1 class="is-grey-800">What’s new</h1>
+        <p class="is-grey-800 m-t-40">We’re always pushing new improvements. Check out the latest below and view
+          previous updates on our <a href="{{ site.data.navigation.static.docs }}guides/whats-new">whats new page.</a>
+          </p>
+      </div>
+    </div>
+
+    <div class="row updates-container" style="margin-top: 80px; margin-bottom: 200px;">
+      <a href="{{ site.data.navigation.static.docs }}guides/get-started" class="col updates">
+        <p class="date">Jan 16, 2020</p>
+        <p class="title">New & Improved Denali V2 Themeable CSS</p>
+        <p class="text">We bundled up all the user feedback and enhanced components in version 2.</p>
+        <p class="action">Start Building<i class="d-icon d-arrow-right m-l-10"></i></p>
+      </a>
+      <a href="https://denali-design.github.io/denali-icon-font/docs/" target="_blank" class="col updates">
+        <p class="date">Apr 8, 2020</p>
+        <p class="title">New icons including healthcare & horoscope</p>
+        <p class="text">100+ new icons. Our main focus for this release is healthcare and horoscope.</p>
+        <p class="action">View Icons<i class="d-icon d-arrow-right m-l-10"></i></p>
+      </a>
+      <a href="{{ site.data.navigation.static.principles }}responsive-grid" class="col updates">
+        <p class="date">Jan 22, 2020</p>
+        <p class="title">Introducing layout principles</p>
+        <p class="text">Clear guidelines on how to adapt your product seamlessly to different screen sizes.</p>
+        <p class="action">Read Principles<i class="d-icon d-arrow-right m-l-10"></i></p>
+      </a>
+    </div>
+  </div>
+  
+  <!-- Quotes -->
+  <div class="container-full quotes-container">
+    <div class="container">
+      <div class="row quotes-title-section">
+        <div class="xs-col-12-12 sm-col-10-12 sm-col-off-1-12 md-col-8-12 md-col-off-2-12 lg-col-6-12 lg-col-off-3-12
+          xl-col-6-12 xl-col-off-3-12">
+          <p class="is-grey-600 m-b-24"><i class="d-icon d-megaphone m-r-12"></i><span class="mono">Success stories</span></p>
+          <h1 class="is-grey-800">Hear from our partners</h1>
+          <p class="is-grey-800 m-t-40">From deveoper producity tools to open source projects, Denali can handle
+            anything.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="xs-col-12-12 sm-col-10-12 sm-col-off-1-12 md-col-9-12 md-col-off-3-12 lg-col-7-12 lg-col-off-4-12 xl-col-7-12 xl-col-off-4-12 quote-text">
+        
+          <!-- Verizon Quote -->
+          <div class="row quote-one">
+            <div class="xs-col-10-12 xs-col-off-1-12 sm-col-10-12 sm-col-off-1-12 md-col-5-9 md-col-off-3-9 lg-col-6-9 lg-col-off-2-9 xl-col-6-9 xl-col-off-2-9">
+              <p class="is-grey-500"><i class="d-icon d-computer-code m-r-12"></i><span class="mono">Increasing
+                  productivity</span></p>
+              <p class="is-grey-100 m-t-50 quote-content-text">“As a team of engineers creating easy to use UIs is a daunting task. Denali made it easy for us to build our products quickly and confidently.”</p>
+              <div class="quote-contact">
+                <img src="assets/images/splash/profile.png" alt="">
+                <div>
+                  <p class="name">The person here</p>
+                  <p class="contact-title">Front-end developer</p>
                 </div>
+              </div>
+              <div class="progress-bar">
+                <div class="active-bar"></div>
+              </div>
             </div>
-        </div>
-    </div>
-
-    <!-- Bottom -->
-    <div class="bottom">
-      <div>
-        <h1>Resources</h1>
-        <p class="description">Everything you need to help you create with Denali.</p>
-      </div>
-      <div>
-        <a href="{{ site.baseurl }}/resource-downloads">
-          <div class="bottom-icon">
-            <img src="{{ site.baseurl }}/assets/images/Resources/resources_sketch.png" />
           </div>
-          <h3>Sketch UI kit</h3>
-        </a>
-        <a href="{{ site.baseurl }}/assets/downloads/denali-icon-fonts.zip" download>
-          <div class="bottom-icon">
-            <img src="{{ site.baseurl }}/assets/images/Resources/resources_font.png" />
-          </div>
-          <h3>Icon Font</h3>
-        </a>
-      </div>
-    </div>
-
-    <!-- Footer -->
-    <div class="homepage-footer">
-        <div class="footer-left">
-          <img src="{{ site.baseurl }}/assets/images/logos/footer_logo.png"
-             width="40px"
-             height="40px"
-             alt="Denali"/>
-      </div>
-            <div class="footer-right">
-                <a href="{{ site.baseurl }}/principles/introduction" class="footer-item">Principles</a>
-                <a href="{{ site.baseurl }}/documentation/get-started" class="footer-item">Documentation</a>
-                <a href="https://github.com/denali-design/denali-site/issues/" target="_blank" class="footer-item">Report Issues</a>
+        
+          <!-- Screwdriver.cd Quote -->
+          <div class="row quote-two">
+            <div
+              class="xs-col-10-12 xs-col-off-1-12 sm-col-10-12 sm-col-off-1-12 md-col-5-9 md-col-off-3-9 lg-col-6-9 lg-col-off-2-9 xl-col-6-9 xl-col-off-2-9">
+              <p class="is-grey-500"><i class="d-icon d-computer-code m-r-12"></i><span class="mono">Increasing
+                  productivity</span></p>
+              <p class="is-grey-100 m-t-50 quote-content-text">“As a team of engineers creating easy to use UIs is a daunting task. Denali made it easy for us to build our products quickly and confidently.”</p>
+              <div class="quote-contact">
+                <img src="assets/images/splash/profile.png" alt="">
+                <div>
+                  <p class="name">Alan Dong</p>
+                  <p class="contact-title">Front-end developer</p>
+                </div>
+              </div>
+              <div class="progress-bar">
+                <div class="active-bar"></div>
+              </div>
             </div>
-        </div>
+          </div>
+        
+          <!-- Athenz Quote -->
+          <div class="row quote-three">
+            <div
+              class="xs-col-10-12 xs-col-off-1-12 sm-col-10-12 sm-col-off-1-12 md-col-5-9 md-col-off-3-9 lg-col-6-9 lg-col-off-2-9 xl-col-6-9 xl-col-off-2-9">
+              <p class="is-grey-500"><i class="d-icon d-computer-code m-r-12"></i><span class="mono">Increasing
+                  productivity</span></p>
+              <p class="is-grey-100 m-t-50 quote-content-text">“As a team of engineers creating easy to use UIs is a daunting task. Denali made it easy for us to build our products quickly and confidently.”</p>
+              <div class="quote-contact">
+                <img src="assets/images/splash/profile.png" alt="">
+                <div>
+                  <p class="name">Something Else</p>
+                  <p class="contact-title">Front-end developer</p>
+                </div>
+              </div>
+              <div class="progress-bar">
+                <div class="active-bar"></div>
+              </div>
+            </div>
+          </div>
 
-    {% include modals.html %}
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="xs-hide sm-hide col-4-12 lg-col-off-1-12 xl-col-off-1-12 quote-button">
+          <div class="quote-item">
+            <div class="company-image"><i class="d-icon d-verizon-check"></i></div>
+            <div class="context">
+              <p class="company">Verizon Media</p>
+              <p class="category">Enterprise tools</p>
+            </div>
+          </div>
+
+          <div class="quote-item">
+            <div class="company-image"><i class="d-icon d-screwdriver"></i></div>
+            <div class="context">
+              <p class="company">Screwdriver.cd</p>
+              <p class="category">Developer producity</p>
+            </div>
+          </div>
+
+          <div class="quote-item">
+            <div class="company-image"><i class="d-icon d-athenz"></i></div>
+            <div class="context">
+              <p class="company">Athenz</p>
+              <p class="category">Security</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="container-full" style="
+    background: #002B66;">
+    <div class="container">
+      {% include footer-splash.html %}
+    </div>
+  </div>
+</div>
+
+{% include modals.html %}
+
+<script>
+  // Theme Section
+  function themeScroll() {
+    var windowHeight = window.innerHeight;
+    var windowScroll = window.scrollY;
+
+    var code = document.getElementById("themeImageCode");
+    var imageTop = document.getElementById("image");
+    var imageOne = imageTop.offsetTop + windowHeight - 800;
+    var imageTwo = imageTop.offsetTop + windowHeight + 200;
+
+    if (windowScroll > imageOne && windowScroll < imageTwo) { 
+      imageTop.classList.remove("denali");
+      imageTop.classList.add("dark"); 
+      imageTop.classList.remove("purple");
+
+      code.innerHTML = "dark-theme";
+    } else if (windowScroll > imageTwo ) {
+      imageTop.classList.remove("denali");
+      imageTop.classList.remove("dark");
+      imageTop.classList.add("purple");
+
+      code.innerHTML = "purple-theme";
+    } else {
+      imageTop.classList.add("denali");
+      imageTop.classList.remove("dark");
+      imageTop.classList.remove("purple");
+
+      code.innerHTML = "denali-theme";
+    }
+  }
+
+  // Nav Menu Toggle
+  document.getElementById('navToggle').addEventListener("click", toggleMenu);
+  function toggleMenu() {
+    document.getElementById('navMenuContent').classList.toggle("is-active");
+  }
+
+  // Quote Buttons
+  var quoteItem = document.getElementsByClassName('quote-item');
+
+  function quoteSwitch() {
+    quoteSwitchOne();
+    setTimeout(quoteSwitchTwo, 8000);
+    setTimeout(quoteSwitchThree, 16000);
+    setTimeout(quoteSwitch, 24000);
+  }
+
+  quoteSwitch();
+
+  function quoteSwitchOne() {
+    quoteItem[0].classList.add('active');
+    quoteItem[1].classList.remove('active');
+    quoteItem[2].classList.remove('active');
+  }
+
+  function quoteSwitchTwo() {
+    quoteItem[0].classList.remove('active');
+    quoteItem[1].classList.add('active');
+    quoteItem[2].classList.remove('active');
+  }
+
+  function quoteSwitchThree() {
+    quoteItem[0].classList.remove('active');
+    quoteItem[1].classList.remove('active');
+    quoteItem[2].classList.add('active');
+  }
+
+</script>

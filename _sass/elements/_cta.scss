@@ -7,9 +7,15 @@
   border-radius: 20px;
   display: flex;
   flex-direction: column;
+  height: 550px;
+  transform: translateY(-230px);
+  margin-bottom: -230px;
 
   @media screen and (min-width: $mobile) {
     flex-direction: row;
+    height: 360px;
+    transform: translateY(-180px);
+    margin-bottom: -180px;
   }
 
   .cta-content {

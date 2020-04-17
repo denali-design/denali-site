@@ -2,7 +2,7 @@
 permalink: /markdown-cheatsheet
 section: "markdown-cheatsheet"
 title: "Markdown Cheatsheet"
-gitcontent: true
+layout: container
 ---
 NEATO THatS Kewl. NOT!
 # {{ page.title }}

@@ -1,64 +1,55 @@
-<nav class="nav">
+<nav class="nav" style="z-index: 100; background: #002B66;">
   <div class="nav-left">
-    <a onclick="toggleTabsLeft()" tabindex="0" id="toggleTab" class="nav-icon hide-small-desktop-up"><i class="d-icon d-menu-hamburger"></i></a>
-    <a href="{{ site.baseurl }}/" class="nav-brand"><img src="{{ site.baseurl }}/assets/images/denali-logo.svg" alt=""></img></a>
-  </div>
-  <div class="nav-right hide-small-desktop-up">
-    <a href="{{ site.baseurl }}{{ page.url }}#search" class="nav-icon">
-      <i class="d-icon d-search"></i>
+    <a onclick="toggleTabsLeft()" tabindex="0" id="toggleTab" class="nav-icon hide-small-desktop-up">
+      <i class="d-icon d-menu-hamburger"></i>
     </a>
-    <a href="https://join.slack.com/t/denali-design/shared_invite/enQtNzk0MTE2NjU3MzE0LTM5NWFmMGFmZmFhZjVhMzdjMzYzMDQ4ZGNhZjYxNGUwMzgxMWRmODc4MWIzYTE3YzQ5OWMyM2IzMTkxZGExYWY" target="_blank" class="nav-icon">
-      <i class="d-icon d-slack"></i>
+    <a href="/">
+      <img style="height: 60px;" class="nav-brand" src="{{ site.url }}/assets/images/denali-logo-white.svg" alt=""></img>
     </a>
-    <a href="https://github.com/denali-design" target="_blank" class="nav-icon">
-      <i class="d-icon d-github"></i>
-    </a>
-    <!-- <div class="menu is-right">
-      <a class="nav-icon menu-trigger" tabindex="0"><i class="d-icon d-help-circle"></i></a>
-      <div class="menu-content">
-        <a href="https://github.com/denali-design/issues/new?labels=feature-request" target="_blank">Feature Requests</a>
-        <a href="https://github.com/denali-design/milestones" target="_blank">Roadmap</a>
-      </div>
-    </div> -->
-  </div>
-  <a class="nav-icon nav-toggle-dropdown" tabindex="0"><i class="d-icon d-more-vertical"></i></a>
-  <div class="nav-right space-between responsive">
-    <div class="nav-group">
-      <a class="nav-item {% if page.url contains "documentation" %}is-active{% endif %}" href="{{ site.baseurl }}/documentation/get-started">Documentation</a>
-      <a class="nav-item {% if page.url contains "principles" %}is-active{% endif %}" href="{{ site.baseurl }}/principles/introduction">Principles</a>
-      <a class="nav-item {% if page.url contains "resource" %}is-active{% endif %}" href="{{ site.baseurl }}/resource-downloads">Resources</a>
+    <div class="float-right hide-small-desktop-up">
+      <a class="nav-icon" id="navToggle"><i class="d-icon d-more-vertical"></i></a>
     </div>
-    <div class="nav-group">
-      <div class="menu">
-        <a class="nav-item menu-trigger" tabindex="0">Components<i class="d-icon d-arrowhead-down is-small is-sub"></i></a>
-        <div class="menu-content">
-          <h5 class="upper is-grey-600">Frameworks</h5>
-          <a href="https://denali-design.github.io/denali-css/docs/">CSS</a>
-        </div>
-      </div>
-      <div class="menu">
-        <a class="nav-item menu-trigger is-inverse" tabindex="0">Icons<i class="d-icon d-arrowhead-down is-small is-sub"></i></a>
-        <div class="menu-content">
-          <h5 class="upper is-grey-600">Frameworks</h5>
-          <a href="https://denali-design.github.io/denali-icon-font/docs/">Icon Font</a>
-        </div>
-      </div>
-      <a href="{{ site.baseurl }}{{ page.url }}#search" class="nav-icon hide-tablet-down">
+  </div>
+  <div class="nav-responsive" id="navMenuContent">
+    <div class="nav-center">
+      <a class="nav-item {% if page.url contains 'docs' %}is-active{% endif %}" href="{{ site.data.navigation.static.docs }}guides/get-started">Docs</a>
+      <a class="nav-item {% if page.url contains 'principles' %}is-active{% endif %}" href="{{ site.data.navigation.static.principles }}">Principles</a>
+      <a class="nav-item {% if page.url contains 'resource' %}is-active{% endif %}" href="{{ site.data.navigation.static.resources }}">Resources</a>
+      <a class="nav-item" href="https://denali-design.github.io/denali-css/docs/" target="_blank">CSS</a>
+      <a class="nav-item" href="https://denali-design.github.io/denali-icon-font/docs/" target="_blank">Icons</a>
+    </div>
+    <div class="nav-right">
+      <a href="{{ site.baseurl }}{{ page.url }}#search"
+        class="nav-icon">
         <i class="d-icon d-search"></i>
+        <span class="icon-name">Search</span>
       </a>
-      <a href="https://join.slack.com/t/denali-design/shared_invite/enQtNzk0MTE2NjU3MzE0LTM5NWFmMGFmZmFhZjVhMzdjMzYzMDQ4ZGNhZjYxNGUwMzgxMWRmODc4MWIzYTE3YzQ5OWMyM2IzMTkxZGExYWY" target="_blank" class="nav-icon hide-tablet-down">
-        <i class="d-icon d-slack"></i>
-      </a>
-      <a href="https://github.com/denali-design" target="_blank" class="nav-icon hide-tablet-down">
+      <a href="https://github.com/denali-design" target="_blank" class="nav-icon">
         <i class="d-icon d-github"></i>
+        <span class="icon-name">Github</span>
       </a>
-      <!-- <div class="menu is-right">
-        <a class="nav-icon menu-trigger hide-tablet-down" tabindex="0"><i class="d-icon d-help-circle"></i></a>
-        <div class="menu-content">
-          <a href="https://github.com/denali-design/denali-site/issues/new?labels=feature-request" target="_blank">Feature Requests</a>
-          <a href="https://github.com/denali-design/denali-site/milestones" target="_blank">Roadmap</a>
+      <div class="nav-menu">
+        <div class="nav-icon menu-trigger">
+          <i class="d-icon d-help-circle"></i>
+          <span class="icon-name">Help</span></div>
+        <div class="menu-content is-right">
+          <a href="https://github.com/denali-design/issues/new?labels=feature-request" target="_blank">
+            Feature Requests
+          </a>
+          <a href="https://github.com/denali-design/milestones" target="_blank">Roadmap</a>
+          <a href="https://join.slack.com/t/denali-design/shared_invite/enQtNzk0MTE2NjU3MzE0LTM5NWFmMGFmZmFhZjVhMzdjMzYzMDQ4ZGNhZjYxNGUwMzgxMWRmODc4MWIzYTE3YzQ5OWMyM2IzMTkxZGExYWY"
+            target="_blank">Slack
+          </a>
         </div>
-      </div> -->
+      </div>
     </div>
   </div>
 </nav>
+
+<script>
+  document.getElementById('navToggle').addEventListener("click", toggleMenu);
+
+  function toggleMenu() {
+    document.getElementById('navMenuContent').classList.toggle("is-active");
+  }
+</script>

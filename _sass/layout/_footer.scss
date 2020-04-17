@@ -3,13 +3,13 @@
 // Licensed under the terms of the MIT license. See LICENSE file in project root for terms.
 
 .footer {
-  margin-top: 160px;
+  // margin-top: 160px;
 
   .footer-links {
-    padding: 60px 40px 0px 40px;
+    padding: 60px 10px 0px 10px;
 
-    @media screen and (max-width: $mobile) {
-      padding: 60px 10px 0px 10px;
+    @media screen and (min-width: $mobile) {
+      padding: 60px 40px 0px 40px;
     }
 
     ul {
@@ -36,10 +36,42 @@
   }
 
   .footer-social {
-    padding: 60px 40px 40px 40px;
+    padding: 60px 10px 20px 10px;
 
-    @media screen and (max-width: $mobile) {
-      padding: 60px 10px 0px 10px;
+    @media screen and (min-width: $mobile) {
+      padding: 60px 40px 20px 40px;
+    }
+  }
+
+  &.inverse {
+    .footer-links {
+      ul {
+        li {
+          &.header {
+            color: #fff;
+          }
+
+          a {
+            color: rgba(255, 255, 255, 0.6);
+
+            &:hover {
+              color: rgba(255, 255, 255, 1);
+            }
+          }
+        }
+      }
+    }
+
+    .footer-social {
+      h6 {
+        color: #fff !important;
+      }
+      a {
+        color: #fff !important;
+        &:hover {
+          color: rgba(#fff, .6) !important;
+        }
+      }
     }
   }
 }
@@ -53,7 +85,7 @@
             color: #fff;
           }
           a {
-            color: rgba(255, 255, 255, 0.4);
+            color: rgba(255, 255, 255, 0.6);
 
             &:hover {
               color: rgba(255, 255, 255, 1);

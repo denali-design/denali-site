@@ -36,7 +36,7 @@
 .color-group {
   .color {
     position: relative;
-    width: 250px;
+    width: 200px;
     &:first-child {
       .color-chip {
         border-top-left-radius: 4px;
@@ -80,7 +80,7 @@
     }
     &:hover {
       .color-chip {
-        width: 245px;
+        width: 200px;
         border-radius: 4px;
         margin-left: -10px;
         transition: 240ms;

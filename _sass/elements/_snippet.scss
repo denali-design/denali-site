@@ -73,9 +73,9 @@ Code Render
   .resizable-area {
     width: 100%;
     min-width: 280px;
-    border: 2px solid #E8E8E8;
+    // border: 2px solid #E8E8E8;
     overflow: auto;
-    padding-right: 20px;
+    // padding-right: 20px;
     border-top-left-radius: 6px;
     border-bottom-left-radius: 6px;
     background: #F8F8F8;
@@ -93,7 +93,7 @@ Code Render
     display:flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid #E8E8E8;
+    // border: 2px solid #E8E8E8;
     border-left: none;
     color: #D5D5D5;
   }
@@ -101,12 +101,12 @@ Code Render
   &.is-inverse {
     .resizable-area {
       background: #303030;
-      border: 2px solid #606060;
+      // border: 2px solid #606060;
       border-right: none;
     }
     #resizable-bar {
       background: #303030;
-      border: 2px solid #606060;
+      // border: 2px solid #606060;
       border-left: none;
       color: #606060;
     }
@@ -161,6 +161,7 @@ Code Snippets
 
   > pre.highlight {
     margin: 0px !important;
+    padding: 0px 20px 40px 20px !important;
   }
 }
 

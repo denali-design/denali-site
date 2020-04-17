@@ -1,9 +1,9 @@
 # FOR STATIC MENUS
 # AKA quick access to urls
 static:
-  docs:
-  - label: "Documentation"
-    url: /docs/overview/start
+  docs: /docs/2/
+  principles: /principles/introduction
+  resources: /resources
 
 # debug and cheatsheet links
 sitedebug:
@@ -58,88 +58,185 @@ principles:
 # documentation
 documentation:
   - label: "Guides"
-    url: /documentation/get-started
-    subnav: /documentation
+    url: /guides/get-started
+    subnav: /guides
     children:
-    - label: "Get Started"
-      url: /documentation/get-started
-    - label: "Theme Your App"
-      url: /documentation/themeable
-    - label: "Global Variables"
-      url: /documentation/global-variables
-    - label: "What's New"
-      url: /documentation/whats-new
+      - label: "Get Started"
+        url: /guides/get-started
+        versions:
+          - 1.0.3
+          - 2
+      - label: "Theme Your App"
+        url: /guides/themeable
+        versions:
+          - 1.0.3
+          - 2
+      - label: "Global Variables"
+        url: /guides/global-variables
+        versions:
+          - 1.0.3
+          - 2
+      - label: "What's New"
+        url: /guides/whats-new
+        versions:
+          - 1.0.3
+          - 2
   - label: "Aesthetics"
-    url: /documentation/aesthetics/colors
-    subnav: /documentation/aesthetics
+    url: /aesthetics/colors
+    subnav: /aesthetics
     children:
       - label: "Colors"
-        url: /documentation/aesthetics/colors
+        url: /aesthetics/colors
+        versions:
+          - 1.0.3
+          - 2
       - label: "Icons"
-        url: /documentation/aesthetics/icons
+        url: /aesthetics/icons
+        versions:
+          - 1.0.3
+          - 2
       - label: "Typography"
-        url: /documentation/aesthetics/typography
-  - label: "Formats"
-    url: /documentation/formats/breakpoints
-    subnav: /documentation/formats
+        url: /aesthetics/typography
+        versions:
+          - 1.0.3
+          - 2
+  - label: "Layouts"
+    url: /layouts/breakpoints
+    subnav: /layouts
     children:
       - label: "Breakpoints"
-        url: /documentation/formats/breakpoints
+        url: /layouts/breakpoints
+        versions:
+          - 1.0.3
+          - 2
       - label: "Columns"
-        url: /documentation/formats/columns
+        url: /layouts/columns
+        versions:
+          - 1.0.3
+          - 2
       - label: "Containers"
-        url: /documentation/formats/containers
+        url: /layouts/containers
+        versions:
+          - 1.0.3
+          - 2
       - label: "Rows"
-        url: /documentation/formats/rows
+        url: /layouts/rows
+        versions:
+          - 1.0.3
+          - 2
   - label: "Components"
-    url: /documentation/components/alerts
-    subnav: /documentation/components
+    url: /components/alerts
+    subnav: /components
     children:
       - label: "Alerts"
-        url: /documentation/components/alerts
+        url: /components/alerts
+        versions:
+          - 1.0.3
+          - 2
       - label: "Box"
-        url: /documentation/components/box
+        url: /components/box
+        versions:
+          - 1.0.3
+          - 2
       - label: "Buttons"
-        url: /documentation/components/buttons
+        url: /components/buttons
+        versions:
+          - 1.0.3
+          - 2
       - label: "Chips"
-        url: /documentation/components/chips
+        url: /components/chips
+        versions:
+          - 1.0.3
+          - 2
       - label: "Fields"
-        url: /documentation/components/fields
+        url: /components/fields
+        versions:
+          - 1.0.3
+          - 2
+      - label: "Input Group"
+        url: /components/input-group
+        versions:
+          - 2
       - label: "Links"
-        url: /documentation/components/links
-      #- label: "Lists"
-      #  url: /documentation/components/lists
+        url: /components/links
+        versions:
+          - 1.0.3
+          - 2
+      - label: "Lists"
+        url: /components/lists
+        versions:
+          - 2
       - label: "Loader"
-        url: /documentation/components/loaders
+        url: /components/loaders
+        versions:
+          - 1.0.3
+          - 2
       - label: "Menu"
-        url: /documentation/components/menu
+        url: /components/menu
+        versions:
+          - 1.0.3
+          - 2
       - label: "Modals"
-        url: /documentation/components/modals
+        url: /components/modals
+        versions:
+          - 1.0.3
+          - 2
       - label: "Navbar"
-        url: /documentation/components/navbar
-      #- label: "Search"
-      #  url: /documentation/components/search
+        url: /components/navbar
+        versions:
+          - 1.0.3
+          - 2
       - label: "Selection Controls"
-        url: /documentation/components/selection-controls
+        url: /components/selection-controls
+        versions:
+          - 1.0.3
+          - 2
       - label: "Selects"
-        url: /documentation/components/selects
+        url: /components/selects
+        versions:
+          - 1.0.3
+          - 2
       - label: "Table"
-        url: /documentation/components/tables
+        url: /components/tables
+        versions:
+          - 1.0.3
+          - 2
       - label: "Tabs"
-        url: /documentation/components/tabs
+        url: /components/tabs
+        versions:
+          - 1.0.3
+          - 2
       - label: "Tags"
-        url: /documentation/components/tags
+        url: /components/tags
+        versions:
+          - 1.0.3
+          - 2
       - label: "Titles"
-        url: /documentation/components/titles
+        url: /components/titles
+        versions:
+          - 1.0.3
+          - 2
       - label: "Toggles"
-        url: /documentation/components/toggles
+        url: /components/toggles
+        versions:
+          - 1.0.3
+          - 2
   - label: "Helpers"
-    url: /documentation/helpers/breakpoints
-    subnav: /documentation/helpers
+    url: /helpers/flexbox
+    subnav: /helpers
     children:
       - label: "Flexbox"
-        url: /documentation/helpers/flexbox
+        url: /helpers/flexbox
+        versions:
+          - 1.0.3
+          - 2
       - label: "Margins"
-        url: /documentation/helpers/margins
+        url: /helpers/margins
+        versions:
+          - 1.0.3
+          - 2
       - label: "Padding"
-        url: /documentation/helpers/padding
+        url: /helpers/padding
+        versions:
+          - 1.0.3
+          - 2
