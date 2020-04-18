@@ -1,13 +1,18 @@
 ---
 ---
 [
-  {% for aesthetic in site.aesthetics %}{
-    "title"    : "{{ aesthetic.title | escape }}",
-    "desc"     : "{{ aesthetic.excerpt | escape }}",
+  {% for doc in site.docs %}{% if doc.url contains "1.0.3" %}{
+    "title"       : "{{ doc.title | escape }}",
+    "desc"        : "{{ doc.excerpt | escape }}",
+    "collection"  : "Documentation",
+    "url"         : "{{ site.baseurl }}{{ doc.url }}"
+  },{% endif %}{% endfor %}
+  {% for helper in site.helpers %}{
+    "title"    : "{{ helper.title | escape }}",
+    "desc"     : "{{ helper.excerpt | escape }}",
     "collection" : "Documentation",
-    "url"      : "{{ site.baseurl }}{{ aesthetic.url }}"
-
-  } ,{% endfor %}
+    "url"      : "{{ site.baseurl }}{{ helper.url }}"
+  },{% endfor %}
   {% for principle in site.principles %}{
     "title"    : "{{ principle.title | escape }}",
     "desc"     : "{{ principle.excerpt | escape }}",
@@ -15,25 +20,6 @@
     "url"      : "{{ site.baseurl }}{{ principle.url }}"
 
   },{% endfor %}
-  {% for format in site.formats %}{
-    "title"    : "{{ format.title | escape }}",
-    "desc"     : "{{ format.excerpt | escape }}",
-    "collection" : "Documentation",
-    "url"      : "{{ site.baseurl }}{{ format.url }}"
-
-  } ,{% endfor %}
-  {% for component in site.components %}{
-    "title"    : "{{ component.title | escape }}",
-    "desc"     : "{{ component.excerpt | escape }}",
-    "collection" : "Documentation",
-    "url"      : "{{ site.baseurl }}{{ component.url }}"
-  } ,{% endfor %}
-  {% for helper in site.helpers %}{
-    "title"    : "{{ helper.title | escape }}",
-    "desc"     : "{{ helper.excerpt | escape }}",
-    "collection" : "Documentation",
-    "url"      : "{{ site.baseurl }}{{ helper.url }}"
-  } ,{% endfor %}
   {
     "title"       : "Getting Started",
     "desc"        : "Follow the steps below to get started with Denali.",

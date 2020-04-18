@@ -6,15 +6,41 @@
 {% include meta.html %}
 {% include analytics.html %}
 
-<link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ site.baseurl }}/feed.xml{% endif %}" type="application/atom+xml"
-  rel="alternate" title="{{ site.title }} Feed">
+<link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ site.baseurl }}/feed.xml{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
 
 <script>
-    document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+
+  // Resize iframe
+  function resizeIframe(obj, codeElement) {
+    var htmlCode = document.getElementById(codeElement).innerHTML;
+    var iframe = obj.contentWindow.document;
+
+    var parentUrl = window.location.href;
+    var cssLink;
+    // console.log(parentUrl)
+
+    if (parentUrl.includes("1.0.3")) {
+      cssLink = '<link rel="stylesheet" href="/assets/css/denali-1.0.3.css">';
+    } else if (parentUrl.includes("2")) {
+      cssLink = '<link rel="stylesheet" href="/assets/css/denali-beta.css">';
+    } else {
+      console.log("No version specified");
+    }
+
+    iframe.writeln('<link rel="stylesheet" href="/assets/fonts/denali-icon-font.css">' + cssLink + ' ' + htmlCode);
+
+    var frameHeight = obj.contentWindow.document.body.offsetHeight + 24;
+    obj.style.height = frameHeight + 'px';
+
+    var frameSnippet = (obj.contentWindow || obj.contentDocument);
+    if (frameSnippet.document) frameSnippet = frameSnippet.document;
+    frameSnippet.body.style.background = "transparent";
+    frameSnippet.body.style.margin = "10px";
+  }
 </script>
 
-<!-- For all browsers -->
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/denali.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/denali-design/denali-icon-font/dist/denali-icon-font.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/denali-beta.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/denali-icon-font/dist/denali-icon-font.css">
 <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/prismjs@1.16.0/themes/prism-okaidia.css'>
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/styleguide.css">

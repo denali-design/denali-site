@@ -1,6 +1,7 @@
 ---
 title: "Code Highlight Test"
 permalink: /code-highlight-test
+layout: container
 gitcontent: true
 ---
 
