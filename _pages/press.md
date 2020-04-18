@@ -1,9 +1,7 @@
 ---
 permalink: /press
-section: "press"
 title: "Recent Press"
 layout: container
-gitcontent: true
 excerpt: 'A collection of articles about or featuring Denali.'
 ---
 

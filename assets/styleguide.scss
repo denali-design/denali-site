@@ -2,16 +2,27 @@
 
 ---
 
-// IMPORTS
-@import "denali";
+// Variables
+$mobile: 600px;
+$tablet: 900px;
+$small-desktop: 1200px;
+$hd: 1440px;
 
-// STYLES
-.app-root {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-  position: relative;
-}
+// Misc
+@import "misc/git-content";
 
-// IMPORTS TO RESET SOME MARKDOWN SPECIFIC STUFF
-@import "../assets/git-content";
+// Elements
+@import "elements/snippet";
+@import "elements/color-groups";
+@import "elements/search";
+@import "elements/blockquote";
+@import "elements/cta";
+
+// Layout
+@import "layout/footer";
+@import "layout/home";
+@import "layout/templates";
+@import "layout/404";
+@import "layout/framed";
+@import "layout/principles";
+@import "layout/splash";

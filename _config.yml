@@ -85,9 +85,9 @@ author:
   codepen          :
   dribbble         :
   flickr           :
-  facebook         : *facebook
+  facebook         : 
   foursquare       :
-  github           : "denali"
+  github           : "denali-design"
   gitlab           :
   google_plus      :
   keybase          :
@@ -169,45 +169,22 @@ collections:
   principles:
     output: true
     permalink: /:collection/:path/
-  aesthetics:
-    output: true
-    permalink: /:collection/:path/
-  formats:
-    output: true
-    permalink: /:collection/:path/
-  components:
-    output: true
-    permalink: /:collection/:path/
-  helpers:
-    output: true
-    permalink: /:collection/:path/
 
 # Defaults
 defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
   # _pages
   - scope:
       path: "_pages"
       type: pages
     values:
-      layout: single
+      layout: container
       author_profile: true
   # _docs
   - scope:
-      path: ""
+      path: "_docs"
       type: docs
     values:
-      layout: framed
+      layout: framed-space
       read_time: false
       author_profile: false
       share: false
@@ -228,72 +205,15 @@ defaults:
       section: "principles"
       nav: "docs"
       gitcontent: true
-  # _aesthetics
-  - scope:
-      path: "_aesthetics"
-      type: aesthetics
-    values:
-      layout: framed
-      read_time: false
-      author_profile: false
-      share: false
-      comments: false
-      section: "aesthetics"
-      nav: "docs"
-      gitcontent: true
-  # _formats
-  - scope:
-      path: "_formats"
-      type: formats
-    values:
-      layout: framed
-      read_time: false
-      author_profile: false
-      share: false
-      comments: false
-      section: "formats"
-      nav: "docs"
-      gitcontent: true
-  # _components
-  - scope:
-      path: "_components"
-      type: components
-    values:
-      layout: framed
-      read_time: false
-      author_profile: false
-      share: false
-      comments: false
-      section: "components"
-      nav: "docs"
-      gitcontent: true
-  # _helpers
-  - scope:
-      path: "_helpers"
-      type: helpers
-    values:
-      layout: framed
-      read_time: false
-      author_profile: false
-      share: false
-      comments: false
-      section: "helpers"
-      nav: "docs"
-      gitcontent: true
-
 
 # Sass/SCSS
 sass:
   sass_dir: _sass
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
-
+  style: compressed
 
 # Outputting
 permalink: /:categories/:title/
-# paginate: 5 # amount of posts to show
-# paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
+timezone: America/Los_Angeles
 
 # Plugins
 plugins:
@@ -309,15 +229,6 @@ whitelist:
   - jekyll-feed
 
 # Archives
-#  Type
-#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
-#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
-#  Path (examples)
-#  - Archive page should exist at path when using Liquid method or you can
-#    expect broken links (especially with breadcrumbs enabled)
-#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
-#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
-#  - <base_path/my-awesome-category/index.html ~> path: /
 category_archive:
   type: liquid
   path: /categories/

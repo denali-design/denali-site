@@ -1,23 +1,26 @@
 {% assign navigation = site.data.navigation[include.nav] %}
 
-{% if page.sidebar.title %}
-<h3 class="title is-4">{{ page.sidebar.title }}</h3>
-{% endif %}
-
 <div id="toggleTabsLeft" class="tabs is-primary is-vertical tablet-down-hide-left">
-
     <ul>
         {% for nav in navigation %}
-        <li>
-            <a href="{{ site.baseurl }}{{ nav.url }}" class="is-grey-600 upper font-12">{{ nav.label }}</a>
-        </li>
-        <!-- </div> -->
+        <li><a class="is-grey-600 upper font-12">{{ nav.label }}</a></li>
         {% if nav.children %}
+
         {% for child in nav.children %}
-        <li>
-            <a href="{{ site.baseurl }}{{ child.url }}" class="{% if page.url contains child.url %}is-active{% endif %}">{{ child.label }}</a>
-        </li>
+        <!-- principles nav -->
+        {% if page.url contains "principles" %}
+        <li><a href="{{ child.url }}" class="{% if page.url contains child.url %}is-active{% endif %}">{{ child.label }}</a></li>
+        {% endif %}
+        {% if page.url contains "docs" %}
+        <!-- docs -->
+        {% for version in child.versions %}
+        {% if page.url contains version %}
+        <li><a href="docs/{{ version }}{{ child.url }}" class="{% if page.url contains child.url %}is-active{% endif %}">{{ child.label }}</a></li>
+        {% endif %}
         {% endfor %}
+        {% endif %}
+        {% endfor %}
+        
         {% endif %}
         {% endfor %}
     </ul>

@@ -1,9 +1,8 @@
 ---
 permalink: /metrics
-section: "metrics"
 title: "Denali Metrics"
 layout: container
-gitcontent: true
+excerpt: 'This is how we measure success for Denali.'
 ---
 
 # {{ page.title }}
