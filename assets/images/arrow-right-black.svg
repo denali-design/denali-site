@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(16.000000, 16.000000) rotate(-90.000000) translate(-16.000000, -16.000000) ">
+            <rect id="Rectangle-Copy" x="0" y="0" width="32" height="32" rx="16"></rect>
+            <g id="activity-solid-copy" transform="translate(9.000000, 12.500000)" fill="#000000" fill-rule="nonzero">
+                <path d="M7,5.46666667 L2.14166665,0.608333319 C1.96293159,0.40640834 1.70073242,0.298679869 1.43166339,0.316617805 C1.16259435,0.334555741 0.917015767,0.476136061 0.766666641,0.699999986 C0.491750672,1.07977207 0.530462281,1.60237879 0.858333308,1.93749999 L6.35833333,7.39166668 C6.52326626,7.57142684 6.75603979,7.67376019 7,7.67376019 C7.24396021,7.67376019 7.47673374,7.57142684 7.64166667,7.39166668 L13.1416667,1.93749999 C13.4695377,1.60237879 13.5082493,1.07977207 13.2333334,0.699999986 C13.0829842,0.476136061 12.8374057,0.334555741 12.5683366,0.316617805 C12.2992676,0.298679869 12.0370684,0.40640834 11.8583334,0.608333319 L7,5.46666667 Z" id="Path"></path>
+            </g>
+        </g>
+    </g>
+</svg>

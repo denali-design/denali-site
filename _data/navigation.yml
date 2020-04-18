@@ -1,7 +1,7 @@
 # FOR STATIC MENUS
 # AKA quick access to urls
 static:
-  docs: /docs/2/
+  docs: /docs/1.0.3/
   principles: /principles/introduction
   resources: /resources
 
