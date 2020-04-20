@@ -1,8 +1,10 @@
 <nav class="nav" style="z-index: 100; background: #002B66;">
   <div class="nav-left">
+    {% if page.url contains 'docs' or page.url contains 'principles' %}
     <a onclick="toggleTabsLeft()" tabindex="0" id="toggleTab" class="nav-icon hide-small-desktop-up">
       <i class="d-icon d-menu-hamburger"></i>
     </a>
+    {% endif %}
     <a href="/">
       <img style="height: 60px;" class="nav-brand" src="{{ site.url }}/assets/images/denali-logo-white.svg" alt=""></img>
     </a>

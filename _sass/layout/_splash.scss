@@ -96,9 +96,9 @@ $font-regular: 'Helvetica Roman';
         border-radius: 14px;
         font-size: 20px;
         color: #fff;
-        padding: 0px 24px;
+        padding: 16px 24px 20px 24px;
         height: 60px;
-        font-family: $font-regular;
+        font-family: $font-bold;
         white-space: nowrap;
 
         .d-arrow-right {
@@ -123,6 +123,11 @@ $font-regular: 'Helvetica Roman';
                 transition: 300ms;
             }
         }
+    }
+
+    .splash-link {
+        color: $brand-300;
+        font-family: $font-bold;
     }
 
     // Cover
@@ -208,13 +213,18 @@ $font-regular: 'Helvetica Roman';
     .theme-image {
         padding-bottom: 240px;
 
-        .theme-code-container {        
+        .theme-code-container {      
             position: sticky;
-            top: 50%;
+            position: -webkit-sticky;
+            position: -moz-sticky;
+            position: -ms-sticky;
+            position: -o-sticky;
+            
+            top: 50vh;
             transform: translateY(-50%);
             z-index: 90;
             width: 100%;
-            display: inline-flex;
+            display: flex;
             justify-content: center;
             align-items: center;
             
@@ -381,22 +391,6 @@ $font-regular: 'Helvetica Roman';
             transition: 300ms;
         }
 
-        &:hover {
-            box-shadow: 0 2px 20px 6px rgba(0, 0, 0, 0.06);
-            // transition: 300ms;
-
-            .action {
-                background: $brand-300;
-                color: #fff;
-                // transition: 300ms;
-
-                .d-arrow-right {
-                    transform: scaleX(10%);
-                    transition: 300ms;
-                }
-            }
-        }
-
         .date {
             font-size: 14px;
             color: #606060;
@@ -421,6 +415,23 @@ $font-regular: 'Helvetica Roman';
             border-top: 1px solid #D5D5D5;
             padding: 20px 30px;
             transition: 300ms;
+            font-family: $font-bold;
+        }
+
+        &:hover {
+            box-shadow: 0 2px 20px 6px rgba(0, 0, 0, 0.06);
+            // transition: 300ms;
+
+            .action {
+                background: $brand-300;
+                color: #fff;
+                // transition: 300ms;
+
+                .d-arrow-right {
+                    transform: scaleX(10%);
+                    transition: 300ms;
+                }
+            }
         }
     }
 
@@ -455,7 +466,7 @@ $font-regular: 'Helvetica Roman';
             }
             
             .quote-content-text {
-                font-family: $font-mono;
+                font-family: $font-black;
                 color: #fff;
                 letter-spacing: 0;
                 margin-bottom: 30px;

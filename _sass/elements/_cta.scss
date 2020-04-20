@@ -3,7 +3,7 @@
 // Licensed under the terms of the MIT license. See LICENSE file in project root for terms.
 
 .cta-contribute {
-  background: #3570f4;
+  background: #016EFF;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
@@ -48,7 +48,7 @@
   .cta-img {
     flex: auto;
     height: 320px;
-    background-image: url("images/cta-contribute-mobile.png");
+    background-image: url("images/footer/cta-contribute-mobile.png");
     background-position: top center;
     border-top-right-radius: 0px;
     border-bottom-right-radius: 20px;
@@ -57,7 +57,7 @@
 
     @media screen and (min-width: $mobile) {
       height: auto;
-      background-image: url("images/cta-contribute-desktop.png");
+      background-image: url("images/footer/cta-contribute-desktop.png");
       background-position: left center;
       border-top-right-radius: 20px;
       border-bottom-left-radius: 0px;

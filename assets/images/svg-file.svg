@@ -1,19 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="40px" height="50px" viewBox="0 0 40 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
-    <title>Group 3</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Resources" transform="translate(-549.000000, -399.000000)">
-            <g id="Group-7-Copy" transform="translate(549.000000, 399.000000)">
-                <g id="Group-3">
-                    <path d="M4,1 C2.34314575,1 1,2.34314575 1,4 L1,46 C1,47.6568542 2.34314575,49 4,49 L36,49 C37.6568542,49 39,47.6568542 39,46 L39,14.3932459 C39,13.6176917 38.6996526,12.8722724 38.1619658,12.3133652 L28.1633283,1.92011925 C27.5977509,1.33222065 26.8171459,1 26.0013625,1 L4,1 Z" id="Combined-Shape" stroke="#3697F2" stroke-width="2"></path>
-                    <text id="SVG" font-family="Arial-Black, Arial Black" font-size="12" font-weight="700" line-spacing="15" letter-spacing="0.257142842" fill="#3697F2">
-                        <tspan x="5.5" y="31">SVG</tspan>
-                    </text>
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="50" viewBox="0 0 40 50">
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g id="Page-1">
+        <g id="Resources">
+          <g id="Group-7-Copy">
+            <g id="Group-3">
+              <path id="Combined-Shape" d="M4,1A2.9,2.9,0,0,0,1,4V46a2.9,2.9,0,0,0,3,3H36a2.9,2.9,0,0,0,3-3V14.4a3.2,3.2,0,0,0-.8-2.1L28.2,1.9A3.1,3.1,0,0,0,26,1Z" fill="none" stroke="#3697f2" stroke-width="2"/>
+              <g id="SVG" style="isolation: isolate">
+                <g style="isolation: isolate">
+                  <path d="M10,28.1a1.3,1.3,0,0,0,.1.6c.2.5.7.6,1.2.6s1.1-.1,1.1-.8-.4-.5-1.8-1-2.9-.7-2.9-2.4,1.7-2.9,3.4-2.9,3.5.7,3.6,2.8H12.2c.1-.3-.1-.5-.3-.7l-.8-.2c-.3,0-.9.1-.9.6s1.2.7,2.4,1.1,2.5.9,2.5,2.5-2.1,2.9-4,2.9-3.7-.3-3.8-3.1Z" fill="#3697f2"/>
+                  <path d="M20.7,31H17.8l-2.6-8.6h2.7l1.4,5.2h0l1.4-5.2h2.7Z" fill="#3697f2"/>
+                  <path d="M30.4,30.1A2.9,2.9,0,0,1,28,31.2a4.1,4.1,0,0,1-4.1-4.4c0-3.3,2.3-4.6,4.2-4.6a3.8,3.8,0,0,1,4,3.2H29.5a1.2,1.2,0,0,0-1.2-1c-1.8,0-1.8,1.9-1.8,2.5a2,2,0,0,0,2,2.2,1.2,1.2,0,0,0,1.3-1H28.7V26.3h3.5V31H30.5Z" fill="#3697f2"/>
                 </g>
+              </g>
             </g>
+          </g>
         </g>
+      </g>
     </g>
+  </g>
 </svg>

@@ -4,7 +4,8 @@
 
 <div class="snippet">
   <div class="code-render {% if include.inverse == 'true' %}is-inverse{% endif %}">
-    <iframe id="iframe" class="resizable-area" onload="resizeIframe(this, '{{ include.url }}')" {% if include.height %}style="height:{{ include.height }}px;" {% endif %}></iframe>
+    <iframe id="iframe" class="resizable-area" onload="resizeIframe(this, '{{ include.url }}')"
+       {% if include.height %}style="height:{{ include.height }}px;" {% endif %}></iframe>
     <div class="resizable-bar" id="resizable-bar" draggable="true">
       <span class="d-icon d-drag-handle rotate-90 is-medium"></span>
     </div>
