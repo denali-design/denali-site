@@ -1,7 +1,15 @@
 ---
 layout: base
 ---
-<div class="splash-page" onscroll="themeScroll()">
+<!-- Load theme images -->
+<img src="assets/images/splash/components-dark.jpg" alt="" style="visibility: hidden;position: absolute;
+    pointer-events: none;">
+<img src="assets/images/splash/components-denali.jpg" alt="" style="visibility: hidden;position: absolute;
+    pointer-events: none;">
+<img src="assets/images/splash/components-purple.jpg" alt="" style="visibility: hidden;position: absolute;
+    pointer-events: none;">
+
+<div class="splash-page">
 
   <!-- Navbar -->
   <nav class="nav is-fixed-top" style="z-index: 100;">
@@ -55,8 +63,7 @@ layout: base
           class="xs-col-12-12 sm-col-10-12 sm-col-off-1-12 md-col-8-12 md-col-off-2-12 lg-col-6-12 lg-col-off-3-12
           xl-col-6-12 xl-col-off-3-12 p-x-20">
           <h1 class="is-grey-100">Build and theme products like never before</h1>
-          <p class="is-grey-100 m-t-40">We built our components to be themeable by nature which means you aren’t tied to
-            our components visual.</p>
+          <p class="is-grey-100 m-t-40">Denali's themeable design system provides the ease of building with a framework without sacrificing your unique visual style.</p>
             <div class="button-group">
               <a href="{{ site.data.navigation.static.docs }}guides/get-started" class="cover-button inverse">Start
                 building <i class="d-icon d-arrow-right m-l-18"></i></a>
@@ -72,8 +79,8 @@ layout: base
       </div>
     </div>
     <!-- Blobs -->
-    <img class="blob-big" src="assets/images/splash/cover-blob-big.png" alt="">
-    <img class="blob-small" src="assets/images/splash/cover-blob-small.png" alt="">
+    <!-- <img class="blob-big" src="assets/images/splash/cover-blob-big.png" alt=""> -->
+    <!-- <img class="blob-small" src="assets/images/splash/cover-blob-small.png" alt=""> -->
   </div>
 
   <!-- Develop -->
@@ -132,7 +139,7 @@ layout: base
         <div class="xs-col-10-12 xs-col-off-1-12 sm-col-10-12 sm-col-off-1-12 col-6-12">
           <img src="assets/images/splash/design-principles.png" alt="">
         </div>
-        <div class="xs-col-10-12 xs-col-off-1-12 sm-col-10-12 sm-col-off-1-12 col-6-12">
+        <div class="xs-col-12-12 sm-col-10-12 sm-col-off-1-12 col-6-12">
           <div class="row">
             <div class="xs-col-10-12 xs-col-off-1-12 sm-col-10-12 sm-col-off-1-12 col-4-6 col-off-1-6">
               <p class="is-grey-600 m-b-24"><i class="d-icon d-partners m-r-12"></i><span class="mono">Design</span></p>
@@ -155,8 +162,7 @@ layout: base
         <div class="xs-col-10-12 xs-col-off-1-12 sm-col-8-12 md-col-6-12 lg-col-5-12 xl-col-5-12">
           <p class="is-grey-600 m-b-24"><i class="d-icon d-partners m-r-12"></i><span class="mono">Design + Develop</span></p>
           <h1 class="is-grey-800">Everything you need to jump right in</h1>
-          <p class="is-grey-800 m-t-40">Whether it’s a question about typography or responsive behavior, our principles
-            have the answers you’re looking for.</p>
+          <p class="is-grey-800 m-t-40">Whether you're a designer or developer get started with Denali in minutes using our handy guides and resources.</p>
         </div>
       </div>
 
@@ -187,38 +193,40 @@ layout: base
   </div>
 
   <!-- Updates -->
-  <div class="container">
-    <div class="row" style="margin-top: 0px; margin-bottom: 0px;">
+  <div class="container-full">
+    <div class="container">
+      <div class="row" style="margin-top: 0px; margin-bottom: 0px;">
 
-      <div class="xs-col-10-12 xs-col-off-1-12 sm-col-8-12 md-col-6-12 lg-col-5-12 xl-col-5-12">
-        <p class="is-grey-600 m-b-24"><i class="d-icon d-star m-r-12"></i><span class="mono">Updates</span>
-        </p>
-        <h1 class="is-grey-800">What’s new</h1>
-        <p class="is-grey-800 m-t-40">We’re always pushing new improvements. Check out the latest below and view
-          previous updates on our <a href="{{ site.data.navigation.static.docs }}guides/whats-new">whats new page.</a>
+        <div class="xs-col-10-12 xs-col-off-1-12 sm-col-8-12 md-col-6-12 lg-col-5-12 xl-col-5-12">
+          <p class="is-grey-600 m-b-24"><i class="d-icon d-star m-r-12"></i><span class="mono">Updates</span>
           </p>
+          <h1 class="is-grey-800">What’s new</h1>
+          <p class="is-grey-800 m-t-40">We’re always pushing new improvements. Check out the latest below and view
+            previous updates on our <a class="splash-link" href="{{ site.data.navigation.static.docs }}guides/whats-new">whats new page.</a>
+            </p>
+        </div>
       </div>
-    </div>
 
-    <div class="row updates-container" style="margin-top: 80px; margin-bottom: 200px;">
-      <a href="{{ site.data.navigation.static.docs }}guides/get-started" class="col updates">
-        <p class="date">Jan 16, 2020</p>
-        <p class="title">New & Improved Denali V2 Themeable CSS</p>
-        <p class="text">We bundled up all the user feedback and enhanced components in version 2.</p>
-        <p class="action">Start Building<i class="d-icon d-arrow-right m-l-10"></i></p>
-      </a>
-      <a href="https://denali-design.github.io/denali-icon-font/docs/" target="_blank" class="col updates">
-        <p class="date">Apr 8, 2020</p>
-        <p class="title">New icons including healthcare & horoscope</p>
-        <p class="text">100+ new icons. Our main focus for this release is healthcare and horoscope.</p>
-        <p class="action">View Icons<i class="d-icon d-arrow-right m-l-10"></i></p>
-      </a>
-      <a href="{{ site.data.navigation.static.principles }}responsive-grid" class="col updates">
-        <p class="date">Jan 22, 2020</p>
-        <p class="title">Introducing layout principles</p>
-        <p class="text">Clear guidelines on how to adapt your product seamlessly to different screen sizes.</p>
-        <p class="action">Read Principles<i class="d-icon d-arrow-right m-l-10"></i></p>
-      </a>
+      <div class="row updates-container" style="margin-top: 80px; margin-bottom: 200px;">
+        <a href="{{ site.data.navigation.static.docs }}guides/get-started" class="col updates">
+          <p class="date">Jan 16, 2020</p>
+          <p class="title">New & Improved Denali V2 Themeable CSS</p>
+          <p class="text">We bundled up all the user feedback and enhanced components in version 2.</p>
+          <p class="action">Start Building<i class="d-icon d-arrow-right m-l-10"></i></p>
+        </a>
+        <a href="https://denali-design.github.io/denali-icon-font/docs/#healthcare" target="_blank" class="col updates">
+          <p class="date">Apr 8, 2020</p>
+          <p class="title">New icons including healthcare & horoscope</p>
+          <p class="text">100+ new icons. Our main focus for this release is healthcare and horoscope.</p>
+          <p class="action">View Icons<i class="d-icon d-arrow-right m-l-10"></i></p>
+        </a>
+        <a href="{{ site.data.navigation.static.principles }}responsive-grid" class="col updates">
+          <p class="date">Jan 22, 2020</p>
+          <p class="title">Introducing layout principles</p>
+          <p class="text">Clear guidelines on how to adapt your product seamlessly to different screen sizes.</p>
+          <p class="action">Read Principles<i class="d-icon d-arrow-right m-l-10"></i></p>
+        </a>
+      </div>
     </div>
   </div>
   
@@ -230,8 +238,7 @@ layout: base
           xl-col-6-12 xl-col-off-3-12">
           <p class="is-grey-600 m-b-24"><i class="d-icon d-megaphone m-r-12"></i><span class="mono">Success stories</span></p>
           <h1 class="is-grey-800">Hear from our partners</h1>
-          <p class="is-grey-800 m-t-40">From deveoper producity tools to open source projects, Denali can handle
-            anything.</p>
+          <p class="is-grey-800 m-t-40">From developer productivity tools to open source projects, Denali gives you the resources to bring your products to life.</p>
         </div>
       </div>
 
@@ -314,7 +321,7 @@ layout: base
             <div class="company-image"><i class="d-icon d-screwdriver"></i></div>
             <div class="context">
               <p class="company">Screwdriver.cd</p>
-              <p class="category">Developer producity</p>
+              <p class="category">developer productivity</p>
             </div>
           </div>
 
@@ -409,4 +416,5 @@ layout: base
     quoteItem[2].classList.add('active');
   }
 
+  // document.body.addEventListener("scroll", themeScroll());
 </script>
