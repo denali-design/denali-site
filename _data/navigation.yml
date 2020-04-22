@@ -138,6 +138,10 @@ documentation:
         versions:
           - 1.0.3
           - 2
+      - label: "Breadcrumbs"
+        url: /components/breadcrumbs
+        versions:
+          - 2
       - label: "Buttons"
         url: /components/buttons
         versions:
@@ -220,6 +224,10 @@ documentation:
         url: /components/toggles
         versions:
           - 1.0.3
+          - 2
+      - label: "Tooltips"
+        url: /components/tooltips
+        versions:
           - 2
   - label: "Helpers"
     url: /helpers/flexbox

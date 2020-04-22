@@ -12,7 +12,7 @@ excerpt: 'Alerts are used to provide feedback and information to users. They com
 ### Alert types
 Denali offers five types of alerts: default, informational, success, warning, and danger. Implement different alert types by adding a `.is-info`, `.is-success`, `.is-warning`, or `.is-danger` class to an alert&#39;s outer `<div>`.
 
-{% capture alert_type %} 
+{% capture alert_type %}
 <div class="alert">
   <span class="d-icon d-domain"></span>
   <div>
@@ -57,7 +57,7 @@ Denali offers five types of alerts: default, informational, success, warning, an
   </div>
   <a class="close is-secondary"><span class="d-icon d-close is-sub"></span></a>
 </div>
- {% endcapture %}
+{% endcapture %}
 {% include code-snippet.html code=alert_type url='alert_type.html' %}
 
 
@@ -67,7 +67,7 @@ Denali offers five types of alerts: default, informational, success, warning, an
 ### Alerts with context
 Alerts with context contain text underneath the alert&#39;s headline. To implement alerts with context, wrap text within a `<p>` tag and insert it below the alert&#39;s `<h5>` tag.
 
-{% capture alert_context %} 
+{% capture alert_context %}
 <div class="alert is-danger">
   <span class="d-icon d-stop-warning"></span>
   <div>
@@ -76,7 +76,7 @@ Alerts with context contain text underneath the alert&#39;s headline. To impleme
   </div>
   <a class="close is-secondary"><span class="d-icon d-close is-sub"></span></a>
 </div>
- {% endcapture %}
+{% endcapture %}
 {% include code-snippet.html code=alert_context url='alert_context.html' %}
 
 
@@ -86,7 +86,7 @@ Alerts with context contain text underneath the alert&#39;s headline. To impleme
 ### Inline alerts
 Inline alerts appear as a full-width bar at the top of their container. Implement inline alerts by adding the `.is-inline` modifier to an alert&#39;s outer `<div>` tag. The alert type classes listed above can also be added to inline alerts.
 
-{% capture alert_context %} 
+{% capture alert_context %}
 <div class="alert is-inline">
   <p><span class="is-bold">Non-Production Instance:</span> Do not use for Production or CI/CD (Screwdriver)</p>
 </div>
@@ -114,8 +114,67 @@ Inline alerts appear as a full-width bar at the top of their container. Implemen
 <div class="alert is-inline has-bg-status-info">
   <p><span class="is-bold">Non-Production Instance:</span> Do not use for Production or CI/CD (Screwdriver)</p>
 </div>
- {% endcapture %}
+{% endcapture %}
 {% include code-snippet.html code=alert_context url='alert_inline.html' %}
+
+
+***
+
+
+### Block Level
+Block level alerts usually appear in the context of the page and span the full width of the parent container. They utilize the same HTML structure as noticiation alerts with context and all you have to do is add the class of `is-block` to the outer most element.
+
+{% capture alert_block %}
+<div class="alert is-block">
+  <span class="d-icon d-notification-solid"></span>
+  <div>
+    <h5>This is an informational alert</h5>
+    <p>This domain can’t be deleted because there is another product using this domain.</p>
+  </div>
+  <a class="close is-secondary"><span class="d-icon d-close is-sub"></span></a>
+</div>
+
+<br>
+
+<div class="alert is-block is-info">
+  <span class="d-icon d-information-circle-solid"></span>
+  <div>
+    <h5>This is a block level informational alert</h5>
+    <p>This domain can’t be deleted because there is another product using this domain.</p>
+  </div>
+</div>
+
+<br>
+
+<div class="alert is-block is-warning">
+  <span class="d-icon d-warning-solid"></span>
+  <div>
+    <h5>This is a block level warning alert</h5>
+    <p>This domain can’t be deleted because there is another product using this domain.</p>
+  </div>
+</div>
+
+<br>
+
+<div class="alert is-block is-success">
+  <span class="d-icon d-check-circle-solid"></span>
+  <div>
+    <h5>This is a block level success alert</h5>
+    <p>This domain can’t be deleted because there is another product using this domain.</p>
+  </div>
+</div>
+
+<br>
+
+<div class="alert is-block is-danger">
+  <span class="d-icon d-stop-warning-solid"></span>
+  <div>
+    <h5>This is a block level danger alert</h5>
+    <p>This domain can’t be deleted because there is another product using this domain.</p>
+  </div>
+</div>
+{% endcapture %}
+{% include code-snippet.html code=alert_block url='alertBlock' %}
 
 
 ***

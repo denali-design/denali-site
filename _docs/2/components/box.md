@@ -13,25 +13,25 @@ excerpt: 'Boxes provide a simple container for other elements. They can be custo
 By default box height is determined by the elements within the box, while the width is inherited from the parent container.
 
 #### Default size
-{% capture box_default %} 
+{% capture box_default %}
 <div class="box">
-<h3>Title</h3>
-<a>Related Link</a>
+    <h3>Title</h3>
+    <a>Related Link</a>
 </div>
- {% endcapture %}
+{% endcapture %}
 {% include code-snippet.html code=box_default url='box_default.html' %}
 
 #### Specific size
 You can set specific `width` and `height` values by adding a `style` attribute in the box `<div>` tag.
 
-{% capture box_context %} 
+{% capture box_context %}
 <div class="box" style="width:345px;">
-<h3><a>Header</a></h3>
-<h5>Sub Title</h5>
-<br />
-<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut. </p>
+    <h3><a>Header</a></h3>
+    <h5>Sub Title</h5>
+    <br />
+    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut. </p>
 </div>
- {% endcapture %}
+{% endcapture %}
 {% include code-snippet.html code=box_context url='box_context.html' %}
 
 
