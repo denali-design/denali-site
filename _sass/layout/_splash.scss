@@ -143,7 +143,7 @@ $font-regular: 'Helvetica Roman';
             justify-content: center;
             flex-direction: row;
             padding-top: 40px;
-            padding-bottom: 80px;
+            padding-bottom: 100px;
 
             .outline {
                 margin-left: 20px;
@@ -151,7 +151,7 @@ $font-regular: 'Helvetica Roman';
 
             @media (max-width: 600px) {
                 flex-direction: column !important;
-                padding-bottom: 40px;
+                padding-bottom: 0px;
 
                 .outline {
                     margin-left: 0px;
@@ -198,6 +198,14 @@ $font-regular: 'Helvetica Roman';
             img {
                 position: relative;
                 z-index: 50;
+            }
+        }
+
+        #denaliCover {
+            height: auto;
+
+            @media (max-width: 600px) {
+                height: 480px;
             }
         }
     }

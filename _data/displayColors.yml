@@ -20,21 +20,15 @@ display-order-expanded:
 brand:
   label: "Brand"
   colors:
-    - hex: "#3448f7"
-      weight: "800"
-    - hex: "#3570f4"
-      weight: "700"
-    - hex: "#3697f2"
-      weight: "600"
-    - hex: "#8ac5ed"
+    - hex: "#002B66"
       weight: "500"
-    - hex: "#5d8cf6"
+    - hex: "#004CB3"
       weight: "400"
-    - hex: "#9ab7f9"
+    - hex: "#016EFF"
       weight: "300"
-    - hex: "#d7e2fd"
+    - hex: "#80B6FF"
       weight: "200"
-    - hex: "#f5f8fe"
+    - hex: "#CCE2FF"
       weight: "100"
 
 
