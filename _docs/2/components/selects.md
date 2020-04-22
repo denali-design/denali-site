@@ -96,7 +96,7 @@ Denali offers 3 selects sizes - default, medium, and small. The default field si
 When adding an input to a dark background, like a navbar. Add `.is-inverse` to the `.input` wrapper.
 
 {% capture select_inverse %}
-<div class="input is-inverse">
+<div class="input is-inverse has-arrow">
     <select name="">
         <option value="" disabled="">Select your option</option>
         <option value="" selected="">Value 1</option>

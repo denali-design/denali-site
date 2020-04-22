@@ -96,7 +96,7 @@ Email, number and password fields can be implemented by adding the `type` attrib
   <input type="password" placeholder="Password field" />
 </div>
 {% endcapture %}
-{% include code-snippet.html code=field_types url='fieldTypes' %}
+{% include code-snippet.html code=field_types url='fieldTypes' height='230' %}
 
 
 ***

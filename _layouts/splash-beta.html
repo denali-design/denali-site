@@ -1,6 +1,8 @@
 ---
 layout: base
 ---
+<!-- Lottie -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.6.8/lottie.min.js" type="text/javascript"></script>
 <!-- Load theme images -->
 <img src="assets/images/splash/components-dark.jpg" alt="" style="visibility: hidden;position: absolute;
     pointer-events: none;">
@@ -14,7 +16,7 @@ layout: base
   <!-- Navbar -->
   <nav class="nav is-fixed-top" style="z-index: 100;">
     <div class="nav-left">
-      <img style="height: 60px;" class="nav-brand" src="{{ site.url }}/assets/images/denali-logo-white.svg"
+      <img class="nav-brand" src="{{ site.url }}/assets/images/denali-logo-white.svg"
         alt=""></img>
       <div class="float-right hide-small-desktop-up">
         <a class="nav-icon" id="navToggle"><i class="d-icon d-more-vertical"></i></a>
@@ -72,9 +74,9 @@ layout: base
             </div>
         </div>
       </div>
-      <div class="row m-t-40 p-b-80 cover-image">
-        <div class="col-12-12 lg-col-10-12 lg-col-off-1-12 xl-col-10-12 xl-col-off-1-12">
-          <img src="assets/images/splash/cover-image.png" alt="">
+      <div class="row p-b-80 cover-image">
+        <div class="col-12-12 lg-col-10-12 lg-col-off-1-12 xl-col-10-12 xl-col-off-1-12" id="denaliCover">
+          <!-- <img src="assets/images/splash/cover-image.png" alt=""> -->
         </div>
       </div>
     </div>
@@ -208,11 +210,11 @@ layout: base
       </div>
 
       <div class="row updates-container" style="margin-top: 80px; margin-bottom: 200px;">
-        <a href="{{ site.data.navigation.static.docs }}guides/get-started" class="col updates">
-          <p class="date">Jan 16, 2020</p>
+        <a href="#" target="_blank" class="col updates">
+          <p class="date">Apr 29, 2020</p>
           <p class="title">New & Improved Denali V2 Themeable CSS</p>
           <p class="text">We bundled up all the user feedback and enhanced components in version 2.</p>
-          <p class="action">Start Building<i class="d-icon d-arrow-right m-l-10"></i></p>
+          <p class="action">Read More<i class="d-icon d-arrow-right m-l-10"></i></p>
         </a>
         <a href="https://denali-design.github.io/denali-icon-font/docs/#healthcare" target="_blank" class="col updates">
           <p class="date">Apr 8, 2020</p>
@@ -252,10 +254,10 @@ layout: base
                   productivity</span></p>
               <p class="is-grey-100 m-t-50 quote-content-text">“As a team of engineers creating easy to use UIs is a daunting task. Denali made it easy for us to build our products quickly and confidently.”</p>
               <div class="quote-contact">
-                <img src="assets/images/splash/profile.png" alt="">
+                <img src="assets/images/splash/quote/jon-kilroy.jpg" alt="">
                 <div>
-                  <p class="name">The person here</p>
-                  <p class="contact-title">Front-end developer</p>
+                  <p class="name">Jon Kilroy</p>
+                  <p class="contact-title">Sr Principle Architect</p>
                 </div>
               </div>
               <div class="progress-bar">
@@ -270,12 +272,13 @@ layout: base
               class="xs-col-10-12 xs-col-off-1-12 sm-col-10-12 sm-col-off-1-12 md-col-5-9 md-col-off-3-9 lg-col-6-9 lg-col-off-2-9 xl-col-6-9 xl-col-off-2-9">
               <p class="is-grey-500"><i class="d-icon d-computer-code m-r-12"></i><span class="mono">Increasing
                   productivity</span></p>
-              <p class="is-grey-100 m-t-50 quote-content-text">“As a team of engineers creating easy to use UIs is a daunting task. Denali made it easy for us to build our products quickly and confidently.”</p>
+              <p class="is-grey-100 m-t-50 quote-content-text">“Denali is an ambitious design system to build ambitious web application! It has a slick look and feel, and can pick &
+              choose CSS and icons selectively.”</p>
               <div class="quote-contact">
-                <img src="assets/images/splash/profile.png" alt="">
+                <img src="assets/images/splash/quote/alan-dong.jpg" alt="">
                 <div>
                   <p class="name">Alan Dong</p>
-                  <p class="contact-title">Front-end developer</p>
+                  <p class="contact-title">Front-end Engineer</p>
                 </div>
               </div>
               <div class="progress-bar">
@@ -290,11 +293,12 @@ layout: base
               class="xs-col-10-12 xs-col-off-1-12 sm-col-10-12 sm-col-off-1-12 md-col-5-9 md-col-off-3-9 lg-col-6-9 lg-col-off-2-9 xl-col-6-9 xl-col-off-2-9">
               <p class="is-grey-500"><i class="d-icon d-computer-code m-r-12"></i><span class="mono">Increasing
                   productivity</span></p>
-              <p class="is-grey-100 m-t-50 quote-content-text">“As a team of engineers creating easy to use UIs is a daunting task. Denali made it easy for us to build our products quickly and confidently.”</p>
+              <p class="is-grey-100 m-t-50 quote-content-text">“Denali enabled rapid development of Athenz UI and made
+                it possible to have a single implementation for both open source and on-prem deployments.”</p>
               <div class="quote-contact">
-                <img src="assets/images/splash/profile.png" alt="">
+                <!-- <img src="assets/images/splash/profile.png" alt=""> -->
                 <div>
-                  <p class="name">Something Else</p>
+                  <p class="name">Pratik Gote</p>
                   <p class="contact-title">Front-end developer</p>
                 </div>
               </div>
@@ -321,7 +325,7 @@ layout: base
             <div class="company-image"><i class="d-icon d-screwdriver"></i></div>
             <div class="context">
               <p class="company">Screwdriver.cd</p>
-              <p class="category">developer productivity</p>
+              <p class="category">CI/CD Platform</p>
             </div>
           </div>
 
@@ -417,4 +421,12 @@ layout: base
   }
 
   // document.body.addEventListener("scroll", themeScroll());
+
+  var animation = bodymovin.loadAnimation({
+    container: document.getElementById('denaliCover'), // Required
+    path: 'assets/images/splash/data.json', // Required
+    renderer: 'svg', // Required
+    loop: true, // Optional
+    autoplay: true, // Optional
+  })
 </script>
