@@ -79,8 +79,8 @@ You can use these variables in a `override.css` file to customize this component
 
 |Variable Name|CSS Property|
 | - | - |
-|`--icon-size-xs`|font-size|
-|`--icon-size-sm`|font-size|
-|`--icon-size-default`|font-size|
-|`--icon-size-md`|font-size|
-|`--icon-size-lg`|font-size|
+|`$icon-size-xs`|font-size|
+|`$icon-size-sm`|font-size|
+|`$icon-size-default`|font-size|
+|`$icon-size-md`|font-size|
+|`$icon-size-lg`|font-size|

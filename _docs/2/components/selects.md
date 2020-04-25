@@ -115,4 +115,4 @@ When adding an input to a dark background, like a navbar. Add `.is-inverse` to t
 ## Variables
 You can use these variables in a `override.css` file to customize this component.
 
-The selects component utilized the fields variables, please refer to this [page]({{ site.baseurl }}/documentation/components/fields#variables).
+The selects component utilized the fields variables, please refer to this [page]({{ site.data.navigation.static.docs }}components/fields#variables).

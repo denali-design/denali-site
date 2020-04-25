@@ -1,16 +1,13 @@
 # Develop override settings
 # to use locally: `jekyll serve --config _config.yml,_config.dev.yml`
 
-site_debug: true
-
-url: http://localhost:4000
-
+environment         : "dev"
+site_debug          : true
+url                 : http://localhost:4000
 analytics:
-  provider: false
-
+  provider          : false
 comments:
   disqus:
-    shortname: "denali-dev"
-
+    shortname       : "denali-dev"
 sass:
-  style: expanded
+  style             : expanded

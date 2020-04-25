@@ -65,11 +65,11 @@ You can use these variables in a `override.css` file to customize this component
 
 |Variable Name|CSS Property|
 | - | - |
-|`--box-bg-color`|background|
-|`--box-corner-radius`|border-radius|
-|`--box-border-color`|border-color|
-|`--box-border-width`|border-width|
-|`--box-border-style`|border-style|
-|`--box-padding`|padding|
-|`--box-footer-padding`|padding|
-|`--box-footer-margin`|margin|
+|`$box-bg-color`|background|
+|`$box-corner-radius`|border-radius|
+|`$box-border-color`|border-color|
+|`$box-border-width`|border-width|
+|`$box-border-style`|border-style|
+|`$box-padding`|padding|
+|`$box-footer-padding`|padding|
+|`$box-footer-margin`|margin|

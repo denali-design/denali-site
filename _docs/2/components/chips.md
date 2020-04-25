@@ -88,9 +88,9 @@ You can use these variables in a `override.css` file to customize this component
 
 |Variable Name|CSS Property|
 | - | - |
-|`--chips-bg-color`|background|
-|`--chips-corner-radius`|border-radius|
-|`--chips-text-color`|color|
-|`--chips-padding`|padding|
-|`--chips-small-font-size`|font-size|
-|`--chips-small-padding`|padding|
+|`$chips-bg-color`|background|
+|`$chips-corner-radius`|border-radius|
+|`$chips-text-color`|color|
+|`$chips-padding`|padding|
+|`$chips-small-font-size`|font-size|
+|`$chips-small-padding`|padding|

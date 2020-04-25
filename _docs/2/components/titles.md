@@ -74,8 +74,8 @@ You can use these variables in a `override.css` file to customize this component
 
 |Variable Name|CSS Property|
 | - | - |
-|--titles-height| height|
-|--titles-bar-corner-radius| border-radius|
-|--titles-bar-bg-color| background|
-|--titles-bar-width| width|
-|--titles-bar-wider-width| width|
+|`$titles-height`| height|
+|`$titles-bar-corner-radius`| border-radius|
+|`$titles-bar-bg-color`| background|
+|`$titles-bar-width`| width|
+|`$titles-bar-wider-width`| width|

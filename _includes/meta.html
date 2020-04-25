@@ -5,20 +5,6 @@
 <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no'>
 <meta http-equiv="cleartype" content="on">
 
-{% if page.excerpt %}
-<meta name="description" content="{{ page.excerpt| strip_html }}" />
-<meta property="og:description" content="{{ page.excerpt| strip_html }}" />
-{% else %}
-<meta name="description" content="{{ site.description }}">
-<meta property="og:description" content="{{ site.description }}" />
-{% endif %}
-<meta name="author" content="{{ site.name }}" />
-
-{% if page.title %}
-<meta property="og:title" content="{{ page.title }}" />
-<meta property="twitter:title" content="{{ page.title }}" />
-{% endif %}
-
 <!-- Favicon -->
 <link rel="icon" href="{{ site.baseurl }}/assets/images/favicon-16x16.png" type="image/png" sizes="16x16">
 <link rel="icon" href="{{ site.baseurl }}/assets/images/favicon-32x32.png" type="image/png" sizes="32x32">

@@ -108,37 +108,37 @@ You can use these variables in a `override.css` file to customize this component
 
 |Variable Name|CSS Property|
 | - | - |
-|`--checkbox-box-border-color-standard`| box-shadow|
-|`--checkbox-box-border-color-hover`| box-shadow|
-|`--checkbox-box-border-color-active`| box-shadow|
-|`--checkbox-box-border-color-disabled`| box-shadow|
-|`--checkbox-box-partial-color`| background|
-|`--checkbox-box-bg-color-active`| background|
-|`--checkbox-box-label-text-color`| color|
-|`--checkbox-box-label-disabled-text-color`| color|
+|`$checkbox-box-border-color-standard`| box-shadow|
+|`$checkbox-box-border-color-hover`| box-shadow|
+|`$checkbox-box-border-color-active`| box-shadow|
+|`$checkbox-box-border-color-disabled`| box-shadow|
+|`$checkbox-box-partial-color`| background|
+|`$checkbox-box-bg-color-active`| background|
+|`$checkbox-box-label-text-color`| color|
+|`$checkbox-box-label-disabled-text-color`| color|
 
 |Variable Name|CSS Property|
 | - | - |
-|`--radio-circle-border-standard`| box-shadow|
-|`--radio-circle-border-hover`| box-shadow|
-|`--radio-circle-border-active`| box-shadow|
-|`--radio-circle-border-disabled`| box-shadow|
-|`--radio-circle-bg-color-active`| background|
-|`--radio-label-text-color`| color|
-|`--radio-label-disabled-text-color`| color|
+|`$radio-circle-border-standard`| box-shadow|
+|`$radio-circle-border-hover`| box-shadow|
+|`$radio-circle-border-active`| box-shadow|
+|`$radio-circle-border-disabled`| box-shadow|
+|`$radio-circle-bg-color-active`| background|
+|`$radio-label-text-color`| color|
+|`$radio-label-disabled-text-color`| color|
 
 |Variable Name|CSS Property|
 | - | - |
-|`--switch-circle-border-color-standard`| border-color|
-|`--switch-circle-border-color-hover`| border-color|
-|`--switch-circle-border-color-active`| border-color|
-|`--switch-circle-border-color-disabled`| border-color|
-|`--switch-circle-bg-color-standard`| background|
-|`--switch-circle-bg-color-active`| background|
-|`--switch-circle-bg-color-disabled`| background|
-|`--switch-circle-bg-color-active-disabled`| background|
-|`--switch-slider-standard-color`| background|
-|`--switch-slider-active-color`| background|
-|`--switch-slider-disabled-color`| background|
-|`--switch-label-text-color`| color|
-|`--switch-label-disabled-text-color`| color|
+|`$switch-circle-border-color-standard`| border-color|
+|`$switch-circle-border-color-hover`| border-color|
+|`$switch-circle-border-color-active`| border-color|
+|`$switch-circle-border-color-disabled`| border-color|
+|`$switch-circle-bg-color-standard`| background|
+|`$switch-circle-bg-color-active`| background|
+|`$switch-circle-bg-color-disabled`| background|
+|`$switch-circle-bg-color-active-disabled`| background|
+|`$switch-slider-standard-color`| background|
+|`$switch-slider-active-color`| background|
+|`$switch-slider-disabled-color`| background|
+|`$switch-label-text-color`| color|
+|`$switch-label-disabled-text-color`| color|
