@@ -74,8 +74,8 @@ You can use these variables in a `override.css` file to customize this component
 
 |Variable Name|CSS Property|
 | - | - |
-|`--loader-size-xs`|font-size|
-|`--loader-size-sm`|font-size|
-|`--loader-size-default`|font-size|
-|`--loader-size-md`|font-size|
-|`--loader-size-lg`|font-size|
+|`$loader-size-xs`|font-size|
+|`$loader-size-sm`|font-size|
+|`$loader-size-default`|font-size|
+|`$loader-size-md`|font-size|
+|`$loader-size-lg`|font-size|

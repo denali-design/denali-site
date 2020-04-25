@@ -27,8 +27,8 @@ layout: base
         <a class="nav-item" href="{{ site.data.navigation.static.docs }}guides/get-started">Docs</a>
         <a class="nav-item" href="{{ site.data.navigation.static.principles }}">Principles</a>
         <a class="nav-item" href="{{ site.data.navigation.static.resources }}">Resources</a>
-        <a class="nav-item" href="https://denali-design.github.io/denali-css/docs/" target="_blank">CSS</a>
-        <a class="nav-item" href="https://denali-design.github.io/denali-icon-font/docs/" target="_blank">Icons</a>
+        <a class="nav-item" href="https://denali-design.github.io/denali-css/docs/">CSS</a>
+        <a class="nav-item" href="https://denali-design.github.io/denali-icon-font/docs/">Icons</a>
       </div>
       <div class="nav-right">
         <a href="{{ site.baseurl }}{{ page.url }}#search" class="nav-icon">
@@ -40,16 +40,16 @@ layout: base
           <span class="icon-name">Github</span>
         </a>
         <div class="nav-menu">
-          <div class="nav-icon menu-trigger">
+          <div class="nav-icon menu-trigger" tabindex="0">
             <i class="d-icon d-help-circle"></i>
             <span class="icon-name">Help</span></div>
           <div class="menu-content is-right">
-            <a href="https://github.com/denali-design/issues/new?labels=feature-request" target="_blank">
+            <a href="https://github.com/denali-design/issues/new?labels=feature-request" target="_blank" tabindex="0">
               Feature Requests
             </a>
-            <a href="https://github.com/denali-design/milestones" target="_blank">Roadmap</a>
+            <a href="https://github.com/denali-design/milestones" target="_blank" tabindex="0">Roadmap</a>
             <a href="https://join.slack.com/t/denali-design/shared_invite/enQtNzk0MTE2NjU3MzE0LTM5NWFmMGFmZmFhZjVhMzdjMzYzMDQ4ZGNhZjYxNGUwMzgxMWRmODc4MWIzYTE3YzQ5OWMyM2IzMTkxZGExYWY"
-              target="_blank">Slack
+              target="_blank" tabindex="0">Slack
             </a>
           </div>
         </div>
@@ -68,15 +68,18 @@ layout: base
           <p class="is-grey-100 m-t-40">Denali's themeable design system provides the ease of building with a framework without sacrificing your unique visual style.</p>
             <div class="button-group">
               <a href="{{ site.data.navigation.static.docs }}guides/get-started" class="cover-button inverse">Start
-                building <i class="d-icon d-arrow-right m-l-18"></i></a>
+                building</a>
               <a href="{{ site.data.navigation.static.principles }}" class="cover-button inverse outline">View
                 Principles</a>
             </div>
         </div>
       </div>
       <div class="row p-b-80 cover-image">
-        <div class="col-12-12 lg-col-10-12 lg-col-off-1-12 xl-col-10-12 xl-col-off-1-12" id="denaliCover">
+        <div class="xs-hide sm-hide md-col-12-12 lg-col-10-12 lg-col-off-1-12 xl-col-10-12 xl-col-off-1-12" id="denaliCover">
           <!-- <img src="assets/images/splash/cover-image.png" alt=""> -->
+        </div>
+        <div class="md-hide lg-hide xl-hide p-b-80 m-t-60">
+          <img src="assets/images/splash/cover-image.png" alt="">
         </div>
       </div>
     </div>
@@ -139,7 +142,8 @@ layout: base
       <!-- Design Principles -->
       <div class="row align-items-center">
         <div class="xs-col-10-12 xs-col-off-1-12 sm-col-10-12 sm-col-off-1-12 col-6-12">
-          <img src="assets/images/splash/design-principles.png" alt="">
+          <img class="xs-hide sm-hide" src="assets/images/splash/principles-lg.png" alt="">
+          <img class="md-hide lg-hide xl-hide m-b-40" src="assets/images/splash/principles-sm.png" alt="">
         </div>
         <div class="xs-col-12-12 sm-col-10-12 sm-col-off-1-12 col-6-12">
           <div class="row">
@@ -222,7 +226,7 @@ layout: base
           <p class="text">100+ new icons. Our main focus for this release is healthcare and horoscope.</p>
           <p class="action">View Icons<i class="d-icon d-arrow-right m-l-10"></i></p>
         </a>
-        <a href="{{ site.data.navigation.static.principles }}responsive-grid" class="col updates">
+        <a href="{{ site.data.navigation.static.principles }}/responsive-grid" class="col updates">
           <p class="date">Jan 22, 2020</p>
           <p class="title">Introducing layout principles</p>
           <p class="text">Clear guidelines on how to adapt your product seamlessly to different screen sizes.</p>

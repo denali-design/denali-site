@@ -89,10 +89,10 @@ You can use these variables in a `override.css` file to customize this component
 
 |Variable Name|CSS Property|
 | - | - |
-|`--modal-overlay-color`| background|
-|`--modal-corner-radius`| border-radius|
-|`--modal-modal-container-bg-color`| background|
-|`--modal-modal-container-border-color`| border-color|
-|`--modal-modal-container-border-width`| border-width|
-|`--modal-modal-container-border-style`| border-style|
-|`--modal-modal-container-close-icon-color`| color|
+|`$modal-overlay-color`| background|
+|`$modal-corner-radius`| border-radius|
+|`$modal-modal-container-bg-color`| background|
+|`$modal-modal-container-border-color`| border-color|
+|`$modal-modal-container-border-width`| border-width|
+|`$modal-modal-container-border-style`| border-style|
+|`$modal-modal-container-close-icon-color`| color|

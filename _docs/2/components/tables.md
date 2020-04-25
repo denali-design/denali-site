@@ -109,13 +109,13 @@ You can use these variables in a `override.css` file to customize this component
 
 |Variable Name|CSS Property|
 | - | - |
-|--table-header-text-color | color|
-|--table-header-text-size | font-size|
-|--table-header-text-transform | text-transform|
-|--table-header-text-weight | font-weight|
-|--table-header-padding | padding|
-|--table-header-border-bottom | border-bottom|
-|--table-header-bg-color | background|
-|--table-row-padding | padding|
-|--table-row-border-bottom | border-bottom|
-|--table-striped-row-bg-color | background|
+|`$table-header-text-color` | color|
+|`$table-header-text-size` | font-size|
+|`$table-header-text-transform` | text-transform|
+|`$table-header-text-weight` | font-weight|
+|`$table-header-padding` | padding|
+|`$table-header-border-bottom` | border-bottom|
+|`$table-header-bg-color` | background|
+|`$table-row-padding` | padding|
+|`$table-row-border-bottom` | border-bottom|
+|`$table-striped-row-bg-color` | background|

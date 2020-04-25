@@ -7,9 +7,6 @@ excerpt: "Denali's color library is used to style components and convey meaning.
 # {{ page.title }}
 {{ page.excerpt }}
 
-<blockquote class="accessible">When selecting text and background colors remember to abide by accessiblity standards and make sure the color contrast is 4.5:1. More information about color contrast can be found on the <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html" target="blank">WCAG site</a>.</blockquote>
-
-
 ***
 
 
@@ -46,6 +43,15 @@ Fill color can be modified using the `.fill-$color-$value` class, for example `.
 ***
 
 
+## Color Contrast Analyzer
+Use our color contrast analyzer to make sure the Denali colors you use in components pass the WCAG color contrast standards. More information about color contrast can be found on the <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html" target="blank">WCAG site</a>.
+
+{% include color-contrast.html %}
+
+
+***
+
+
 {% include color-snippet.html %}
 
 
@@ -57,5 +63,5 @@ You can use these variables in a `override.css` file to customize this component
 
 |Variable Name|CSS Property|
 | - | - |
-|`--color-{name}-{weight}`|Hex e.g.`#3697f2`|
-|`--color-{name}-{weight}-rgb`|RGB e.g.`54,151,242`|
+|`$color-{name}-{weight}`|Hex e.g.`#3697f2`|
+|`$color-{name}-{weight}-rgb`|RGB e.g.`54,151,242`|

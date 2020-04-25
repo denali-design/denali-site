@@ -249,10 +249,14 @@ You can use these variables in a `override.css` file to customize this component
 
 |Variable Name|CSS Property|
 | - | - |
-|`--navbar-bg-color`| background|
-|`--navbar-text-color`| color|
-|`--navbar-height`| height|
-|`--navbar-item-text-color`| color|
-|`--navbar-item-hover-text-color`| color|
-|`--navbar-item-active-text-color`| color|
-|`--navbar-item-active-border-color`| border-color|
+|`$navbar-bg-color`| background|
+|`$navbar-height`| height|
+|`$navbar-item-text-color`| color|
+|`$navbar-item-hover-text-color`| color|
+|`$navbar-item-active-text-color`| color|
+|`$navbar-item-active-border-color`| border-color|
+|`$navbar-menu-bg-color`| background|
+|`$navbar-responsive-bg-color`| background|
+|`$navbar-responsive-menu-bg-color`| background|
+
+
