@@ -170,82 +170,82 @@ You can use these variables in a `override.css` file to customize this component
 
 |Variable Name|CSS Property|
 | - | - |
-|`--button-corner-radius`| border-radius|
-|`--button-sizes-sm-height`| height|
-|`--button-sizes-sm-font-size`| font-size|
-|`--button-sizes-sm-min-width`| min-width|
-|`--button-sizes-md-height`| height|
-|`--button-sizes-md-font-size`| font-size|
-|`--button-sizes-md-min-width`| min-width|
-|`--button-sizes-default-height`| height|
-|`--button-sizes-default-font-size`| font-size|
-|`--button-sizes-default-min-width`| min-width|
-|`--button-sizes-lg-height`| height|
-|`--button-sizes-lg-font-size`| font-size|
-|`--button-sizes-lg-min-width`| min-width|
+|`$button-corner-radius`| border-radius|
+|`$button-sizes-sm-height`| height|
+|`$button-sizes-sm-font-size`| font-size|
+|`$button-sizes-sm-min-width`| min-width|
+|`$button-sizes-md-height`| height|
+|`$button-sizes-md-font-size`| font-size|
+|`$button-sizes-md-min-width`| min-width|
+|`$button-sizes-default-height`| height|
+|`$button-sizes-default-font-size`| font-size|
+|`$button-sizes-default-min-width`| min-width|
+|`$button-sizes-lg-height`| height|
+|`$button-sizes-lg-font-size`| font-size|
+|`$button-sizes-lg-min-width`| min-width|
 
 |Variable Name|CSS Property|
 | - | - |
-|`--button-solid-default-bg-color`| background|
-|`--button-solid-default-text-color`| color|
-|`--button-solid-default-inverse-bg-color`| background|
-|`--button-solid-default-inverse-text-color`| color|
-|`--button-solid-focus-bg-color`| background|
-|`--button-solid-focus-text-color`| color|
-|`--button-solid-focus-inverse-bg-color`| background|
-|`--button-solid-focus-inverse-text-color`| color|
-|`--button-solid-disabled-bg-color`| background|
-|`--button-solid-disabled-text-color`| color|
-|`--button-solid-disabled-inverse-bg-color`| background|
-|`--button-solid-disabled-inverse-text-color`| color|
+|`$button-solid-default-bg-color`| background|
+|`$button-solid-default-text-color`| color|
+|`$button-solid-default-inverse-bg-color`| background|
+|`$button-solid-default-inverse-text-color`| color|
+|`$button-solid-focus-bg-color`| background|
+|`$button-solid-focus-text-color`| color|
+|`$button-solid-focus-inverse-bg-color`| background|
+|`$button-solid-focus-inverse-text-color`| color|
+|`$button-solid-disabled-bg-color`| background|
+|`$button-solid-disabled-text-color`| color|
+|`$button-solid-disabled-inverse-bg-color`| background|
+|`$button-solid-disabled-inverse-text-color`| color|
 
 |Variable Name|CSS Property|
 | - | - |
-|`--button-ghost-default-bg-color`| background|
-|`--button-ghost-default-text-color`| color|
-|`--button-ghost-default-inverse-bg-color`| background|
-|`--button-ghost-default-inverse-text-color`| color|
-|`--button-ghost-focus-bg-color`| background|
-|`--button-ghost-focus-text-color`| color|
-|`--button-ghost-focus-inverse-bg-color`| background|
-|`--button-ghost-focus-inverse-text-color`| color|
-|`--button-ghost-disabled-bg-color`| background|
-|`--button-ghost-disabled-text-color`| color|
-|`--button-ghost-disabled-inverse-bg-color`| background|
-|`--button-ghost-disabled-inverse-text-color`| color|
+|`$button-ghost-default-bg-color`| background|
+|`$button-ghost-default-text-color`| color|
+|`$button-ghost-default-inverse-bg-color`| background|
+|`$button-ghost-default-inverse-text-color`| color|
+|`$button-ghost-focus-bg-color`| background|
+|`$button-ghost-focus-text-color`| color|
+|`$button-ghost-focus-inverse-bg-color`| background|
+|`$button-ghost-focus-inverse-text-color`| color|
+|`$button-ghost-disabled-bg-color`| background|
+|`$button-ghost-disabled-text-color`| color|
+|`$button-ghost-disabled-inverse-bg-color`| background|
+|`$button-ghost-disabled-inverse-text-color`| color|
 
 |Variable Name|CSS Property|
 | - | - |
-|`--button-outline-default-bg-color`| background|
-|`--button-outline-default-text-color`| color|
-|`--button-outline-default-border`| border|
-|`--button-outline-default-inverse-bg-color`| background|
-|`--button-outline-default-inverse-text-color`| color|
-|`--button-outline-default-inverse-border`| border|
-|`--button-outline-focus-bg-color`| background|
-|`--button-outline-focus-text-color`| color|
-|`--button-outline-focus-border`| border|
-|`--button-outline-focus-inverse-bg-color`| background|
-|`--button-outline-focus-inverse-text-color`| color|
-|`--button-outline-focus-inverse-border`| border|
-|`--button-outline-disabled-bg-color`| background|
-|`--button-outline-disabled-text-color`| color|
-|`--button-outline-disabled-border`| border|
-|`--button-outline-disabled-inverse-bg-color`| background|
-|`--button-outline-disabled-inverse-text-color`| color|
-|`--button-outline-disabled-inverse-border`| border|
+|`$button-outline-default-bg-color`| background|
+|`$button-outline-default-text-color`| color|
+|`$button-outline-default-border`| border|
+|`$button-outline-default-inverse-bg-color`| background|
+|`$button-outline-default-inverse-text-color`| color|
+|`$button-outline-default-inverse-border`| border|
+|`$button-outline-focus-bg-color`| background|
+|`$button-outline-focus-text-color`| color|
+|`$button-outline-focus-border`| border|
+|`$button-outline-focus-inverse-bg-color`| background|
+|`$button-outline-focus-inverse-text-color`| color|
+|`$button-outline-focus-inverse-border`| border|
+|`$button-outline-disabled-bg-color`| background|
+|`$button-outline-disabled-text-color`| color|
+|`$button-outline-disabled-border`| border|
+|`$button-outline-disabled-inverse-bg-color`| background|
+|`$button-outline-disabled-inverse-text-color`| color|
+|`$button-outline-disabled-inverse-border`| border|
 
 |Variable Name|CSS Property|
 | - | - |
-|`--button-text-default-bg-color`| background|
-|`--button-text-default-text-color`| color|
-|`--button-text-default-inverse-bg-color`| background|
-|`--button-text-default-inverse-text-color`| color|
-|`--button-text-focus-bg-color`| background|
-|`--button-text-focus-text-color`| color|
-|`--button-text-focus-inverse-bg-color`| background|
-|`--button-text-focus-inverse-text-color`| color|
-|`--button-text-disabled-bg-color`| background|
-|`--button-text-disabled-text-color`| color|
-|`--button-text-disabled-inverse-bg-color`| background|
-|`--button-text-disabled-inverse-text-color`| color|
+|`$button-text-default-bg-color`| background|
+|`$button-text-default-text-color`| color|
+|`$button-text-default-inverse-bg-color`| background|
+|`$button-text-default-inverse-text-color`| color|
+|`$button-text-focus-bg-color`| background|
+|`$button-text-focus-text-color`| color|
+|`$button-text-focus-inverse-bg-color`| background|
+|`$button-text-focus-inverse-text-color`| color|
+|`$button-text-disabled-bg-color`| background|
+|`$button-text-disabled-text-color`| color|
+|`$button-text-disabled-inverse-bg-color`| background|
+|`$button-text-disabled-inverse-text-color`| color|

@@ -1,4 +1,4 @@
-<nav class="nav" style="z-index: 100; background: #002B66;">
+<nav class="nav" style="z-index: 100;">
   <div class="nav-left">
     {% if page.url contains 'docs' or page.url contains 'principles' %}
     <a onclick="toggleTabsLeft()" tabindex="0" id="toggleTab" class="nav-icon hide-small-desktop-up">
@@ -17,8 +17,8 @@
       <a class="nav-item {% if page.url contains 'docs' %}is-active{% endif %}" href="{{ site.data.navigation.static.docs }}guides/get-started">Docs</a>
       <a class="nav-item {% if page.url contains 'principles' %}is-active{% endif %}" href="{{ site.data.navigation.static.principles }}">Principles</a>
       <a class="nav-item {% if page.url contains 'resource' %}is-active{% endif %}" href="{{ site.data.navigation.static.resources }}">Resources</a>
-      <a class="nav-item" href="https://denali-design.github.io/denali-css/docs/" target="_blank">CSS</a>
-      <a class="nav-item" href="https://denali-design.github.io/denali-icon-font/docs/" target="_blank">Icons</a>
+      <a class="nav-item" href="https://denali-design.github.io/denali-css/docs/">CSS</a>
+      <a class="nav-item" href="https://denali-design.github.io/denali-icon-font/docs/">Icons</a>
     </div>
     <div class="nav-right">
       <a href="{{ site.baseurl }}{{ page.url }}#search"

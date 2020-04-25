@@ -100,11 +100,11 @@ You can use these variables in a `override.css` file to customize this component
 
 |Variable Name|CSS Property|
 | - | - |
-|`--menu-bg-color`|background|
-|`--menu-corner-radius`|border-radius|
-|`--menu-shadow`|box-shadow|
-|`--menu-border-color`|border-color|
-|`--menu-border-width`| border-width|
-|`--menu-border-style`|border-style|
-|`--menu-line-break-size`|height|
-|`--menu-line-break-color`|background|
+|`$menu-bg-color`|background|
+|`$menu-corner-radius`|border-radius|
+|`$menu-shadow`|box-shadow|
+|`$menu-border-color`|border-color|
+|`$menu-border-width`| border-width|
+|`$menu-border-style`|border-style|
+|`$menu-line-break-size`|height|
+|`$menu-line-break-color`|background|

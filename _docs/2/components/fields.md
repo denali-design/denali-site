@@ -165,19 +165,19 @@ You can use these variables in a `override.css` file to customize this component
 
 |Variable Name|CSS Property|
 | - | - |
-|`--fields-corner-radius`|border-radius|
-|`--fields-dropdown-arrow-color`| color|
-|`--fields-padding`| padding|
-|`--fields-placeholder-text-color`| color|
-|`--fields-default-bg`| background|
-|`--fields-default-text-color`| color|
-|`--fields-default-border`| border|
-|`--fields-focus-border`| border|
-|`--fields-disabled-bg`| background|
-|`--fields-disabled-text-color`| color|
-|`--fields-disabled-border`| border|
-|`--fields-error-border`| border|
-|`--fields-sizes-default-width`| width|
-|`--fields-sizes-default-height`| height|
-|`--fields-sizes-medium-height`| height|
-|`--fields-sizes-small-height`| height|
+|`$fields-corner-radius`|border-radius|
+|`$fields-dropdown-arrow-color`| color|
+|`$fields-padding`| padding|
+|`$fields-placeholder-text-color`| color|
+|`$fields-default-bg`| background|
+|`$fields-default-text-color`| color|
+|`$fields-default-border`| border|
+|`$fields-focus-border`| border|
+|`$fields-disabled-bg`| background|
+|`$fields-disabled-text-color`| color|
+|`$fields-disabled-border`| border|
+|`$fields-error-border`| border|
+|`$fields-sizes-default-width`| width|
+|`$fields-sizes-default-height`| height|
+|`$fields-sizes-medium-height`| height|
+|`$fields-sizes-small-height`| height|

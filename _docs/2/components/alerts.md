@@ -185,20 +185,17 @@ You can use these variables in a `override.css` file to customize this component
 
 |Variable Name|CSS Property|
 | - | - |
-|`--alert-bg-color`|background|
-|`--alert-text-color`|color|
-|`--alert-corner-radius`|border-radius|
-|`--alert-shadow`|box-shadow|
-|`--alert-border-color`|border-color|
-|`--alert-border-width`|border-width|
-|`--alert-border-style`|border-style|
-|`--alert-close-icon-color`|color|
-|`--alert-inline-text-color`|color|
-|`--alert-inline-bg-color`|background|
-|`--alert-inline-font-size`|font-size|
-|`--alert-inline-alignment-text`|text-align|
-|`--alert-inline-alignment-justify-content`|justify-content|
-|`--alert-inline-padding-top`|padding-top|
-|`--alert-inline-padding-right`|padding-right|
-|`--alert-inline-padding-bottom`|padding-bottom|
-|`--alert-inline-padding-left`|padding-left|
+|`$alert-bg-color`|background|
+|`$alert-text-color`|color|
+|`$alert-corner-radius`|border-radius|
+|`$alert-shadow`|box-shadow|
+|`$alert-border-color`|border-color|
+|`$alert-border-width`|border-width|
+|`$alert-border-style`|border-style|
+|`$alert-close-icon-color`|color|
+|`$alert-inline-text-color`|color|
+|`$alert-inline-bg-color`|background|
+|`$alert-inline-font-size`|font-size|
+|`$alert-inline-alignment-text`|text-align|
+|`$alert-inline-alignment-justify-content`|justify-content|
+|`$alert-inline-padding`|padding|

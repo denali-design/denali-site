@@ -71,24 +71,24 @@ You can use these variables in a `override.css` file to customize this component
 
 |Variable Name|CSS Property|
 | - | - |
-|`--headline-color`| color|
-|`--headline-font-family`| font-family|
-|`--paragraph-color`| color|
-|`--paragraph-font-family`| font-family|
-|`--h1-font-size`| font-size|
-|`--h2-font-size`| font-size|
-|`--h3-font-size`| font-size|
-|`--h4-font-size`| font-size|
-|`--h5-font-size`| font-size|
-|`--h6-font-size`| font-size|
-|`--p-font-size`| font-size|
-|`--h1-font-weight`| font-weight|
-|`--h2-font-weight`| font-weight|
-|`--h3-font-weight`| font-weight|
-|`--h4-font-weight`| font-weight|
-|`--h5-font-weight`| font-weight|
-|`--h6-font-weight`| font-weight|
-|`--p-font-weight`| font-weight|
-|`--line-height-compact`| line-height|
-|`--line-height-normal`| line-height|
-|`--line-height-expanded`| line-height|
+|`$headline-color`| color|
+|`$headline-font-family`| font-family|
+|`$paragraph-color`| color|
+|`$paragraph-font-family`| font-family|
+|`$h1-font-size`| font-size|
+|`$h2-font-size`| font-size|
+|`$h3-font-size`| font-size|
+|`$h4-font-size`| font-size|
+|`$h5-font-size`| font-size|
+|`$h6-font-size`| font-size|
+|`$p-font-size`| font-size|
+|`$h1-font-weight`| font-weight|
+|`$h2-font-weight`| font-weight|
+|`$h3-font-weight`| font-weight|
+|`$h4-font-weight`| font-weight|
+|`$h5-font-weight`| font-weight|
+|`$h6-font-weight`| font-weight|
+|`$p-font-weight`| font-weight|
+|`$line-height-compact`| line-height|
+|`$line-height-normal`| line-height|
+|`$line-height-expanded`| line-height|

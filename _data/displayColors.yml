@@ -50,7 +50,7 @@ grey:
       weight: "300"
     - hex: "#f8f8f8"
       weight: "200"
-    - hex: "#fffff"
+    - hex: "#ffffff"
       weight: "100"
 
 

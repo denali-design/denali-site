@@ -102,11 +102,11 @@ You can use these variables in a `override.css` file to customize this component
 
 |Variable Name|CSS Property|
 | - | - |
-|`--links-text-color`|color|
-|`--links-hover-text-color`|color|
-|`--links-disabled-text-color`|color|
-|`--links-secondary-text-color`|color|
-|`--links-secondary-hover-text-color`|color|
-|`--links-inverse-text-color`|color|
-|`--links-inverse-hover-text-color`|color|
-|`--links-small-text-size`|font-size|
+|`$links-text-color`|color|
+|`$links-hover-text-color`|color|
+|`$links-disabled-text-color`|color|
+|`$links-secondary-text-color`|color|
+|`$links-secondary-hover-text-color`|color|
+|`$links-inverse-text-color`|color|
+|`$links-inverse-hover-text-color`|color|
+|`$links-small-text-size`|font-size|

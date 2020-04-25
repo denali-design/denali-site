@@ -13,8 +13,6 @@ excerpt: "We list all the updates, bug fixes, and new features."
 
 ## April 29th 2020 | v2.0
 
-### Components
-
 <br>
 
 #### New
@@ -26,6 +24,9 @@ excerpt: "We list all the updates, bug fixes, and new features."
 - **Icons** Icon size modifier can now be used for SVG icons
 - **Colors** Added fill color helpers.
 - **Menu** Added a `link` class when unable to use a href tags.
+- **Breadcrumbs** This component is used to show the relationship betweens pages or content.
+- **Tooltips** This component is used to display additional information when a user hovers, focuses, or taps on the element.
+- **Block Level Alerts** Added a modifier of `.is-block` to apply an in context alert.
 
 <br>
 
@@ -37,3 +38,4 @@ excerpt: "We list all the updates, bug fixes, and new features."
 
 #### Removed
 - **Navbar** `.nav-group` was removed because of the center section.
+- **Colors** We condensed our brand colors from `100` to `500` values.

@@ -126,22 +126,22 @@ You can use these variables in a `override.css` file to customize this component
 
 |Variable Name|CSS Property|
 | - | - |
-|`--toggle-corner-radius`| border-radius|
-|`--toggle-bg-color`| background|
-|`--toggle-text-color`| color|
-|`--toggle-text-hover-color`| color|
-|`--toggle-text-size`| 1.4rem|
-|`--toggle-padding`| padding|
-|`--toggle-height`| height|
-|`--toggle-active-text-color`| color|
-|`--toggle-active-bg-color`| background|
-|`--toggle-active-corner-radius`| border-radius|
-|`--toggle-active-border-width`| 2px|
-|`--toggle-active-border-color`| border-color|
-|`--toggle-disabled-text-color`| color|
-|`--toggle-small-padding`| padding|
-|`--toggle-small-height`| height|
-|`--toggle-inverse-text-color`| color|
-|`--toggle-inverse-bg-color`| background|
-|`--toggle-inverse-active-text-color`| color|
-|`--toggle-inverse-active-bg-color`| background|
+|`$toggle-corner-radius`| border-radius|
+|`$toggle-bg-color`| background|
+|`$toggle-text-color`| color|
+|`$toggle-text-hover-color`| color|
+|`$toggle-text-size`| 1.4rem|
+|`$toggle-padding`| padding|
+|`$toggle-height`| height|
+|`$toggle-active-text-color`| color|
+|`$toggle-active-bg-color`| background|
+|`$toggle-active-corner-radius`| border-radius|
+|`$toggle-active-border-width`| 2px|
+|`$toggle-active-border-color`| border-color|
+|`$toggle-disabled-text-color`| color|
+|`$toggle-small-padding`| padding|
+|`$toggle-small-height`| height|
+|`$toggle-inverse-text-color`| color|
+|`$toggle-inverse-bg-color`| background|
+|`$toggle-inverse-active-text-color`| color|
+|`$toggle-inverse-active-bg-color`| background|
