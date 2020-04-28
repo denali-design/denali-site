@@ -21,7 +21,7 @@ layout: base
     transition: 300ms;
   }
   .themeable-signup > h1 {
-    font-family: "Helvetica Neue", sans-serif;
+    font-family: "Helvetica Black", sans-serif;
     color: #000000;
     font-size: 36px;
     letter-spacing: 0px;
@@ -101,6 +101,7 @@ layout: base
     font-family: 'Helvetica Bold';
     white-space: nowrap;
     margin: 0px 5px;
+    -webkit-appearance: none;
   }
   .newsletter-input {
     width: 300px;
@@ -112,6 +113,7 @@ layout: base
     font-family: "Helvetica Neue", sans-serif;
     margin: 0px 5px;
     background: transparent;
+    -webkit-appearance: none;
   }
   .dark .newsletter-input {
     color: #ffffff;
@@ -140,8 +142,12 @@ layout: base
       width: calc(100%);
       margin: 5px 0px;
     }
+    .themeable-signup > h1 {
+      margin-top: 60px;
+    }
     .logo {
-      padding: 20px 20px;
+      padding: 20px 20px 0px 20px;
+      margin-top: 20px;
     }
     .newsletter-image {
       margin-top: 65px;
