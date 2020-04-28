@@ -1,0 +1,200 @@
+---
+layout: base
+---
+<style>
+  .themeable-signup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    color: #000000;
+    transition: 300ms;
+  }
+  .themeable-signup.dark {
+    background-color: #11191F;
+    color: #fff !important;
+    transition: 300ms;
+  }
+  .themeable-signup > h1 {
+    font-family: "Helvetica Neue", sans-serif;
+    color: #000000;
+    font-size: 36px;
+    letter-spacing: 0px;
+    line-height: 1.2;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 100px;
+    padding: 0px 20px;
+  }
+  .themeable-signup.dark > h1 {
+    color: #fff;
+  }
+  .themeable-signup > p {
+    font-family: "Helvetica Neue", sans-serif;
+    color: #000000;
+    opacity: .5;
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 1.4;
+    text-align: center;
+    margin-top: 20px;
+    max-width: 670px;
+    padding: 0px 20px;
+    margin-bottom: 40px;
+  }
+  .themeable-signup.dark > p {
+    color: #fff;
+  }
+  .logo {
+    height: 40px;
+    width: calc(100% - 80px);
+    padding: 30px 40px;
+    box-sizing: content-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo img {
+    height: 40px;
+  }
+  .dark > .logo img.default {
+    display: none;
+  }
+
+  .logo .d-icon {
+    transform: rotate(0deg);
+    transition: 300ms;
+    transition-timing-function: cubic-bezier(.37,1.48,.5,1);
+  }
+  .dark > .logo .d-icon {
+    color: #ffffff;
+    transform: rotate(180deg);
+    transition: 300ms;
+    transition-timing-function: cubic-bezier(.37,1.48,.5,1);
+  }
+  .logo img.dark {
+    display: none;
+  }
+  .dark > .logo img.dark {
+    display: block;
+  }
+  #mc_embed_signup_scroll {
+    display: flex;
+    flex-direction: row;
+  }
+  .newsletter-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #016EFF;
+    border-radius: 14px;
+    font-size: 18px;
+    color: #fff;
+    padding: 12px 24px 13px 24px;
+    height: 50px;
+    font-family: 'Helvetica Bold';
+    white-space: nowrap;
+    margin: 0px 5px;
+  }
+  .newsletter-input {
+    width: 300px;
+    height: 50px;
+    border-radius: 14px;
+    border: 2px solid #f0f0f0;
+    padding: 0px 20px;
+    font-size: 18px;
+    font-family: "Helvetica Neue", sans-serif;
+    margin: 0px 5px;
+    background: transparent;
+  }
+  .dark .newsletter-input {
+    color: #ffffff;
+    border: 2px solid #424242;
+  }
+  .newsletter-image {
+    width: 100%;
+    height: 89%;
+    margin-top: 45px;
+    background-image: url('{{ site.url }}/assets/images/themeable/newsletter-components-denali.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .dark > .newsletter-image {
+    background-image: url('{{ site.url }}/assets/images/themeable/newsletter-components-dark.png');
+  }
+  @media (max-width: 670px) {
+    #mc_embed_signup_scroll {
+      flex-direction: column;
+      width: 100%;
+      padding: 0px 20px;
+    }
+    .newsletter-button,
+    .newsletter-input {
+      width: calc(100%);
+      margin: 5px 0px;
+    }
+    .logo {
+      padding: 20px 20px;
+    }
+    .newsletter-image {
+      margin-top: 65px;
+    }
+  }
+</style>
+
+<div class="themeable-signup" id="themeParent">
+  <div class="logo">
+    <a href="{{ site.url }}">
+      <img class="default" src="{{ site.url }}/assets/images/denali-logo-black.png" alt="Back to Denali home page">
+      <img class="dark" src="{{ site.url }}/assets/images/denali-logo.svg" alt="Back to Denali home page">
+    </a>
+    <i class="d-icon d-dark-mode is-medium" onclick="toggleDarkTheme()"></i>
+  </div>
+
+  <h1>Denali Themeable <br>
+    Sign Up for Early Access</h1>
+  <p>Experience Denali Themable before it’s available to the public by signing up for our newsletter. You’ll get insider
+    first looks at the product, updates, behind the scenes action, and more.</p>
+  <!-- Begin Mailchimp Signup Form -->
+  <div id="mc_embed_signup">
+    <form action="https://design.us8.list-manage.com/subscribe/post?u=12803b87b3cfed0f769aa7948&amp;id=98aefaa3fc"
+      method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"
+      novalidate>
+      <div id="mc_embed_signup_scroll">
+        <div class="mc-field-group">
+          <input type="email" value="" name="EMAIL" class="required email newsletter-input" id="mce-EMAIL"
+            placeholder="Email">
+        </div>
+        <div id="mce-responses" class="clear">
+          <div class="response" id="mce-error-response" style="display:none"></div>
+          <div class="response" id="mce-success-response" style="display:none"></div>
+        </div>
+        <div style="position: absolute; left: -5000px;" aria-hidden="true">
+          <input type="text" name="b_12803b87b3cfed0f769aa7948_98aefaa3fc" tabindex="-1" value="">
+        </div>
+        <div class="clear">
+          <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"
+            class="button newsletter-button">
+        </div>
+      </div>
+    </form>
+  </div>
+  <!--End mc_embed_signup-->
+
+  <div class="newsletter-image"></div>
+</div>
+
+<script>
+  var themeParent = document.getElementById('themeParent');
+
+  function toggleDarkTheme() {
+    themeParent.classList.toggle('dark');
+  }
+</script>
