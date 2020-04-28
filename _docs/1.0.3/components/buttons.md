@@ -73,11 +73,11 @@ Icons can be placed within buttons on their own or accompanied by text. Icons pl
 To place icons alongside text in buttons, insert an `<i>` or `<span>` tag with the `.d-icon` class followed by the `.d-$icon-name` class.
 
 {% capture button_icon_text %} 
-<button class="button is-primary">
+<button class="button is-solid">
 <i class="d-icon d-share is-small"></i>
 Share
 </button>
-<button class="button is-secondary">
+<button class="button is-outline">
 <i class="d-icon d-share is-small"></i>
 Share
 </button>
@@ -88,10 +88,10 @@ Share
 To place an icon in a button on its own, add the `.has-icon` class to the outer `<button>` tag.
 
 {% capture button_icon %} 
-<button class="button is-primary has-icon">
+<button class="button is-solid has-icon">
 <i class="d-icon d-check is-small"></i>
 </button>
-<button class="button is-secondary has-icon">
+<button class="button is-outline has-icon">
 <i class="d-icon d-check is-small"></i>
 </button>
 <button class="button is-danger has-icon">
