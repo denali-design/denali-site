@@ -5,9 +5,9 @@
 // Variables
 $brand-300: #016EFF;
 $font-mono: 'Noto Mono Regular';
-$font-bold: 'Helvetica Bold';
-$font-black: 'Helvetica Black';
-$font-regular: 'Helvetica Roman';
+$font-bold: 'Montserrat', sans-serif;
+$font-black: 'Montserrat', sans-serif;
+$font-regular: 'Montserrat', sans-serif;
 
 // Animations
 @keyframes typing {
@@ -38,39 +38,21 @@ $font-regular: 'Helvetica Roman';
     src: url('fonts/NotoMono-Regular.woff') format('woff');
 }
 
-@font-face {
-    font-family: 'Helvetica Roman';
-    font-style: normal;
-    font-weight: normal;
-    src: url('fonts/HelveticaNeue-Roman.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Helvetica Bold';
-    font-style: normal;
-    font-weight: normal;
-    src: url('fonts/HelveticaNeueBold.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Helvetica Black';
-    font-style: normal;
-    font-weight: normal;
-    src: url('fonts/HelveticaNeue-Black.woff') format('woff');
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
 
 // Style
 .splash-page {
 
     h1 {
         font-family: $font-black;
+        font-weight: 900;
         font-size: 34px;
         line-height: 40px;
     }
 
     p {
         font-family: $font-regular;
+        font-weight: 400;
         font-size: 20px;
         line-height: 26px;
     }
@@ -96,9 +78,10 @@ $font-regular: 'Helvetica Roman';
         border-radius: 14px;
         font-size: 20px;
         color: #fff;
-        padding: 16px 24px 20px 24px;
+        padding: 18px 24px 18px 24px;
         height: 60px;
         font-family: $font-bold;
+        font-weight: 700;
         white-space: nowrap;
 
         .d-arrow-right {
@@ -128,6 +111,7 @@ $font-regular: 'Helvetica Roman';
     .splash-link {
         color: $brand-300;
         font-family: $font-bold;
+        font-weight: 700;
     }
 
     // Cover
@@ -406,6 +390,7 @@ $font-regular: 'Helvetica Roman';
         }
         > p.title {
             font-family: $font-black;
+            font-weight: 900;
             color: #303030;
             height: 70px;
             font-size: 20px !important;
@@ -424,6 +409,7 @@ $font-regular: 'Helvetica Roman';
             padding: 20px 30px;
             transition: 300ms;
             font-family: $font-bold;
+            font-weight: 700;
         }
 
         &:hover {
@@ -475,6 +461,7 @@ $font-regular: 'Helvetica Roman';
             
             .quote-content-text {
                 font-family: $font-black;
+                font-weight: 900;
                 color: #fff;
                 letter-spacing: 0;
                 margin-bottom: 30px;
@@ -509,6 +496,7 @@ $font-regular: 'Helvetica Roman';
                 .contact-title {
                     opacity: 0.7;
                     font-family: $font-regular;
+                    font-weight: 400;
                     font-size: 16px;
                     color: #FFFFFF;
                     letter-spacing: 0;
@@ -660,6 +648,7 @@ $font-regular: 'Helvetica Roman';
                     .company {
                         font-size: 18px;
                         font-family: $font-bold;
+                        font-weight: 700;
                     }
                     
                     .category {
