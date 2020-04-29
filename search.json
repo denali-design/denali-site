@@ -1,7 +1,7 @@
 ---
 ---
 [
-  {% for doc in site.docs %}{% if doc.url contains "1.0.3" %}{
+  {% for doc in site.docs %}{% if doc.url contains "2" %}{
     "title"       : "{{ doc.title | escape }}",
     "desc"        : "{{ doc.excerpt | escape }}",
     "collection"  : "Documentation",
