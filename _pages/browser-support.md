@@ -29,8 +29,8 @@ The latest versions of the most desktop browsers that are supported.
 
 | |Chrome|Firefox|Internet Explorer|Microsoft Edge|Opera|Safari|
 |-|-|-|-|-|-|-|
-|**Mac**|<span class="d-icon d-check-circle-solid is-status-success"></span>|<span class="d-icon d-check-circle-solid is-status-success"></span>|N/A|N/A|<span class="d-icon d-check-circle-solid is-status-success"></span>|<span class="d-icon d-check-circle-solid is-status-success"></span>|
-|**Windows**|<span class="d-icon d-check-circle-solid is-status-success"></span>|<span class="d-icon d-check-circle-solid is-status-success"></span>|<span class="d-icon d-close-circle-solid is-status-danger"></span>|<span class="d-icon d-check-circle-solid is-status-success"></span>|<span class="d-icon d-check-circle-solid is-status-success"></span>|Not Tested|
+|**Mac**|<span class="d-icon d-check-circle-solid is-status-success"></span> +55|<span class="d-icon d-check-circle-solid is-status-success"></span> +51|N/A|<span class="d-icon d-check-circle-solid is-status-success"></span> +80|<span class="d-icon d-check-circle-solid is-status-success"></span> +42|<span class="d-icon d-check-circle-solid is-status-success"></span> +10.1|
+|**Windows**|<span class="d-icon d-check-circle-solid is-status-success"></span> +55|<span class="d-icon d-check-circle-solid is-status-success"></span> +51|<span class="d-icon d-check-circle-solid is-status-success"></span> +11|<span class="d-icon d-check-circle-solid is-status-success"></span> +15|<span class="d-icon d-check-circle-solid is-status-success"></span> +42|Not Tested|
 
 ### Internet Explorer
 We currently do not offer support for internet explrer, but are reworking all our components to support IE9 and up.
