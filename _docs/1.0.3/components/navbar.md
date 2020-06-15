@@ -20,7 +20,7 @@ Insert brand logos by adding an `<img>` tag with the class `.nav-brand` within a
 {% capture navbar_left %}
 <nav class="nav">
   <div class="nav-left">
-    <img class="nav-brand" src="/assets/images/denali-logo.svg"/>
+    <img class="nav-brand" src="/assets/images/denali-logo.png"/>
   </div>
 </nav>
 {% endcapture %}
@@ -39,7 +39,7 @@ Insert icons by adding `<i>` or `<span>` tags with the `.d-icon` and `.d-$icon-n
 {% capture navbar_right %} 
 <nav class="nav">
 <div class="nav-left">
-<img class="nav-brand" src="/assets/images/denali-logo.svg" alt="" />
+<img class="nav-brand" src="/assets/images/denali-logo.png" alt="" />
 </div>
 <div class="nav-right">
 <a class="nav-icon"><i class="d-icon d-dashboard"></i></a>
@@ -63,7 +63,7 @@ To insert nav links wrap link text in `<a>` tags with the `.nav-item` class. To 
 {% capture navbar_center_list %} 
 <nav class="nav">
   <div class="nav-left">
-    <img class="nav-brand" src="/assets/images/denali-logo.svg" alt="" />
+    <img class="nav-brand" src="/assets/images/denali-logo.png" alt="" />
   </div>
   <div class="nav-right space-between-small-desktop-up">
     <div class="nav-group">
@@ -90,7 +90,7 @@ To insert a search bar start with `<div class="input-group has-button">`. Inside
 {% capture navbar_center_search %} 
 <nav class="nav">
   <div class="nav-left">
-    <img class="nav-brand" src="/assets/images/denali-logo.svg" alt="" />
+    <img class="nav-brand" src="/assets/images/denali-logo.png" alt="" />
   </div>
   <div class="nav-right">
     <div class="nav-group">
@@ -123,7 +123,7 @@ Add the class `.responsive` to a navbar's `.nav-right` element to hide navbar co
 {% capture navbar_responsive %} 
 <nav class="nav">
   <div class="nav-left">
-    <img class="nav-brand" src="/assets/images/denali-logo.svg" alt=""></img>
+    <img class="nav-brand" src="/assets/images/denali-logo.png" alt=""></img>
   </div>
   <a class="nav-icon nav-toggle-dropdown"><i class="d-icon d-more-vertical"></i></a>
   <div class="nav-right responsive">

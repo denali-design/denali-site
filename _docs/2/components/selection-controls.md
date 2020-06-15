@@ -116,6 +116,8 @@ You can use these variables in a `override.css` file to customize this component
 |`$checkbox-box-bg-color-active`| background|
 |`$checkbox-box-label-text-color`| color|
 |`$checkbox-box-label-disabled-text-color`| color|
+|`$checkbox-checkmark-color`| color|
+|`$checkbox-corner-radius`| border-radius|
 
 |Variable Name|CSS Property|
 | - | - |

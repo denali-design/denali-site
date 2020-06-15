@@ -171,6 +171,8 @@ You can use these variables in a `override.css` file to customize this component
 |Variable Name|CSS Property|
 | - | - |
 |`$button-corner-radius`| border-radius|
+|`$button-font-size`| font-size|
+|`$button-font-weight`| font-weight|
 |`$button-sizes-sm-height`| height|
 |`$button-sizes-sm-font-size`| font-size|
 |`$button-sizes-sm-min-width`| min-width|
