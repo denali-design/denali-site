@@ -60,7 +60,7 @@ Insert `<div class="nav-right">` to place content to the right of the navbar.
   </div>
   <div class="nav-responsive">
     <div class="nav-right">
-      <span class="nav-icon"><i class="d-icon d-user-profile-circle"></i></span>
+      <span class="nav-item"><i class="d-icon d-user-profile-circle"></i></span>
     </div>
   </div>
 </nav>
@@ -108,7 +108,7 @@ To insert nav links wrap link text in `<a>` tags with the `.nav-item` class. To 
 
 
 ### Icons
-Insert icons by adding `<i>` or `<span>` tags with the `.d-icon` and `.d-$icon-name` classes wrapped in `<a class="nav-icon">`.
+Insert icons by adding `<i>` or `<span>` tags with the `.d-icon` and `.d-$icon-name` classes wrapped in `<a class="nav-item">`.
 
 {% capture navbar_icons %}
 <nav class="nav">
@@ -117,9 +117,9 @@ Insert icons by adding `<i>` or `<span>` tags with the `.d-icon` and `.d-$icon-n
   </div>
   <div class="nav-responsive">
     <div class="nav-right">
-      <span class="nav-icon"><i class="d-icon d-dashboard"></i></span>
-      <span class="nav-icon"><i class="d-icon d-menu-dialpad"></i></span>
-      <span class="nav-icon"><i class="d-icon d-user-profile-circle"></i></span>
+      <span class="nav-item"><i class="d-icon d-dashboard"></i></span>
+      <span class="nav-item"><i class="d-icon d-menu-dialpad"></i></span>
+      <span class="nav-item"><i class="d-icon d-user-profile-circle"></i></span>
     </div>
   </div>
 </nav>
@@ -159,9 +159,9 @@ Insert a menu by adding a `.menu-trigger` and `.menu-content` elements wrapped i
   </div>
   <div class="nav-responsive">
     <div class="nav-right">
-      <div class="nav-menu">
+      <div class="menu menu--nav is-right">
         <div class="nav-item menu-trigger">Menu<i class="d-icon d-arrowhead-down is-small"></i></div>
-        <div class="menu-content is-right">
+        <div class="menu-content">
           <a>Menu Item #1</a>
           <a>Menu Item #2</a>
           <a>Menu Item #3</a>
@@ -173,7 +173,7 @@ Insert a menu by adding a `.menu-trigger` and `.menu-content` elements wrapped i
 {% endcapture %}
 {% include  code-snippet.html code=navbar_menu url='navbarMenu' height='220' %}
 
-<blockquote class="accessible">Users who do not or cannot use pointing devices can tab through links. These links should be in a logical tabbing order, but if they aren't use the <span class="chips has-bg-grey-100 is-red-500 is-mono">tabindex</span> attribute to allow you to define the order. Apply these to nav-icons and nav-links.</blockquote>
+<blockquote class="accessible">Users who do not or cannot use pointing devices can tab through links. These links should be in a logical tabbing order, but if they aren't use the <span class="chips has-bg-grey-100 is-red-500 is-mono">tabindex</span> attribute to allow you to define the order. Apply these to nav-items and nav-links.</blockquote>
 
 
 ***
@@ -187,7 +187,7 @@ We construct our navbar to be responsive by default, so the right and center sec
   <div class="nav-left">
     <img class="nav-brand" src="/assets/images/denali-logo.png" alt=""></img>
     <div class="float-right hide-small-desktop-up">
-      <a class="nav-icon" id="navToggle"><i class="d-icon d-more-vertical"></i></a>
+      <a class="nav-item" id="navToggle"><i class="d-icon d-more-vertical"></i></a>
     </div>
   </div>
   <div class="nav-responsive is-active">
@@ -205,10 +205,10 @@ We construct our navbar to be responsive by default, so the right and center sec
           <a>Menu Item #3</a>
         </div>
       </div>
-      <a class="nav-icon hide-tablet-down"><i class="d-icon d-dashboard"></i><span
+      <a class="nav-item hide-tablet-down"><i class="d-icon d-dashboard"></i><span
           class="icon-name">Dashboard</span></a>
-      <a class="nav-icon"><i class="d-icon d-menu-dialpad"></i><span class="icon-name">Apps</span></a>
-      <a class="nav-icon"><i class="d-icon d-user-profile-circle"></i><span class="icon-name">Profile</span></a>
+      <a class="nav-item"><i class="d-icon d-menu-dialpad"></i><span class="icon-name">Apps</span></a>
+      <a class="nav-item"><i class="d-icon d-user-profile-circle"></i><span class="icon-name">Profile</span></a>
     </div>
   </div>
 </nav>
@@ -255,7 +255,6 @@ You can use these variables in a `override.css` file to customize this component
 |`$navbar-item-hover-text-color`| color|
 |`$navbar-item-active-text-color`| color|
 |`$navbar-item-active-border-color`| border-color|
-|`$navbar-menu-bg-color`| background|
 |`$navbar-responsive-bg-color`| background|
 |`$navbar-responsive-menu-bg-color`| background|
 

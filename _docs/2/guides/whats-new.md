@@ -7,6 +7,27 @@ excerpt: "We list all the updates, bug fixes, and new features."
 # {{ page.title }}
 {{ page.excerpt }}
 
+## June 15th 2020 | v2.0.1
+
+<br>
+
+#### Components
+- **Menu** Direction is can now be applied to the parent element e.g. `menu .is-right`
+- **Navbar** Combine `.nav-icon` and `.nav-item` We will deprecate `.nav-icon` in a later version.
+- **Navbar & Menu** Navbar now used the menu component with the modifier `.menu--nav`
+
+#### Variables
+Checkbox
+- Added | $checkbox-checkmark-color
+- Added | $checkbox-corner-radius
+
+Button
+- Added | $button-font-weight
+- Added | $button-font-size
+
+Navbar
+- Removed | $navbar-menu-bg-color
+
 
 ***
 
