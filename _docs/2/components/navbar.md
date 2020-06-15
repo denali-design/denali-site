@@ -22,7 +22,7 @@ Insert `<div class="nav-left">` to place content to the center of the navbar.
 {% capture navbar_left %}
 <nav class="nav">
   <div class="nav-left">
-    <img class="nav-brand" src="/assets/images/denali-logo.svg" alt="" />
+    <img class="nav-brand" src="/assets/images/denali-logo.png" alt="" />
   </div>
 </nav>
 {% endcapture %}
@@ -38,7 +38,7 @@ Insert `<div class="nav-center">` to place content to the center of the navbar.
 {% capture navbar_center %}
 <nav class="nav">
   <div class="nav-left">
-    <img class="nav-brand" src="/assets/images/denali-logo.svg" alt="" />
+    <img class="nav-brand" src="/assets/images/denali-logo.png" alt="" />
   </div>
   <div class="nav-responsive">
     <div class="nav-center">
@@ -56,7 +56,7 @@ Insert `<div class="nav-right">` to place content to the right of the navbar.
 {% capture navbar_right %}
 <nav class="nav">
   <div class="nav-left">
-    <img class="nav-brand" src="/assets/images/denali-logo.svg" alt="" />
+    <img class="nav-brand" src="/assets/images/denali-logo.png" alt="" />
   </div>
   <div class="nav-responsive">
     <div class="nav-right">
@@ -80,7 +80,7 @@ Insert brand logos by adding an `<img>` tag with the class `.nav-brand`.
 {% capture navbar_brand %}
 <nav class="nav">
   <div class="nav-left">
-    <img class="nav-brand" src="/assets/images/denali-logo.svg" alt="" />
+    <img class="nav-brand" src="/assets/images/denali-logo.png" alt="" />
   </div>
 </nav>
 {% endcapture %}
@@ -93,7 +93,7 @@ To insert nav links wrap link text in `<a>` tags with the `.nav-item` class. To 
 {% capture navbar_items %}
 <nav class="nav">
   <div class="nav-left">
-    <img class="nav-brand" src="/assets/images/denali-logo.svg" alt="" />
+    <img class="nav-brand" src="/assets/images/denali-logo.png" alt="" />
   </div>
   <div class="nav-responsive">
     <div class="nav-right">
@@ -113,7 +113,7 @@ Insert icons by adding `<i>` or `<span>` tags with the `.d-icon` and `.d-$icon-n
 {% capture navbar_icons %}
 <nav class="nav">
   <div class="nav-left">
-    <img class="nav-brand" src="/assets/images/denali-logo.svg" alt="" />
+    <img class="nav-brand" src="/assets/images/denali-logo.png" alt="" />
   </div>
   <div class="nav-responsive">
     <div class="nav-right">
@@ -133,7 +133,7 @@ Insert any control elements by adding inputs, buttons, or controls wrapped in `<
 {% capture navbar_control %}
 <nav class="nav">
   <div class="nav-left">
-    <img class="nav-brand" src="/assets/images/denali-logo.svg" alt="" />
+    <img class="nav-brand" src="/assets/images/denali-logo.png" alt="" />
   </div>
   <div class="nav-responsive">
     <div class="nav-right">
@@ -155,7 +155,7 @@ Insert a menu by adding a `.menu-trigger` and `.menu-content` elements wrapped i
 {% capture navbar_menu %}
 <nav class="nav">
   <div class="nav-left">
-    <img class="nav-brand" src="/assets/images/denali-logo.svg" alt="" />
+    <img class="nav-brand" src="/assets/images/denali-logo.png" alt="" />
   </div>
   <div class="nav-responsive">
     <div class="nav-right">
@@ -185,7 +185,7 @@ We construct our navbar to be responsive by default, so the right and center sec
 {% capture navbar_responsive %}
 <nav class="nav">
   <div class="nav-left">
-    <img class="nav-brand" src="/assets/images/denali-logo.svg" alt=""></img>
+    <img class="nav-brand" src="/assets/images/denali-logo.png" alt=""></img>
     <div class="float-right hide-small-desktop-up">
       <a class="nav-icon" id="navToggle"><i class="d-icon d-more-vertical"></i></a>
     </div>
