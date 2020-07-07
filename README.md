@@ -49,6 +49,10 @@ Run the site using this.
 ```
 jekyll serve --config _config.yml,_config.dev.yml
 ```
+or 
+```
+bundle exec jekyll serve --config _config.yml,_config.dev.yml
+```
 
 You should be prompted with a success message and the url to use to view the site.
 
