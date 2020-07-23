@@ -7,6 +7,28 @@ excerpt: "We list all the updates, bug fixes, and new features."
 # {{ page.title }}
 {{ page.excerpt }}
 
+## July 23th 2020 | v2.0.2
+
+<br>
+
+#### Components
+- **Loader** We have changed the visual look of our loader. `loader`
+- **Loader Size** We have removed all size modifiers for loaders.
+- **Loader Inverse** Changed from `.is-inverse` to `.loader--inverse`
+- **Button Loader** Additionally add `.loader--button`
+
+#### Variables
+- Removed `$loader-size-xs` and all sizes
+- Added `$loader-color`
+- Added `$loader-color-inverse`
+
+#### Helpers
+- **Shadows** Add 5 different elevations of shadows.
+
+
+***
+
+
 ## June 15th 2020 | v2.0.1
 
 <br>
@@ -17,16 +39,11 @@ excerpt: "We list all the updates, bug fixes, and new features."
 - **Navbar & Menu** Navbar now used the menu component with the modifier `.menu--nav`
 
 #### Variables
-Checkbox
-- Added | $checkbox-checkmark-color
-- Added | $checkbox-corner-radius
-
-Button
-- Added | $button-font-weight
-- Added | $button-font-size
-
-Navbar
-- Removed | $navbar-menu-bg-color
+- Added `$checkbox-checkmark-color`
+- Added `$checkbox-corner-radius`
+- Added `$button-font-weight`
+- Added `$button-font-size`
+- Removed `$navbar-menu-bg-color`
 
 
 ***
