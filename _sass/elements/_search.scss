@@ -1,5 +1,5 @@
 @charset "utf-8";
-// Copyright 2019, Oath Inc.
+// Copyright 2020, Verizon Media
 // Licensed under the terms of the MIT license. See LICENSE file in project root for terms.
 
 #search > .modal-container > .modal-header {
@@ -23,8 +23,8 @@
     transition: 300ms;
 
     &:hover {
-      border-top: solid 2px #d7e2fd;
-      background: #d7e2fd;
+      border-top: solid 2px #CCE2FF;
+      background: #CCE2FF;
       border-radius: 20px;
       transition: 300ms;
 
@@ -59,7 +59,7 @@
     }
 
     .results-url {
-      color: #3697f2;
+      color: #016EFF;
       margin-top: 10px;
     }
 
@@ -96,11 +96,11 @@
       transition: 300ms;
 
       &:hover {
-        border-top: solid 2px rgba(#d7e2fd, 0);
-        background: rgba(#d7e2fd, 0.2);
+        border-top: solid 2px rgba(#CCE2FF, 0);
+        background: rgba(#CCE2FF, 0.2);
 
         a > .results-url {
-          color: #3697f2;
+          color: #016EFF;
         }
       }
 
