@@ -103,7 +103,7 @@ Grey (#XXXXXX) should be used to de-emphasize the visual importance of text such
 %}
 
 ### Blue
-Blue (#3697F2) should only be used to convey active links and buttons.
+Blue (#016EFF) should only be used to convey active links and buttons.
 
 {% include principles-2-col.html
   do-image='type-blue-do@2x.jpg'

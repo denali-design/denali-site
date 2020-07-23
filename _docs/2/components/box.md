@@ -42,7 +42,7 @@ You can set specific `width` and `height` values by adding a `style` attribute i
 ### Box footer
 Customize boxes with a footer by adding a `<footer>` tag to the end of your box `<div>`. Wrap footer text in a `<p>` tag.
 
-{% capture box_footer %} 
+{% capture box_footer %}
 <div class="box" style="width:310px;">
 <h3><a>Header</a></h3>
 <h5>Sub Title</h5>
@@ -53,7 +53,7 @@ Customize boxes with a footer by adding a `<footer>` tag to the end of your box 
 <p>This is a footer.</p>
 </footer>
 </div>
- {% endcapture %}
+{% endcapture %}
 {% include code-snippet.html code=box_footer url='box_footer.html' %}
 
 

@@ -44,5 +44,5 @@ You can use these variables in a `override.css` file to customize this component
 
 |Variable Name|CSS Property|
 | - | - |
-|`--color-{name}-{weight}`|Hex e.g.`#3697f2`|
+|`--color-{name}-{weight}`|Hex e.g.`#016EFF`|
 |`--color-{name}-{weight}-rgb`|RGB e.g.`54,151,242`|

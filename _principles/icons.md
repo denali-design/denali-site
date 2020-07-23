@@ -99,7 +99,7 @@ In mobile products it is important to remember that icons at any size must be gi
 Static icons are icons whose primary purpose is to help convey an idea visually. Static icons can’t be acted upon. Examples of static icons include icons that accompany status alerts and icons that accompany descriptive labels.
 
 #### Colors
-Static icons can be colored using colors from any of our color palettes. However we recommend not coloring static icons with our blue link color (#3697F2) as it may cause confusion.
+Static icons can be colored using colors from any of our color palettes. However we recommend not coloring static icons with our blue link color (#016EFF) as it may cause confusion.
 
 {% include principles-1-col.html
   standard-image='static-icons@2x.png'
@@ -109,7 +109,7 @@ Static icons can be colored using colors from any of our color palettes. However
 Actionable icons are icons whose primary purpose is to convey an action. Actionable icons can be acted upon. Examples of actionable icons include icons that accompany buttons or links.
 
 #### Colors
-We recommend only coloring static icons with our link blue color (#3697F2). This ensures that the icon will look actionable to users.
+We recommend only coloring static icons with our link blue color (#016EFF). This ensures that the icon will look actionable to users.
 
 {% include principles-2-col.html
   standard-image-one='actionable-icons-main@2x.png'
