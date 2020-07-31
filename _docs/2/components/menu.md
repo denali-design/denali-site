@@ -14,7 +14,8 @@ excerpt: 'Menus contain discoverable content such as links and user information.
 To implement a menu start with a `<div>` tag and add the `.menu` class. Inside, insert an `<a>` tag with the class `.menu-trigger` to trigger the menu. Lastly, place a `<div>` tag with the class of `.menu-content` below the menu trigger and wrap menu items in `<a>` tags within the content `<div>`.
 
 {% capture menu_default %}
-<div class="menu">
+<!-- Inline block is added due to the component inheriting the display block. -->
+<div class="menu" style="display:inline-block;">
     <a class="menu-trigger">Hover for default menu</a>
     <div class="menu-content">
         <a>Home</a>
@@ -40,7 +41,8 @@ By default, menu tooltips are positioned in the center of the menu.
 Reposition a menu&#39;s tooltip to the left by adding an `.is-left` class to a menu&#39;s outer `<div>`.
 
 {% capture menu_left %}
-<div class="menu is-left">
+<!-- Inline block is added due to the component inheriting the display block. -->
+<div class="menu is-left" style="display:inline-block;">
     <a class="menu-trigger">Hover for left menu</a>
     <div class="menu-content">
         <ul>
@@ -59,7 +61,8 @@ Reposition a menu&#39;s tooltip to the left by adding an `.is-left` class to a m
 Reposition a menu&#39;s tooltip to the right by adding an `.is-right` class to a menu&#39;s outer `<div>`.
 
 {% capture menu_right %}
-<div class="menu is-right">
+<!-- Inline block is added due to the component inheriting the display block. -->
+<div class="menu is-right" style="display:inline-block;">
   <a class="menu-trigger">Hover for right menu</a>
   <div class="menu-content">
     <p class="is-bold">Link copied to clipboard</p>
@@ -77,7 +80,8 @@ Reposition a menu&#39;s tooltip to the right by adding an `.is-right` class to a
 If you need to simulate the visual appearance of a link, but don't want to use an `a` tag you can add a class of `link` to a `span` tag to achieve this.
 
 {% capture menu_links %}
-<div class="menu">
+<!-- Inline block is added due to the component inheriting the display block. -->
+<div class="menu" style="display:inline-block;">
     <a class="menu-trigger">Hover for default menu</a>
     <div class="menu-content">
         <span class="link">Home</span>
