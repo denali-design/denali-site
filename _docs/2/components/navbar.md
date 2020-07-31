@@ -197,9 +197,9 @@ We construct our navbar to be responsive by default, so the right and center sec
       <a class="nav-item">Contact</a>
     </div>
     <div class="nav-right">
-      <div class="nav-menu">
+      <div class="menu menu--nav is-right">
         <div class="nav-item menu-trigger">Menu<i class="d-icon d-arrowhead-down is-small"></i></div>
-        <div class="menu-content is-right">
+        <div class="menu-content">
           <a>Menu Item #1</a>
           <a>Menu Item #2</a>
           <a>Menu Item #3</a>
