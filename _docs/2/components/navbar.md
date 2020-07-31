@@ -150,7 +150,7 @@ Insert any control elements by adding inputs, buttons, or controls wrapped in `<
 
 
 ### Menu
-Insert a menu by adding a `.menu-trigger` and `.menu-content` elements wrapped in `<a class="nav-menu">`.
+Insert a menu by adding a [menu]({{ site.data.navigation.static.docs }}components/menu) component `.menu` and adding the modifier `.menu--nav`.
 
 {% capture navbar_menu %}
 <nav class="nav">
