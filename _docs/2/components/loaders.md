@@ -24,7 +24,7 @@ Denali loaders can be implemented three ways: through a class on any element, in
 
 
 ### Inverse
-Implement an inverse color loader by adding the `.is-inverse` class to the loader `<div>`.
+Implement an inverse color loader by adding the `.loader--inverse` class to the loader `<div>`.
 {% capture loader_inverse %}
 <div class="loader loader--inverse"></div>
 {% endcapture %}
