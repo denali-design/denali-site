@@ -1,7 +1,7 @@
 # FOR STATIC MENUS
 # AKA quick access to urls
 static:
-  docs: /docs/2/
+  docs: /docs/2.1.0/
   principles: /principles/introduction
   resources: /resources
 
@@ -65,22 +65,25 @@ documentation:
         url: /guides/get-started
         versions:
           - 1.0.3
-          - 2
+          - 2.0.0
+          - 2.1.0
       - label: "Theme Your App"
         url: /guides/themeable
         versions:
           - 1.0.3
-          - 2
+          - 2.0.0
       - label: "Global Variables"
         url: /guides/global-variables
         versions:
           - 1.0.3
-          - 2
+          - 2.0.0
+          - 2.1.0
       - label: "What's New"
         url: /guides/whats-new
         versions:
           - 1.0.3
-          - 2
+          - 2.0.0
+          - 2.1.0
   - label: "Aesthetics"
     url: /aesthetics/colors
     subnav: /aesthetics
@@ -89,17 +92,20 @@ documentation:
         url: /aesthetics/colors
         versions:
           - 1.0.3
-          - 2
+          - 2.0.0
+          - 2.1.0
       - label: "Icons"
         url: /aesthetics/icons
         versions:
           - 1.0.3
-          - 2
+          - 2.0.0
+          - 2.1.0
       - label: "Typography"
         url: /aesthetics/typography
         versions:
           - 1.0.3
-          - 2
+          - 2.0.0
+          - 2.1.0
   - label: "Layouts"
     url: /layouts/breakpoints
     subnav: /layouts
@@ -108,22 +114,26 @@ documentation:
         url: /layouts/breakpoints
         versions:
           - 1.0.3
-          - 2
+          - 2.0.0
+          - 2.1.0
       - label: "Columns"
         url: /layouts/columns
         versions:
           - 1.0.3
-          - 2
+          - 2.0.0
+          - 2.1.0
       - label: "Containers"
         url: /layouts/containers
         versions:
           - 1.0.3
-          - 2
+          - 2.0.0
+          - 2.1.0
       - label: "Rows"
         url: /layouts/rows
         versions:
           - 1.0.3
-          - 2
+          - 2.0.0
+          - 2.1.0
   - label: "Components"
     url: /components/alerts
     subnav: /components
@@ -132,103 +142,132 @@ documentation:
         url: /components/alerts
         versions:
           - 1.0.3
-          - 2
+          - 2.0.0
+          - 2.1.0
       - label: "Box"
         url: /components/box
         versions:
           - 1.0.3
-          - 2
+          - 2.0.0
+          - 2.1.0
       - label: "Breadcrumbs"
         url: /components/breadcrumbs
         versions:
-          - 2
+          - 2.0.0
+          - 2.1.0
       - label: "Buttons"
         url: /components/buttons
         versions:
           - 1.0.3
-          - 2
+          - 2.0.0
+          - 2.1.0
       - label: "Chips"
         url: /components/chips
         versions:
           - 1.0.3
-          - 2
+          - 2.0.0
+          - 2.1.0
       - label: "Fields"
         url: /components/fields
         versions:
           - 1.0.3
-          - 2
+          - 2.0.0
+          - 2.1.0
       - label: "Input Group"
         url: /components/input-group
         versions:
-          - 2
+          - 2.0.0
+          - 2.1.0
       - label: "Links"
         url: /components/links
         versions:
           - 1.0.3
-          - 2
+          - 2.0.0
+          - 2.1.0
       - label: "Lists"
         url: /components/lists
         versions:
-          - 2
+          - 2.0.0
+          - 2.1.0
       - label: "Loader"
         url: /components/loaders
         versions:
           - 1.0.3
-          - 2
+          - 2.0.0
+          - 2.1.0
       - label: "Menu"
         url: /components/menu
         versions:
           - 1.0.3
-          - 2
+          - 2.0.0
+          - 2.1.0
       - label: "Modals"
         url: /components/modals
         versions:
           - 1.0.3
-          - 2
+          - 2.0.0
+          - 2.1.0
       - label: "Navbar"
         url: /components/navbar
         versions:
           - 1.0.3
-          - 2
+          - 2.0.0
+          - 2.1.0
+      - label: "Progress"
+        url: /components/progress
+        versions:
+          - 2.1.0
       - label: "Selection Controls"
         url: /components/selection-controls
         versions:
           - 1.0.3
-          - 2
+          - 2.0.0
+          - 2.1.0
       - label: "Selects"
         url: /components/selects
         versions:
           - 1.0.3
-          - 2
+          - 2.0.0
+          - 2.1.0
+      - label: "Sidebar"
+        url: /components/sidebar
+        versions:
+          - 2.1.0
       - label: "Table"
         url: /components/tables
         versions:
           - 1.0.3
-          - 2
+          - 2.0.0
+          - 2.1.0
       - label: "Tabs"
         url: /components/tabs
         versions:
           - 1.0.3
-          - 2
+          - 2.0.0
+          - 2.1.0
       - label: "Tags"
         url: /components/tags
         versions:
           - 1.0.3
-          - 2
+          - 2.0.0
+          - 2.1.0
       - label: "Titles"
         url: /components/titles
         versions:
           - 1.0.3
-          - 2
+          - 2.0.0
+          - 2.1.0
       - label: "Toggles"
         url: /components/toggles
         versions:
           - 1.0.3
-          - 2
+          - 2.0.0
+          - 2.1.0
       - label: "Tooltips"
         url: /components/tooltips
         versions:
-          - 2
+          - 2.0.0
+          - 2.1.0
   - label: "Helpers"
     url: /helpers/flexbox
     subnav: /helpers
@@ -237,14 +276,17 @@ documentation:
         url: /helpers/flexbox
         versions:
           - 1.0.3
-          - 2
+          - 2.0.0
+          - 2.1.0
       - label: "Margins"
         url: /helpers/margins
         versions:
           - 1.0.3
-          - 2
+          - 2.0.0
+          - 2.1.0
       - label: "Padding"
         url: /helpers/padding
         versions:
           - 1.0.3
-          - 2
+          - 2.0.0
+          - 2.1.0

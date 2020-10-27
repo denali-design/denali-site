@@ -21,12 +21,12 @@ layout: base
     transition: 300ms;
   }
   .themeable-signup > h1 {
-    font-family: "Helvetica Black", sans-serif;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
     color: #000000;
     font-size: 36px;
     letter-spacing: 0px;
     line-height: 1.2;
-    font-weight: bold;
     text-align: center;
     margin-top: 100px;
     padding: 0px 20px;
@@ -35,7 +35,7 @@ layout: base
     color: #fff;
   }
   .themeable-signup > p {
-    font-family: "Helvetica Neue", sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: #000000;
     opacity: .5;
     font-size: 15px;
@@ -46,6 +46,7 @@ layout: base
     max-width: 670px;
     padding: 0px 20px;
     margin-bottom: 40px;
+    font-weight: 400;
   }
   .themeable-signup.dark > p {
     color: #fff;
@@ -84,12 +85,9 @@ layout: base
   .dark > .logo img.dark {
     display: block;
   }
-  #mc_embed_signup_scroll {
-    display: flex;
-    flex-direction: row;
-  }
   .newsletter-button {
-    display: flex;
+    display: inline-flex;
+    font-family: "Montserrat", sans-serif;
     justify-content: center;
     align-items: center;
     background: #016EFF;
@@ -98,26 +96,10 @@ layout: base
     color: #fff;
     padding: 12px 24px 13px 24px;
     height: 50px;
-    font-family: 'Helvetica Bold';
     white-space: nowrap;
     margin: 0px 5px;
+    font-weight: 700;
     -webkit-appearance: none;
-  }
-  .newsletter-input {
-    width: 300px;
-    height: 50px;
-    border-radius: 14px;
-    border: 2px solid #f0f0f0;
-    padding: 0px 20px;
-    font-size: 18px;
-    font-family: "Helvetica Neue", sans-serif;
-    margin: 0px 5px;
-    background: transparent;
-    -webkit-appearance: none;
-  }
-  .dark .newsletter-input {
-    color: #ffffff;
-    border: 2px solid #424242;
   }
   .newsletter-image {
     width: 100%;
@@ -132,14 +114,7 @@ layout: base
     background-image: url('{{ site.url }}/assets/images/themeable/newsletter-components-dark.png');
   }
   @media (max-width: 670px) {
-    #mc_embed_signup_scroll {
-      flex-direction: column;
-      width: 100%;
-      padding: 0px 20px;
-    }
-    .newsletter-button,
-    .newsletter-input {
-      width: calc(100%);
+    .newsletter-button {
       margin: 5px 0px;
     }
     .themeable-signup > h1 {
@@ -166,33 +141,9 @@ layout: base
 
   <h1>Denali Themeable <br>
     Sign Up for Early Access</h1>
-  <p>Experience Denali Themable before it’s available to the public by signing up for our newsletter. You’ll get insider
+  <p>Experience Denali Themable before it’s available to the public by joining our Slack channel. You’ll get insider
     first looks at the product, updates, behind the scenes action, and more.</p>
-  <!-- Begin Mailchimp Signup Form -->
-  <div id="mc_embed_signup">
-    <form action="https://design.us8.list-manage.com/subscribe/post?u=12803b87b3cfed0f769aa7948&amp;id=98aefaa3fc"
-      method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"
-      novalidate>
-      <div id="mc_embed_signup_scroll">
-        <div class="mc-field-group">
-          <input type="email" value="" name="EMAIL" class="required email newsletter-input" id="mce-EMAIL"
-            placeholder="Email">
-        </div>
-        <div id="mce-responses" class="clear">
-          <div class="response" id="mce-error-response" style="display:none"></div>
-          <div class="response" id="mce-success-response" style="display:none"></div>
-        </div>
-        <div style="position: absolute; left: -5000px;" aria-hidden="true">
-          <input type="text" name="b_12803b87b3cfed0f769aa7948_98aefaa3fc" tabindex="-1" value="">
-        </div>
-        <div class="clear">
-          <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"
-            class="button newsletter-button">
-        </div>
-      </div>
-    </form>
-  </div>
-  <!--End mc_embed_signup-->
+  <a class="newsletter-button" href="https://join.slack.com/t/denali-design/shared_invite/enQtNzk0MTE2NjU3MzE0LTM5NWFmMGFmZmFhZjVhMzdjMzYzMDQ4ZGNhZjYxNGUwMzgxMWRmODc4MWIzYTE3YzQ5OWMyM2IzMTkxZGExYWY" target="_blank">Join our Slack</a>
 
   <div class="newsletter-image"></div>
 </div>
