@@ -22,7 +22,9 @@
 
     if (parentUrl.includes("1.0.3")) {
       cssLink = '<link rel="stylesheet" href="/assets/css/denali-1.0.3.css">';
-    } else if (parentUrl.includes("2")) {
+    } else if (parentUrl.includes("2.0.0")) {
+      cssLink = '<link rel="stylesheet" href="/assets/css/denali-2.0.0.css">';
+    } else if (parentUrl.includes("2.1.0")) {
       cssLink = '<link rel="stylesheet" href="/assets/css/denali.css">';
     } else {
       console.log("No version specified");

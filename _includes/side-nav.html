@@ -3,19 +3,19 @@
 <div id="toggleTabsLeft" class="tabs is-primary is-vertical tablet-down-hide-left">
     <ul>
         {% for nav in navigation %}
-        <li><a class="is-grey-600 upper font-12">{{ nav.label }}</a></li>
+        <li class="tabs__section-header">{{ nav.label }}</li>
         {% if nav.children %}
 
         {% for child in nav.children %}
         <!-- principles nav -->
         {% if page.url contains "principles" %}
-        <li><a href="{{ child.url }}" class="{% if page.url contains child.url %}is-active{% endif %}">{{ child.label }}</a></li>
+        <li class="{% if page.url contains child.url %}is-active{% endif %}"><a href="{{ child.url }}">{{ child.label }}</a></li>
         {% endif %}
         {% if page.url contains "docs" %}
         <!-- docs -->
         {% for version in child.versions %}
         {% if page.url contains version %}
-        <li><a href="docs/{{ version }}{{ child.url }}" class="{% if page.url contains child.url %}is-active{% endif %}">{{ child.label }}</a></li>
+        <li class="{% if page.url contains child.url %}is-active{% endif %}"><a href="docs/{{ version }}{{ child.url }}">{{ child.label }}</a></li>
         {% endif %}
         {% endfor %}
         {% endif %}
