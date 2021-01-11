@@ -1,5 +1,5 @@
 ---
-title: "Getting started"
+title: "Getting Started"
 permalink: docs/:path
 excerpt: 'Follow the steps below to get started with Denali.'
 ---
@@ -11,7 +11,7 @@ excerpt: 'Follow the steps below to get started with Denali.'
 
 ***
 
-## Denali components
+## Denali Components
 Denali components have three easy ways to get started, each one appealing to a different skill level and use case. Read on to see what suits your particular needs:
 
 ### Use NPM (recommended)
@@ -25,7 +25,7 @@ or
 
 ***
 
-## Denali icon font
+## Denali Icon Font
 Denali's icon font has three easy ways to get started, each one appealing to a different skill level and use case. Read on to see what suits your particular needs:
 
 ### Use NPM (recommended)
