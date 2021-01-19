@@ -13,7 +13,7 @@ excerpt: 'Learn about the browsers and devices we support and why its important 
 
 
 ## Supported browsers
-Generally speaking our latest version of Denali CSS will support the default broswers latest verison for each platform. Below details the informations about specific browser support. 
+Generally speaking, our latest version of Denali CSS will support the default broswers latest version for each platform. Below details the information about specific browser support. 
 
 ### Mobile
 The latest versions of the most popular mobile phones that are supported.
@@ -33,7 +33,7 @@ The latest versions of the most desktop browsers that are supported.
 |**Windows**|<span class="d-icon d-check-circle-solid is-status-success"></span> +55|<span class="d-icon d-check-circle-solid is-status-success"></span> +51|<span class="d-icon d-check-circle-solid is-status-success"></span> +11|<span class="d-icon d-check-circle-solid is-status-success"></span> +15|<span class="d-icon d-check-circle-solid is-status-success"></span> +42|Not Tested|
 
 ### Internet Explorer
-We currently do not offer support for internet explrer, but are reworking all our components to support IE9 and up.
+We currently do not offer support for Internet Explorer, but are reworking all our components to support IE9 and up.
 
 
 ***
@@ -42,4 +42,4 @@ We currently do not offer support for internet explrer, but are reworking all ou
 ## Validation
 Currently we validate our web components by visual inspection using [Browser Stack](https://www.browserstack.com/) which provides testing on 2000+ real devices and browsers, not emulators or simulators.
 
-Since, our validation methods are done by humna review there is more than likely a chance we missed something. If you are currently using a browser that has support and you find bugs please create issues [here](https://github.com/denali-design/denali-css/issues).
+Since, our validation methods are done by human review there is more than likely a chance we missed something. If you are currently using a browser that has support and you find bugs please create issues [here](https://github.com/denali-design/denali-css/issues).
