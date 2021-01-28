@@ -45,6 +45,11 @@ Use terminal or any command line tool and navigate to where you downloaded the r
 cd user/documents/git/denali-styleguide
 ```
 
+Install Gemfile
+```
+bundle install
+```
+
 Run the site using this.
 ```
 jekyll serve --config _config.yml,_config.dev.yml
