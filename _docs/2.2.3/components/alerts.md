@@ -1,18 +1,21 @@
 ---
 title: "Alerts"
 permalink: docs/:path
-excerpt: 'Alerts are used to provide feedback and information to users. They come in a variety of styles and colors to fit specific use cases.'
+excerpt: "Alerts are used to provide feedback and information to users. They come in a variety of styles and colors to fit specific use cases."
 ---
 
 # {{ page.title }}
+
 {{ page.excerpt }}
 
-***
+---
 
 ### Alert types
+
 Denali offers five types of alerts: default, informational, success, warning, and danger. Implement different alert types by adding a `.is-info`, `.is-success`, `.is-warning`, or `.is-danger` class to an alert&#39;s outer `<div>`.
 
 {% capture alert_type %}
+
 <div class="alert">
   <span class="d-icon d-domain"></span>
   <div>
@@ -60,14 +63,14 @@ Denali offers five types of alerts: default, informational, success, warning, an
 {% endcapture %}
 {% include code-snippet.html code=alert_type url='alert_type.html' %}
 
-
-***
-
+---
 
 ### Alerts with context
+
 Alerts with context contain text underneath the alert&#39;s headline. To implement alerts with context, wrap text within a `<p>` tag and insert it below the alert&#39;s `<h5>` tag.
 
 {% capture alert_context %}
+
 <div class="alert is-danger">
   <span class="d-icon d-stop-warning"></span>
   <div>
@@ -79,14 +82,14 @@ Alerts with context contain text underneath the alert&#39;s headline. To impleme
 {% endcapture %}
 {% include code-snippet.html code=alert_context url='alert_context.html' %}
 
-
-***
-
+---
 
 ### Inline alerts
+
 Inline alerts appear as a full-width bar at the top of their container. Implement inline alerts by adding the `.is-inline` modifier to an alert&#39;s outer `<div>` tag. The alert type classes listed above can also be added to inline alerts.
 
 {% capture alert_context %}
+
 <div class="alert is-inline">
   <p><span class="is-bold">Non-Production Instance:</span> Do not use for Production or CI/CD (Screwdriver)</p>
 </div>
@@ -117,14 +120,14 @@ Inline alerts appear as a full-width bar at the top of their container. Implemen
 {% endcapture %}
 {% include code-snippet.html code=alert_context url='alert_inline.html' %}
 
-
-***
-
+---
 
 ### Block Level
+
 Block level alerts usually appear in the context of the page and span the full width of the parent container. They utilize the same HTML structure as noticiation alerts with context and all you have to do is add the class of `is-block` to the outer most element.
 
 {% capture alert_block %}
+
 <div class="alert is-block">
   <span class="d-icon d-notification-solid"></span>
   <div>
@@ -176,26 +179,25 @@ Block level alerts usually appear in the context of the page and span the full w
 {% endcapture %}
 {% include code-snippet.html code=alert_block url='alertBlock' %}
 
-
-***
-
+---
 
 ### Variables
-You can use these variables in a `override.css` file to customize this component.
 
-|Variable Name|CSS Property|
-| - | - |
-|`$alert-bg-color`|background|
-|`$alert-text-color`|color|
-|`$alert-corner-radius`|border-radius|
-|`$alert-shadow`|box-shadow|
-|`$alert-border-color`|border-color|
-|`$alert-border-width`|border-width|
-|`$alert-border-style`|border-style|
-|`$alert-close-icon-color`|color|
-|`$alert-inline-text-color`|color|
-|`$alert-inline-bg-color`|background|
-|`$alert-inline-font-size`|font-size|
-|`$alert-inline-alignment-text`|text-align|
-|`$alert-inline-alignment-justify-content`|justify-content|
-|`$alert-inline-padding`|padding|
+You can use these variables to change the visual appearence when creating your own Denali themes in SCSS.
+
+| Variable Name                             | CSS Property    |
+| ----------------------------------------- | --------------- |
+| `$alert-bg-color`                         | background      |
+| `$alert-text-color`                       | color           |
+| `$alert-corner-radius`                    | border-radius   |
+| `$alert-shadow`                           | box-shadow      |
+| `$alert-border-color`                     | border-color    |
+| `$alert-border-width`                     | border-width    |
+| `$alert-border-style`                     | border-style    |
+| `$alert-close-icon-color`                 | color           |
+| `$alert-inline-text-color`                | color           |
+| `$alert-inline-bg-color`                  | background      |
+| `$alert-inline-font-size`                 | font-size       |
+| `$alert-inline-alignment-text`            | text-align      |
+| `$alert-inline-alignment-justify-content` | justify-content |
+| `$alert-inline-padding`                   | padding         |
