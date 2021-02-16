@@ -1,20 +1,21 @@
 ---
 title: "Titles"
 permalink: docs/:path
-excerpt: 'Titles are stylized headings that call out important information or data. They are comprised of a title bar, headline, and caption. Title text styles and color can be customized.'
+excerpt: "Titles are stylized headings that call out important information or data. They are comprised of a title bar, headline, and caption. Title text styles and color can be customized."
 ---
 
 # {{ page.title }}
+
 {{ page.excerpt }}
 
-
-***
-
+---
 
 ### Default title
+
 To create a title start with a `<div>` tag and add the class `.title`. Insert a `<span>` tag with the class `.bar` to create the title bar and a `<div>` tag with the class `.title-text` for the title content. Finally, wrap title headers in `<h3>` tags and title captions in `<h6>` tags and insert them into the `.title-text` `<div>` tag.
 
-{% capture title_default %} 
+{% capture title_default %}
+
 <div class="title">
 <span class="bar"></span>
 <div class="title-text">
@@ -25,14 +26,14 @@ To create a title start with a `<div>` tag and add the class `.title`. Insert a 
  {% endcapture %}
 {% include code-snippet.html code=title_default url='title_default.html' %}
 
-
-***
-
+---
 
 ### Bar modifiers
+
 Increase the width of the title bar or customize title bar color by adding `.is-wide` or `.has-bg-status-$status` classes to the bar&#39;s `<span>` tag.
 
-{% capture title_bar %} 
+{% capture title_bar %}
+
 <div class="title">
 <span class="bar is-wide"></span>
 <div class="title-text">
@@ -52,9 +53,11 @@ Increase the width of the title bar or customize title bar color by adding `.is-
 {% include code-snippet.html code=title_bar url='title_bar.html' %}
 
 ### Text content modifiers
+
 Title text content is fully customizable. Replace `<h3>` or `<h6>` tags with an `<a>` tag or any `<h1>` to `<h6>` tag. Add `.is-regular` or `.upper` classes to text elements to create regular or uppercase text. Finally, customize text color by adding `.is-status-$status` or `.is-$color-$value` classes to text elements.
 
-{% capture title_text %} 
+{% capture title_text %}
+
 <div class="title">
 <span class="bar"></span>
 <div class="title-text">
@@ -65,17 +68,16 @@ Title text content is fully customizable. Replace `<h3>` or `<h6>` tags with an 
  {% endcapture %}
 {% include code-snippet.html code=title_text url='title_text.html' %}
 
-
-***
-
+---
 
 ### Variables
-You can use these variables in a `override.css` file to customize this component.
 
-|Variable Name|CSS Property|
-| - | - |
-|`$titles-height`| height|
-|`$titles-bar-corner-radius`| border-radius|
-|`$titles-bar-bg-color`| background|
-|`$titles-bar-width`| width|
-|`$titles-bar-wider-width`| width|
+You can use these variables to change the visual appearence when creating your own Denali themes in SCSS.
+
+| Variable Name               | CSS Property  |
+| --------------------------- | ------------- |
+| `$titles-height`            | height        |
+| `$titles-bar-corner-radius` | border-radius |
+| `$titles-bar-bg-color`      | background    |
+| `$titles-bar-width`         | width         |
+| `$titles-bar-wider-width`   | width         |

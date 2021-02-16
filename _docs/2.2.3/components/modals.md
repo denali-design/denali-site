@@ -1,23 +1,22 @@
 ---
-title: 'Modals'
+title: "Modals"
 permalink: docs/:path
-excerpt: 'Modals overlay pages to display secondary information. They come in default and fullscreen styles and can be customized with a header and footer.'
+excerpt: "Modals overlay pages to display secondary information. They come in default and fullscreen styles and can be customized with a header and footer."
 ---
 
 # {{ page.title }}
+
 {{ page.excerpt }}
 
-
-***
-
+---
 
 ### Default modal
-To create a modal start with `<a href="#open-modal">` to trigger open the modal. Then create `<div
-id="open-modal" class="modal">`. Inside, insert `<div class="modal-container">`. To close the modal, add `<i
-class="d-icon d-close">` wrapped within `<a href="#close" class="close">`. Lastly, insert `<div class="modal-content">` to house model content.
 
-{% capture modal_default %} 
+To create a modal start with `<a href="#open-modal">` to trigger open the modal. Then create `<div id="open-modal" class="modal">`. Inside, insert `<div class="modal-container">`. To close the modal, add `<i class="d-icon d-close">` wrapped within `<a href="#close" class="close">`. Lastly, insert `<div class="modal-content">` to house model content.
+
+{% capture modal_default %}
 <a href="#open-modal">Open default modal</a>
+
 <div id="open-modal" class="modal">
     <div class="modal-container">
         <a href="#close" class="close"><i class="d-icon d-close"></i></a>
@@ -30,15 +29,15 @@ class="d-icon d-close">` wrapped within `<a href="#close" class="close">`. Lastl
  {% endcapture %}
 {% include code-snippet.html code=modal_default url='modal_default.html' height='380'%}
 
-
-***
-
+---
 
 ### Fullscreen modal
+
 Implement a fullscreen modal by adding the `.is-full` class after the `.modal-container` class.
 
-{% capture modal_full %} 
+{% capture modal_full %}
 <a href="#open-modal">Open fullscreen modal</a>
+
 <div id="open-modal" class="modal">
 <div class="modal-container is-full">
 <a href="#close" class="close"><i class="d-icon d-close"></i></a>
@@ -52,16 +51,15 @@ Implement a fullscreen modal by adding the `.is-full` class after the `.modal-co
  {% endcapture %}
 {% include code-snippet.html code=modal_full url='modal_full.html' height='380' %}
 
-
-***
-
+---
 
 ### Modal header & footer
+
 Add a header to a modal by inserting a `<div class="modal-header">` before `<div class="modal-content">` and wrapping header content within a `<h3>` tag. Add a footer by inserting a `<div class="modal-footer">` after `<div class="modal-content">`. Wrap footer content within a `<p>` tag and add a `style="margin:0px"` attribute.
 
-
-{% capture modal_header %} 
+{% capture modal_header %}
 <a href="#open-modal">Open modal with header and footer </a>
+
 <div id="open-modal" class="modal">
 <div class="modal-container" style="width:600px;">
 <a href="#close" class="close"><i class="d-icon d-close"></i></a>
@@ -79,14 +77,14 @@ Add a header to a modal by inserting a `<div class="modal-header">` before `<div
  {% endcapture %}
 {% include code-snippet.html code=modal_header url='modal_header.html' height='380' %}
 
-
-***
-
+---
 
 ### Active State
+
 Added `.is-active` to the outter most element of a modal, will by default show the modal on page load.
 
-{% capture modal_active_state %} 
+{% capture modal_active_state %}
+
 <div class="modal is-active">
     <div class="modal-container">
         <a href="#close" class="close"><i class="d-icon d-close"></i></a>
@@ -99,19 +97,18 @@ Added `.is-active` to the outter most element of a modal, will by default show t
 {% endcapture %}
 {% include code-snippet.html code=modal_active_state url='modal_active_state.html' height='380' %}
 
-
-***
-
+---
 
 ### Variables
-You can use these variables in a `override.css` file to customize this component.
 
-|Variable Name|CSS Property|
-| - | - |
-|`$modal-overlay-color`| background|
-|`$modal-corner-radius`| border-radius|
-|`$modal-modal-container-bg-color`| background|
-|`$modal-modal-container-border-color`| border-color|
-|`$modal-modal-container-border-width`| border-width|
-|`$modal-modal-container-border-style`| border-style|
-|`$modal-modal-container-close-icon-color`| color|
+You can use these variables to change the visual appearence when creating your own Denali themes in SCSS.
+
+| Variable Name                             | CSS Property  |
+| ----------------------------------------- | ------------- |
+| `$modal-overlay-color`                    | background    |
+| `$modal-corner-radius`                    | border-radius |
+| `$modal-modal-container-bg-color`         | background    |
+| `$modal-modal-container-border-color`     | border-color  |
+| `$modal-modal-container-border-width`     | border-width  |
+| `$modal-modal-container-border-style`     | border-style  |
+| `$modal-modal-container-close-icon-color` | color         |

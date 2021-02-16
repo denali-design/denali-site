@@ -1,19 +1,19 @@
 ---
 title: "Tables"
 permalink: docs/:path
-excerpt: 'Tables organize information in columns and rows. Table cells can be aligned to the left, center, or right. Stripes can also be added to tables to differentiate between rows.'
+excerpt: "Tables organize information in columns and rows. Table cells can be aligned to the left, center, or right. Stripes can also be added to tables to differentiate between rows."
 ---
 
 # {{ page.title }}
+
 {{ page.excerpt }}
 
-
-***
-
+---
 
 ### Standard
 
 {% capture table_default %}
+
 <table class="table">
     <thead>
         <tr>
@@ -53,13 +53,12 @@ excerpt: 'Tables organize information in columns and rows. Table cells can be al
 {% endcapture %}
 {% include code-snippet.html code=table_default url='table_default.html' %}
 
-
-***
-
+---
 
 ### Striped
 
 {% capture table_striped %}
+
 <table class="table is-striped">
   <thead>
     <tr>
@@ -113,13 +112,12 @@ excerpt: 'Tables organize information in columns and rows. Table cells can be al
 {% endcapture %}
 {% include code-snippet.html code=table_striped url='table_striped.html' height='300'%}
 
-
-***
-
+---
 
 ### Cards
 
 {% capture table_cards %}
+
 <table class="table is-cards">
   <thead>
     <tr>
@@ -173,13 +171,12 @@ excerpt: 'Tables organize information in columns and rows. Table cells can be al
 {% endcapture %}
 {% include code-snippet.html code=table_cards url='table_cards.html' height='360'%}
 
-
-***
-
+---
 
 ### Alignment
 
 {% capture table_alignment %}
+
 <table class="table">
     <tbody>
         <tr>
@@ -197,13 +194,12 @@ excerpt: 'Tables organize information in columns and rows. Table cells can be al
 {% endcapture %}
 {% include code-snippet.html code=table_alignment url='table_alignment.html' %}
 
-
-***
-
+---
 
 ### Freeze
 
 {% capture table_freeze %}
+
 <div class="table-container table-container__freeze">
   <table class="table">
     <thead>
@@ -289,29 +285,28 @@ excerpt: 'Tables organize information in columns and rows. Table cells can be al
 {% endcapture %}
 {% include code-snippet.html code=table_freeze url='table_freeze.html' %}
 
-
-***
-
+---
 
 ### Variables
-You can use these variables in a `override.css` file to customize this component.
 
-|Variable Name|CSS Property|
-| - | - |
-|`$table-border-radius`| border-radius|
-|`$table-row-default-height`| height|
-|`$table-row-condensed-height`| height|
-|`$table-row-expanded-height`|  height|
-|`$table-row-border-bottom`| border-bottom|
-|`$table-row-padding`| padding|
-|`$table-header-text-color`| color|
-|`$table-header-text-size`|  font-size|
-|`$table-header-text-transform`|  text-transform|
-|`$table-header-text-weight`| font-weight|
-|`$table-header-padding`| padding|
-|`$table-header-border-bottom`| border-bottom|
-|`$table-header-sort-text-weight`| font-weight|
-|`$table-footer-bg-color`| background|
-|`$table-striped-row-bg-color`| background|
-|`$table-cards-spacing`| padding|
-|`$table-cards-border`| border|
+You can use these variables to change the visual appearence when creating your own Denali themes in SCSS.
+
+| Variable Name                    | CSS Property   |
+| -------------------------------- | -------------- |
+| `$table-border-radius`           | border-radius  |
+| `$table-row-default-height`      | height         |
+| `$table-row-condensed-height`    | height         |
+| `$table-row-expanded-height`     | height         |
+| `$table-row-border-bottom`       | border-bottom  |
+| `$table-row-padding`             | padding        |
+| `$table-header-text-color`       | color          |
+| `$table-header-text-size`        | font-size      |
+| `$table-header-text-transform`   | text-transform |
+| `$table-header-text-weight`      | font-weight    |
+| `$table-header-padding`          | padding        |
+| `$table-header-border-bottom`    | border-bottom  |
+| `$table-header-sort-text-weight` | font-weight    |
+| `$table-footer-bg-color`         | background     |
+| `$table-striped-row-bg-color`    | background     |
+| `$table-cards-spacing`           | padding        |
+| `$table-cards-border`            | border         |

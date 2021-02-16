@@ -1,25 +1,26 @@
 ---
-title: 'Navbar'
+title: "Navbar"
 permalink: docs/:path
-excerpt: 'The Navbar is a horizontal bar that serves as the primary navigation for your product or site. Denali&#39;s navbar is versatile and responsive. It can contain a variety of elements including logos, links, icons, and search fields.'
+excerpt: "The Navbar is a horizontal bar that serves as the primary navigation for your product or site. Denali&#39;s navbar is versatile and responsive. It can contain a variety of elements including logos, links, icons, and search fields."
 layout: framed
 ---
 
 # {{ page.title }}
+
 {{ page.excerpt }}
 
-
-***
-
+---
 
 ## Sections
-Implement a navbar by creating a `<nav>` tag and adding the `.nav` class. 
 
+Implement a navbar by creating a `<nav>` tag and adding the `.nav` class.
 
 ### Left
+
 Insert `<div class="nav-left">` to place content to the center of the navbar.
 
 {% capture navbar_left %}
+
 <nav class="nav">
   <div class="nav-left">
     <img class="nav-brand" src="/assets/images/denali-logo.png" alt="" />
@@ -28,14 +29,14 @@ Insert `<div class="nav-left">` to place content to the center of the navbar.
 {% endcapture %}
 {% include  code-snippet.html code=navbar_left url='navbarLeft' %}
 
-
 <blockquote class="info">We construct our navbar to be responsive by default, so the right and center sections need to be wrapped in <span class="chips has-bg-grey-100 is-red-500 is-mono">.nav-responsive</span>.</blockquote>
 
-
 ### Center
+
 Insert `<div class="nav-center">` to place content to the center of the navbar.
 
 {% capture navbar_center %}
+
 <nav class="nav">
   <div class="nav-left">
     <img class="nav-brand" src="/assets/images/denali-logo.png" alt="" />
@@ -49,11 +50,12 @@ Insert `<div class="nav-center">` to place content to the center of the navbar.
 {% endcapture %}
 {% include  code-snippet.html code=navbar_center url='navbarCenter' %}
 
-
 ### Right
+
 Insert `<div class="nav-right">` to place content to the right of the navbar.
 
 {% capture navbar_right %}
+
 <nav class="nav">
   <div class="nav-left">
     <img class="nav-brand" src="/assets/images/denali-logo.png" alt="" />
@@ -67,17 +69,18 @@ Insert `<div class="nav-right">` to place content to the right of the navbar.
 {% endcapture %}
 {% include  code-snippet.html code=navbar_right url='navbarRight' %}
 
-
-***
-
+---
 
 ## Navbar Elements
+
 To add elememts follow the documentation below.
 
 ### Brand
+
 Insert brand logos by adding an `<img>` tag with the class `.nav-brand`.
 
 {% capture navbar_brand %}
+
 <nav class="nav">
   <div class="nav-left">
     <img class="nav-brand" src="/assets/images/denali-logo.png" alt="" />
@@ -86,11 +89,12 @@ Insert brand logos by adding an `<img>` tag with the class `.nav-brand`.
 {% endcapture %}
 {% include  code-snippet.html code=navbar_brand url='navbarBrand' %}
 
-
 ### Items
+
 To insert nav links wrap link text in `<a>` tags with the `.nav-item` class. To set an active link add `.is-active` to the link&#39;s `<a>` tag.
 
 {% capture navbar_items %}
+
 <nav class="nav">
   <div class="nav-left">
     <img class="nav-brand" src="/assets/images/denali-logo.png" alt="" />
@@ -106,11 +110,12 @@ To insert nav links wrap link text in `<a>` tags with the `.nav-item` class. To 
 {% endcapture %}
 {% include  code-snippet.html code=navbar_items url='navbarItems' %}
 
-
 ### Icons
+
 Insert icons by adding `<i>` or `<span>` tags with the `.d-icon` and `.d-$icon-name` classes wrapped in `<a class="nav-item">`.
 
 {% capture navbar_icons %}
+
 <nav class="nav">
   <div class="nav-left">
     <img class="nav-brand" src="/assets/images/denali-logo.png" alt="" />
@@ -126,11 +131,12 @@ Insert icons by adding `<i>` or `<span>` tags with the `.d-icon` and `.d-$icon-n
 {% endcapture %}
 {% include  code-snippet.html code=navbar_icons url='navbarIcons' %}
 
-
 ### Control
+
 Insert any control elements by adding inputs, buttons, or controls wrapped in `<a class="nav-control">`.
 
 {% capture navbar_control %}
+
 <nav class="nav">
   <div class="nav-left">
     <img class="nav-brand" src="/assets/images/denali-logo.png" alt="" />
@@ -148,11 +154,12 @@ Insert any control elements by adding inputs, buttons, or controls wrapped in `<
 {% endcapture %}
 {% include  code-snippet.html code=navbar_control url='navbarControl' %}
 
-
 ### Menu
+
 Insert a menu by adding a [menu]({{ site.data.navigation.static.docs }}components/menu) component `.menu` and adding the modifier `.menu--nav`.
 
 {% capture navbar_menu %}
+
 <nav class="nav">
   <div class="nav-left">
     <img class="nav-brand" src="/assets/images/denali-logo.png" alt="" />
@@ -175,14 +182,14 @@ Insert a menu by adding a [menu]({{ site.data.navigation.static.docs }}component
 
 <blockquote class="accessible">Users who do not or cannot use pointing devices can tab through links. These links should be in a logical tabbing order, but if they aren't use the <span class="chips has-bg-grey-100 is-red-500 is-mono">tabindex</span> attribute to allow you to define the order. Apply these to nav-items and nav-links.</blockquote>
 
-
-***
-
+---
 
 ## Responsive
+
 We construct our navbar to be responsive by default, so the right and center sections need to be wrapped in `.nav-responsive`. To make this section visible add `.is-active` to the `.nav-responsive` element.
 
 {% capture navbar_responsive %}
+
 <nav class="nav">
   <div class="nav-left">
     <img class="nav-brand" src="/assets/images/denali-logo.png" alt="" />
@@ -217,14 +224,14 @@ We construct our navbar to be responsive by default, so the right and center sec
 
 <blockquote class="accessible">Apply <span class="chips has-bg-grey-100 is-red-500 is-mono">tabindex="0"</span> attribute to allow users to open the collapsed nav section when tabbing through the website.</blockquote>
 
-
-***
-
+---
 
 ## Background Modifiers
+
 Customize a navbar&#39;s background color by changing the `$navbar-background-color` sass variable or by inserting a `background` attribute in the `<nav>` tag and setting its value to a hex color code.
 
 {% capture navbar_bg_color %}
+
 <nav class="nav" style="background:#0C301E;">
   <div class="nav-left">
     <img class="nav-brand" src="/assets/images/paas-logo.png" alt="" />
@@ -233,29 +240,25 @@ Customize a navbar&#39;s background color by changing the `$navbar-background-co
 {% endcapture %}
 {% include  code-snippet.html code=navbar_bg_color url='navbarBgColor' %}
 
-
-***
-
+---
 
 ## Position Helper
+
 To position the navbar fixed to top of the browser add the helper class `.is-fixed-top` to the `nav` element.
 
-
-***
-
+---
 
 ## Variables
-You can use these variables in a `override.css` file to customize this component.
 
-|Variable Name|CSS Property|
-| - | - |
-|`$navbar-bg-color`| background|
-|`$navbar-height`| height|
-|`$navbar-item-text-color`| color|
-|`$navbar-item-hover-text-color`| color|
-|`$navbar-item-active-text-color`| color|
-|`$navbar-item-active-border-color`| border-color|
-|`$navbar-responsive-bg-color`| background|
-|`$navbar-responsive-menu-bg-color`| background|
+You can use these variables to change the visual appearence when creating your own Denali themes in SCSS.
 
-
+| Variable Name                      | CSS Property |
+| ---------------------------------- | ------------ |
+| `$navbar-bg-color`                 | background   |
+| `$navbar-height`                   | height       |
+| `$navbar-item-text-color`          | color        |
+| `$navbar-item-hover-text-color`    | color        |
+| `$navbar-item-active-text-color`   | color        |
+| `$navbar-item-active-border-color` | border-color |
+| `$navbar-responsive-bg-color`      | background   |
+| `$navbar-responsive-menu-bg-color` | background   |
