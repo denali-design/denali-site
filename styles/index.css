@@ -1,0 +1,10 @@
+img {
+    width: 300px !important;
+    height: auto !important;
+}
+
+.active {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
