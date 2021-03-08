@@ -9,7 +9,7 @@ export default function Index({ allPosts }) {
       <Head>
         <title>Home</title>
       </Head>
-      <Navbar />
+      <Navbar logo="white" />
       
       {allPosts.map((allPost) => (
         <h3 key={allPost.slug}>
