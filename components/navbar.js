@@ -39,7 +39,7 @@ const Navbar = ({ logo }) => {
                         <i className="d-icon d-medium"></i>
                         <span className="icon-name">Medium</span>
                     </a>
-                    <a href="https://github.com/denali-design" target="_blank" className="nav-item">
+                    <a href="https://github.com/denali-design" target="_blank" rel="noopener noreferrer" className="nav-item">
                         <i className="d-icon d-github"></i>
                         <span className="icon-name">Github</span>
                     </a>
