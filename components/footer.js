@@ -7,7 +7,7 @@ export default function Footer() {
                     <div className="cta-content">
                         <h2 className="is-grey-100">Let's build Denali together</h2>
                         <p className="is-grey-100 m-t-20">Make a component suggestion or contribute by making a pull request.</p>
-                        <a href="https://github.com/denali-design" target="_blank" className="button is-ghost is-inverse is-large m-t-30">
+                        <a href="https://github.com/denali-design" target="_blank" rel="noopener noreferrer" className="button is-ghost is-inverse is-large m-t-30">
                             <i className="d-icon d-github is-small"></i>Denali Git
                         </a>
                     </div>
