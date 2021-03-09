@@ -41,7 +41,7 @@ export default function Footer() {
                 </ul>
             </div>
             <div className="footer-social flex space-between">
-                <h6 className="is-grey-600">Copyright © 2019, Oath Inc.</h6>
+                <h6 className="is-grey-600">Copyright © 2021, Oath Inc.</h6>
                 <div>
                     <a href="https://medium.com/denali-design" target="_blank" className="is-secondary m-l-16"><span className="d-icon d-medium is-small"></span></a>
                     <a href="https://twitter.com/denali_design" target="_blank" className="is-secondary m-l-16"><span className="d-icon d-twitter is-small"></span></a>
