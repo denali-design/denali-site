@@ -36,7 +36,7 @@ export default function Footer() {
                 </ul>
                 <ul>
                     <li className="header">Support</li>
-                    <li><a href="https://join.slack.com/t/denali-design/shared_invite/enQtNzk0MTE2NjU3MzE0LTM5NWFmMGFmZmFhZjVhMzdjMzYzMDQ4ZGNhZjYxNGUwMzgxMWRmODc4MWIzYTE3YzQ5OWMyM2IzMTkxZGExYWY" target="_blank">Slack Org</a></li>
+                    <li><a href="https://join.slack.com/t/denali-design/shared_invite/enQtNzk0MTE2NjU3MzE0LTM5NWFmMGFmZmFhZjVhMzdjMzYzMDQ4ZGNhZjYxNGUwMzgxMWRmODc4MWIzYTE3YzQ5OWMyM2IzMTkxZGExYWY" target="_blank" rel="noopener noreferrer">Slack Org</a></li>
                     <li><a href="https://github.com/denali-design/denali-site/issues" target="_blank">Github Issues</a></li>
                 </ul>
             </div>
