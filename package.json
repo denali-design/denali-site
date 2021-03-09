@@ -8,12 +8,15 @@
   },
   "dependencies": {
     "classnames": "2.2.6",
+    "denali-css": "^2.2.3",
+    "denali-icon-font": "^1.7.0",
     "gray-matter": "4.0.2",
     "next": "latest",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "remark": "13.0.0",
-    "remark-html": "13.0.1"
+    "remark-html": "13.0.1",
+    "sass": "^1.32.8"
   },
   "license": "MIT"
 }

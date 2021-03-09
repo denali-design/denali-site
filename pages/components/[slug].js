@@ -23,7 +23,7 @@ export default function Post({ post }) {
                 </title>
                 <meta property="og:image" content={post.ogImage.url} />
               </Head>
-              <Navbar />
+              <Navbar logo="white" />
               <h1>{post.title}</h1>
               <div
                 dangerouslySetInnerHTML={{ __html: post.content }}
