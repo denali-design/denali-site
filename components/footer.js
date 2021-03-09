@@ -46,7 +46,7 @@ export default function Footer() {
                     <a href="https://medium.com/denali-design" target="_blank" className="is-secondary m-l-16"><span className="d-icon d-medium is-small"></span></a>
                     <a href="https://twitter.com/denali_design" target="_blank" className="is-secondary m-l-16"><span className="d-icon d-twitter is-small"></span></a>
                     <a href="https://join.slack.com/t/denali-design/shared_invite/enQtNzk0MTE2NjU3MzE0LTM5NWFmMGFmZmFhZjVhMzdjMzYzMDQ4ZGNhZjYxNGUwMzgxMWRmODc4MWIzYTE3YzQ5OWMyM2IzMTkxZGExYWY" target="_blank" rel="noopener noreferrer" className="is-secondary m-l-16"><span className="d-icon d-slack is-small"></span></a>
-                    <a href="https://github.com/denali-design" target="_blank" className="is-secondary m-l-16"><span className="d-icon d-github is-small"></span></a>
+                    <a href="https://github.com/denali-design" target="_blank" rel="noopener noreferrer" className="is-secondary m-l-16"><span className="d-icon d-github is-small"></span></a>
                 </div>
             </div>
         </footer>
