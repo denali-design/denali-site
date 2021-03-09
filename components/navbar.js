@@ -49,7 +49,7 @@ const Navbar = ({ logo }) => {
                             <span className="icon-name">Help</span></div>
                         <div className="menu-content">
                             <a href="https://github.com/denali-design/denali-site/issues/new?labels=feature-request" target="_blank" rel="noopener noreferrer" tabIndex="0">Feature Requests</a>
-                            <a href="https://github.com/denali-design/denali-site/milestones" target="_blank" tabIndex="0">Roadmap</a>
+                            <a href="https://github.com/denali-design/denali-site/milestones" target="_blank" rel="noopener noreferrer"  tabIndex="0">Roadmap</a>
                             <a href="https://join.slack.com/t/denali-design/shared_invite/enQtNzk0MTE2NjU3MzE0LTM5NWFmMGFmZmFhZjVhMzdjMzYzMDQ4ZGNhZjYxNGUwMzgxMWRmODc4MWIzYTE3YzQ5OWMyM2IzMTkxZGExYWY" target="_blank" tabIndex="0">Slack</a>
                         </div>
                     </div>
