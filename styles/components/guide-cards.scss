@@ -1,0 +1,26 @@
+// Copyright 2020, Verizon Media
+// Licensed under the terms of the MIT license. See LICENSE file in project root for terms.
+
+.guides {
+    border-radius: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 300ms;
+    z-index: 10;
+
+    .d-arrow-right {
+        transform: translateX(0%);
+        transition: 300ms;
+    }
+
+    &:hover {
+        transform: scale(1.025);
+        transition: 300ms;
+
+        .d-arrow-right {
+            transform: translateX(5%);
+            transition: 300ms;
+        }
+    }
+}

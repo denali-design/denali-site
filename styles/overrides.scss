@@ -1,0 +1,39 @@
+// Copyright 2020, Verizon Media
+// Licensed under the terms of the MIT license. See LICENSE file in project root for terms.
+
+p.is-large {
+    font-size: 2rem;
+}
+
+.button {
+    .d-arrow-right {
+        transform: translateX(0px);
+        transition: 300ms;
+    }
+
+    &:hover {
+        .d-arrow-right {
+            transform: translateX(5px);
+            transition: 300ms;
+        }
+    }
+}
+
+.is-mono {
+    font-family: "Noto Mono Regular" !important;
+}
+
+// Color
+.has-bg-grey-800 {
+    background-color: #0c1c2a !important;
+}
+
+// Helpers
+
+.br-lg {
+    border-radius: 14px;
+}
+
+.br-sm {
+    border-radius: 6px;
+}

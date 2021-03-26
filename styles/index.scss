@@ -1,6 +1,22 @@
+// Copyright 2020, Verizon Media
+// Licensed under the terms of the MIT license. See LICENSE file in project root for terms.
+
 // Import
 @use "~denali-css/scss/denali.scss";
-@use "splash.scss";
-@use "components/footer.scss";
 
+// Theme
+@use "theme.scss";
+
+// Overrides
+@use 'overrides.scss';
+
+// Pages
+@use "pages/splash.scss";
+@use "pages/develop.scss";
+
+// Components
+@use "components/footer.scss";
+@use "components/guide-cards.scss";
+
+// Icon Font
 @import "~denali-icon-font/dist/denali-icon-font.css";

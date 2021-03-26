@@ -1,0 +1,51 @@
+{
+    "guides": [
+        {
+            "title": "Setting Up Your Project",
+            "type": "Guide",
+            "icon": "ai",
+            "link": "https://medium.com/denali-design/getting-started-with-components-icons-in-denali-b694945a7dc9",
+            "image": "/images/splash/guides-getting-started.png",
+            "external": true
+        },
+        {
+            "title": "UI Kits + HTML starter templates",
+            "type": "Resources",
+            "icon": "tools",
+            "link": "/design",
+            "image": "/images/splash/guides-templates.png",
+            "external": false
+        },
+        {
+            "title": "Creating custom themes",
+            "type": "Guide",
+            "icon": "ai",
+            "link": "https://medium.com/denali-design/how-to-theme-your-app-using-denali-dcefcb92e9fd",
+            "image": "/images/splash/guides-custom-theme.png",
+            "external": true
+        }
+    ],
+    "news": [
+        {   
+            "date": "Mar 2, 2021",
+            "title": "Yahoo Hack Together x Denali",
+            "description": "On March 21–28th, Yahoo/Verizon Media will be hosting Yahoo...",
+            "action": "Read More",
+            "link": "https://medium.com/denali-design/join-denali-at-yahoo-hack-together-march-21-28th-36670fc02ddf"
+        },
+        {   
+            "date": "Apr 29, 2020",
+            "title": "New & Improved Denali CSS",
+            "description": "We bundled up all the user feedback and enhanced components...",
+            "action": "Read More",
+            "link": "https://medium.com/denali-design/reimagining-themeable-design-systems-with-denali-open-source-738c9c2dab8d"
+        },
+        {   
+            "date": "Apr 8, 2020",
+            "title": "New Healthcare & Horoscope Icons",
+            "description": "100+ new icons. Our main focus for this release is healthcare and...",
+            "action": "View Icons",
+            "link": "https://denali-design.github.io/denali-icon-font/docs/#healthcare"
+        }
+    ]
+}

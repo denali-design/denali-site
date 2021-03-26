@@ -1,15 +1,15 @@
 import Link from 'next/link'
 import { useRouter } from "next/router";
 
-const Navbar = ({ logo }) => {
+const Navbar = (props) => {
 
     const router = useRouter();
 
     return (
-        <nav className="nav">
+        <nav className="nav" {...props}>
             <div className="nav-left">
                 <Link href="/">
-                    <img className="nav-brand" src={'/images/denali-logo-' + logo + '.png'} alt=""></img>
+                    <img className="nav-brand" src={`/images/denali-logo-${props.logo}.png`} alt=""></img>
                 </Link>
                 <div className="float-right hide-small-desktop-up">
                     <a className="nav-item" id="navToggle"><i className="d-icon d-more-vertical"></i></a>
@@ -17,18 +17,10 @@ const Navbar = ({ logo }) => {
             </div>
             <div className="nav-responsive" id="navMenuContent">
                 <div className="nav-center">
-                    <Link href="/develop">
-                        <a className={router.pathname.includes("develop") ? "nav-item is-active" : "nav-item"}>Develop</a>
-                    </Link>
-                    <Link href="/components">
-                        <a className={router.pathname.includes("components") ? "nav-item is-active" : "nav-item"}>Components</a>
-                    </Link>
-                    <Link href="/design">
-                        <a className={router.pathname.includes("design") ? "nav-item is-active" : "nav-item"}>Design</a>
-                    </Link>
-                    <Link href="/play">
-                        <a className={router.pathname.includes("play") ? "nav-item is-active" : "nav-item"}>Play</a>
-                    </Link>
+                    <a href="/develop" className={router.pathname.includes("develop") ? "nav-item is-active" : "nav-item"}>Develop</a>
+                    <a href="/components" className={router.pathname.includes("components") ? "nav-item is-active" : "nav-item"}>Components</a>
+                    <a href="/design" className={router.pathname.includes("design") ? "nav-item is-active" : "nav-item"}>Design</a>
+                    <a href="/play" className={router.pathname.includes("play") ? "nav-item is-active" : "nav-item"}>Play</a>
                 </div>
                 <div className="nav-right">
                     <a href="" className="nav-item">
@@ -49,7 +41,7 @@ const Navbar = ({ logo }) => {
                             <span className="icon-name">Help</span></div>
                         <div className="menu-content">
                             <a href="https://github.com/denali-design/denali-site/issues/new?labels=feature-request" target="_blank" rel="noopener noreferrer" tabIndex="0">Feature Requests</a>
-                            <a href="https://github.com/denali-design/denali-site/milestones" target="_blank" rel="noopener noreferrer"  tabIndex="0">Roadmap</a>
+                            <a href="https://github.com/denali-design/denali-site/milestones" target="_blank" rel="noopener noreferrer" tabIndex="0">Roadmap</a>
                             <a href="https://join.slack.com/t/denali-design/shared_invite/enQtNzk0MTE2NjU3MzE0LTM5NWFmMGFmZmFhZjVhMzdjMzYzMDQ4ZGNhZjYxNGUwMzgxMWRmODc4MWIzYTE3YzQ5OWMyM2IzMTkxZGExYWY" target="_blank" rel="noopener noreferrer" tabIndex="0">Slack</a>
                         </div>
                     </div>

@@ -1,26 +1,7 @@
 // Copyright 2020, Verizon Media
 // Licensed under the terms of the MIT license. See LICENSE file in project root for terms.
 
-// Variables
-$brand-300: #016eff;
-$font-mono: "Noto Mono Regular";
-$font-bold: "Montserrat", sans-serif;
-$font-black: "Montserrat", sans-serif;
-$font-regular: "Montserrat", sans-serif;
-
 // Animations
-@keyframes typing {
-  0% {
-    width: 220px;
-  }
-  50% {
-    width: 0%;
-  }
-  100% {
-    width: 220px;
-  }
-}
-
 @keyframes quoteRotation {
   from {
     width: 0%;
@@ -30,143 +11,22 @@ $font-regular: "Montserrat", sans-serif;
   }
 }
 
-// Typography
-@font-face {
-  font-family: "Noto Mono Regular";
-  font-style: normal;
-  font-weight: normal;
-  src: url("/fonts/NotoMono-Regular.woff") format("woff");
-}
-
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap");
-
 // Style
 .splash-page {
-  h1 {
-    font-family: $font-black;
-    font-weight: 900;
-    font-size: 34px;
-    line-height: 40px;
-  }
-
-  p {
-    font-family: $font-regular;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 26px;
-  }
-
-  .mono {
-    font-family: $font-mono;
-  }
-
-  .hide {
-    display: none;
-  }
-
-  .nav {
-    background-color: $brand-300;
-    border-bottom: 1px solid rgba(#fff, 0.2);
-  }
-
-  .cover-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: $brand-300;
-    border-radius: 14px;
-    font-size: 20px;
-    color: #fff;
-    padding: 18px 24px 18px 24px;
-    height: 60px;
-    font-family: $font-bold;
-    font-weight: 700;
-    white-space: nowrap;
-
-    .d-arrow-right {
-      transform: translateX(0px);
-      transition: 300ms;
-    }
-
-    &.inverse {
-      background-color: #fff;
-      color: $brand-300;
-
-      &.outline {
-        background-color: transparent;
-        border: 2px solid #80b6ff;
-        color: #fff;
-      }
-    }
-
-    &:hover {
-      .d-arrow-right {
-        transform: translateX(5px);
-        transition: 300ms;
-      }
-    }
-  }
-
-  .splash-link {
-    color: $brand-300;
-    font-family: $font-bold;
-    font-weight: 700;
-  }
 
   // Cover
   .cover {
-    background-color: $brand-300;
+    background-color: #016eff;
     text-align: center;
     padding-top: 140px;
     position: relative;
     overflow: hidden;
 
-    .button-group {
-      display: flex;
-      justify-content: center;
-      flex-direction: row;
-      padding-top: 40px;
-      padding-bottom: 100px;
-
-      .outline {
-        margin-left: 20px;
-      }
-
-      @media (max-width: 600px) {
-        flex-direction: column !important;
-        padding-bottom: 0px;
-
-        .outline {
-          margin-left: 0px;
-          margin-top: 10px;
-        }
-      }
-    }
-
     @media (max-width: 600px) {
       padding-top: 110px;
     }
-
-    .blob-big {
-      position: absolute;
-      height: 318px;
-      width: 300px;
-      top: 200px;
-      right: 83%;
-      z-index: 50;
-    }
-
-    .blob-small {
-      position: absolute;
-      height: 200px;
-      width: 198px;
-      top: 450px;
-      right: 10%;
-      z-index: 40;
-    }
   }
   .cover-image {
-    // position: relative;
     > div {
       &::before {
         content: "";
@@ -225,7 +85,6 @@ $font-regular: "Montserrat", sans-serif;
         white-space: nowrap;
         box-shadow: 0 0 65px 8px rgba(0, 0, 0, 0.14);
         border-radius: 14px;
-        font-family: $font-mono;
         color: #9a9a9a;
         letter-spacing: 0;
         display: flex;
@@ -321,49 +180,6 @@ $font-regular: "Montserrat", sans-serif;
     }
   }
 
-  // Guides
-  .guides {
-    border-radius: 20px;
-
-    &.getting-started,
-    &.templates,
-    &.custom-theme {
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      transition: 300ms;
-      z-index: 10;
-
-      .d-arrow-right {
-        transform: translateX(0%);
-        transition: 300ms;
-      }
-
-      &:hover {
-        transform: scale(1.025);
-        transition: 300ms;
-
-        .d-arrow-right {
-          transform: translateX(5%);
-          transition: 300ms;
-        }
-      }
-    }
-
-    &.getting-started {
-      background-image: url("/images/splash/guides-getting-started.png");
-    }
-
-    &.templates {
-      background-image: url("/images/splash/guides-templates.png");
-    }
-
-    &.custom-theme {
-      background-image: url("/images/splash/guides-custom-theme.png");
-      position: relative;
-    }
-  }
-
   // Updates
   .updates-container {
     flex-direction: column;
@@ -395,7 +211,6 @@ $font-regular: "Montserrat", sans-serif;
       padding: 30px 30px 10px 30px;
     }
     > p.title {
-      font-family: $font-black;
       font-weight: 900;
       color: #303030;
       height: 70px;
@@ -405,16 +220,15 @@ $font-regular: "Montserrat", sans-serif;
       white-space: normal;
     }
     .text {
-      height: 146px;
+      height: 150px;
       overflow: hidden;
       padding: 20px 30px;
     }
     .action {
-      color: $brand-300;
+      color: #016eff;
       border-top: 1px solid #d5d5d5;
       padding: 20px 30px;
       transition: 300ms;
-      font-family: $font-bold;
       font-weight: 700;
     }
 
@@ -423,7 +237,7 @@ $font-regular: "Montserrat", sans-serif;
       // transition: 300ms;
 
       .action {
-        background: $brand-300;
+        background: #016eff;
         color: #fff;
         // transition: 300ms;
 
@@ -466,7 +280,6 @@ $font-regular: "Montserrat", sans-serif;
       }
 
       .quote-content-text {
-        font-family: $font-black;
         font-weight: 900;
         color: #fff;
         letter-spacing: 0;
@@ -493,7 +306,6 @@ $font-regular: "Montserrat", sans-serif;
         }
 
         .name {
-          font-family: $font-mono;
           font-size: 16px;
           color: #ffffff;
           letter-spacing: 0;
@@ -501,7 +313,6 @@ $font-regular: "Montserrat", sans-serif;
 
         .contact-title {
           opacity: 0.7;
-          font-family: $font-regular;
           font-weight: 400;
           font-size: 16px;
           color: #ffffff;
@@ -651,7 +462,6 @@ $font-regular: "Montserrat", sans-serif;
 
           .company {
             font-size: 18px;
-            font-family: $font-bold;
             font-weight: 700;
             color: inherit;
           }
