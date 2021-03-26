@@ -23,6 +23,8 @@ export default function Footer() {
                     <li><a href="">Browsers</a></li>
                     <li><a href="">Color Checker</a></li>
                     <li><a href="/guides">Guides</a></li>
+                    <li><a href="/gallery">Gallery</a></li>
+                    <li><a href="/gallery">Made with Denali</a></li>
                 </ul>
                 <ul>
                     <li className="header">Repositories</li>

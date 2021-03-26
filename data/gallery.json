@@ -1,0 +1,30 @@
+{
+    "projects": [
+        {
+            "title": "Vespa - Product Page",
+            "date": "Jan 12, 2021",
+            "author": "by Someone from the Vespa team",
+            "color": "#A0C9E1",
+            "image": "/images/gallery/vespa.png",
+            "link": "turansky.net",
+            "tags": [
+                "Theme",
+                "CSS",
+                "Mirco Interaction"
+            ]
+        },
+        {
+            "title": "Vespa - Product Page",
+            "date": "Jan 12, 2021",
+            "author": "by Someone from the Vespa team",
+            "color": "#A0C9E1",
+            "image": "/images/gallery/vespa.png",
+            "link": "turansky.net",
+            "tags": [
+                "Theme",
+                "CSS",
+                "Mirco Interaction"
+            ]
+        }
+    ]
+}
