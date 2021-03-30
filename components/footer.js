@@ -20,12 +20,10 @@ export default function Footer() {
                     <li className="header">Denali</li>
                     <li><a href="/develop">Develop</a></li>
                     <li><a href="/design">Design</a></li>
-                    <li><a href="/browsers">Browsers</a></li>
-                    <li><a href="/color/checker">Color Checker</a></li>
                     <li><a href="/guides">Guides</a></li>
                     <li><a href="/gallery">Gallery</a></li>
-                    <li><a href="/made-with-denali">Made with Denali</a></li>
-                    <li><a href="/theme-editor">Theme Editor</a></li>
+                    <li><a href="/faq">FAQ</a></li>
+                    <li><a href="/press">Press</a></li>
                 </ul>
                 <ul>
                     <li className="header">Repositories</li>
@@ -46,7 +44,7 @@ export default function Footer() {
                 </ul>
             </div>
             <div className="footer-social flex space-between">
-                <h6 className="is-grey-600">Copyright © 2021, Verizon Media</h6>
+                <p className="is-small is-grey-100">Copyright © 2021, Verizon Media</p>
                 <div>
                     <a href="https://medium.com/denali-design" target="_blank" rel="noreferrer noopener" className="is-secondary m-l-16"><span className="d-icon d-medium is-small"></span></a>
                     <a href="https://twitter.com/denali_design" target="_blank" rel="noreferrer noopener" className="is-secondary m-l-16"><span className="d-icon d-twitter is-small"></span></a>

@@ -1,8 +1,8 @@
 {
     "projects": [
         {
-            "title": "Yahoo Hack Together - Event Site",
-            "date": "Fed 22, 2021",
+            "title": "Yahoo Hack Together",
+            "date": "Feb 22, 2021",
             "author": "Open Source Team at Verizon Media",
             "color": "#5E1299",
             "image": "/images/gallery/yahoo-hack-together.png",
@@ -10,7 +10,7 @@
             "tags": [
                 "Theme",
                 "CSS",
-                "Mirco Interaction"
+                "Event Site"
             ]
         },
         {
@@ -23,7 +23,22 @@
             "tags": [
                 "Theme",
                 "CSS",
-                "Mirco Interaction"
+                "Marketing Site",
+                "Open Source"
+            ]
+        },
+        {
+            "title": "Yahoo COVID Dashboard",
+            "date": "Jul 20, 2021",
+            "author": "A few great people at Verizon Media",
+            "color": "#801DFF",
+            "image": "/images/gallery/yahoo-covid.png",
+            "link": "https://github.com/yahoo/covid-19-dashboard",
+            "tags": [
+                "Mapping",
+                "Ember",
+                "Product",
+                "Open Source"
             ]
         }
     ]

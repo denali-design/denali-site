@@ -3,7 +3,7 @@ export default function ResourceCard(props) {
         <div class="inline-flex">
             <a 
                 className={`has-bg-grey-100 p-y-16 p-l-18 p-r-24 m-10 br-sm flex align-items-center ${props.disabled ? 'is-disabled' : 'shadow-1'}`}
-                style={{ border: props.disabled ? 'solid 2px #E8E8E8' : 'none'}}
+                style={{ minWidth: "25%", border: props.disabled ? 'solid 2px #E8E8E8' : 'none'}}
                 rel="noopener noreferrer"
                 href={props.link}
                 target="_blank"

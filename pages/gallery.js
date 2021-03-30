@@ -25,6 +25,7 @@ export default function Develop() {
               image={project.image}
               link={project.link}
               color={project.color}
+              tags={project.tags}
               key={index}
             />
           );
