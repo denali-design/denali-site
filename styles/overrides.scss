@@ -1,8 +1,12 @@
 // Copyright 2020, Verizon Media
 // Licensed under the terms of the MIT license. See LICENSE file in project root for terms.
 
-p.is-large {
-    font-size: 2rem;
+// Helpers
+.bg-size-contain {
+    background-size: contain !important;
+}
+.bg-no-repeat {
+    background-repeat: no-repeat !important;
 }
 
 .button {
@@ -25,6 +29,12 @@ p.is-large {
 }
 .is-bold {
     font-weight: 900 !important;
+}
+p.is-large {
+    font-size: 2rem;
+}
+p.is-small {
+    font-size: 1.4rem;
 }
 
 // Color

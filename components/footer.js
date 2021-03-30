@@ -20,11 +20,12 @@ export default function Footer() {
                     <li className="header">Denali</li>
                     <li><a href="/develop">Develop</a></li>
                     <li><a href="/design">Design</a></li>
-                    <li><a href="">Browsers</a></li>
-                    <li><a href="">Color Checker</a></li>
+                    <li><a href="/browsers">Browsers</a></li>
+                    <li><a href="/color/checker">Color Checker</a></li>
                     <li><a href="/guides">Guides</a></li>
                     <li><a href="/gallery">Gallery</a></li>
-                    <li><a href="/gallery">Made with Denali</a></li>
+                    <li><a href="/made-with-denali">Made with Denali</a></li>
+                    <li><a href="/theme-editor">Theme Editor</a></li>
                 </ul>
                 <ul>
                     <li className="header">Repositories</li>

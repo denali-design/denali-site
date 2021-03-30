@@ -1,34 +1,14 @@
+import Layout from '../../layouts/DefaultLayout'
 import Link from 'next/link'
-import { getAllPosts } from '../../lib/api-components'
-import Head from 'next/head'
-import Navbar from '../../components/navbar'
 
-export default function Index({ allPosts }) {
+export default function Design() {
   return (
-    <>
-      <Head>
-        <title>Home</title>
-      </Head>
-      <Navbar logo="white" />
-      
-      {allPosts.map((allPost) => (
-        <h3 key={allPost.slug}>
-          <Link as={`/components/${allPost.slug}`} href="/components/[slug]">
-            <a>{allPost.title}</a>
-          </Link>
-        </h3>
-      ))}
-    </>
+    <Layout title="Components" description="An intro page for all components">
+      <Link href="/components/breadcrumbs">
+        <a className="box flex m-t-80">
+          <h4>Breadcrumbs</h4>
+        </a>
+      </Link>
+    </Layout>
   )
-}
-
-export async function getStaticProps() {
-  const allPosts = getAllPosts([
-    'title',
-    'slug'
-  ])
-
-  return {
-    props: { allPosts },
-  }
 }

@@ -1,12 +1,12 @@
 {
     "projects": [
         {
-            "title": "Vespa - Product Page",
-            "date": "Jan 12, 2021",
-            "author": "by Someone from the Vespa team",
-            "color": "#A0C9E1",
-            "image": "/images/gallery/vespa.png",
-            "link": "turansky.net",
+            "title": "Yahoo Hack Together - Event Site",
+            "date": "Fed 22, 2021",
+            "author": "Open Source Team at Verizon Media",
+            "color": "#5E1299",
+            "image": "/images/gallery/yahoo-hack-together.png",
+            "link": "https://yahoo.github.io/hacktogether/",
             "tags": [
                 "Theme",
                 "CSS",
@@ -16,10 +16,10 @@
         {
             "title": "Vespa - Product Page",
             "date": "Jan 12, 2021",
-            "author": "by Someone from the Vespa team",
+            "author": "Vespa team",
             "color": "#A0C9E1",
             "image": "/images/gallery/vespa.png",
-            "link": "turansky.net",
+            "link": "https://vespa.ai/",
             "tags": [
                 "Theme",
                 "CSS",
