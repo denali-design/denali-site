@@ -31,8 +31,15 @@ export default function Develop() {
                 <h3 className="m-b-20">CSS</h3>
                 <hr></hr>
                 <div className="flex m-t-20">
-                  <h4><a className="m-r-50">Docs</a></h4>
-                  <h4><a>View Demo</a></h4>
+                  <h4>
+                    <a
+                      className="m-r-50"
+                      href="https://denali-design.github.io/denali-css"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                    >Docs</a>
+                  </h4>
+                  <h4><a className="is-disabled">View Demo</a></h4>
                 </div>
               </div>
             </div>
@@ -43,8 +50,15 @@ export default function Develop() {
                 <h3 className="m-b-20">Ember</h3>
                 <hr></hr>
                 <div className="flex m-t-20">
-                  <h4><a className="m-r-50">Docs</a></h4>
-                  <h4><a>View Demo</a></h4>
+                  <h4>
+                    <a
+                      className="m-r-50"
+                      href="https://denali-design.github.io/denali-ember/"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                    >Docs</a>
+                  </h4>
+                  <h4><a className="is-disabled">View Demo</a></h4>
                 </div>
               </div>
             </div>
@@ -80,10 +94,22 @@ export default function Develop() {
                 <div className="br-lg shadow-3 has-bg-grey-100 p-10 m-x-10 m-y-20">
                   <div className="br-sm bg-size-cover bg-position-center" style={{ height: "250px", backgroundImage: 'url("/images/develop/components.png")' }}></div>
                   <h3 className="m-t-30 m-b-10 m-x-20">Components</h3>
-                  <p className="m-x-20">CSS support for radio toggles, addition of the.</p>
+                  <p className="m-x-20">TBD</p>
                   <div className="flex m-t-20 m-x-20 m-b-30">
-                    <h4 className="m-r-30"><a>CSS</a></h4>
-                    <h4><a>Ember</a></h4>
+                    <h4 className="m-r-30">
+                      <a
+                        href="https://github.com/denali-design/denali-css"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                      >CSS</a>
+                    </h4>
+                    <h4>
+                      <a
+                        href="https://github.com/denali-design/denali-ember"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                      >Ember</a>
+                    </h4>
                   </div>
                 </div>
               </div>
@@ -91,9 +117,22 @@ export default function Develop() {
                 <div className="br-lg shadow-3 has-bg-grey-100 p-10 m-x-10 m-y-20">
                   <div className="br-sm bg-size-cover bg-position-center" style={{ height: "250px", backgroundImage: 'url("/images/develop/icons.png")' }}></div>
                   <h3 className="m-t-30 m-b-10 m-x-20">Icons</h3>
-                  <p className="m-x-20">CSS support for radio toggles, addition of the.</p>
+                  <p className="m-x-20">TBD</p>
                   <div className="flex m-t-20 m-x-20 m-b-30">
-                    <h4 className="m-r-30"><a>View Repo</a></h4>
+                    <h4 className="m-r-30">
+                      <a
+                        href="https://github.com/denali-design/denali-icon-font"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                      >Fonts</a>
+                    </h4>
+                    <h4 className="m-r-30">
+                      <a
+                        href="https://github.com/denali-design/denali-icons-svg"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                      >SVG</a>
+                    </h4>
                   </div>
                 </div>
               </div>
@@ -101,7 +140,7 @@ export default function Develop() {
                 <div className="br-lg shadow-3 has-bg-grey-100 p-10 m-x-10 m-y-20">
                   <div className="br-sm bg-size-cover bg-position-center" style={{ height: "250px", backgroundImage: 'url("/images/develop/charts.png")' }}></div>
                   <h3 className="m-t-30 m-b-10 m-x-20">Charts</h3>
-                  <p className="m-x-20">CSS support for radio toggles, addition of the.</p>
+                  <p className="m-x-20">TBD</p>
                   <div className="flex m-t-20 m-x-20 m-b-30">
                     <h4 className="m-r-30"><a className="is-disabled">Coming Soon</a></h4>
                   </div>
@@ -124,18 +163,28 @@ export default function Develop() {
                 <p className="is-large is-grey-100">Looking for a quick tutorial to get you started? Our guides make it easy to start creating.</p>
               </div>
             </div>
-            <a className="flex p-30 m-y-15 br-lg row align-items-center develop-page--guide-card">
+            <a
+              className="flex p-30 m-y-15 br-lg row align-items-center develop-page--guide-card"
+              href="https://medium.com/denali-design/how-to-theme-your-app-using-denali-dcefcb92e9fd"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
               <div className="xs-col-1-1 sm-col-1-1 md-col-1-2 lg-col-1-3 xl-col-1-3">
-                <h5 className="is-grey-500 is-mono m-b-18">Jan. 15 2020</h5>
+                <h5 className="is-grey-500 is-mono m-b-18">Mar 18, 2021</h5>
                 <h3 className="is-grey-100 m-b-10">Create Custom Themes</h3>
                 <p className="is-grey-100 m-b-30 m-r-30">Front-end frameworks are a valuable engineering asset that reduces time spent on front-end development and that is…</p>
                 <p className="is-brand-200">Keep reading</p>
               </div>
               <div className="xs-col-1-1 sm-col-1-1 md-col-1-2 lg-col-off-1-12 lg-col-7-12 xl-col-off-1-12 xl-col-7-12 h-50 br-sm bg-size-cover bg-position-center" style={{ height: "inherit", backgroundImage: 'url("/images/develop/custom-themes.png")' }}></div>
             </a>
-            <a className="flex p-30 m-y-15 br-lg row align-items-center develop-page--guide-card">
+            <a
+              className="flex p-30 m-y-15 br-lg row align-items-center develop-page--guide-card"
+              href="https://medium.com/denali-design/getting-started-with-components-icons-in-denali-b694945a7dc9"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
               <div className="xs-col-1-1 sm-col-1-1 md-col-1-2 lg-col-1-3 xl-col-1-3">
-                <h5 className="is-grey-500 is-mono m-b-18">Jan 12, 2020</h5>
+                <h5 className="is-grey-500 is-mono m-b-18">Mar 19, 2021</h5>
                 <h3 className="is-grey-100 m-b-10">Working with components</h3>
                 <p className="is-grey-100 m-b-30 m-r-30">We built our components to be themeable by nature which means you aren’t tied to our components.</p>
                 <p className="is-brand-200">Keep reading</p>
@@ -166,7 +215,12 @@ export default function Develop() {
             </div>
             <div className="row m-t-80">
               <div className="xs-col-1-1 sm-col-1-1 md-col-1-3 lg-col-1-3 xl-col-1-3">
-                <a className="flex flex-column p-40 shadow-3 br-lg m-5">
+                <a 
+                  className="flex flex-column p-40 shadow-3 br-lg m-5"
+                  href="https://join.slack.com/t/denali-design/shared_invite/enQtNzk0MTE2NjU3MzE0LTM5NWFmMGFmZmFhZjVhMzdjMzYzMDQ4ZGNhZjYxNGUwMzgxMWRmODc4MWIzYTE3YzQ5OWMyM2IzMTkxZGExYWY"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
                   <div className="h-12 w-12 has-bg-brand-300 br-circle flex justify-content-center align-items-center">
                     <span className="d-icon d-slack is-medium"></span>
                   </div>
@@ -176,7 +230,12 @@ export default function Develop() {
                 </a>
               </div>
               <div className="xs-col-1-1 sm-col-1-1 md-col-1-3 lg-col-1-3 xl-col-1-3">
-                <a className="flex flex-column p-40 shadow-3 br-lg m-5">
+                <a 
+                  className="flex flex-column p-40 shadow-3 br-lg m-5"
+                  href="https://medium.com/denali-design"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
                   <div className="h-12 w-12 has-bg-brand-300 br-circle flex justify-content-center align-items-center">
                     <span className="d-icon d-medium is-medium"></span>
                   </div>
@@ -186,7 +245,10 @@ export default function Develop() {
                 </a>
               </div>
               <div className="xs-col-1-1 sm-col-1-1 md-col-1-3 lg-col-1-3 xl-col-1-3">
-                <a className="flex flex-column p-40 shadow-3 br-lg m-5">
+                <a 
+                  className="flex flex-column p-40 shadow-3 br-lg m-5"
+                  href="mailto:denali@verizonmedia.com"
+                >
                   <div className="h-12 w-12 has-bg-brand-300 br-circle flex justify-content-center align-items-center">
                     <span className="d-icon d-mail-new is-medium"></span>
                   </div>

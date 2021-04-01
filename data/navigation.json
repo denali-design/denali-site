@@ -1,0 +1,59 @@
+{
+    "design": [
+        {
+            "sectionName": "Principles",
+            "pages": [
+                {
+                    "name": "Colors",
+                    "identifier": "colors",
+                    "path": "/design/principles/colors"
+                },
+                {
+                    "name": "Component Behavior",
+                    "identifier": "component-behavior",
+                    "path": "/design/principles/component-behavior"
+                },
+                {
+                    "name": "Density & Spacing",
+                    "identifier": "density-and-spacing",
+                    "path": "/design/principles/density-and-spacing"
+                },
+                {
+                    "name": "Iconography",
+                    "identifier": "iconography",
+                    "path": "/design/principles/iconography"
+                },
+                {
+                    "name": "Responsive Grid",
+                    "identifier": "responsive-grid",
+                    "path": "/design/principles/responsive-grid"
+                },
+                {
+                    "name": "Typography",
+                    "identifier": "typography",
+                    "path": "/design/principles/typography"
+                }
+            ]
+        },
+        {
+            "sectionName": "Tools",
+            "pages": []
+        },
+        {
+            "sectionName": "Downloads",
+            "pages": []
+        }
+    ],
+    "components": [
+        {
+            "sectionName": "Components",
+            "pages": [
+                {
+                    "name": "Breadcrumbs",
+                    "identifier": "breadcrumbs",
+                    "path": "/components/breadcrumbs"
+                }
+            ]
+        }
+    ]
+}

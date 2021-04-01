@@ -1,14 +1,7 @@
 // Copyright 2020, Verizon Media
 // Licensed under the terms of the MIT license. See LICENSE file in project root for terms.
 
-// Helpers
-.bg-size-contain {
-    background-size: contain !important;
-}
-.bg-no-repeat {
-    background-repeat: no-repeat !important;
-}
-
+// Components
 .button {
     .d-arrow-right {
         transform: translateX(0px);
@@ -43,7 +36,6 @@ p.is-small {
 }
 
 // Helpers
-
 .br-lg {
     border-radius: 14px;
 }

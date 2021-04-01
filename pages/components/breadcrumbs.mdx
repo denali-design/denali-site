@@ -35,8 +35,10 @@ Breadcrumbs are a horizontal line of clickable links or “breadcrumbs” that r
 The “breadcrumbs” of a breadcrumb are the text labels that describe the hierarchy levels. The first breadcrumb represents the parent level. From there, a new label or breadcrumb is added to represent the user’s progression to the current page. The last breadcrumb represents the current page. With the exeception of the last bread crumb, each breadcrumb is a clickable link that can quickly bring the user back to that level within the app.
 
 <DoubleImage 
+  firstType="do"
   firstImage="/images/components/breadcrumbs/foundation-do.png"
   firstCaption="list the current page in a breadcrumnb as text instead of a link."
+  secondType="dont"
   secondImage="/images/components/breadcrumbs/foundation-dont.png"
   secondCaption="list the current page in a breadcrumb as a link."
 />
@@ -72,8 +74,10 @@ Breadcrumbs are a horizontal line of clickable links or “breadcrumbs” that r
 A breadcrumb is a tertiary level of navigation. As such, it should exist at the top of the page, where users are trained to look for wayfinding information, but beneath the main navigation component. In simplest use cases this is usually underneath the nav bar but above the page title.
 
 <DoubleImage 
+  firstType="do"
   firstImage="/images/components/breadcrumbs/placement-do.png"
   firstCaption="place a breadcrumb underneath the main navigation component, above the page’s content."
+  secondType="dont"
   secondImage="/images/components/breadcrumbs/placement-dont.png"
   secondCaption="place breadcrumb within a page’s content."
 />
@@ -105,4 +109,4 @@ Dennit Racing uses a customized Denali theme that aligns visually with their bra
 
 For all variables visit the CSS documentation page for [breadcrumbs]().
 
-export default ({ children }) => <Layout meta={meta}>{children}</Layout>
+export default ({ children }) => <Layout sidebar="components" meta={meta}>{children}</Layout>

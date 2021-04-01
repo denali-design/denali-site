@@ -13,7 +13,7 @@ export default function ProjectCard(props) {
             </div>
             <p className="is-large m-t-4">{props.author}</p>
             <div className="flex m-t-20 m-b-10">
-                {tags.map(tag => (<span class="chips has-bg-grey-400 is-grey-800 is-bold m-r-10">{tag}</span>))}
+                {tags.map(tag => (<span className="chips has-bg-grey-400 is-grey-800 is-bold m-r-10">{tag}</span>))}
             </div>
         </a>
     )

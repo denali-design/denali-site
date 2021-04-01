@@ -9,10 +9,12 @@ export default function ComponentsLayout(props) {
                 <title>{props.meta.title}</title>
             </Head>
             <div className="denali-new-age">
-                <Navbar logo="white" style={{ position: "sticky", top: "0px", zIndex: "100" }}/>
+                <Navbar logo="white" style={{ position: "sticky", top: "0px", zIndex: "100"}}/>
 
                 <div className="flex">
-                    <Sidebar style={{height: 'calc(100vh - 60px', position: "sticky", top: "60px", zIndex: "100"}} />
+                    <div className="xs-hide sm-hide" style={{display: "block", minWidth: '300px'}}>
+                        <Sidebar data={props.sidebar} style={{ position: "fixed", overflow: "auto", top: "60px", bottom: "0px"}} />
+                    </div>
                     <div style={{ width: '100%', maxWidth: '1140px' }}>
                         <div className="container-full denali-markdown m-t-50" style={{ maxWidth: '920px', margin: '0px auto 150px auto' }}>
                             {props.children}
