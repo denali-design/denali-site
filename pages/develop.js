@@ -58,7 +58,13 @@ export default function Develop() {
                       rel="noreferrer noopener"
                     >Docs</a>
                   </h4>
-                  <h4><a className="is-disabled">View Demo</a></h4>
+                  <h4>
+                    <a 
+                      href="https://denali-design.github.io/denali-ember/"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                    >View Demo</a>
+                  </h4>
                 </div>
               </div>
             </div>
