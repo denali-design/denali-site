@@ -1,5 +1,5 @@
 import Layout from '../layouts/DefaultLayout'
-import ProjectCard from '../components/project-card';
+import ProjectCard from '../components/ProjectCard';
 import data from "../data/gallery";
 
 export default function Develop() {
