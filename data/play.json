@@ -1,0 +1,22 @@
+{
+    "marketingSections": [
+        {
+            "name": "Full Page",
+            "items": [
+                {
+                    "title": "Landing Page",
+                    "description": "Complete landing pages with all the bells and whistles.",
+                    "items": "3",
+                    "link": "/play/marketing/landing-page",
+                    "image": "/images/play/marketing-landing-page.png",
+                    "tags": [
+                        "Alert", 
+                        "Navbar", 
+                        "Button"
+                    ]
+                }
+            ]
+        }
+    ],
+    "applicationSections": []
+}

@@ -33,7 +33,7 @@ export default function Sidebar(props) {
     } else if (props.data === 'components') {
         itemList = data.components.map((section, index) => {
             return (
-                <>
+                <span key={index}>
                     {index === 0 ? "" : <hr />}
                     <li className="tabs__section-header">{section.sectionName}</li>
                     {
@@ -49,7 +49,7 @@ export default function Sidebar(props) {
                         })
                     }
 
-                </>
+                </span>
             );
         })
     }

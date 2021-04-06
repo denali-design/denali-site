@@ -1,0 +1,31 @@
+import Layout from '../../layouts/ComponentsLayout'
+import ResourceCard from '../../components/ResourceCard'
+
+export const meta = {
+  title: 'Name'
+}
+
+# Name
+
+## Developer Docs
+
+<div className="row">
+  <ResourceCard name="CSS" icon="css" caption="Avaiable Now" link="" />
+  <ResourceCard name="Ember" icon="ember" caption="Avaiable Now" link="" />
+  <ResourceCard name="React" icon="react" caption="Coming Soon" disabled />
+</div>
+
+---
+
+## Foundation
+
+---
+
+## Placement
+
+---
+
+## Themeing
+
+
+export default ({ children }) => <Layout sidebar="components" meta={meta}>{children}</Layout>

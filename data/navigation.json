@@ -49,9 +49,35 @@
             "sectionName": "Components",
             "pages": [
                 {
+                    "name": "Alerts",
+                    "identifier": "alerts",
+                    "path": "/components/alerts",
+                    "description": "Alerts provide users with information to notify them of actions taken.",
+                    "image": "/images/play/marketing-landing-page.png",
+                    "frameworks": [
+                        "css"
+                    ]
+                },
+                {
                     "name": "Breadcrumbs",
                     "identifier": "breadcrumbs",
-                    "path": "/components/breadcrumbs"
+                    "path": "/components/breadcrumbs",
+                    "description": "Breadcrumbs are a wayfinding elements used to understand hierarchical structure.",
+                    "image": "/images/play/marketing-landing-page.png",
+                    "frameworks": [
+                        "ember"
+                    ]
+                },
+                {
+                    "name": "Chips",
+                    "identifier": "chips",
+                    "path": "/components/chips",
+                    "description": "Chips are compact elemets that represent an input, attribute, or action.",
+                    "image": "/images/play/marketing-landing-page.png",
+                    "frameworks": [
+                        "css",
+                        "ember"
+                    ]
                 }
             ]
         }
