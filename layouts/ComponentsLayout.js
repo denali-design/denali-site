@@ -16,7 +16,7 @@ export default function ComponentsLayout(props) {
                         <Sidebar data={props.sidebar} style={{ position: "fixed", overflow: "auto", top: "60px", bottom: "0px"}} />
                     </div>
                     <div style={{ width: '100%', maxWidth: '1140px' }}>
-                        <div className="container-full denali-markdown m-t-50" style={{ maxWidth: '1020px', margin: '0px auto 150px auto' }}>
+                        <div className="container-full denali-markdown m-t-50" style={{ maxWidth: '920px', margin: '0px auto 150px auto' }}>
                             {props.children}
                         </div>
                     </div>

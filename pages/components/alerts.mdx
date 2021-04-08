@@ -1,19 +1,20 @@
 import Layout from '../../layouts/ComponentsLayout'
 import ResourceCard from '../../components/ResourceCard'
+import SingleImage from '../../components/docs/SingleImage'
+import DoubleImage from '../../components/docs/DoubleImage'
 
 export const meta = {
   title: 'Alerts'
 }
 
 # Alerts
-
-Alerts provide users with information and to notify them of actions that need to be taken. Denali categorizes alerts into 3 distinct types with specific use cases for each.
+Alerts provide users with information and to notify them of actions that need to be taken. Denali categorizes alerts into 3 distinct types notification, block, or inline with specific use cases for each.
 
 ## Developer Docs
 
 <div className="row">
-  <ResourceCard name="CSS" icon="css" caption="Avaiable Now" link="" />
-  <ResourceCard name="Ember" icon="ember" caption="Avaiable Now" link="" />
+  <ResourceCard name="CSS" icon="css" caption="Avaiable Now" link="https://denali-design.github.io/denali-css/?path=/story/components-alert--block" />
+  <ResourceCard name="Ember" icon="ember" caption="Avaiable Now" link="https://denali-design.github.io/denali-ember/?path=/story/denalialert--default" />
   <ResourceCard name="React" icon="react" caption="Coming Soon" disabled />
 </div>
 
@@ -21,13 +22,106 @@ Alerts provide users with information and to notify them of actions that need to
 
 ## Foundation
 
+<SingleImage 
+  image="/images/components/alerts/"
+/>
+
+#### Icon
+Icons can be used as supporting illustrations to supplement the message and help commicate meaning for alerts. They should be used in unison with the alerts content.
+
+<DoubleImage 
+  firstType="do"
+  firstImage="/images/components/alerts/"
+  firstCaption="commicate meaning when using supporting illustrations and icons within alerts."
+  secondType="dont"
+  secondImage="/images/components/alerts/"
+  secondCaption="use supporting illustrations or icons without context in the content section of an alert."
+/>
+
+#### Content
+Content is used to communicates a change or error within an alert or notificiation. This content can vary, but usually contains a title and description. These do not have to live in unison, but one or the other are required to provided context to the users.
+
+<DoubleImage 
+  firstType="do"
+  firstImage="/images/components/alerts/"
+  firstCaption=""
+  secondType="dont"
+  secondImage="/images/components/alerts/"
+  secondCaption=""
+/>
+
+#### Close
+The close button is located in the top right corner of alerts and notifications. Close buttons are only present when alerts are dismissable and are used to clear alerts and notifications that have been read.
+
+<DoubleImage 
+  firstType="do"
+  firstImage="/images/components/alerts/"
+  firstCaption=""
+  secondType="dont"
+  secondImage="/images/components/alerts/"
+  secondCaption=""
+/>
+
 ---
 
 ## Placement
+Alerts can be placed in a few locations depending on the objective of the alert. They can be fixed, displayed temporarily, or scroll with content, but this depends on the context usually defined as global or local type.
+
+#### Global
+Inline alerts reference information pertaining to an entire system or application. For this reason we recommend placing global alerts at the top of the application screen. We suggest using inline or notification alerts as global alerts as they appear at the top of the screen and visually encompass the entirety of the system or application they are applied to.
+
+<SingleImage 
+  type="do"
+  image="/images/components/alerts/" 
+  caption="use an inline alert throughout a site to notify users that the entire system is down for maintenance."
+/>
+
+<SingleImage 
+  type="dont"
+  image="/images/components/alerts/" 
+  caption="use notifications style alert on the landing page of a site to notify users that the entire system is down for maintenance."
+/>
+
+#### Local
+Local alerts contain information specific to an element on the page and are located in close proximity to that element. We suggest using block level or text style alerts as local alerts as they can be placed next to the elements they are referencing.
+
+<DoubleImage 
+  firstType="do"
+  firstImage="/images/components/alerts/"
+  firstCaption="use block level alerts adjacent to an upload form to notify a user that their upload was successful."
+  secondType="dont"
+  secondImage="/images/components/alerts/"
+  secondCaption="use an inline alert to notify a user that their upload was successful."
+/>
 
 ---
 
 ## Themeing
+
+#### Dennit Racing Theme 
+Dennit Racing uses a customized Denali theme that aligns visually with their brand. Dennit’s alerts feature custom type and color.
+
+<SingleImage image="/images/components/alerts/theme.png"/>
+
+|Variable|Attribute|Value|
+|---|---|---|
+|$alert-bg-color|background-color|$color-grey-100|
+|$alert-text-color|color|null|
+|$alert-corner-radius|border-radius|$border-radius-sm|
+|$alert-shadow|box-shadow|0px 4px 8px rgba(0, 0, 0, 0.16)|
+|$alert-border-color|border-color|$color-grey-500|
+|$alert-border-width|border-width|4px|
+|$alert-border-style|border-style|solid|
+|$alert-close-icon-color|color|$color-grey-800|
+|$alert-inline-text-color|color|$color-grey-800|
+|$alert-inline-bg-color|background-color|$color-grey-300|
+|$alert-inline-font-size|font-size|inherit|
+|$alert-inline-alignment-text|text-align|center|
+|$alert-inline-alignment-justify-content|justify-content|center|
+|$alert-inline-padding|padding|4px 10px|
+
+For all variables visit the CSS documentation page for [alerts]().
+
 
 
 export default ({ children }) => <Layout sidebar="components" meta={meta}>{children}</Layout>

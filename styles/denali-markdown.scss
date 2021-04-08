@@ -15,8 +15,6 @@
   }
 
   > p {
-    font-size: 1.4rem;
-    // margin-bottom: 40px;
     margin-top: 10px;
   }
 
@@ -59,16 +57,8 @@
   }
 
   .pinciple-do {
-    div {
-      position: relative;
-    }
-    div::after {
-      content: "";
-      position: absolute;
-      bottom: 0px;
-      width: 100%;
-      height: 6px;
-      background-color: #15c046;
+    img {
+      border-bottom: solid #15c046 8px;
     }
     p {
       font-size: 1.4rem;
@@ -82,16 +72,8 @@
   }
 
   .pinciple-dont {
-    div {
-      position: relative;
-    }
-    div::after {
-      content: "";
-      position: absolute;
-      bottom: 0px;
-      width: 100%;
-      height: 6px;
-      background-color: #ea0000;
+    img {
+      border-bottom: solid #ea0000 8px;
     }
     p {
       font-size: 1.4rem;
@@ -105,16 +87,8 @@
   }
 
   .pinciple-info {
-    div {
-      position: relative;
-    }
-    div::after {
-      content: "";
-      position: absolute;
-      bottom: 0px;
-      width: 100%;
-      height: 6px;
-      background-color: #0066e4;
+    img {
+      border-bottom: solid #0066e4 8px;
     }
     p {
       font-size: 1.4rem;

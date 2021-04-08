@@ -53,9 +53,21 @@
                     "identifier": "alerts",
                     "path": "/components/alerts",
                     "description": "Alerts provide users with information to notify them of actions taken.",
-                    "image": "/images/play/marketing-landing-page.png",
+                    "image": "/images/cards/components/alerts.png",
                     "frameworks": [
-                        "css"
+                        "css",
+                        "ember"
+                    ]
+                },
+                {
+                    "name": "Box",
+                    "identifier": "box",
+                    "path": "/components/box",
+                    "description": "Boxes are used to group related information, images, charts, or actions.",
+                    "image": "/images/cards/components/",
+                    "frameworks": [
+                        "css",
+                        "ember"
                     ]
                 },
                 {
@@ -63,21 +75,38 @@
                     "identifier": "breadcrumbs",
                     "path": "/components/breadcrumbs",
                     "description": "Breadcrumbs are a wayfinding elements used to understand hierarchical structure.",
-                    "image": "/images/play/marketing-landing-page.png",
-                    "frameworks": [
-                        "ember"
-                    ]
-                },
-                {
-                    "name": "Chips",
-                    "identifier": "chips",
-                    "path": "/components/chips",
-                    "description": "Chips are compact elemets that represent an input, attribute, or action.",
-                    "image": "/images/play/marketing-landing-page.png",
+                    "image": "/images/cards/components/",
                     "frameworks": [
                         "css",
                         "ember"
                     ]
+                },
+                {
+                    "name": "Modal",
+                    "identifier": "modal",
+                    "path": "",
+                    "description": "",
+                    "image": "/images/cards/components/modal.png",
+                    "frameworks": [],
+                    "disabled": true
+                },
+                {
+                    "name": "Navbar",
+                    "identifier": "navbar",
+                    "path": "",
+                    "description": "",
+                    "image": "/images/cards/components/navbar.png",
+                    "frameworks": [],
+                    "disabled": true
+                },
+                {
+                    "name": "Table",
+                    "identifier": "table",
+                    "path": "",
+                    "description": "",
+                    "image": "/images/cards/components/table.png",
+                    "frameworks": [],
+                    "disabled": true
                 }
             ]
         }

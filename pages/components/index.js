@@ -14,7 +14,7 @@ export default function Components() {
   return (
     <Layout meta={meta} sidebar="components">
       <h1>Components</h1>
-      <p className="is-large">List of all components.</p>
+      <p className="is-large">Denali components are the foundation of building intuitive, themable user interfaces. Browser all our components or select your framework of choice.</p>
       <div className="tags m-t-30">
         <span
           className={framework === null ? "tag outlined is-active" : "tag outlined"}
@@ -50,6 +50,7 @@ export default function Components() {
                             description={page.description}
                             link={page.path}
                             image={page.image}
+                            disabled={page.disabled}
                           />
                         </div>
                       );
@@ -62,6 +63,7 @@ export default function Components() {
                           description={page.description}
                           link={page.path}
                           image={page.image}
+                          disabled={page.disabled}
                         />
                       </div>
                     );

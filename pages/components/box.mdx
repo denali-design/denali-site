@@ -1,0 +1,48 @@
+import Layout from '../../layouts/ComponentsLayout'
+import ResourceCard from '../../components/ResourceCard'
+
+export const meta = {
+  title: 'Box'
+}
+
+# Box
+
+## Developer Docs
+
+<div className="row">
+  <ResourceCard name="CSS" icon="css" caption="Avaiable Now" link="https://denali-design.github.io/denali-css/?path=/story/components-box--default" />
+  <ResourceCard name="Ember" icon="ember" caption="Avaiable Now" link="https://denali-design.github.io/denali-ember/?path=/story/denalibox--default" />
+  <ResourceCard name="React" icon="react" caption="Coming Soon" disabled />
+</div>
+
+---
+
+## Foundation
+
+---
+
+## Placement
+
+---
+
+## Themeing
+
+#### Dennit Racing Theme 
+Dennit Racing uses a customized Denali theme that aligns visually with their brand. Dennit’s boxes feature custom type, background, border radius, and border color theming. 
+
+<SingleImage image="/images/components/box/theme.png"/>
+
+|Variable|Attribute|Value|
+|---|---|---|
+|$box-bg-color|background-color|$color-grey-200|
+|$box-corner-radius|border-radius|$border-radius-sm|
+|$box-border-color|border-color|$color-grey-500|
+|$box-border-width|border-width|1px|
+|$box-border-style|border-style|solid|
+|$box-padding|padding|20px|
+|$box-footer-padding|padding|22px 22px 0px 22px|
+|$box-footer-margin|margin|22px -20px 0px -20px|
+
+For all variables visit the CSS documentation page for [boxes]().
+
+export default ({ children }) => <Layout sidebar="components" meta={meta}>{children}</Layout>

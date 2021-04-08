@@ -58,6 +58,7 @@ export default function Develop() {
                               link={item.link}
                               image={item.image}
                               tags={item.tags}
+                              disabled={item.disabled}
                             />
                           </div>
                         );
@@ -106,6 +107,7 @@ export default function Develop() {
                               link={item.link}
                               image={item.image}
                               tags={item.tags}
+                              disabled={item.disabled}
                             />
                           </div>
                         );

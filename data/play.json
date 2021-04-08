@@ -6,14 +6,16 @@
                 {
                     "title": "Landing Page",
                     "description": "Complete landing pages with all the bells and whistles.",
-                    "items": "3",
+                    "items": "1",
                     "link": "/play/marketing/landing-page",
-                    "image": "/images/play/marketing-landing-page.png",
-                    "tags": [
-                        "Alert", 
-                        "Navbar", 
-                        "Button"
-                    ]
+                    "image": "/images/cards/pages/landing-page.png"
+                },
+                {
+                    "title": "404",
+                    "description": "Complete landing pages with all the bells and whistles.",
+                    "items": "1",
+                    "image": "/images/cards/pages/404.png",
+                    "disabled": true
                 }
             ]
         }
