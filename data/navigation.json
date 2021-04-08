@@ -37,11 +37,56 @@
         },
         {
             "sectionName": "Tools",
-            "pages": []
+            "pages": [
+                {
+                    "name": "Figma Icons Plugin",
+                    "identifier": "figma-plugin",
+                    "path": "/design/tools/figma-plugin"
+                },
+                {
+                    "name": "Framer Packages",
+                    "identifier": "framer-packages",
+                    "path": "/design/tools/framer-packages"
+                },
+                {
+                    "name": "Sketch Layouts Plugin",
+                    "identifier": "sketch-plugin",
+                    "path": "/design/tools/sketch-plugin"
+                },
+                {
+                    "name": "Adobe Xd Icon Plugin",
+                    "identifier": "adobe-xd-plugin",
+                    "path": "/design/tools/adobe-xd-plugin"
+                }
+            ]
         },
         {
             "sectionName": "Downloads",
-            "pages": []
+            "pages": [
+                {
+                    "name": "Figma",
+                    "identifier": "downloads/figma",
+                    "path": "/design/downloads/figma",
+                    "disabled": true
+                },
+                {
+                    "name": "Framer",
+                    "identifier": "downloads/framer",
+                    "path": "/design/downloads/framer",
+                    "disabled": true
+                },
+                {
+                    "name": "Sketch",
+                    "identifier": "downloads/sketch",
+                    "path": "/design/downloads/sketch"
+                },
+                {
+                    "name": "Adobe Xd",
+                    "identifier": "downloads/adobe-xd",
+                    "path": "/design/downloads/adobe-xd",
+                    "disabled": true
+                }
+            ]
         }
     ],
     "components": [
