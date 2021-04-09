@@ -18,7 +18,7 @@ export default function Sidebar(props) {
                         section.pages.map((page, index) => {
                             return (
                                 <li
-                                    className={router.pathname.includes(page.identifier) ? "is-active" : ""}
+                                    className={`${page.disabled ? 'is-disabled' : ''} ${router.pathname.includes(page.identifier) ? 'is-active' : ''}`}
                                     key={index}
                                 >
                                     <Link href={page.path}><a>{page.name}</a></Link>

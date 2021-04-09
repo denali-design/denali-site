@@ -36,55 +36,29 @@
             ]
         },
         {
-            "sectionName": "Tools",
+            "sectionName": "Tools & Downloads",
             "pages": [
                 {
-                    "name": "Figma Icons Plugin",
-                    "identifier": "figma-plugin",
-                    "path": "/design/tools/figma-plugin"
+                    "name": "Adobe Xd",
+                    "identifier": "adobe-xd",
+                    "path": "",
+                    "disabled": true
                 },
-                {
-                    "name": "Framer Packages",
-                    "identifier": "framer-packages",
-                    "path": "/design/tools/framer-packages"
-                },
-                {
-                    "name": "Sketch Layouts Plugin",
-                    "identifier": "sketch-plugin",
-                    "path": "/design/tools/sketch-plugin"
-                },
-                {
-                    "name": "Adobe Xd Icon Plugin",
-                    "identifier": "adobe-xd-plugin",
-                    "path": "/design/tools/adobe-xd-plugin"
-                }
-            ]
-        },
-        {
-            "sectionName": "Downloads",
-            "pages": [
                 {
                     "name": "Figma",
-                    "identifier": "downloads/figma",
-                    "path": "/design/downloads/figma",
+                    "identifier": "figma",
+                    "path": "",
                     "disabled": true
                 },
                 {
                     "name": "Framer",
-                    "identifier": "downloads/framer",
-                    "path": "/design/downloads/framer",
-                    "disabled": true
+                    "identifier": "framer",
+                    "path": "/design/tools-downloads/framer"
                 },
                 {
                     "name": "Sketch",
-                    "identifier": "downloads/sketch",
-                    "path": "/design/downloads/sketch"
-                },
-                {
-                    "name": "Adobe Xd",
-                    "identifier": "downloads/adobe-xd",
-                    "path": "/design/downloads/adobe-xd",
-                    "disabled": true
+                    "identifier": "sketch",
+                    "path": "/design/tools-downloads/sketch"
                 }
             ]
         }
