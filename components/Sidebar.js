@@ -11,7 +11,7 @@ export default function Sidebar(props) {
     if (props.data === 'design') {
         itemList = data.design.map((section, index) => {
             return (
-                <>
+                <span key={index}>
                     {index === 0 ? "" : <hr />}
                     <li className="tabs__section-header">{section.sectionName}</li>
                     {
@@ -26,8 +26,7 @@ export default function Sidebar(props) {
                             );
                         })
                     }
-
-                </>
+                </span>
             );
         })
     } else if (props.data === 'components') {

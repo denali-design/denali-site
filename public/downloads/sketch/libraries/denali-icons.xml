@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Denali Icons</title>
+    <description>This sketch libray houses all available Denali Icons</description>
+    <image>
+      <url></url>
+      <title>Denali Icons</title>
+    </image>
+    <generator>Sketch</generator>
+    <item>
+      <title>Denali Icons</title>
+      <pubDate>Mon, 15 Jun 2020 10:00:00 +0000</pubDate>
+      <enclosure url="https://denali.design/downloads/sketch/libraries/denali-icon-library.sketch" type="application/octet-stream" sparkle:version="1.5"/>
+    </item>
+  </channel>
+</rss>
+
+<!-- URL -->
+<!-- https://denali.design/downloads/sketch/libraries/denali-icons.xml -->
+
+<!-- Encoded -->
+<!-- https%3A%2F%2Fdenali.design%2Fdownloads%2Fsketch%2Flibraries%2Fdenali-icons.xml -->

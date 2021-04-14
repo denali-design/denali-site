@@ -23,17 +23,17 @@ const Navbar = (props) => {
                     <a href="/play" className={router.pathname.includes("play") ? "nav-item is-active" : "nav-item"}>Play</a>
                 </div>
                 <div className="nav-right">
-                    <a href="" className="nav-item">
+                    {/* <a href="" className="nav-item">
                         <i className="d-icon d-search"></i>
                         <span className="icon-name">Search</span>
+                    </a> */}
+                    <a href="https://github.com/denali-design" target="_blank" rel="noopener noreferrer" className="nav-item">
+                        <i className="d-icon d-github"></i>
+                        <span className="icon-name">Github</span>
                     </a>
                     <a href="https://medium.com/denali-design" target="_blank" className="nav-item">
                         <i className="d-icon d-medium"></i>
                         <span className="icon-name">Medium</span>
-                    </a>
-                    <a href="https://github.com/denali-design" target="_blank" rel="noopener noreferrer" className="nav-item">
-                        <i className="d-icon d-github"></i>
-                        <span className="icon-name">Github</span>
                     </a>
                     <div className="menu menu--nav is-right">
                         <div className="nav-item menu-trigger" tabIndex="0">

@@ -41,14 +41,7 @@
                 {
                     "name": "Adobe Xd",
                     "identifier": "adobe-xd",
-                    "path": "",
-                    "disabled": true
-                },
-                {
-                    "name": "Figma",
-                    "identifier": "figma",
-                    "path": "",
-                    "disabled": true
+                    "path": "/design/tools-downloads/adobe-xd"
                 },
                 {
                     "name": "Framer",
@@ -83,7 +76,7 @@
                     "identifier": "box",
                     "path": "/components/box",
                     "description": "Boxes are used to group related information, images, charts, or actions.",
-                    "image": "/images/cards/components/",
+                    "image": "/images/cards/components/box.png",
                     "frameworks": [
                         "css",
                         "ember"
@@ -94,11 +87,121 @@
                     "identifier": "breadcrumbs",
                     "path": "/components/breadcrumbs",
                     "description": "Breadcrumbs are a wayfinding elements used to understand hierarchical structure.",
-                    "image": "/images/cards/components/",
+                    "image": "/images/cards/components/breadcrumbs.png",
                     "frameworks": [
                         "css",
                         "ember"
                     ]
+                },
+                {
+                    "name": "Button",
+                    "identifier": "button",
+                    "path": "",
+                    "description": "",
+                    "image": "/images/cards/components/button.png",
+                    "frameworks": [
+                        "css"
+                    ],
+                    "disabled": true
+                },
+                {
+                    "name": "Checkbox",
+                    "identifier": "checkbox",
+                    "path": "",
+                    "description": "",
+                    "image": "/images/cards/components/checkbox.png",
+                    "frameworks": [
+                        "css"
+                    ],
+                    "disabled": true
+                },
+                {
+                    "name": "Chips",
+                    "identifier": "chips",
+                    "path": "",
+                    "description": "",
+                    "image": "/images/cards/components/chips.png",
+                    "frameworks": [
+                        "css"
+                    ],
+                    "disabled": true
+                },
+                {
+                    "name": "Fields",
+                    "identifier": "fields",
+                    "path": "",
+                    "description": "",
+                    "image": "/images/cards/components/fields.png",
+                    "frameworks": [
+                        "css"
+                    ],
+                    "disabled": true
+                },
+                {
+                    "name": "Icons",
+                    "identifier": "icons",
+                    "path": "",
+                    "description": "",
+                    "image": "/images/cards/components/icons.png",
+                    "frameworks": [
+                        "css"
+                    ],
+                    "disabled": true
+                },
+                {
+                    "name": "Input Group",
+                    "identifier": "input-group",
+                    "path": "",
+                    "description": "",
+                    "image": "/images/cards/components/input-group.png",
+                    "frameworks": [
+                        "css"
+                    ],
+                    "disabled": true
+                },
+                {
+                    "name": "Links",
+                    "identifier": "links",
+                    "path": "",
+                    "description": "",
+                    "image": "/images/cards/components/links.png",
+                    "frameworks": [
+                        "css"
+                    ],
+                    "disabled": true
+                },
+                {
+                    "name": "Lists",
+                    "identifier": "lists",
+                    "path": "",
+                    "description": "",
+                    "image": "/images/cards/components/lists.png",
+                    "frameworks": [
+                        "css"
+                    ],
+                    "disabled": true
+                },
+                {
+                    "name": "Loader",
+                    "identifier": "loader",
+                    "path": "",
+                    "description": "",
+                    "image": "/images/cards/components/loader.png",
+                    "frameworks": [
+                        "css"
+                    ],
+                    "disabled": true
+                },
+                {
+                    "name": "Menu",
+                    "identifier": "menu",
+                    "path": "",
+                    "description": "",
+                    "image": "/images/cards/components/menu.png",
+                    "frameworks": [
+                        "css"
+                    ],
+                    "disabled": true
                 },
                 {
                     "name": "Modal",
@@ -106,7 +209,9 @@
                     "path": "",
                     "description": "",
                     "image": "/images/cards/components/modal.png",
-                    "frameworks": [],
+                    "frameworks": [
+                        "css"
+                    ],
                     "disabled": true
                 },
                 {
@@ -115,7 +220,64 @@
                     "path": "",
                     "description": "",
                     "image": "/images/cards/components/navbar.png",
-                    "frameworks": [],
+                    "frameworks": [
+                        "css"
+                    ],
+                    "disabled": true
+                },
+                {
+                    "name": "Progress",
+                    "identifier": "progress",
+                    "path": "",
+                    "description": "",
+                    "image": "/images/cards/components/progress.png",
+                    "frameworks": [
+                        "css"
+                    ],
+                    "disabled": true
+                },
+                {
+                    "name": "Radio",
+                    "identifier": "radio",
+                    "path": "",
+                    "description": "",
+                    "image": "/images/cards/components/radio.png",
+                    "frameworks": [
+                        "css"
+                    ],
+                    "disabled": true
+                },
+                {
+                    "name": "Select",
+                    "identifier": "select",
+                    "path": "",
+                    "description": "",
+                    "image": "/images/cards/components/select.png",
+                    "frameworks": [
+                        "css"
+                    ],
+                    "disabled": true
+                },
+                {
+                    "name": "Sidebar",
+                    "identifier": "sidebar",
+                    "path": "",
+                    "description": "",
+                    "image": "/images/cards/components/sidebar.png",
+                    "frameworks": [
+                        "css"
+                    ],
+                    "disabled": true
+                },
+                {
+                    "name": "Switch",
+                    "identifier": "switch",
+                    "path": "",
+                    "description": "",
+                    "image": "/images/cards/components/switch.png",
+                    "frameworks": [
+                        "css"
+                    ],
                     "disabled": true
                 },
                 {
@@ -124,7 +286,75 @@
                     "path": "",
                     "description": "",
                     "image": "/images/cards/components/table.png",
-                    "frameworks": [],
+                    "frameworks": [
+                        "css"
+                    ],
+                    "disabled": true
+                },
+                {
+                    "name": "Tabs",
+                    "identifier": "tabs",
+                    "path": "",
+                    "description": "",
+                    "image": "/images/cards/components/tabs.png",
+                    "frameworks": [
+                        "css"
+                    ],
+                    "disabled": true
+                },
+                {
+                    "name": "Tags",
+                    "identifier": "tags",
+                    "path": "",
+                    "description": "",
+                    "image": "/images/cards/components/tags.png",
+                    "frameworks": [
+                        "css"
+                    ],
+                    "disabled": true
+                },
+                {
+                    "name": "Title",
+                    "identifier": "title",
+                    "path": "",
+                    "description": "",
+                    "image": "/images/cards/components/title.png",
+                    "frameworks": [
+                        "css"
+                    ],
+                    "disabled": true
+                },
+                {
+                    "name": "Toggle",
+                    "identifier": "toggle",
+                    "path": "",
+                    "description": "",
+                    "image": "/images/cards/components/toggle.png",
+                    "frameworks": [
+                        "css"
+                    ],
+                    "disabled": true
+                },
+                {
+                    "name": "Tooltip",
+                    "identifier": "tooltip",
+                    "path": "",
+                    "description": "",
+                    "image": "/images/cards/components/tooltip.png",
+                    "frameworks": [
+                        "css"
+                    ],
+                    "disabled": true
+                },
+                {
+                    "name": "Typography",
+                    "identifier": "typography",
+                    "path": "",
+                    "description": "",
+                    "image": "/images/cards/components/typography.png",
+                    "frameworks": [
+                        "css"
+                    ],
                     "disabled": true
                 }
             ]

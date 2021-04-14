@@ -100,7 +100,7 @@ export default function Develop() {
                 <div className="br-lg shadow-3 has-bg-grey-100 p-10 m-x-10 m-y-20">
                   <div className="br-sm bg-size-cover bg-position-center" style={{ height: "250px", backgroundImage: 'url("/images/develop/components.png")' }}></div>
                   <h3 className="m-t-30 m-b-10 m-x-20">Components</h3>
-                  <p className="m-x-20">TBD</p>
+                  <p className="m-x-20">27 components built with a minimal footprint and themeable.</p>
                   <div className="flex m-t-20 m-x-20 m-b-30">
                     <h4 className="m-r-30">
                       <a
@@ -109,12 +109,17 @@ export default function Develop() {
                         rel="noreferrer noopener"
                       >CSS</a>
                     </h4>
-                    <h4>
+                    <h4 className="m-r-30">
                       <a
                         href="https://github.com/denali-design/denali-ember"
                         target="_blank"
                         rel="noreferrer noopener"
                       >Ember</a>
+                    </h4>
+                    <h4>
+                      <a
+                        disabled
+                      >React</a>
                     </h4>
                   </div>
                 </div>
@@ -123,21 +128,14 @@ export default function Develop() {
                 <div className="br-lg shadow-3 has-bg-grey-100 p-10 m-x-10 m-y-20">
                   <div className="br-sm bg-size-cover bg-position-center" style={{ height: "250px", backgroundImage: 'url("/images/develop/icons.png")' }}></div>
                   <h3 className="m-t-30 m-b-10 m-x-20">Icons</h3>
-                  <p className="m-x-20">TBD</p>
+                  <p className="m-x-20">We have an icon for almost anything and if we don't just ask.</p>
                   <div className="flex m-t-20 m-x-20 m-b-30">
                     <h4 className="m-r-30">
                       <a
-                        href="https://github.com/denali-design/denali-icon-font"
+                        href="https://github.com/denali-design/denali-icons"
                         target="_blank"
                         rel="noreferrer noopener"
-                      >Fonts</a>
-                    </h4>
-                    <h4 className="m-r-30">
-                      <a
-                        href="https://github.com/denali-design/denali-icons-svg"
-                        target="_blank"
-                        rel="noreferrer noopener"
-                      >SVG</a>
+                      >Repository</a>
                     </h4>
                   </div>
                 </div>
@@ -146,7 +144,7 @@ export default function Develop() {
                 <div className="br-lg shadow-3 has-bg-grey-100 p-10 m-x-10 m-y-20">
                   <div className="br-sm bg-size-cover bg-position-center" style={{ height: "250px", backgroundImage: 'url("/images/develop/charts.png")' }}></div>
                   <h3 className="m-t-30 m-b-10 m-x-20">Charts</h3>
-                  <p className="m-x-20">TBD</p>
+                  <p className="m-x-20">A charting library that looks good even with a huge amount of data.</p>
                   <div className="flex m-t-20 m-x-20 m-b-30">
                     <h4 className="m-r-30"><a className="is-disabled">Coming Soon</a></h4>
                   </div>

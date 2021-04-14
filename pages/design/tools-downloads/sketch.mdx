@@ -1,28 +1,109 @@
 import Layout from '../../../layouts/ComponentsLayout'
 import SingleImage from '../../../components/docs/SingleImage'
+import FeatureCard from '../../../components/FeatureCard'
 
 export const meta = {
   title: 'Sketch'
 }
 
 # Sketch
-
-Sketch download go here.
+Check out our avaiable tools and downloads below.
 
 ---
 
 ## Libraries
 Sync these Sketch libraries to your Sketch App. Get automatic updates when we publish new components or elements in the library.
 
+<div className='row m-t-30'>
+  <FeatureCard 
+    title='Components' 
+    image='/images/tools-downloads/sketch-placeholder.png'
+    description='Pixel perfect components as symbols.'
+    links={[{'link':'sketch://add-library?url=https%3A%2F%2Fdenali.design%2Fdownloads%2Fsketch%2Flibraries%2Fdenali-components.xml','text':'Open in Sketch'}]}
+    downloadable
+  />
+  <FeatureCard 
+    title='Icons'
+    image='/images/tools-downloads/sketch-placeholder.png'
+    description='Our whole icon library as symbols.'
+    links={[{'link':'sketch://add-library?url=https%3A%2F%2Fdenali.design%2Fdownloads%2Fsketch%2Flibraries%2Fdenali-icons.xml','text':'Open in Sketch'}]}
+    downloadable
+  />
+  <FeatureCard
+    title='Charts - Beta'
+    image='/images/tools-downloads/sketch-placeholder.png'
+    description='Coming soon, but check out the preview'
+    links={[{'link':'sketch://add-library?url=https%3A%2F%2Fdenali.design%2Fdownloads%2Fsketch%2Flibraries%2Fdenali-charts.xml','text':'Open in Sketch'}]}
+    downloadable
+  />
+</div>
+
 ---
 
 ## Ui Kits
 Based on the Sketch Libraries these kits help you design sites faster with prebuilt components at various sizes.
 
+<div className='row m-t-30'>
+  <FeatureCard 
+    title='Charts' 
+    image='/images/tools-downloads/sketch-placeholder.png'
+    description='Prebuilt charts for you to copy and paste.'
+    links={[{'link':'/downloads/sketch/uikit-charts.sketch','text':'Download'}]}
+    downloadable
+  />
+</div>
+
+---
+
+## Plugins
+We developed this sketch plugin to help with our design workflow, so maybe they will help with yours as well.
+
+<div className='row m-t-30'>
+  <FeatureCard 
+    title='Layouts'
+    image='/images/tools-downloads/sketch-placeholder.png' 
+    description='Add guides onto your artboards in just a click.'
+    links={[{'link':'/downloads/sketch/plugin-layouts.zip','text':'Download'}]}
+    downloadable
+  />
+</div>
+
 ---
 
 ## Templates
 Browse through our pre-made templates to assist you in finding the right fit for your product.
+
+<div className='row m-t-30'>
+  <FeatureCard 
+    title='Creation Form' 
+    image='/images/tools-downloads/sketch-placeholder.png'
+    description='A form template for data creation.'
+    links={[{'link':'/downloads/sketch/template-form.sketch','text':'Download'}]}
+    downloadable
+  />
+  <FeatureCard 
+    title='Dashboard' 
+    image='/images/tools-downloads/sketch-placeholder.png'
+    description='Dashboard comprised of data visualations.'
+    links={[{'link':'/downloads/sketch/template-dashboard.sketch','text':'Download'}]}
+    downloadable
+  />
+  <FeatureCard 
+    title='Data Table'
+    image='/images/tools-downloads/sketch-placeholder.png'
+    description='Simple data table design.'
+    links={[{'link':'/downloads/sketch/template-table.sketch','text':'Download'}]}
+    downloadable
+  />
+  <FeatureCard 
+    title='Documenation' 
+    image='/images/tools-downloads/sketch-placeholder.png'
+    description='Kickstart your documenation with this template.'
+    links={[{'link':'/downloads/sketch/template-docs.sketch','text':'Download'}]}
+    downloadable
+  />
+</div>
+
 
 
 export default ({ children }) => <Layout sidebar="design" meta={meta}>{children}</Layout>

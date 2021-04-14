@@ -24,6 +24,8 @@ export default function Footer() {
                     <li><a href="/gallery">Gallery</a></li>
                     <li><a href="/faq">FAQ</a></li>
                     <li><a href="/press">Press</a></li>
+                    
+                    <li><a href="/made-with-denali">Made With Denali</a></li>
                 </ul>
                 <ul>
                     <li className="header">Repositories</li>
@@ -41,6 +43,7 @@ export default function Footer() {
                     <li className="header">Support</li>
                     <li><a>Slack Org</a></li>
                     <li><a>Github Issues</a></li>
+                    <li><a href="/browsers">Browsers</a></li>
                 </ul>
             </div>
             <div className="footer-social flex space-between">
