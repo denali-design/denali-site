@@ -8,7 +8,7 @@ export default function DefaultLayout(props) {
             <Head>
                 <title>{props.title}</title>
             </Head>
-            <div className="denali-new-age">
+            <div>
                 <Navbar logo="white"  style={{ position: "sticky", top: "0px", zIndex: "100" }} />
 
                 <div className="container m-y-100" style={{ paddingBottom: "280px" }}>

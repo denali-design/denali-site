@@ -10,10 +10,8 @@ export default function Develop() {
       <Head>
         <title>Play</title>
       </Head>
-      <div className="denali-new-age">
+      <div>
         <Navbar logo="white" style={{ position: "sticky", top: "0px", zIndex: "100" }} />
-
-
 
         {/* Marketing */}
         <div className="container m-t-60 m-b-100">

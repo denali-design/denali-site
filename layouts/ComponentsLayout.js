@@ -8,7 +8,7 @@ export default function ComponentsLayout(props) {
             <Head>
                 <title>{props.meta.title}</title>
             </Head>
-            <div className="denali-new-age">
+            <div>
                 <Navbar logo="white" style={{ position: "sticky", top: "0px", zIndex: "100"}}/>
 
                 <div className="flex">

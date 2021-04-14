@@ -5,7 +5,7 @@ export default class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head />
-        <body>
+        <body className="denali-new-age">
           <Main />
           <NextScript />
         </body>

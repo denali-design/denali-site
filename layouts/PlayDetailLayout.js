@@ -11,7 +11,7 @@ export default function PlayDetailLayout(props) {
             <Head>
                 <title>{props.title}</title>
             </Head>
-            <div className="denali-new-age">
+            <div>
                 <Navbar logo="white" style={{ position: "sticky", top: "0px", zIndex: "100" }} />
 
                 <div className="container m-y-100">

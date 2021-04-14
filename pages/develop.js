@@ -8,7 +8,7 @@ export default function Develop() {
       <Head>
         <title>Home</title>
       </Head>
-      <div className="denali-new-age">
+      <div>
         <Navbar logo="white" style={{ position: "sticky", top: "0px", zIndex: "100" }} />
 
         {/* Components */}
