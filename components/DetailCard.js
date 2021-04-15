@@ -17,11 +17,7 @@ export default function DetailCard(props) {
                     <p className="m-t-10">{props.description}</p>
                 </div>
                 {tags
-                    ? <h5 className="is-bold upper m-t-20">Featured Components</h5>
-                    : <></>
-                }
-                {tags
-                    ? <div className="flex flex-wrap m-t-10">{tags.map((tag, index) => (<Tag name={tag} key={index} />))}</div>
+                    ? <div><h5 className="is-bold upper m-t-20">Featured Components</h5><div className="flex flex-wrap m-t-10">{tags.map((tag, index) => (<Tag name={tag} key={index} />))}</div></div>
                     : <></>
                 }
                 {props.action

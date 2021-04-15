@@ -11,7 +11,7 @@
   src: url("/fonts/NotoMono-Regular.woff") format("woff");
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap');
 
 // GLOBALS
 // Brand
@@ -111,7 +111,7 @@ $breadcrumb-divider: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3
 $breadcrumb-divider-color: rgba($color-brand-300, 1);
 $breadcrumb-divider-right-margin: -16px;
 $breadcrumb-active-item-text-color: $color-grey-300;
-$breadcrumb-active-item-font-weight: 900;
+$breadcrumb-active-item-font-weight: 800;
 
 // Checkbox
 $checkbox-box-border-color-standard: 0 0 0 2px rgba($color-brand-300, 0.5);
@@ -455,10 +455,10 @@ $h5-font-size: 1.4rem;
 $h6-font-size: 1.2rem;
 $p-font-size: 1.6rem;
 
-$h1-font-weight: 900;
-$h2-font-weight: 900;
-$h3-font-weight: 900;
-$h4-font-weight: 900;
+$h1-font-weight: 800;
+$h2-font-weight: 800;
+$h3-font-weight: 800;
+$h4-font-weight: 800;
 $h5-font-weight: 600;
 $h6-font-weight: 400;
 $p-font-weight: 400;
