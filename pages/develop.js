@@ -226,7 +226,7 @@ export default function Develop() {
                   rel="noreferrer noopener"
                 >
                   <div className="h-12 w-12 has-bg-brand-300 br-circle flex justify-content-center align-items-center">
-                    <span className="d-icon d-slack is-medium"></span>
+                    <span className="d-icon d-slack is-medium is-grey-100"></span>
                   </div>
                   <h5 className="is-grey-700 is-mono m-t-20">Join the community</h5>
                   <h3 className="is-brand-300 m-t-14">Slack</h3>
@@ -241,7 +241,7 @@ export default function Develop() {
                   rel="noreferrer noopener"
                 >
                   <div className="h-12 w-12 has-bg-brand-300 br-circle flex justify-content-center align-items-center">
-                    <span className="d-icon d-medium is-medium"></span>
+                    <span className="d-icon d-medium is-medium is-grey-100"></span>
                   </div>
                   <h5 className="is-grey-700 is-mono m-t-20">Learn more</h5>
                   <h3 className="is-brand-300 m-t-14">Blog</h3>
@@ -254,7 +254,7 @@ export default function Develop() {
                   href="mailto:denali@verizonmedia.com"
                 >
                   <div className="h-12 w-12 has-bg-brand-300 br-circle flex justify-content-center align-items-center">
-                    <span className="d-icon d-mail-new is-medium"></span>
+                    <span className="d-icon d-mail-new is-medium is-grey-100"></span>
                   </div>
                   <h5 className="is-grey-700 is-mono m-t-20">Contact the team</h5>
                   <h3 className="is-brand-300 m-t-14">Email</h3>

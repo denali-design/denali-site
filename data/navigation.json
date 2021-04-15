@@ -27,11 +27,6 @@
                     "name": "Responsive Grid",
                     "identifier": "responsive-grid",
                     "path": "/design/principles/responsive-grid"
-                },
-                {
-                    "name": "Typography",
-                    "identifier": "typography",
-                    "path": "/design/principles/typography"
                 }
             ]
         },
