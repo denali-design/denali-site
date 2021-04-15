@@ -126,26 +126,6 @@
                     ]
                 },
                 {
-                    "name": "Icons",
-                    "identifier": "icons",
-                    "path": "",
-                    "image": "/images/cards/components/icons.png",
-                    "frameworks": [
-                        "css"
-                    ],
-                    "disabled": true
-                },
-                {
-                    "name": "Input Group",
-                    "identifier": "input-group",
-                    "path": "",
-                    "image": "/images/cards/components/input-group.png",
-                    "frameworks": [
-                        "css"
-                    ],
-                    "disabled": true
-                },
-                {
                     "name": "Links",
                     "identifier": "links",
                     "path": "",
