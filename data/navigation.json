@@ -64,7 +64,6 @@
                     "name": "Alerts",
                     "identifier": "alerts",
                     "path": "/components/alerts",
-                    "description": "Alerts provide users with information to notify them of actions taken.",
                     "image": "/images/cards/components/alerts.png",
                     "frameworks": [
                         "css",
@@ -73,9 +72,8 @@
                 },
                 {
                     "name": "Box",
-                    "identifier": "box",
+                    "identifier": "/box",
                     "path": "/components/box",
-                    "description": "Boxes are used to group related information, images, charts, or actions.",
                     "image": "/images/cards/components/box.png",
                     "frameworks": [
                         "css",
@@ -86,7 +84,6 @@
                     "name": "Breadcrumbs",
                     "identifier": "breadcrumbs",
                     "path": "/components/breadcrumbs",
-                    "description": "Breadcrumbs are a wayfinding elements used to understand hierarchical structure.",
                     "image": "/images/cards/components/breadcrumbs.png",
                     "frameworks": [
                         "css",
@@ -94,54 +91,49 @@
                     ]
                 },
                 {
-                    "name": "Button",
-                    "identifier": "button",
-                    "path": "",
-                    "description": "",
+                    "name": "Buttons",
+                    "identifier": "buttons",
+                    "path": "/components/buttons",
                     "image": "/images/cards/components/button.png",
                     "frameworks": [
-                        "css"
-                    ],
-                    "disabled": true
+                        "css",
+                        "ember"                        
+                    ]
                 },
                 {
                     "name": "Checkbox",
                     "identifier": "checkbox",
-                    "path": "",
-                    "description": "",
+                    "path": "/components/checkbox",
                     "image": "/images/cards/components/checkbox.png",
                     "frameworks": [
-                        "css"
-                    ],
-                    "disabled": true
+                        "css",
+                        "ember"
+                    ]
                 },
                 {
                     "name": "Chips",
                     "identifier": "chips",
-                    "path": "",
-                    "description": "",
+                    "path": "/components/chips",
                     "image": "/images/cards/components/chips.png",
                     "frameworks": [
-                        "css"
-                    ],
-                    "disabled": true
+                        "css",
+                        "ember"
+                    ]
                 },
                 {
                     "name": "Fields",
                     "identifier": "fields",
-                    "path": "",
-                    "description": "",
+                    "path": "/components/fields",
                     "image": "/images/cards/components/fields.png",
                     "frameworks": [
-                        "css"
-                    ],
-                    "disabled": true
+                        "css",
+                        "ember"
+                    ]
                 },
                 {
                     "name": "Icons",
                     "identifier": "icons",
                     "path": "",
-                    "description": "",
                     "image": "/images/cards/components/icons.png",
                     "frameworks": [
                         "css"
@@ -152,7 +144,6 @@
                     "name": "Input Group",
                     "identifier": "input-group",
                     "path": "",
-                    "description": "",
                     "image": "/images/cards/components/input-group.png",
                     "frameworks": [
                         "css"
@@ -163,7 +154,6 @@
                     "name": "Links",
                     "identifier": "links",
                     "path": "",
-                    "description": "",
                     "image": "/images/cards/components/links.png",
                     "frameworks": [
                         "css"
@@ -174,7 +164,6 @@
                     "name": "Lists",
                     "identifier": "lists",
                     "path": "",
-                    "description": "",
                     "image": "/images/cards/components/lists.png",
                     "frameworks": [
                         "css"
@@ -185,7 +174,6 @@
                     "name": "Loader",
                     "identifier": "loader",
                     "path": "",
-                    "description": "",
                     "image": "/images/cards/components/loader.png",
                     "frameworks": [
                         "css"
@@ -196,7 +184,6 @@
                     "name": "Menu",
                     "identifier": "menu",
                     "path": "",
-                    "description": "",
                     "image": "/images/cards/components/menu.png",
                     "frameworks": [
                         "css"
@@ -207,7 +194,6 @@
                     "name": "Modal",
                     "identifier": "modal",
                     "path": "",
-                    "description": "",
                     "image": "/images/cards/components/modal.png",
                     "frameworks": [
                         "css"
@@ -218,7 +204,6 @@
                     "name": "Navbar",
                     "identifier": "navbar",
                     "path": "",
-                    "description": "",
                     "image": "/images/cards/components/navbar.png",
                     "frameworks": [
                         "css"
@@ -229,7 +214,6 @@
                     "name": "Progress",
                     "identifier": "progress",
                     "path": "",
-                    "description": "",
                     "image": "/images/cards/components/progress.png",
                     "frameworks": [
                         "css"
@@ -240,7 +224,6 @@
                     "name": "Radio",
                     "identifier": "radio",
                     "path": "",
-                    "description": "",
                     "image": "/images/cards/components/radio.png",
                     "frameworks": [
                         "css"
@@ -251,7 +234,6 @@
                     "name": "Select",
                     "identifier": "select",
                     "path": "",
-                    "description": "",
                     "image": "/images/cards/components/select.png",
                     "frameworks": [
                         "css"
@@ -262,7 +244,6 @@
                     "name": "Sidebar",
                     "identifier": "sidebar",
                     "path": "",
-                    "description": "",
                     "image": "/images/cards/components/sidebar.png",
                     "frameworks": [
                         "css"
@@ -273,7 +254,6 @@
                     "name": "Switch",
                     "identifier": "switch",
                     "path": "",
-                    "description": "",
                     "image": "/images/cards/components/switch.png",
                     "frameworks": [
                         "css"
@@ -284,7 +264,6 @@
                     "name": "Table",
                     "identifier": "table",
                     "path": "",
-                    "description": "",
                     "image": "/images/cards/components/table.png",
                     "frameworks": [
                         "css"
@@ -295,7 +274,6 @@
                     "name": "Tabs",
                     "identifier": "tabs",
                     "path": "",
-                    "description": "",
                     "image": "/images/cards/components/tabs.png",
                     "frameworks": [
                         "css"
@@ -306,7 +284,6 @@
                     "name": "Tags",
                     "identifier": "tags",
                     "path": "",
-                    "description": "",
                     "image": "/images/cards/components/tags.png",
                     "frameworks": [
                         "css"
@@ -317,7 +294,6 @@
                     "name": "Title",
                     "identifier": "title",
                     "path": "",
-                    "description": "",
                     "image": "/images/cards/components/title.png",
                     "frameworks": [
                         "css"
@@ -328,7 +304,6 @@
                     "name": "Toggle",
                     "identifier": "toggle",
                     "path": "",
-                    "description": "",
                     "image": "/images/cards/components/toggle.png",
                     "frameworks": [
                         "css"
@@ -339,7 +314,6 @@
                     "name": "Tooltip",
                     "identifier": "tooltip",
                     "path": "",
-                    "description": "",
                     "image": "/images/cards/components/tooltip.png",
                     "frameworks": [
                         "css"
@@ -350,7 +324,6 @@
                     "name": "Typography",
                     "identifier": "typography",
                     "path": "",
-                    "description": "",
                     "image": "/images/cards/components/typography.png",
                     "frameworks": [
                         "css"

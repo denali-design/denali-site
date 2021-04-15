@@ -1,0 +1,85 @@
+import Layout from '../../layouts/ComponentsLayout'
+import ResourceCard from '../../components/ResourceCard'
+import SingleImage from '../../components/docs/SingleImage'
+import DoubleImage from '../../components/docs/DoubleImage'
+
+export const meta = {
+  title: 'Name'
+}
+
+# Checkbox
+Checkboxes allow users to select and deselect items in bulk. They provide the ability for users to select one or several items, deselect, or initiate an action. 
+
+## Developer Docs
+
+<div className="row">
+  <ResourceCard name="CSS" icon="css" caption="Avaiable Now" link="https://denali-design.github.io/denali-css/?path=/story/components-checkbox--default" />
+  <ResourceCard name="Ember" icon="ember" caption="Avaiable Now" link="https://denali-design.github.io/denali-ember/?path=/story/denalicheckbox--default" />
+  <ResourceCard name="React" icon="react" caption="Coming Soon" disabled />
+</div>
+
+---
+
+## Foundation
+Checkboxes are made up of a container and can include either a check icon or partial icon in their center.
+
+#### Container
+The primary element required to make a checkbox is a container with clearly distinguishable bounds. 
+
+<SingleImage 
+  image="/images/components/checkbox/foundation-container.png" 
+/>
+
+#### Icon
+An icon can be added to a checkbox container to show different checkbox states including selected and partial selection.
+
+<SingleImage 
+  image="/images/components/checkbox/foundation-icon.png" 
+/>
+
+#### Padding
+Icons inside the container should have adequate padding around it to support visual hierarchy and balance. We recommend providing even padding along the top, bottom, right, and left of the icon.
+
+<DoubleImage 
+  firstType="do"
+  firstImage="/images/components/checkbox/foundation-padding-do.png"
+  firstCaption="provide minimum 3 px of padding around the icon."
+  secondType="dont"
+  secondImage="/images/components/checkbox/foundation-padding-dont.png"
+  secondCaption="allow icon to extend to edge of container."
+/>
+
+#### Margin
+Always maintain a minimum 10 pixel margin between checkboxes or components so that they do not become lost.
+
+<SingleImage 
+  image="/images/components/checkbox/foundation-margin.png" 
+/>
+
+---
+
+## Placement
+
+#### General usage
+Checkboxes are very flexible components that can be placed anywhere you need to provide a user with choices. 
+Examples of checkbox placement include within forms, tables, or settings pages. 
+
+<SingleImage 
+  image="/images/components/checkbox/placement.png" 
+/>
+
+---
+
+## Themeing
+Denali’s components are completely themeable. This allows you to use our framework and adapt the visual style of Denali’s components to match your prodcut’s unique visual brand. Check out our guide to themeing with Denali to find out more.
+
+#### Dennit Racing Theme
+Dennit Racing uses a customized Denali theme that aligns visually with their brand. Dennit’s checkboxes feature custom type, background color, border radius, border color and icons.
+
+<SingleImage 
+  image="/images/components/checkbox/theming.png" 
+/>
+
+For all variables visit the CSS documentation page for [checkbox](https://denali-design.github.io/denali-css/?path=/story/get-started-variables--page#checkbox).
+
+export default ({ children }) => <Layout sidebar="components" meta={meta}>{children}</Layout>
