@@ -8,7 +8,12 @@
                     "description": "Complete landing pages with all the bells and whistles.",
                     "items": "1",
                     "link": "/play/marketing/landing-page",
-                    "image": "/images/cards/pages/landing-page.png"
+                    "image": "/images/cards/pages/landing-page.png",
+                    "tags": [
+                        "Navbar",
+                        "Button",
+                        "Type"
+                    ]
                 },
                 {
                     "title": "404",

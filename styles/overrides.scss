@@ -50,3 +50,14 @@ p.is-small {
 .br-pill {
     border-radius: 99px !important;
 }
+
+// Column
+.row-override {
+    > * {
+        padding: 10px;
+        
+        > * {
+            height: 100%;
+        }
+    }
+}

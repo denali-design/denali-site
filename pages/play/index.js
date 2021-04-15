@@ -44,7 +44,7 @@ export default function Develop() {
                       <h3>{marketingSection.name}</h3>
                     </div>
                   </div>
-                  <div className="row">
+                  <div className="row row-override">
                     {
                       marketingSection.items.map((item, index) => {
                         return (
@@ -93,7 +93,7 @@ export default function Develop() {
                       <h3>{marketingSection.name}</h3>
                     </div>
                   </div>
-                  <div className="row">
+                  <div className="row row-override">
                     {
                       marketingSection.items.map((item, index) => {
                         return (

@@ -1,7 +1,7 @@
-import Layout from '../../../layouts/ComponentsLayout'
-import ResourceCard from '../../../components/ResourceCard'
-import SingleImage from '../../../components/docs/SingleImage'
-import DoubleImage from '../../../components/docs/DoubleImage'
+import Layout from '../../layouts/ComponentsLayout'
+import ResourceCard from '../../components/ResourceCard'
+import SingleImage from '../../components/docs/SingleImage'
+import DoubleImage from '../../components/docs/DoubleImage'
 
 export const meta = {
   title: 'Typography'
@@ -9,6 +9,14 @@ export const meta = {
 
 # Typography
 Words are our primary means of communication. Therefore careful selection of typography and the use of typographic patterns is essential to a successful product.
+
+## Developer Docs
+
+<div className="row">
+  <ResourceCard name="CSS" icon="css" caption="Avaiable Now" link="https://denali-design.github.io/denali-css/?path=/story/components-typography--headline" />
+  <ResourceCard name="Ember" icon="ember" caption="Coming Soon" disabled />
+  <ResourceCard name="React" icon="react" caption="Coming Soon" disabled />
+</div>
 
 ---
 
@@ -198,6 +206,13 @@ Providing adequate white space around text elements is essential to maximizing l
   caption="hinder legibility by placing text elements too close to each other."
 />
 
+---
+
+## Themeing
+Denali’s components are completely themeable. This allows you to use our framework and adapt the visual style of Denali’s components to match your prodcut’s unique visual brand. Check out our guide to themeing with Denali to find out more.
+
+For all variables visit the CSS documentation page for [typography](https://denali-design.github.io/denali-css/?path=/story/get-started-variables--page#typography).
 
 
-export default ({ children }) => <Layout sidebar="design" meta={meta}>{children}</Layout>
+
+export default ({ children }) => <Layout sidebar="components" meta={meta}>{children}</Layout>

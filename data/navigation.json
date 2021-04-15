@@ -323,12 +323,11 @@
                 {
                     "name": "Typography",
                     "identifier": "typography",
-                    "path": "",
+                    "path": "/components/typography",
                     "image": "/images/cards/components/typography.png",
                     "frameworks": [
                         "css"
-                    ],
-                    "disabled": true
+                    ]
                 }
             ]
         }

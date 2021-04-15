@@ -38,7 +38,7 @@ export default function Components() {
       {
         data.components.map((section, index) => {
           return (
-            <div className="row" key={index}>
+            <div className="row row-override" key={index}>
               {
                 section.pages.map((page, index) => {
                   if (framework !== null) {
