@@ -11,7 +11,7 @@
   src: url("/fonts/NotoMono-Regular.woff") format("woff");
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900 &display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
 
 // GLOBALS
 // Brand
@@ -50,7 +50,7 @@ $color-violet: #9a2ead;
 $color-pink: #ff3390;
 
 // Font Family
-$font-family-sans-serif: "Montserrat", sans-serif;
+$font-family-sans-serif: 'Montserrat', sans-serif;
 $font-family-monospace: "Noto Mono Regular", monospace;
 
 // Border Radius
