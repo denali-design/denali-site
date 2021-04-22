@@ -1,0 +1,79 @@
+import Layout from '../../layouts/ComponentsLayout'
+import ResourceCard from '../../components/ResourceCard'
+import SingleImage from '../../components/docs/SingleImage'
+import DoubleImage from '../../components/docs/DoubleImage'
+
+export const meta = {
+  title: 'Radio'
+}
+
+# Radio
+Radio is a type of control that allows users to select a single item from a list. 
+
+## Developer Docs
+
+<div className="row">
+  <ResourceCard name="CSS" icon="css" caption="Avaiable Now" link="https://denali-design.github.io/denali-css/?path=/story/components-radio--default" />
+  <ResourceCard name="Ember" icon="ember" caption="Avaiable Now" link="https://denali-design.github.io/denali-ember/?path=/story/denaliradio--default" />
+  <ResourceCard name="React" icon="react" caption="Coming Soon" disabled />
+</div>
+
+---
+
+## Foundation
+Radio controls are made up of an item/option, which contains the circular selector and a label.
+
+#### Selector
+The selector is a circle with a 2 px border. This can exist in multiple states like: Unselected, Unselected Disabled, Unselected Hover, Select and Selected Disabled.
+
+<SingleImage 
+  image="/images/components/radio/foundation.png"
+/>
+
+#### Padding
+Always maintain a minimum of (?) pixel margin between selector and label to maintain legibility.
+
+<SingleImage 
+  image="/images/components/radio/foundation-padding.png"
+/>
+
+---
+
+## Placement
+
+#### General usage
+Radios are very flexible components that can be placed anywhere you need to provide a user with choices. Examples of Radio placement include within forms, tables or filtering options.
+
+<SingleImage 
+  image="/images/components/radio/placement.png"
+/>
+
+#### Margin
+Always maintain a minimum 10 pixel margin between Radios or components so that they do not become lost.
+
+<DoubleImage 
+  firstType="do"
+  firstImage="/images/components/radio/placement-margin-do.png"
+  firstCaption="maintain a 10 px margin between Radios."
+  secondType="dont"
+  secondImage="/images/components/radio/placement-margin-dont.png"
+  secondCaption="place Radios without sufficient margin."
+/>
+
+---
+
+## Themeing
+Denali’s components are completely themeable. This allows you to use our framework and adapt the visual style of Denali’s components to match your prodcut’s unique visual brand. Check out our guide to themeing with Denali to find out more.
+
+#### Dennit Racing Theme
+Dennit Racing uses a customized Denali theme that aligns visually with their brand. Dennit’s Modal features custom type and color theming.
+
+<SingleImage 
+  image="/images/components/radio/theming.png" 
+/>
+
+For all variables visit the CSS documentation page for [radio](https://denali-design.github.io/denali-css/?path=/story/get-started-variables--page#radio).
+
+
+
+export default ({ children }) => <Layout sidebar="components" meta={meta}>{children}</Layout>

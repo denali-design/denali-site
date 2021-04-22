@@ -100,7 +100,7 @@ export default function Develop() {
                 <div className="br-lg shadow-3 has-bg-grey-100 p-10 m-x-10 m-y-20">
                   <div className="br-sm bg-size-cover bg-position-center" style={{ height: "250px", backgroundImage: 'url("/images/develop/components.png")' }}></div>
                   <h3 className="m-t-30 m-b-10 m-x-20">Components</h3>
-                  <p className="m-x-20">27 components built with a minimal footprint and themeable.</p>
+                  <p className="m-x-20">25 components built with a minimal footprint and themeable.</p>
                   <div className="flex m-t-20 m-x-20 m-b-30">
                     <h4 className="m-r-30">
                       <a

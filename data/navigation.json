@@ -128,22 +128,21 @@
                 {
                     "name": "Links",
                     "identifier": "links",
-                    "path": "",
+                    "path": "/components/links",
                     "image": "/images/cards/components/links.png",
                     "frameworks": [
-                        "css"
-                    ],
-                    "disabled": true
+                        "css",
+                        "ember"
+                    ]
                 },
                 {
                     "name": "Lists",
                     "identifier": "lists",
-                    "path": "",
+                    "path": "/components/lists",
                     "image": "/images/cards/components/lists.png",
                     "frameworks": [
                         "css"
-                    ],
-                    "disabled": true
+                    ]
                 },
                 {
                     "name": "Loader",
@@ -166,44 +165,44 @@
                     "disabled": true
                 },
                 {
-                    "name": "Modal",
+                    "name": "Modals",
                     "identifier": "modal",
-                    "path": "",
+                    "path": "/components/modals",
                     "image": "/images/cards/components/modal.png",
                     "frameworks": [
-                        "css"
-                    ],
-                    "disabled": true
+                        "css",
+                        "ember"
+                    ]
                 },
                 {
                     "name": "Navbar",
                     "identifier": "navbar",
-                    "path": "",
+                    "path": "/components/navbar",
                     "image": "/images/cards/components/navbar.png",
                     "frameworks": [
-                        "css"
-                    ],
-                    "disabled": true
+                        "css",
+                        "ember"
+                    ]
                 },
                 {
                     "name": "Progress",
                     "identifier": "progress",
-                    "path": "",
+                    "path": "/components/progress",
                     "image": "/images/cards/components/progress.png",
                     "frameworks": [
-                        "css"
-                    ],
-                    "disabled": true
+                        "css",
+                        "ember"
+                    ]
                 },
                 {
                     "name": "Radio",
                     "identifier": "radio",
-                    "path": "",
+                    "path": "/components/radio",
                     "image": "/images/cards/components/radio.png",
                     "frameworks": [
-                        "css"
-                    ],
-                    "disabled": true
+                        "css",
+                        "ember"
+                    ]
                 },
                 {
                     "name": "Select",
@@ -228,12 +227,12 @@
                 {
                     "name": "Switch",
                     "identifier": "switch",
-                    "path": "",
+                    "path": "/components/switch/",
                     "image": "/images/cards/components/switch.png",
                     "frameworks": [
-                        "css"
-                    ],
-                    "disabled": true
+                        "css",
+                        "ember"
+                    ]
                 },
                 {
                     "name": "Table",
@@ -258,32 +257,32 @@
                 {
                     "name": "Tags",
                     "identifier": "tags",
-                    "path": "",
+                    "path": "/components/tags",
                     "image": "/images/cards/components/tags.png",
                     "frameworks": [
-                        "css"
-                    ],
-                    "disabled": true
+                        "css",
+                        "ember"
+                    ]
                 },
                 {
                     "name": "Title",
                     "identifier": "title",
-                    "path": "",
+                    "path": "/components/title",
                     "image": "/images/cards/components/title.png",
                     "frameworks": [
-                        "css"
-                    ],
-                    "disabled": true
+                        "css",
+                        "ember"
+                    ]
                 },
                 {
                     "name": "Toggle",
                     "identifier": "toggle",
-                    "path": "",
+                    "path": "/components/toggle",
                     "image": "/images/cards/components/toggle.png",
                     "frameworks": [
-                        "css"
-                    ],
-                    "disabled": true
+                        "css",
+                        "ember"
+                    ]
                 },
                 {
                     "name": "Tooltip",

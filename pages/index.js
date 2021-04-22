@@ -47,7 +47,7 @@ const Index = () => {
   return (
     <div className="splash-page denali-new-age">
       <Head>
-        <title>Home</title>
+        <title>Denali</title>
       </Head>
 
       {/* Theme Images */}

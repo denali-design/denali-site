@@ -21,7 +21,7 @@ export default function DetailCard(props) {
                     : <></>
                 }
                 {props.action
-                    ? <span className="flex m-t-20" style={{ fontSize: '1.8rem' }}>{props.action}</span>
+                    ? <span className="flex m-t-20 is-medium" style={{ fontSize: '1.8rem' }}>{props.action}</span>
                     : <></>
                 }
             </div>
