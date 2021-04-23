@@ -147,12 +147,12 @@
                 {
                     "name": "Loader",
                     "identifier": "loader",
-                    "path": "",
+                    "path": "/components/loader",
                     "image": "/images/cards/components/loader.png",
                     "frameworks": [
-                        "css"
-                    ],
-                    "disabled": true
+                        "css",
+                        "ember"
+                    ]
                 },
                 {
                     "name": "Menu",
@@ -217,12 +217,12 @@
                 {
                     "name": "Sidebar",
                     "identifier": "sidebar",
-                    "path": "",
+                    "path": "/components/sidebar",
                     "image": "/images/cards/components/sidebar.png",
                     "frameworks": [
-                        "css"
-                    ],
-                    "disabled": true
+                        "css",
+                        "ember"
+                    ]
                 },
                 {
                     "name": "Switch",
@@ -237,22 +237,21 @@
                 {
                     "name": "Table",
                     "identifier": "table",
-                    "path": "",
+                    "path": "/components/table",
                     "image": "/images/cards/components/table.png",
                     "frameworks": [
                         "css"
-                    ],
-                    "disabled": true
+                    ]
                 },
                 {
                     "name": "Tabs",
                     "identifier": "tabs",
-                    "path": "",
+                    "path": "/components/tabs",
                     "image": "/images/cards/components/tabs.png",
                     "frameworks": [
-                        "css"
-                    ],
-                    "disabled": true
+                        "css",
+                        "ember"
+                    ]
                 },
                 {
                     "name": "Tags",
@@ -287,12 +286,11 @@
                 {
                     "name": "Tooltip",
                     "identifier": "tooltip",
-                    "path": "",
+                    "path": "/components/tooltip",
                     "image": "/images/cards/components/tooltip.png",
                     "frameworks": [
                         "css"
-                    ],
-                    "disabled": true
+                    ]
                 },
                 {
                     "name": "Typography",

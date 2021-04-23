@@ -135,7 +135,12 @@ export default function Develop() {
                         href="https://github.com/denali-design/denali-icons"
                         target="_blank"
                         rel="noreferrer noopener"
-                      >Repository</a>
+                      >GitHub</a>
+                    </h4>
+                    <h4>
+                      <a
+                        href="/icons"
+                      >View Catalog</a>
                     </h4>
                   </div>
                 </div>

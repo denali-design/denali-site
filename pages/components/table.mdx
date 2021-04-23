@@ -1,0 +1,164 @@
+import Layout from '../../layouts/ComponentsLayout'
+import ResourceCard from '../../components/ResourceCard'
+import SingleImage from '../../components/docs/SingleImage'
+import DoubleImage from '../../components/docs/DoubleImage'
+
+export const meta = {
+  title: 'Table'
+}
+
+# Table
+Tables organize related data using columns and rows that make the information easy to consume.
+
+## Developer Docs
+
+<div className="row">
+  <ResourceCard name="CSS" icon="css" caption="Avaiable Now" link="https://denali-design.github.io/denali-css/?path=/story/components-table--default" />
+  <ResourceCard name="Ember" icon="ember" caption="Coming Soon" disabled />
+  <ResourceCard name="React" icon="react" caption="Coming Soon" disabled />
+</div>
+
+---
+
+## Foundation
+Rows and columns are the bread and butter of tables. Denali offers standard, striped, and card based tables that provide distinct visual treatments of a table’s columns and rows. Additional components such as headers, footers, chips, and selection controls can be added to tables to provide greater context and control over the information they present. 
+
+<SingleImage 
+  image="/images/components/tables/foundation.png"
+/>
+
+#### Rows
+In countries where text is read from left to right, table rows are also read from left to right. Each row represents one data entry. If your row contains more than one piece of information, make sure you align that information into columns that can be utilized across each data entry. Always provide adequate padding on the top and bottom of rows to support legibility. 
+
+<SingleImage 
+  image="/images/components/tables/foundation-rows.png"
+/>
+
+<DoubleImage 
+  firstType="do"
+  firstImage="/images/components/tables/foundation-rows-do.png"
+  firstCaption="display one data entry per row and provide adequate padding within the row to support legibility."
+  secondType="dont"
+  secondImage="/images/components/tables/foundation-rows-dont.png"
+  secondCaption="try to fit more than one data entry in a row or neglect to provide enough padding."
+/>
+
+#### Columns
+Columns are read from top to bottom. Unlike rows that are meant to be scanned from left to right, columns make it easy to scan for specific information across each data entry. This is because columns are organized using headers that call out what kind of information can be found in each column. Row data is organized so that it falls under the proper column heading. To avoid visual clutter, columns are not delineated by lines. Instead, adequate padding is used to the left and right of columns to ensure they are legible. 
+
+<SingleImage 
+  image="/images/components/tables/foundation-columns.png"
+/>
+
+<DoubleImage 
+  firstType="do"
+  firstImage="/images/components/tables/foundation-columns-do.png"
+  firstCaption="use columns to organize related information within data entries."
+  secondType="dont"
+  secondImage="/images/components/tables/foundation-columns-dont.png"
+  secondCaption="put information underneath columns that does not relate to the column header."
+/>
+
+#### Alignment
+Information in table columns can be aligned either to the left, center, or right. We recommend aligning columns that contain text to the left and aligning columns that contain numbers to the right for the best legibility. No matter what alignment you select, always ensure that each data entry within a column conforms to that alignment to avoid visual confusion. 
+
+<SingleImage 
+  image="/images/components/tables/foundation-alignment.png"
+/>
+
+<DoubleImage 
+  firstType="do"
+  firstImage="/images/components/tables/foundation-alignment-do.png"
+  firstCaption="use the same alignment within each column."
+  secondType="dont"
+  secondImage="/images/components/tables/foundation-alignment-dont.png"
+  secondCaption="use different alignment within a column."
+/>
+
+#### Headers
+Headers are text labels that exist at the top of a table. Headers should be aligned with table columns so that users can easily scan the entire table based on the column sections. 
+
+<SingleImage 
+  image="/images/components/tables/foundation-header.png"
+/>
+
+#### Miscellaneous
+Other components can be added to tables to provide greater context and allow users to manipulate the information presented so that they can find the information they need faster. These components include footers, chips, selection controls, buttons, icons, checkboxes, and sortable column headers.
+
+<SingleImage 
+  image="/images/components/tables/foundation-misc.png"
+/>
+
+---
+
+## Placement
+Tables can be used wherever data needs to be organized. They can be used once on a page or they can make up an entire page. 
+
+#### General usage
+Tables can be used to organize small or large amounts of data. In apps with dashboards, multiple data tables can be used alongside each other to display data that is related to a common theme. No matter where a table is placed, always ensure that there is adequate white space between the table and other components on the page to support visual hierarchy. 
+
+<SingleImage 
+  image="/images/components/tables/placement-general-1.png"
+  caption="Tables within a dashboard."
+/>
+
+<SingleImage 
+  image="/images/components/tables/placement-general-2.png"
+  caption="A table within a page."
+/>
+
+<SingleImage 
+  image="/images/components/tables/placement-general-3.png"
+  caption="A page that is comprised of a large table."
+/>
+
+#### Responsive behavior
+Data tables that contain large amounts of data per row can be made responsive with the addition of a “freeze” column. A freeze turns the first column of a table into a static section that the rest of the columns can scroll underneath. This allows users to horizontally scroll through the table without losing context. 
+
+<SingleImage 
+  image="/images/components/tables/placement-responsive.png"
+/>
+
+---
+
+## Styles
+Tables can be used wherever data needs to be organized. They can be used once on a page or they can make up an entire page. 
+
+#### Standard
+Standard tables present information in rows that are separated by a thin divider. Divider color and width should be kept light and thin so as to avoid bringing too much visual prominence to the divider. Columns in standard tables are indicated by white space and the alignment of the content in columns. 
+
+<SingleImage 
+  image="/images/components/tables/styles-standard.png"
+/>
+
+#### Striped
+Striped tables present information in rows whose backgrounds alternate between filled and transparent. Filled background colors should be kept light so as to avoid bringing too much visual prominence to the background. Columns in striped tables are indicated by white space and the alignment of the content in columns.
+
+<SingleImage 
+  image="/images/components/tables/styles-striped.png"
+/>
+
+#### Cards
+Card tables present information in rows that are clearly distinguished by either an outline or background fill. Unlike with striped tables, this styling is applied to each row in the table. Outlines should be kept light in color and thin in weight so as to avoid bringing too much visual prominence to the outline. Background fills should be kept light in color for the same reason. Columns in card tables are indicated by white space and the alignment of the content in columns.
+
+<SingleImage 
+  image="/images/components/tables/styles-card.png"
+/>
+
+---
+
+## Themeing
+Denali’s components are completely themeable. This allows you to use our framework and adapt the visual style of Denali’s components to match your prodcut’s unique visual brand. Check out our guide to themeing with Denali to find out more.
+
+#### Dennit Racing Theme
+Dennit Racing uses a customized Denali theme that aligns visually with their brand. Dennit’s table features custom type, headers, and rows.
+
+<SingleImage 
+  image="/images/components/tables/theming.png" 
+/>
+
+For all variables visit the CSS documentation page for [tables](https://denali-design.github.io/denali-css/?path=/story/get-started-variables--page#table).
+
+
+
+export default ({ children }) => <Layout sidebar="components" meta={meta}>{children}</Layout>
