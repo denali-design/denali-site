@@ -9,6 +9,7 @@
     "deploy": "npm run build && npm run export"
   },
   "dependencies": {
+    "@denali-design/icons": "^1.0.0",
     "@mdx-js/loader": "^1.6.22",
     "@next/mdx": "^10.0.9",
     "classnames": "2.2.6",
@@ -18,7 +19,6 @@
     "prism-react-renderer": "^1.2.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-frame-component": "^5.0.0",
     "sass": "^1.32.8"
   },
   "license": "MIT"
