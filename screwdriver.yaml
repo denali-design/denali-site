@@ -24,7 +24,7 @@ jobs:
                 . /tmp/ci/git-ssh.sh
                 git remote set-url origin `git remote get-url --push origin`
                 git add out/
-                git commit -m \"Deploy gh-pages\"
+                git commit -m "Deploy gh-pages"
                 git subtree push --prefix out origin gh-pages
         secrets:
             - NPM_TOKEN
