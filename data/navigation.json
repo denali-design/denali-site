@@ -1,0 +1,307 @@
+{
+    "design": [
+        {
+            "sectionName": "Principles",
+            "pages": [
+                {
+                    "name": "Colors",
+                    "identifier": "colors",
+                    "path": "/design/principles/colors"
+                },
+                {
+                    "name": "Component Behavior",
+                    "identifier": "component-behavior",
+                    "path": "/design/principles/component-behavior"
+                },
+                {
+                    "name": "Density & Spacing",
+                    "identifier": "density-and-spacing",
+                    "path": "/design/principles/density-and-spacing"
+                },
+                {
+                    "name": "Iconography",
+                    "identifier": "iconography",
+                    "path": "/design/principles/iconography"
+                },
+                {
+                    "name": "Responsive Grid",
+                    "identifier": "responsive-grid",
+                    "path": "/design/principles/responsive-grid"
+                }
+            ]
+        },
+        {
+            "sectionName": "Tools & Downloads",
+            "pages": [
+                {
+                    "name": "Adobe Xd",
+                    "identifier": "adobe-xd",
+                    "path": "/design/tools-downloads/adobe-xd"
+                },
+                {
+                    "name": "Framer",
+                    "identifier": "framer",
+                    "path": "/design/tools-downloads/framer"
+                },
+                {
+                    "name": "Sketch",
+                    "identifier": "sketch",
+                    "path": "/design/tools-downloads/sketch"
+                }
+            ]
+        }
+    ],
+    "components": [
+        {
+            "sectionName": "Components",
+            "pages": [
+                {
+                    "name": "Alerts",
+                    "identifier": "alerts",
+                    "path": "/components/alerts",
+                    "image": "/images/cards/components/alerts.png",
+                    "frameworks": [
+                        "css",
+                        "ember"
+                    ]
+                },
+                {
+                    "name": "Box",
+                    "identifier": "/box",
+                    "path": "/components/box",
+                    "image": "/images/cards/components/box.png",
+                    "frameworks": [
+                        "css",
+                        "ember"
+                    ]
+                },
+                {
+                    "name": "Breadcrumbs",
+                    "identifier": "breadcrumbs",
+                    "path": "/components/breadcrumbs",
+                    "image": "/images/cards/components/breadcrumbs.png",
+                    "frameworks": [
+                        "css",
+                        "ember"
+                    ]
+                },
+                {
+                    "name": "Buttons",
+                    "identifier": "buttons",
+                    "path": "/components/buttons",
+                    "image": "/images/cards/components/button.png",
+                    "frameworks": [
+                        "css",
+                        "ember"                        
+                    ]
+                },
+                {
+                    "name": "Checkbox",
+                    "identifier": "checkbox",
+                    "path": "/components/checkbox",
+                    "image": "/images/cards/components/checkbox.png",
+                    "frameworks": [
+                        "css",
+                        "ember"
+                    ]
+                },
+                {
+                    "name": "Chips",
+                    "identifier": "chips",
+                    "path": "/components/chips",
+                    "image": "/images/cards/components/chips.png",
+                    "frameworks": [
+                        "css",
+                        "ember"
+                    ]
+                },
+                {
+                    "name": "Fields",
+                    "identifier": "fields",
+                    "path": "/components/fields",
+                    "image": "/images/cards/components/fields.png",
+                    "frameworks": [
+                        "css",
+                        "ember"
+                    ]
+                },
+                {
+                    "name": "Links",
+                    "identifier": "links",
+                    "path": "/components/links",
+                    "image": "/images/cards/components/links.png",
+                    "frameworks": [
+                        "css",
+                        "ember"
+                    ]
+                },
+                {
+                    "name": "Lists",
+                    "identifier": "lists",
+                    "path": "/components/lists",
+                    "image": "/images/cards/components/lists.png",
+                    "frameworks": [
+                        "css"
+                    ]
+                },
+                {
+                    "name": "Loader",
+                    "identifier": "loader",
+                    "path": "/components/loader",
+                    "image": "/images/cards/components/loader.png",
+                    "frameworks": [
+                        "css",
+                        "ember"
+                    ]
+                },
+                {
+                    "name": "Menu",
+                    "identifier": "menu",
+                    "path": "",
+                    "image": "/images/cards/components/menu.png",
+                    "frameworks": [
+                        "css"
+                    ],
+                    "disabled": true
+                },
+                {
+                    "name": "Modals",
+                    "identifier": "modal",
+                    "path": "/components/modals",
+                    "image": "/images/cards/components/modal.png",
+                    "frameworks": [
+                        "css",
+                        "ember"
+                    ]
+                },
+                {
+                    "name": "Navbar",
+                    "identifier": "navbar",
+                    "path": "/components/navbar",
+                    "image": "/images/cards/components/navbar.png",
+                    "frameworks": [
+                        "css",
+                        "ember"
+                    ]
+                },
+                {
+                    "name": "Progress",
+                    "identifier": "progress",
+                    "path": "/components/progress",
+                    "image": "/images/cards/components/progress.png",
+                    "frameworks": [
+                        "css",
+                        "ember"
+                    ]
+                },
+                {
+                    "name": "Radio",
+                    "identifier": "radio",
+                    "path": "/components/radio",
+                    "image": "/images/cards/components/radio.png",
+                    "frameworks": [
+                        "css",
+                        "ember"
+                    ]
+                },
+                {
+                    "name": "Select",
+                    "identifier": "select",
+                    "path": "",
+                    "image": "/images/cards/components/select.png",
+                    "frameworks": [
+                        "css"
+                    ],
+                    "disabled": true
+                },
+                {
+                    "name": "Sidebar",
+                    "identifier": "sidebar",
+                    "path": "/components/sidebar",
+                    "image": "/images/cards/components/sidebar.png",
+                    "frameworks": [
+                        "css",
+                        "ember"
+                    ]
+                },
+                {
+                    "name": "Switch",
+                    "identifier": "switch",
+                    "path": "/components/switch/",
+                    "image": "/images/cards/components/switch.png",
+                    "frameworks": [
+                        "css",
+                        "ember"
+                    ]
+                },
+                {
+                    "name": "Table",
+                    "identifier": "table",
+                    "path": "/components/table",
+                    "image": "/images/cards/components/table.png",
+                    "frameworks": [
+                        "css"
+                    ]
+                },
+                {
+                    "name": "Tabs",
+                    "identifier": "tabs",
+                    "path": "/components/tabs",
+                    "image": "/images/cards/components/tabs.png",
+                    "frameworks": [
+                        "css",
+                        "ember"
+                    ]
+                },
+                {
+                    "name": "Tags",
+                    "identifier": "tags",
+                    "path": "/components/tags",
+                    "image": "/images/cards/components/tags.png",
+                    "frameworks": [
+                        "css",
+                        "ember"
+                    ]
+                },
+                {
+                    "name": "Title",
+                    "identifier": "title",
+                    "path": "/components/title",
+                    "image": "/images/cards/components/title.png",
+                    "frameworks": [
+                        "css",
+                        "ember"
+                    ]
+                },
+                {
+                    "name": "Toggle",
+                    "identifier": "toggle",
+                    "path": "/components/toggle",
+                    "image": "/images/cards/components/toggle.png",
+                    "frameworks": [
+                        "css",
+                        "ember"
+                    ]
+                },
+                {
+                    "name": "Tooltip",
+                    "identifier": "tooltip",
+                    "path": "/components/tooltip",
+                    "image": "/images/cards/components/tooltip.png",
+                    "frameworks": [
+                        "css"
+                    ]
+                },
+                {
+                    "name": "Typography",
+                    "identifier": "typography",
+                    "path": "/components/typography",
+                    "image": "/images/cards/components/typography.png",
+                    "frameworks": [
+                        "css"
+                    ]
+                }
+            ]
+        }
+    ]
+}

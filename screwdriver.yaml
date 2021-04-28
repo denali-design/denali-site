@@ -1,0 +1,34 @@
+cache:
+    pipeline: [~/.npm]
+
+shared:
+    image: node:12
+
+jobs:
+    main:
+        requires: [~pr, ~commit]
+        steps:
+            - install: npm ci
+            - test: npm test
+            
+    publish:
+        requires: main
+        environment:
+            GIT_SHALLOW_CLONE: false
+        steps:
+            - setup-ci: git clone https://github.com/screwdriver-cd/toolbox.git /tmp/ci
+            - install: npm ci
+            - build: |
+                . /tmp/ci/git-ssh.sh
+                git remote set-url origin `git remote get-url --push origin`
+                npm run deploy
+                touch out/.nojekyll
+            - publish: |
+                . /tmp/ci/git-ssh.sh
+                git add out/
+                git commit -m \"Deploy gh-pages\"
+                git subtree push --prefix out origin gh-pages
+        secrets:
+            - NPM_TOKEN
+            - GH_TOKEN
+            - GIT_KEY_BASE64

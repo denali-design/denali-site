@@ -1,0 +1,116 @@
+import Layout from '../../../layouts/ComponentsLayout'
+import ResourceCard from '../../../components/ResourceCard'
+import SingleImage from '../../../components/docs/SingleImage'
+import DoubleImage from '../../../components/docs/DoubleImage'
+
+export const meta = {
+  title: 'Colors'
+}
+
+# Colors
+
+From differentiating elements on a screen to conveying meaning, color plays a key role in creating products with effective interfaces and user experiences.
+
+---
+
+## Guiding Principles
+
+Our color principles were established to ensure that color is used in functional manner that is to communicate meaning and guide users through products effectively.
+
+#### Accessibility First
+
+Ensure users with color blindness and/or low vision are able to use your products effectively by maintaining high contrast ratios between colors in your interface.
+
+<DoubleImage 
+  firstType="do"
+  firstImage="/images/design/colors/accessibility-do.png"
+  firstCaption="use colors with high contrast ratios next to each other on a screen."
+  secondType="dont"
+  secondImage="/images/design/colors/accessibility-dont.png"
+  secondCaption="use colors with low contrast ratios next to each other on a screen."
+/>
+
+<div className="row">
+  <ResourceCard name="Color Checker" icon="palette" caption="Accessibility Tool" link="/color-checker" />
+</div>
+
+#### Communicate Meaning
+
+Colors often carry inherent meanings that differ depending on cultural associations. It is important to take these inherent meanings into account when using color in your product’s interface.
+
+<SingleImage 
+  type="do"
+  image="/images/design/colors/communicate-do.png" 
+  caption="use green to signify a successful interaction."
+/>
+
+<SingleImage type="dont" image="/images/design/colors/communicate-dont.png" caption="use green to signify an unsuccessful interaction." />
+
+#### Convey Hierarchy
+
+Color should always be used intentionally to guide users and focus their attention on the task at hand.
+
+<DoubleImage 
+  firstType="do"
+  firstImage="/images/design/colors/hierarchy-do.png"
+  firstCaption="use color to emphasize important elements on a screen."
+  secondType="dont"
+  secondImage="/images/design/colors/hierarchy-dont.png"
+  secondCaption="use color to emphasize background elements on a screen."
+/>
+
+---
+
+## Color Palettes
+
+Our color palettes work alongside our guiding principles to ensure an effective and logical use of color.
+
+#### Brand Palette
+
+The Brand Palette is built around Denali’s blue brand color. These colors should be used on active elements such as links, buttons, and selection controls.
+
+<DoubleImage 
+  firstType="do"
+  firstImage="/images/design/colors/brand-do.png"
+  firstCaption="use brand colors for selection controls."
+  secondType="dont"
+  secondImage="/images/design/colors/brand-dont.png"
+  secondCaption="use colors outside the brand palette for selection controls."
+/>
+
+#### Grey Palette
+
+The Grey Palette is palette is built around . We recommend utilizing this palette for foundational interface elements such as such as backgrounds, cards, and containers as well as and to de-emphasize less important elements on a screen.
+
+<DoubleImage 
+  firstType="do"
+  firstImage="/images/design/colors/grey-do.png"
+  firstCaption="use grey to convey a disabled state."
+  secondType="dont"
+  secondImage="/images/design/colors/grey-dont.png"
+  secondCaption="use a color other than grey to convey a disabled state."
+/>
+
+#### Status Palette
+
+The Status Palette is built around the inherent meanings we assign to color. These colors should be used in accordance with their meanings to convey danger (red), warning (yellow), success (green), and informational (blue) messages.
+
+<SingleImage type="do" image="/images/design/colors/status-do.png" caption="use green to convey successful upload." />
+
+<SingleImage type="dont" image="/images/design/colors/status-dont.png" caption="use yellow to convey a successful upload."/>
+
+#### Data Visualization Palette
+
+Our Data Visualization palette allows for clear representation of data.
+
+<DoubleImage 
+  firstType="do"
+  firstImage="/images/design/colors/data-vis-do.png"
+  firstCaption="use green to indicate upward trends."
+  secondType="dont"
+  secondImage="/images/design/colors/data-vis-dont.png"
+  secondCaption="use red to indicate upward trends."
+/>
+
+
+export default ({ children }) => <Layout sidebar="design" meta={meta}>{children}</Layout>

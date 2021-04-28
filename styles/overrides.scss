@@ -1,0 +1,66 @@
+// Copyright 2020, Verizon Media
+// Licensed under the terms of the MIT license. See LICENSE file in project root for terms.
+
+// Components
+.button {
+    font-family: "Montserrat", sans-serif;
+
+    .d-arrow-right {
+        transform: translateX(0px);
+        transition: 300ms;
+    }
+
+    &:hover {
+        .d-arrow-right {
+            transform: translateX(5px);
+            transition: 300ms;
+        }
+    }
+}
+
+// Font
+.is-mono {
+    font-family: "Noto Mono Regular" !important;
+}
+.is-bold {
+    font-weight: 800 !important;
+}
+.is-medium {
+    font-weight: 700 !important;
+}
+p.is-large {
+    font-size: 2rem !important;
+}
+p.is-small {
+    font-size: 1.4rem;
+}
+
+// Color
+.has-bg-grey-800 {
+    background-color: #0c1c2a !important;
+}
+
+// Helpers
+.br-lg {
+    border-radius: 14px;
+}
+.br-md {
+    border-radius: 10px;
+}
+.br-sm {
+    border-radius: 6px;
+}
+.br-pill {
+    border-radius: 99px !important;
+}
+
+// Column
+.row-override {
+    > * {
+        padding: 10px;
+        
+        > * {
+            height: 100%;
+        }
+    }
+}

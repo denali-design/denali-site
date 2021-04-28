@@ -1,0 +1,142 @@
+import Layout from '../../layouts/ComponentsLayout'
+import ResourceCard from '../../components/ResourceCard'
+import SingleImage from '../../components/docs/SingleImage'
+import DoubleImage from '../../components/docs/DoubleImage'
+
+export const meta = {
+  title: 'Tooltip'
+}
+
+# Tooltip
+Tooltips provide short, descriptive information when a user hovers over an element.
+
+## Developer Docs
+
+<div className="row">
+  <ResourceCard name="CSS" icon="css" caption="Avaiable Now" link="https://denali-design.github.io/denali-css/?path=/story/components-tooltip--default" />
+  <ResourceCard name="Ember" icon="ember" caption="Coming Soon" disabled />
+  <ResourceCard name="React" icon="react" caption="Coming Soon" disabled />
+</div>
+
+---
+
+## Foundation
+Tooltips are composed of a container and a text label.
+
+<SingleImage 
+  image="/images/components/tooltip/foundation.png"
+/>
+
+#### Trigger
+Tooltips appear when a user hovers over a trigger. A trigger can be any element you assign a tooltip to. Common tooltip triggers include icons and links. Only add a tooltip to an element if doing so increases the user’s comprehension.
+
+<SingleImage 
+  image="/images/components/tooltip/foundation-trigger.png"
+/>
+
+#### Container
+Tooltip containers are compact in size, have rounded corners, and a semi transparent fill. This allows them to draw attention to themselves without being overly distracting. Denali offers default and small tooltip container sizing.
+
+<SingleImage 
+  image="/images/components/tooltip/foundation-container.png"
+/>
+
+<DoubleImage 
+  firstType="do"
+  firstImage="/images/components/tooltip/foundation-container-do.png"
+  firstCaption="keep tooltips compact in size and use a fill color that visually differentiates the tooltip from the rest of the UI."
+  secondType="dont"
+  secondImage="/images/components/tooltip/foundation-container-dont.png"
+  secondCaption="size up tooltips to the point that they become visually overwhelming or use a fill color that blends into the rest of the UI."
+/>
+
+#### Text labels and icons
+Within tooltips are text labels that describe the element the tooltip is attached to. The text color of text labels should contrast with the container fill so that they are legible. Text labels should be kept as short and concise as possible. If an element requires a lengthy description consider using another component to support that use case. 
+
+<SingleImage 
+  image="/images/components/tooltip/foundation-labels.png"
+/>
+
+<DoubleImage 
+  firstType="do"
+  firstImage="/images/components/tooltip/foundation-labels-do.png"
+  firstCaption="use concise descriptions within tooltips. Image at 200%."
+  secondType="dont"
+  secondImage="/images/components/tooltip/foundation-labels-dont.png"
+  secondCaption="wordy or lengthy descriptions within tooltips. Image at 200%."
+/>
+
+Icons can be added to tooltips if doing so provides greater context to the text label. Avoid using large or detailed imagery within tooltips as well as “close” or action based icons that imply a user can interact with the tooltip.
+
+<DoubleImage 
+  firstType="do"
+  firstImage="/images/components/tooltip/foundation-labels-do-2.png"
+  firstCaption="use concise descriptions within tooltips. Image at 200%."
+  secondType="dont"
+  secondImage="/images/components/tooltip/foundation-labels-dont-2.png"
+  secondCaption="wordy or lengthy descriptions within tooltips. Image at 200%."
+/>
+
+---
+
+## Placement
+Where it makes sense to do, tooltips can be applied to almost any element.
+
+#### General usage
+A tooltip can be added to any element if adding the tooltip increases the user’s comprehension. It is common to see tooltips added to icons, fields, and links. However it is important to use reason when adding tooltips to elements. Avoid adding tooltips to elements that don’t need description or elements that are so large it would be difficult to understand what the tooltip is describing. 
+
+<DoubleImage 
+  firstType="do"
+  firstImage="/images/components/tooltip/placement-general-do.png"
+  firstCaption="add tooltips to icons in order to increase user comprehension."
+  secondType="dont"
+  secondImage="/images/components/tooltip/placement-general-dont.png"
+  secondCaption="add tooltips that repeat information that is already clear to users."
+/>
+
+<SingleImage 
+  type="dont"
+  image="/images/components/tooltip/placement-general-dont-2.png"
+  caption="add tooltips to large components that don’t need a description."
+/>
+
+#### Positioning
+Always keep tooltips in close proximity to the elements that trigger them. Tooltips can appear to the bottom, top, left, or right of their triggering elements. Always ensure that tooltip text is legible by positioning the tooltip so that it does not get cut off by another element on the screen or the viewport. 
+
+<SingleImage 
+  image="/images/components/tooltip/placement-positioning.png"
+/>
+
+<DoubleImage 
+  firstType="do"
+  firstImage="/images/components/tooltip/placement-positioning-do.png"
+  firstCaption="ensure your tooltip is positioned so that it is legible."
+  secondType="dont"
+  secondImage="/images/components/tooltip/placement-positioning-dont.png"
+  secondCaption="position the tooltip in a way that it gets cut off."
+/>
+
+#### Timing
+Tooltips appear and disappear on hover. The tooltip should remain visible until the user mouses away from the element that triggered the tooltip.
+
+<SingleImage 
+  image="/images/components/tooltip/placement-timing.png"
+/>
+
+---
+
+## Themeing
+Denali’s components are completely themeable. This allows you to use our framework and adapt the visual style of Denali’s components to match your prodcut’s unique visual brand. Check out our guide to themeing with Denali to find out more.
+
+#### Dennit Racing Theme
+Dennit Racing uses a customized Denali theme that aligns visually with their brand. Dennit’s tooltip features a custom container radius, fill, and type. 
+
+<SingleImage 
+  image="/images/components/tooltip/theming.png" 
+/>
+
+For all variables visit the CSS documentation page for [tooltip](https://denali-design.github.io/denali-css/?path=/story/get-started-variables--page#tooltip).
+
+
+
+export default ({ children }) => <Layout sidebar="components" meta={meta}>{children}</Layout>

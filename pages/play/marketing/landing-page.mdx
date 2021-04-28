@@ -1,0 +1,38 @@
+import Layout from "../../../layouts/PlayDetailLayout";
+import CodeBox from "../../../components/CodeBox";
+
+export const meta = {
+  title: "Landing Page",
+  description: "All about landing pages here.",
+  breadcrumbs: ["Play", "Marketing", "Full Pages"],
+};
+
+### Hero Section with CTA
+
+<CodeBox
+  source={`<div class="alert">
+  <span class="d-icon d-domain"></span>
+  <div>
+    <h5 >This is a default alert</h5>
+    <p>Test a description here.</p>
+  </div>
+  <a class="close is-secondary"><span class="d-icon d-close is-sub"></span></a>
+</div>`}
+/>
+
+---
+
+### Hero Section with CTA
+
+<CodeBox
+  source={`<div class="alert">
+  <span class="d-icon d-domain"></span>
+  <div>
+    <h5 >This is a default alert</h5>
+    <p>Test a description here.</p>
+  </div>
+  <a class="close is-secondary"><span class="d-icon d-close is-sub"></span></a>
+</div>`}
+/>
+
+export default ({ children }) => <Layout meta={meta}>{children}</Layout>

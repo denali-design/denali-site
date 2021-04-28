@@ -1,0 +1,192 @@
+{
+    "marketingSections": [
+        {
+            "name": "Full Page",
+            "items": [
+                {
+                    "title": "Landing Page",
+                    "description": "Complete landing pages with all the bells and whistles.",
+                    "items": "1",
+                    "image": "/images/cards/pages/landing-page.png",
+                    "disabled": true,
+                    "tags": [
+                        "Navbar",
+                        "Button",
+                        "Type"
+                    ]
+                },
+                {
+                    "title": "Pricing",
+                    "description": "Complete pricing pages to knock those sales numbers out of the park.",
+                    "items": "1",
+                    "image": "/images/cards/sections/pricing.png",
+                    "disabled": true,
+                    "tags": [
+                        "Type",
+                        "Buttons"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Page Sections",
+            "items": [
+                {
+                    "title": "Hero",
+                    "description": "Hero sections to put your products front and center.",
+                    "items": "1",
+                    "image": "/images/cards/sections/hero.png",
+                    "disabled": true,
+                    "tags": [
+                        "Type",
+                        "Buttons",
+                        "Image",
+                        "Nav",
+                        "Logo"
+                    ]
+                },
+                {
+                    "title": "Content",
+                    "description": "Content sections for housing related text, images, links, and more together.",
+                    "items": "3",
+                    "image": "/images/cards/sections/content.png",
+                    "disabled": true,
+                    "tags": [
+                        "Type",
+                        "Buttons",
+                        "Image",
+                        "Nav"
+                    ]
+                },
+                {
+                    "title": "Features",
+                    "description": "Feature sections to show off your product’s best offerings.",
+                    "items": "1",
+                    "image": "/images/cards/sections/features.png",
+                    "disabled": true,
+                    "tags": [
+                        "Type",
+                        "Box"
+                    ]
+                },
+                {
+                    "title": "Blog Posts",
+                    "description": "Blog post sections to house your latest thoughts and musings.",
+                    "items": "2",
+                    "image": "/images/cards/sections/blog-posts.png",
+                    "disabled": true,
+                    "tags": [
+                        "Type",
+                        "Image",
+                        "Link"
+                    ]
+                },
+                {
+                    "title": "Call To Action",
+                    "description": "Call to action banners to increase those conversion rates.",
+                    "items": "1",
+                    "image": "/images/cards/sections/call-to-action.png",
+                    "disabled": true,
+                    "tags": [
+                        "Type",
+                        "Button"
+                    ]
+                }
+            ]
+        }
+    ],
+    "applicationSections": [
+        {
+            "name": "Full Page",
+            "items": [
+                {
+                    "title": "Request form",
+                    "description": "Facilitate user requests with these page forms.",
+                    "items": "1",
+                    "image": "/images/cards/sections/request-form.png",
+                    "disabled": true,
+                    "tags": [
+                        "Fields",
+                        "Buttons",
+                        "Sidebar"
+                    ]
+                },
+                {
+                    "title": "Data Table",
+                    "description": "Orangize large amounts of data with data table pages.",
+                    "items": "1",
+                    "image": "/images/cards/components/table.png",
+                    "disabled": true,
+                    "tags": [
+                        "Table",
+                        "Nav",
+                        "Tabs"
+                    ]
+                },
+                {
+                    "title": "Settings",
+                    "description": "Give user the power to control their expereince with settings pages.",
+                    "items": "1",
+                    "image": "/images/cards/pages/settings.png",
+                    "disabled": true,
+                    "tags": [
+                        "Table",
+                        "Nav",
+                        "Tabs"
+                    ]
+                },
+                {
+                    "title": "404",
+                    "description": "Redirect your users to these pages when they encounter an error.",
+                    "items": "1",
+                    "image": "/images/cards/pages/404.png",
+                    "disabled": true,
+                    "tags": [
+                        "Links",
+                        "Button"
+                    ]
+                },
+                {
+                    "title": "Actions Panel",
+                    "description": "Redirect your users to these pages when they encounter an error.",
+                    "image": "/images/cards/coming-soon.png",
+                    "disabled": true
+                }
+            ]
+        },
+        {
+            "name": "Informational",
+            "items": [
+                {
+                    "title": "Alerts",
+                    "description": "Complete landing pages with all the bells and whistles.",
+                    "items": "3",
+                    "image": "/images/cards/components/alerts.png",
+                    "disabled": true,
+                    "tags": [
+                        "Alerts",
+                        "Links",
+                        "Icons"
+                    ]
+                },
+                {
+                    "title": "Modals",
+                    "description": "Modals to focus your users attention.",
+                    "items": "2",
+                    "image": "/images/cards/components/modal.png",
+                    "disabled": true,
+                    "tags": [
+                        "Type",
+                        "Buttons"
+                    ]
+                },
+                {
+                    "title": "Welcome",
+                    "description": "Welcome sections to introduce product capabilities to new users.",
+                    "image": "/images/cards/coming-soon.png",
+                    "disabled": true
+                }
+            ]
+        }
+    ]
+}

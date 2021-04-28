@@ -1,0 +1,23 @@
+import Layout from '../layouts/DefaultLayout'
+
+export const meta = {
+  title: 'Made With Denali',
+  description: 'Did you make something with Denali? Add the offical badge to the site.',
+}
+
+<div className="denali-markdown">
+
+---
+
+## Downloads
+The Made with Denali Badge is available in a few different downloads. See the table below for which one fits your needs.
+
+|Type|Preview|Desciption|Download|
+|-----|-----|-----|-----|
+|Default|<img class="w-auto h-7 p-2" src='/downloads/made-with-denali/denali-badge-blue.png' />|Blue boxed / White Text|<a class="button is-ghost m-r-10" href="/downloads/made-with-denali/denali-badge-blue.png" download>PNG</a><a class="button is-ghost m-r-10" href="/downloads/made-with-denali/denali-badge-blue.svg" download>SVG</a>|
+|White|<img class="w-auto h-7 p-2" src='/downloads/made-with-denali/denali-badge-white.png' />|White box / Blue outline / Black Text|<a class="button is-ghost m-r-10" href="/downloads/made-with-denali/denali-badge-white.png" download>PNG</a><a class="button is-ghost m-r-10" href="/downloads/made-with-denali/denali-badge-white.svg" download>SVG</a>|
+|White Transparent|<img class="w-auto h-7 p-2 has-bg-grey-800" src='/downloads/made-with-denali/denali-badge-white-transparent.png' />|Transparent box / White outline and text|<a class="button is-ghost m-r-10" href="/downloads/made-with-denali/denali-badge-white-transparent.png" download>PNG</a><a class="button is-ghost m-r-10" href="/downloads/made-with-denali/denali-badge-white-transparent.svg" download>SVG</a>|
+
+</div>
+
+export default ({ children }) => <Layout meta={meta} title={meta.title} description={meta.description}>{children}</Layout>

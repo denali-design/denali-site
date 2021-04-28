@@ -1,0 +1,40 @@
+import Layout from '../../../layouts/ComponentsLayout'
+import SingleImage from '../../../components/docs/SingleImage'
+import FeatureCard from '../../../components/FeatureCard'
+
+export const meta = {
+  title: 'Framer'
+}
+
+# Framer
+Framer is a protoyping tools that bridges the gap between dev and design by giving the ability to write clean React code in your canvas. Check out our avaiable tools and downloads below.
+
+---
+
+## Packages
+
+We have created three packages for Framer to jump start your next design project.
+
+<div className='row m-t-30'>
+  <FeatureCard 
+    title='Components' 
+    image='/images/tools-downloads/framer-placeholder.png'
+    description='This is Denali’s component library for Framer.'
+    links={[{'link':'https://framer.com/projects/new?install=%40framer%2Fctruansky.denali-components','text':'Open in Framer'}]}
+  />
+  <FeatureCard 
+    title='Icons'
+    image='/images/tools-downloads/framer-placeholder.png'
+    description='This package makes it easy to use all Denali Icons right in Framer.'
+    links={[{'link':'https://framer.com/projects/new?install=%40framer%2Fctruansky.denali-icons','text':'Open in Framer'}]}
+  />
+  <FeatureCard
+    title='Colors'
+    image='/images/tools-downloads/framer-placeholder.png'
+    description='Denali’s color library is used to style components and convey meaning.'
+    links={[{'link':'https://framer.com/projects/new?install=%40framer%2Fctruansky.denali-colors','text':'Open in Framer'}]}
+  />
+</div>
+
+
+export default ({ children }) => <Layout sidebar="design" meta={meta}>{children}</Layout>

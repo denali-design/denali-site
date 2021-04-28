@@ -1,0 +1,28 @@
+import Layout from '../../../layouts/ComponentsLayout'
+import SingleImage from '../../../components/docs/SingleImage'
+import FeatureCard from '../../../components/FeatureCard'
+
+export const meta = {
+  title: 'Adobe Xd'
+}
+
+# Adobe XD
+XD is a design tools for product designs built with the Adobe ecosystem in mind. You can wireframe, animate, prototype, and collaborate. Check out our avaiable tools and downloads below.
+
+---
+
+## Plugins
+
+We have created an Adobe XD plugin to jump start your next design project.
+
+<div className='row m-t-30'>
+  <FeatureCard 
+    title='Icons'
+    image='/images/tools-downloads/xd-placeholder.png'
+    description='This plugin makes it easy to use all Denali Icons right in XD.'
+    links={[{'link':'https://adobe.com/go/xd_plugins_discover_plugin?pluginId=5e40380c','text':'Open in XD'}]}
+  />
+</div>
+
+
+export default ({ children }) => <Layout sidebar="design" meta={meta}>{children}</Layout>

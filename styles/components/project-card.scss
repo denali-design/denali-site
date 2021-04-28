@@ -1,0 +1,21 @@
+// Copyright 2020, Verizon Media
+// Licensed under the terms of the MIT license. See LICENSE file in project root for terms.
+
+.project-card {
+    border: solid 1px transparent;
+    transition: 300ms;
+
+    img {
+        transition: 300ms;
+    }
+
+    &:hover {
+        border: solid 1px #d5d5d5;
+        transition: 300ms;
+
+        img {
+            transform: scale(1.1);
+            transition: 300ms;
+        }
+    }
+}

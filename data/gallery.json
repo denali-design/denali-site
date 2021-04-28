@@ -1,0 +1,58 @@
+{
+    "projects": [
+        {
+            "title": "Developer Network - Mail",
+            "date": "Mar 24, 2021",
+            "author": "YDN team at Verizon Media",
+            "color": "#f2f2f2",
+            "image": "/images/gallery/dev-network-mail.png",
+            "link": "https://developer.verizonmedia.com/mail/",
+            "tags": [
+                "Theme",
+                "CSS",
+                "Grid System"
+            ]
+        },
+        {
+            "title": "Yahoo Hack Together",
+            "date": "Feb 22, 2021",
+            "author": "Open Source Team at Verizon Media",
+            "color": "#7759FF",
+            "image": "/images/gallery/yahoo-hack-together.png",
+            "link": "https://yahoo.github.io/hacktogether/",
+            "tags": [
+                "Theme",
+                "CSS",
+                "Event Site"
+            ]
+        },
+        {
+            "title": "Vespa - Product Page",
+            "date": "Jan 12, 2021",
+            "author": "Vespa team",
+            "color": "#A0C9E1",
+            "image": "/images/gallery/vespa.png",
+            "link": "https://vespa.ai/",
+            "tags": [
+                "Theme",
+                "CSS",
+                "Marketing Site",
+                "Open Source"
+            ]
+        },
+        {
+            "title": "Yahoo COVID Dashboard",
+            "date": "Jul 20, 2020",
+            "author": "A few great people at Verizon Media",
+            "color": "#7E1FFF",
+            "image": "/images/gallery/yahoo-covid.png",
+            "link": "https://github.com/yahoo/covid-19-dashboard",
+            "tags": [
+                "Mapping",
+                "Ember",
+                "Product",
+                "Open Source"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,218 @@
+import Layout from '../../layouts/ComponentsLayout'
+import ResourceCard from '../../components/ResourceCard'
+import SingleImage from '../../components/docs/SingleImage'
+import DoubleImage from '../../components/docs/DoubleImage'
+
+export const meta = {
+  title: 'Typography'
+}
+
+# Typography
+Words are our primary means of communication. Therefore careful selection of typography and the use of typographic patterns is essential to a successful product.
+
+## Developer Docs
+
+<div className="row">
+  <ResourceCard name="CSS" icon="css" caption="Avaiable Now" link="https://denali-design.github.io/denali-css/?path=/story/components-typography--headline" />
+  <ResourceCard name="Ember" icon="ember" caption="Coming Soon" disabled />
+  <ResourceCard name="React" icon="react" caption="Coming Soon" disabled />
+</div>
+
+---
+
+## Font Families
+It is important to take careful consideration when selecting a font family for your product as not all font styles read well on screens. San Serif and Monospace fonts are optimal for desktop and mobile products as they have high legibility at large and small sizes. Additionally, Monospace fonts provide consistent letter spacing that is essential to displaying data and programming languages.
+
+#### Helvetica & Roboto Mono
+Denali utilizes Helvetica and Roboto Mono as they both have high legibility and are widely available as free fonts. We recommend selecting one Sans Serif font and one Monospace font for use throughout your product.
+
+<DoubleImage 
+  firstType="do"
+  firstImage="/images/design/typography/helvetica.jpg"
+  firstCaption="use a sans serif font such as Helvetica throughout your product."
+  secondType="dont"
+  secondImage="/images/design/typography/helvetica-dont.jpg"
+  secondCaption="use decorative fonts throughout your product."
+/>
+
+<DoubleImage 
+  firstType="do"
+  firstImage="/images/design/typography/Roboto-do.jpg"
+  firstCaption="use a monospace font when displaying changing time on a countdown or timer."
+  secondType="dont"
+  secondImage="/images/design/typography/Roboto-dont.jpg"
+  secondCaption="use a serif font when displaying static time stamps."
+/>
+
+---
+
+## Styles
+Practicing restraint when selecting type weights and styles is important to establishing visual hierarchy, consistency, and typographic patterns.
+
+#### Denali Heading Styles
+In order to simplify your type selection process and establish recognizable typographic patterns we’ve recommend the following heading styles and use cases:
+
+<SingleImage 
+  type="info"
+  image="/images/design/typography/display.jpg" 
+  caption="as a heading on welcome pages."
+/>
+
+<SingleImage 
+  type="info"
+  image="/images/design/typography/headline.jpg" 
+  caption="as a heading on a low density page."
+/>
+
+<SingleImage 
+  type="info"
+  image="/images/design/typography/title.jpg" 
+  caption="as a heading on a high density page."
+/>
+
+<SingleImage 
+  type="info"
+  image="/images/design/typography/subheading.jpg" 
+  caption="as a heading to break up subsections on a page."
+/>
+
+<SingleImage 
+  type="info"
+  image="/images/design/typography/caption.jpg" 
+  caption="as a descriptor to display secondary information or meta-data."
+/>
+
+<SingleImage 
+  type="info"
+  image="/images/design/typography/value-id.jpg" 
+  caption="as labels on data visualizations and tables."
+/>
+
+---
+
+## Colors
+The majority of Denali’s type is black. In certain situations white, grey, blue or status colors can be applied to type to aid visual hierarchy, provide contrast, or convey meaning.
+
+#### Black
+Black `#303030` is our primary type color. It should be used for static text elements such as heading and body text.
+
+<DoubleImage 
+  firstType="do"
+  firstImage="/images/design/typography/black-do.jpg"
+  firstCaption="use black on headlines and body copy."
+  secondType="dont"
+  secondImage="/images/design/typography/black-dont.jpg"
+  secondCaption="use black on text links."
+/>
+
+#### White
+White `#FFFFFF` should be used in situations where black text does not contrast well against the text element’s background color.
+
+<DoubleImage 
+  firstType="do"
+  firstImage="/images/design/typography/white-do.jpg"
+  firstCaption="use white text against an element with a dark background."
+  secondType="dont"
+  secondImage="/images/design/typography/white-dont.jpg"
+  secondCaption="use white text against an element with a light background."
+/>
+
+#### Grey
+Grey `#XXXXXX` should be used to de-emphasize the visual importance of text such as a caption or to convey a disabled state.
+
+<DoubleImage 
+  firstType="do"
+  firstImage="/images/design/typography/grey-do.jpg"
+  firstCaption="use grey on a text element with low visual importance such as a page title."
+  secondType="dont"
+  secondImage="/images/design/typography/grey-dont.jpg"
+  secondCaption="use grey on a text element with high visual importance such as a a caption."
+/>
+
+#### Blue
+Blue `#016EFF` should only be used to convey active links and buttons.
+
+<DoubleImage 
+  firstType="do"
+  firstImage="/images/design/typography/blue-do.jpg"
+  firstCaption="use blue to convey an active link within body copy."
+  secondType="dont"
+  secondImage="/images/design/typography/blue-dont.jpg"
+  secondCaption="use blue to color sections of static body copy."
+/>
+
+#### Status Colors
+Green, Yellow, and Red status colors should be used only when it is necessary to convey a status through text.
+
+<SingleImage 
+  type="do"
+  image="/images/design/typography/status-do.jpg" 
+  caption="use red text to notify users of required fields."
+/>
+
+<SingleImage 
+  type="dont"
+  image="/images/design/typography/status-dont.jpg" 
+  caption="use red text for input field labels."
+/>
+
+---
+
+## Density
+Body copy refers to blocks of text in a product or web page. In order to maintain body copy’s legibility it is important to use a legible font size and provide sufficient line height. Optimal font size and line height values for body copy vary by the density of a page, which is why Denali offers two body copy styles:
+
+#### Standard Body Copy
+Standard body copy style is intended for pages with high density. Standard body copy utilizes a 14 pixels font size with a line height of 16 pixels.
+
+<SingleImage 
+  type="do"
+  image="/images/design/typography/copy-standard-do.jpg" 
+  caption="use standard body copy on pages with high page density."
+/>
+
+<SingleImage 
+  type="dont"
+  image="/images/design/typography/copy-standard-dont.jpg" 
+  caption="use standard body copy on pages with low page density."
+/>
+
+#### Large Body Copy
+Large body copy style is intended for pages with low density. Large body copy utilizes a 16 pixel font with a line height of 22 pixels.
+
+<SingleImage 
+  type="do"
+  image="/images/design/typography/copy-large-do.jpg" 
+  caption="use large body copy on pages with low density."
+/>
+
+<SingleImage 
+  type="dont"
+  image="/images/design/typography/copy-large-dont.jpg" 
+  caption="use large body copy on pages with high density."
+/>
+
+#### Whitespace
+Providing adequate white space around text elements is essential to maximizing legibility, maintaining visual hierarchy, and reducing visual noise.
+
+<SingleImage 
+  type="do"
+  image="/images/design/typography/white-space-do.jpg" 
+  caption="give text elements adequate white space to ensure legibility."
+/>
+
+<SingleImage 
+  type="dont"
+  image="/images/design/typography/white-space-do.jpg" 
+  caption="hinder legibility by placing text elements too close to each other."
+/>
+
+---
+
+## Themeing
+Denali’s components are completely themeable. This allows you to use our framework and adapt the visual style of Denali’s components to match your prodcut’s unique visual brand. Check out our guide to themeing with Denali to find out more.
+
+For all variables visit the CSS documentation page for [typography](https://denali-design.github.io/denali-css/?path=/story/get-started-variables--page#typography).
+
+
+
+export default ({ children }) => <Layout sidebar="components" meta={meta}>{children}</Layout>

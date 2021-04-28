@@ -4,10 +4,11 @@
 
 ## Table of contents
 - [Background](#background)
-- [Install](#install)
+- [Development](#development)
 - [Usage](#run-local-website)
 - [Browser support](#browser-support)
 - [Versioning](#versioning)
+- [Maintainers](#maintainers)
 - [Contribute](#contribute)
 - [License](#license)
 
@@ -18,48 +19,16 @@ The Denali System Language was created by the Platforms and Technology Design te
 
 You can view the site at [here](https://denali.design/).
 
-## Install
-
-### Prerequisites
-You will need to have these tools installed to run the site. Follow the instructions on their corresponding sites to install.
-
-1. [Ruby](https://www.ruby-lang.org/)
-2. [Jekyll](https://jekyllrb.com/)
-3. [Bundler](https://bundler.io/)
-4. [GitHub-Pages for Jekyll](https://jekyllrb.com/docs/github-pages/)
-5. [Compass](http://compass-style.org/)
-6. [Tzinfo-data](https://github.com/tzinfo/tzinfo-data)
-
-> Note: This guide assumes you have the prerequisites installed locally and will not go over instructions on how to install these.
-
-### Run Local Website
-After all prerequisites are installed follow these instructions to run a local version of this repository.
-
-Clone or download this repository.
+## Development
+Install node packages.
 ```
-denali-system-language/denali-styleguide.git
+npm install
 ```
-
-Use terminal or any command line tool and navigate to where you downloaded the repository.
+Starts Next.js in development mode
 ```
-cd user/documents/git/denali-styleguide
+npm run dev
 ```
-
-Install Gemfile
-```
-bundle install
-```
-
-Run the site using this.
-```
-jekyll serve --config _config.yml,_config.dev.yml
-```
-or 
-```
-bundle exec jekyll serve --config _config.yml,_config.dev.yml
-```
-
-You should be prompted with a success message and the url to use to view the site.
+View developement site at [http://localhost:3000](http://localhost:3000)
 
 ## Browser Support
 -  **Chrome** on Android, Windows, macOS, and Linux
@@ -69,15 +38,13 @@ You should be prompted with a success message and the url to use to view the sit
 ## Versioning
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the tags on this [repository](https://github.com/denali-design/denali-site).
 
+## Maintainers
+- [**Chas Turansky**](https://github.com/chasturansky)
+- [**Jon Kilroy**](https://github.com/jkusa)
+- [**Anusha Ganti**](https://github.com/anusha-66)
+
 ## Contribute
 To start contributing to Denali, have a look at our guidelines, as well as pointers on where to start making changes, in our [contributing guide](CONTRIBUTE.md).
-
-## Maintainers
-- **Jay Torres** | *Dir Product Design for Core Platforms* (torresr@verizonmedia.com)
-- **Chris Esler** | *Principle Software Dev Engineer* (cesler@verizonmedia.com)
-- **Chas Turansky** | *Product Designer & Front-End Dev* (cturansky@verizonmedia.com)
-- **Jazmin Orozco** | *Product Designer* (jorozco@verizonmedia.com)
-- **Marco Sandoval** | *Product Designer* (msandoval@verizonmedia.com)
 
 ## License
 Code licensed under the MIT license. See [LICENSE file](LICENESE.md) for terms.
