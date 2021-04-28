@@ -25,7 +25,7 @@ jobs:
                 git remote set-url origin `git remote get-url --push origin`
                 git add out/
                 git commit -m "Deploy gh-pages"
-                git subtree push --force --prefix out origin gh-pages
+                git push origin `git subtree split --prefix out master`:gh-pages --force
         secrets:
             - NPM_TOKEN
             - GH_TOKEN
