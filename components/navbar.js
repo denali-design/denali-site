@@ -5,14 +5,24 @@ const Navbar = (props) => {
 
     const router = useRouter();
 
+    const toggleSidebar = () => {
+        document.getElementById('sidebar').classList.toggle('show');
+    }
+
+    const toggleNavMenu = () => {
+        document.getElementById('navMenuContent').classList.toggle('is-active');
+    }
+
     return (
         <nav className="nav" {...props}>
             <div className="nav-left">
+                {router.pathname.includes("components") ? <span className="nav-item md-hide lg-hide xl-hide" onClick={toggleSidebar}><i className="d-icon d-menu-hamburger"></i></span> : ''}
+                {router.pathname.includes("design") ? <span className="nav-item md-hide lg-hide xl-hide" onClick={toggleSidebar}><i className="d-icon d-menu-hamburger"></i></span> : ''}
                 <Link href="/">
                     <img className="nav-brand" src={`/images/denali-logo-${props.logo}.png`} alt=""></img>
                 </Link>
                 <div className="float-right hide-small-desktop-up">
-                    <a className="nav-item" id="navToggle"><i className="d-icon d-more-vertical"></i></a>
+                    <a className="nav-item" onClick={toggleNavMenu}><i className="d-icon d-more-vertical"></i></a>
                 </div>
             </div>
             <div className="nav-responsive" id="navMenuContent">
@@ -23,10 +33,6 @@ const Navbar = (props) => {
                     <a href="/play" className={router.pathname.includes("play") ? "nav-item is-active" : "nav-item"}>Play</a>
                 </div>
                 <div className="nav-right">
-                    {/* <a href="" className="nav-item">
-                        <i className="d-icon d-search"></i>
-                        <span className="icon-name">Search</span>
-                    </a> */}
                     <a href="https://github.com/denali-design" target="_blank" rel="noopener noreferrer" className="nav-item">
                         <i className="d-icon d-github"></i>
                         <span className="icon-name">Github</span>

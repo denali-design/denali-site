@@ -12,7 +12,7 @@ export default function ComponentsLayout(props) {
                 <Navbar logo="white" style={{ position: "sticky", top: "0px", zIndex: "100"}}/>
 
                 <div className="flex">
-                    <div className="xs-hide sm-hide" style={{display: "block", minWidth: '300px'}}>
+                    <div id="sidebar" className="xs-hide sm-hide" style={{display: "block", minWidth: '300px'}}>
                         <Sidebar data={props.sidebar} style={{ position: "fixed", overflow: "auto", top: "60px", bottom: "0px"}} />
                     </div>
                     <div style={{ width: '100%', maxWidth: '1140px' }}>

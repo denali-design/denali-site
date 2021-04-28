@@ -17,7 +17,7 @@ export default function Design() {
                 <Navbar logo="white" style={{ position: "sticky", top: "0px", zIndex: "100" }} />
 
                 <div className="flex">
-                    <div className="xs-hide sm-hide" style={{ display: "block", minWidth: '300px' }}>
+                    <div id="sidebar" className="xs-hide sm-hide" style={{ display: "block", minWidth: '300px' }}>
                         <Sidebar data="design" style={{ position: "fixed", overflow: "auto", top: "60px", bottom: "0px" }} />
                     </div>
                     <div style={{ width: '100%' }}>
