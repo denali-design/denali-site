@@ -24,7 +24,7 @@ export default function Develop() {
             </div>
           </div>
           <div className="row m-t-80 flex-wrap">
-            <div className="col m-30" style={{ flex: "1 1 40%" }}>
+            <div className="col m-30" style={{ flex: "1 1 50%" }}>
               <div className="br-lg bg-size-cover bg-position-center-top" style={{ height: "300px", backgroundImage: 'url("/images/develop/css.png")' }}></div>
               <div className="p-y-20 p-x-30 has-bg-grey-100 m-x-40 br-lg shadow-3" style={{ marginTop: "-90px" }}>
                 <h5 className="is-mono m-b-14 is-grey-600">Get Started</h5>
@@ -65,6 +65,25 @@ export default function Develop() {
                       rel="noreferrer noopener"
                     >View Demo</a>
                   </h4>
+                </div>
+              </div>
+            </div>
+            <div className="col m-30" style={{ flex: "1 1 40%" }}>
+              <div className="br-lg bg-size-cover bg-position-center-top" style={{ height: "300px", backgroundImage: 'url("/images/develop/react.png")' }}></div>
+              <div className="p-y-20 p-x-30 has-bg-grey-100 m-x-40 br-lg shadow-3" style={{ marginTop: "-90px" }}>
+                <h5 className="is-mono m-b-14 is-grey-600">Get Started</h5>
+                <h3 className="m-b-20">React</h3>
+                <hr></hr>
+                <div className="flex m-t-20">
+                  <h4>
+                    <a
+                      className="m-r-50"
+                      href="https://denali-design.github.io/denali-react"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                    >Docs</a>
+                  </h4>
+                  <h4><a className="is-disabled">View Demo</a></h4>
                 </div>
               </div>
             </div>
