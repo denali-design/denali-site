@@ -20,7 +20,7 @@ export default function Develop() {
           </div>
           <div className="row m-t-20 ">
             <div className="xs-col-1-1 sm-col-1-1 md-col-3-4 lg-col-3-4 xl-col-3-4">
-              <p className="is-large">Denali componets are availbe as a CSS or Ember framework. If you don’t see your platform don’t fret - we’re working on adding additional platforms.</p>
+              <p className="is-large">Denali components are available as a CSS, Ember or React framework. If you don’t see your platform don’t fret - we’re working on adding additional platforms.</p>
             </div>
           </div>
           <div className="row m-t-80 flex-wrap">
