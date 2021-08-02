@@ -29,20 +29,21 @@ export default function Footer() {
                 </ul>
                 <ul>
                     <li className="header">Repositories</li>
-                    <li><a>CSS</a></li>
-                    <li><a>Ember</a></li>
-                    <li><a>Icons</a></li>
+                    <li><a href="https://github.com/denali-design/denali-css" target="_blank">CSS</a></li>
+                    <li><a href="https://github.com/denali-design/denali-react" target="_blank">React</a></li>
+                    <li><a href="https://github.com/denali-design/denali-ember" target="_blank">Ember</a></li>
+                    <li><a href="https://github.com/denali-design/denali-icons" target="_blank">Icons</a></li>
                 </ul>
                 <ul className="xs-hide sm-hide">
                     <li className="header">Resources</li>
-                    <li><a>HTML Templates</a></li>
-                    <li><a>Ui Kits</a></li>
-                    <li><a>Libraries</a></li>
+                    <li><a href="/play" >HTML Templates</a></li>
+                    <li><a href="design/tools-downloads/sketch" >Ui Kits</a></li>
+                    <li><a href="/design/tools-downloads/sketch" >Libraries</a></li>
                 </ul>
                 <ul>
                     <li className="header">Support</li>
-                    <li><a>Slack Org</a></li>
-                    <li><a>Github Issues</a></li>
+                    <li><a href="https://denali-design.slack.com/join/shared_invite/zt-a4t8jyci-OVrwr_qvWjfDYwSNyvYU4A#/shared-invite/email" target="_blank">Slack Org</a></li>
+                    <li><a href="https://github.com/orgs/denali-design/projects/1" target="_blank">Github Issues</a></li>
                     <li><a href="/browsers">Browsers</a></li>
                 </ul>
             </div>
