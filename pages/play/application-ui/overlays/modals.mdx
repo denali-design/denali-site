@@ -1,0 +1,73 @@
+import Layout from "../../../../layouts/PlayDetailLayout";
+import CodeBox from "../../../../components/CodeBox";
+
+export const meta = {
+  title: "Modals",
+  description:
+    "Modals are used to present an important message or task to a user.",
+  breadcrumbs: ["Application Ui", "Overlays"],
+};
+
+### Settings
+
+<CodeBox
+  height="720px"
+  source={`<div class="modal is-active">
+    <div class="modal-container" style="width:450px;">
+        <a class="close"><i class="d-icon d-close"></i></a>
+        <div class="modal-header">
+            <h3>Settings</h3>
+        </div>
+        <div class="modal-content">
+          <div class="input-group is-stacked w-full m-b-30">
+            <label>Name</label>
+            <div class="input w-full">
+              <input type="text" placeholder="Project name" />
+            </div>
+          </div>
+          <div class="input-group is-stacked w-full m-b-30">
+            <label>Description</label>
+            <div class="input w-full">
+              <textarea type="text" placeholder="Tell us about this project"></textarea>
+            </div>
+          </div>
+          <div class="flex space-between">
+            <div class="flex">
+              <button class="button is-solid m-r-10">Save</button>
+              <button class="button is-outline m-r-10">Cancel</button>
+            </div>
+            <button class="button is-danger is-default has-icon">
+              <i class="d-icon d-trash is-small"></i>
+            </button>
+          </div>
+        </div>
+    </div>
+</div>`}
+/>
+
+---
+
+### Link Sharing
+
+<CodeBox
+  height="720px"
+  source={`<div class="modal is-active">
+    <div class="modal-container" style="width:500px;">
+        <a class="close"><i class="d-icon d-close"></i></a>
+        <div class="modal-content">
+          <h3>Link Sharing</h3>
+          <div class="input m-t-20 m-b-5 is-full">
+            <input type="text" placeholder="Just a field" value="https://denali.design/projects/sample-project" />
+          </div>
+          <p>Anyone with this link can view</p>
+          <div class="flex m-t-20">
+            <button class="button is-solid m-r-10">Done</button>
+            <button class="button is-ghost">Copy Link</button>
+          </div>
+        </div>
+    </div>
+</div>
+`}
+/>
+
+export default ({ children }) => <Layout meta={meta}>{children}</Layout>;

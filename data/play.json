@@ -100,17 +100,52 @@
             "name": "Full Page",
             "items": [
                 {
-                    "title": "Request form",
-                    "description": "Facilitate user requests with these page forms.",
+                    "title": "Error",
+                    "description": "Redirect your users to these pages when they encounter an error.",
                     "items": "1",
+                    "image": "/images/cards/pages/404.png",
+                    "disabled": false,
+                    "link": "/play/application-ui/full-page/error",
+                    "tags": [
+                        "Navbar",
+                        "Animation"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Overlays",
+            "items": [
+                {
+                    "title": "Modals",
+                    "description": "Modals are used to present an important message or task to a user.",
+                    "items": "2",
                     "image": "/images/cards/sections/request-form.png",
-                    "disabled": true,
+                    "link": "/play/application-ui/overlays/modals",
+                    "disabled": false,
                     "tags": [
                         "Fields",
                         "Buttons",
-                        "Sidebar"
+                        "Modal"
                     ]
                 },
+                {
+                    "title": "Alerts",
+                    "description": "Complete landing pages with all the bells and whistles.",
+                    "items": "3",
+                    "image": "/images/cards/components/alerts.png",
+                    "disabled": true,
+                    "tags": [
+                        "Alerts",
+                        "Links",
+                        "Icons"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Informational",
+            "items": [
                 {
                     "title": "Data Table",
                     "description": "Orangize large amounts of data with data table pages.",
@@ -125,7 +160,7 @@
                 },
                 {
                     "title": "Settings",
-                    "description": "Give user the power to control their expereince with settings pages.",
+                    "description": "",
                     "items": "1",
                     "image": "/images/cards/pages/settings.png",
                     "disabled": true,
@@ -133,51 +168,6 @@
                         "Table",
                         "Nav",
                         "Tabs"
-                    ]
-                },
-                {
-                    "title": "404",
-                    "description": "Redirect your users to these pages when they encounter an error.",
-                    "items": "1",
-                    "image": "/images/cards/pages/404.png",
-                    "disabled": true,
-                    "tags": [
-                        "Links",
-                        "Button"
-                    ]
-                },
-                {
-                    "title": "Actions Panel",
-                    "description": "Redirect your users to these pages when they encounter an error.",
-                    "image": "/images/cards/coming-soon.png",
-                    "disabled": true
-                }
-            ]
-        },
-        {
-            "name": "Informational",
-            "items": [
-                {
-                    "title": "Alerts",
-                    "description": "Complete landing pages with all the bells and whistles.",
-                    "items": "3",
-                    "image": "/images/cards/components/alerts.png",
-                    "disabled": true,
-                    "tags": [
-                        "Alerts",
-                        "Links",
-                        "Icons"
-                    ]
-                },
-                {
-                    "title": "Modals",
-                    "description": "Modals to focus your users attention.",
-                    "items": "2",
-                    "image": "/images/cards/components/modal.png",
-                    "disabled": true,
-                    "tags": [
-                        "Type",
-                        "Buttons"
                     ]
                 },
                 {
