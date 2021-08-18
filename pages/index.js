@@ -46,7 +46,7 @@ const Index = () => {
   return (
     <div className="splash-page denali-new-age">
       <Head>
-        <title>Denali</title>
+        <title>Denali Design System</title>
         <meta property="og:image" content="/social-image/thumbnail.png"></meta>
       </Head>
 
