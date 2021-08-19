@@ -3,11 +3,11 @@ import React from 'react'
 import Highlight, { defaultProps } from 'prism-react-renderer'
 import codeTheme from 'prism-react-renderer/themes/okaidia';
 
-export default function CodeBox({ source }) {
+export default function CodeBox({ source, height }) {
     return (
         <div className="m-t-30">
             <div className="has-bg-grey-200 br-lg overflow-hidden m-b-20">
-                <iframe style={{width: '100%'}} srcDoc={`
+                <iframe style={{width: '100%', height:height}} srcDoc={`
                     <head>
                         <style>
                             body {

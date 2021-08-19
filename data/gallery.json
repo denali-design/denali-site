@@ -1,6 +1,17 @@
 {
     "projects": [
         {
+            "title": "Binders.io",
+            "date": "Aug 16, 2021",
+            "author": "Chas Turansky",
+            "color": "#FE1256",
+            "image": "/images/gallery/binders.png",
+            "link": "https://binders.io/",
+            "tags": [
+                "Icons"
+            ]
+        },
+        {
             "title": "Developer Network - Mail",
             "date": "Mar 24, 2021",
             "author": "YDN team at Verizon Media",
