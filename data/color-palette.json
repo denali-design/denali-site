@@ -1,0 +1,456 @@
+{
+    "brand": [
+        {
+            "shade": "100",
+            "value": "#CCE2FF"
+        },
+        {
+            "shade": "200",
+            "value": "#80B6FF"
+        },
+        {
+            "shade": "300",
+            "value": "#016EFF"
+        },
+        {
+            "shade": "400",
+            "value": "#004CB3"
+        },
+        {
+            "shade": "500",
+            "value": "#002B66"
+        }
+    ],
+    "status": [
+        {
+            "shade": "danger",
+            "value": "#EA0000"
+        },
+        {
+            "shade": "warning",
+            "value": "#F4CB00"
+        },
+        {
+            "shade": "success",
+            "value": "#15C046"
+        },
+        {
+            "shade": "info",
+            "value": "#0066DF"
+        }
+    ],
+    "grey": [
+        {
+            "shade": "100",
+            "value": "#FFFFFF"
+        },
+        {
+            "shade": "200",
+            "value": "#F8F8F8"
+        },
+        {
+            "shade": "300",
+            "value": "#F2F2F2"
+        },
+        {
+            "shade": "400",
+            "value": "#E8E8E8"
+        },
+        {
+            "shade": "500",
+            "value": "#D5D5D5"
+        },
+        {
+            "shade": "600",
+            "value": "#9A9A9A"
+        },
+        {
+            "shade": "700",
+            "value": "#606060"
+        },
+        {
+            "shade": "800",
+            "value": "#303030"
+        }
+    ],
+    "red": [
+        {
+            "shade": "100",
+            "value": "#FFBDBD"
+        },
+        {
+            "shade": "200",
+            "value": "#F89494"
+        },
+        {
+            "shade": "300",
+            "value": "#F16A6A"
+        },
+        {
+            "shade": "400",
+            "value": "#E94141"
+        },
+        {
+            "shade": "500",
+            "value": "#E21717"
+        },
+        {
+            "shade": "600",
+            "value": "#D01111"
+        },
+        {
+            "shade": "700",
+            "value": "#BE0C0C"
+        },
+        {
+            "shade": "800",
+            "value": "#AB0606"
+        },
+        {
+            "shade": "900",
+            "value": "#990000"
+        }
+    ],
+    "orange": [
+        {
+            "shade": "100",
+            "value": "#FFDCC0"
+        },
+        {
+            "shade": "200",
+            "value": "#FCC391"
+        },
+        {
+            "shade": "300",
+            "value": "#F8A962"
+        },
+        {
+            "shade": "400",
+            "value": "#F49032"
+        },
+        {
+            "shade": "500",
+            "value": "#F17603"
+        },
+        {
+            "shade": "600",
+            "value": "#DC6A03"
+        },
+        {
+            "shade": "700",
+            "value": "#C85E03"
+        },
+        {
+            "shade": "800",
+            "value": "#B35102"
+        },
+        {
+            "shade": "900",
+            "value": "#9E4502"
+        }
+    ],
+    "yellow": [
+        {
+            "shade": "100",
+            "value": "#FFFCD2"
+        },
+        {
+            "shade": "200",
+            "value": "#FFF4A9"
+        },
+        {
+            "shade": "300",
+            "value": "#FFEB71"
+        },
+        {
+            "shade": "400",
+            "value": "#FEE344"
+        },
+        {
+            "shade": "500",
+            "value": "#FED800"
+        },
+        {
+            "shade": "600",
+            "value": "#F7C500"
+        },
+        {
+            "shade": "700",
+            "value": "#F0B200"
+        },
+        {
+            "shade": "800",
+            "value": "#E99E00"
+        },
+        {
+            "shade": "900",
+            "value": "#E28B00"
+        }
+    ],
+    "lime": [
+        {
+            "shade": "100",
+            "value": "#E8FFC0"
+        },
+        {
+            "shade": "200",
+            "value": "#D0F595"
+        },
+        {
+            "shade": "300",
+            "value": "#B8EC69"
+        },
+        {
+            "shade": "400",
+            "value": "#9FE23E"
+        },
+        {
+            "shade": "500",
+            "value": "#87D812"
+        },
+        {
+            "shade": "600",
+            "value": "#7BC210"
+        },
+        {
+            "shade": "700",
+            "value": "#6EAC0F"
+        },
+        {
+            "shade": "800",
+            "value": "#62950D"
+        },
+        {
+            "shade": "900",
+            "value": "#557F0B"
+        }
+    ],
+    "green": [
+        {
+            "shade": "100",
+            "value": "#D3FFD2"
+        },
+        {
+            "shade": "200",
+            "value": "#A6EFB4"
+        },
+        {
+            "shade": "300",
+            "value": "#7AE097"
+        },
+        {
+            "shade": "400",
+            "value": "#4DD079"
+        },
+        {
+            "shade": "500",
+            "value": "#20C05B"
+        },
+        {
+            "shade": "600",
+            "value": "#1DAD51"
+        },
+        {
+            "shade": "700",
+            "value": "#1A9947"
+        },
+        {
+            "shade": "800",
+            "value": "#17863D"
+        },
+        {
+            "shade": "900",
+            "value": "#147233"
+        }
+    ],
+    "sky": [
+        {
+            "shade": "100",
+            "value": "#BEF0FC"
+        },
+        {
+            "shade": "200",
+            "value": "#96E8FC"
+        },
+        {
+            "shade": "300",
+            "value": "#6DDDFA"
+        },
+        {
+            "shade": "400",
+            "value": "#43D1F7"
+        },
+        {
+            "shade": "500",
+            "value": "#19C6F4"
+        },
+        {
+            "shade": "600",
+            "value": "#17AFD4"
+        },
+        {
+            "shade": "700",
+            "value": "#1499B5"
+        },
+        {
+            "shade": "800",
+            "value": "#128295"
+        },
+        {
+            "shade": "900",
+            "value": "#106B75"
+        }
+    ],
+    "blue": [
+        {
+            "shade": "100",
+            "value": "#C0E3FF"
+        },
+        {
+            "shade": "200",
+            "value": "#90C7F7"
+        },
+        {
+            "shade": "300",
+            "value": "#60ABEF"
+        },
+        {
+            "shade": "400",
+            "value": "#308EE7"
+        },
+        {
+            "shade": "500",
+            "value": "#0072DF"
+        },
+        {
+            "shade": "600",
+            "value": "#0065BF"
+        },
+        {
+            "shade": "700",
+            "value": "#0058A0"
+        },
+        {
+            "shade": "800",
+            "value": "#004B80"
+        },
+        {
+            "shade": "900",
+            "value": "#003E60"
+        }
+    ],
+    "purple": [
+        {
+            "shade": "100",
+            "value": "#DBD0FD"
+        },
+        {
+            "shade": "200",
+            "value": "#C8B6FF"
+        },
+        {
+            "shade": "300",
+            "value": "#AA89EA"
+        },
+        {
+            "shade": "400",
+            "value": "#8C5BD4"
+        },
+        {
+            "shade": "500",
+            "value": "#6E2EBF"
+        },
+        {
+            "shade": "600",
+            "value": "#5413A8"
+        },
+        {
+            "shade": "700",
+            "value": "#40008B"
+        },
+        {
+            "shade": "800",
+            "value": "#30006D"
+        },
+        {
+            "shade": "900",
+            "value": "#20004E"
+        }
+    ],
+    "violet": [
+        {
+            "shade": "100",
+            "value": "#E9B7F3"
+        },
+        {
+            "shade": "200",
+            "value": "#DE9BEB"
+        },
+        {
+            "shade": "300",
+            "value": "#C777D6"
+        },
+        {
+            "shade": "400",
+            "value": "#B152C2"
+        },
+        {
+            "shade": "500",
+            "value": "#9A2EAD"
+        },
+        {
+            "shade": "600",
+            "value": "#842895"
+        },
+        {
+            "shade": "700",
+            "value": "#6E227D"
+        },
+        {
+            "shade": "800",
+            "value": "#571B64"
+        },
+        {
+            "shade": "900",
+            "value": "#41154C"
+        }
+    ],
+    "pink": [
+        {
+            "shade": "100",
+            "value": "#FABCDC"
+        },
+        {
+            "shade": "200",
+            "value": "#FF9DCC"
+        },
+        {
+            "shade": "300",
+            "value": "#FF7AB8"
+        },
+        {
+            "shade": "400",
+            "value": "#FF56A4"
+        },
+        {
+            "shade": "500",
+            "value": "#FF3390"
+        },
+        {
+            "shade": "600",
+            "value": "#DF2D82"
+        },
+        {
+            "shade": "700",
+            "value": "#BF2874"
+        },
+        {
+            "shade": "800",
+            "value": "#9F2265"
+        },
+        {
+            "shade": "900",
+            "value": "#7F1C57"
+        }
+    ]
+}
