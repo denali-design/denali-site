@@ -4,7 +4,9 @@ export default class MyDocument extends Document {
   render() {
     return (
       <Html lang="en">
-        <Head />
+        <Head>
+        <link rel="fav icon" href="/images/denali-favicon.png" />
+        </Head>
         <body className="denali-new-age">
           <Main />
           <NextScript />
