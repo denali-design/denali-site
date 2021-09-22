@@ -34,9 +34,10 @@
                 {
                     "title": "Hero",
                     "description": "Hero sections to put your products front and center.",
-                    "items": "1",
+                    "items": "3",
                     "image": "/images/cards/sections/hero.png",
-                    "disabled": true,
+                    "link": "/play/marketing/page-sections/hero",
+                    "disabled": false,
                     "tags": [
                         "Type",
                         "Buttons",
