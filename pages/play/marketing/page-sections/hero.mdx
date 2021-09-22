@@ -1,0 +1,118 @@
+import Layout from "../../../../layouts/PlayDetailLayout";
+import CodeBox from "../../../../components/CodeBox";
+
+export const meta = {
+  title: "Hero",
+  description: "Hero sections to put your products front and center.",
+  breadcrumbs: ["Page Sections", "Hero"],
+};
+
+### Background image
+
+<CodeBox
+  height="500px"
+  source={`
+    <div class="box bg-size-cover" style="height: 446px; 
+                      background-image: url('/images/play/hero/hero-1.png');
+                      background-position: bottom;
+                      box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, .4);">
+        <div class="flex justify-content-center">
+            <img class="m-r-20" style="height:30px;" src="/images/play/hero/logo.png" alt="" />  
+            <div class="tabs is-secondary is-white" style="min-width: auto;">
+                <ul>
+                    <li class="is-active"><a class="is-white">Tab 1</a></li>
+                    <li><a class="is-white">Tab 2</a></li>
+                    <li><a class="is-white">Tab 3</a></li>
+                    <li><a class="is-white">Tab 4</a></li>
+                 </ul>
+            </div>
+        </div>
+        <div class="flex justify-content-center align-content-center p-t-43 flex-column">
+            <h5 class="is-white" style="text-align: center"> FOR THE ADVENTURERS  </h5>
+            <h1 class="is-white m-t-10" style="text-align: center"> More than a mountain. Are you ready? </h1>
+            <p class="is-white m-t-30" style="text-align: center"> Denali is six million acres of wild land, bisected by one ribbon of road culminating in North America's tallest peak. </p>
+            <div class="flex justify-content-center m-t-30">
+              <button class="button is-solid m-r-10">Book your trip</button>
+              <button class="button is-outline is-inverse m-r-10">Learn more</button>
+            </div>
+        </div>
+    </div>
+  `}
+/>
+
+---
+
+### Text and Image split
+
+<CodeBox
+  height="500px"
+  source={`
+    <div class="has-bg-white p-0" >
+    <nav class="nav">
+    <div class="nav-left">
+        <img class="nav-brand" src="/images/play/hero/logo.png" alt="" />
+    </div>
+    <div class="nav-responsive">
+        <div class="nav-center">
+            <a class="nav-item is-active">Home</a>
+            <a class="nav-item">About</a>
+            <a class="nav-item">Contact</a>
+        </div>
+    </div>
+    </nav>
+    <div class="flex  p-x-72 p-y-54">
+        <div class=" p-t-15 p-r-59 flex-column" >
+            <h5> FOR THE ADVENTURERS </h5>
+            <h1 class="m-t-10"> More than a mountain. Are you ready? </h1>
+            <p class="m-t-10"> Denali is six million acres of wild land, bisected by one ribbon of road culminating in North America's tallest peak. </p>
+            <div class="flex m-t-20">
+              <button class="button is-solid m-r-10">Book your trip</button>
+              <button class="button is-outline m-r-10">Learn more</button>
+            </div>
+        </div>
+        <div>
+            <img class="nav-brand" src="/images/play/hero/hero-2.png" alt="" />
+        </div>
+    </div> 
+    </div>
+  `}
+/>
+
+---
+
+### Centered with large image
+
+<CodeBox
+  height="780px"
+  source={`
+    <div class="box has-bg-black" >
+        <div class="flex">
+            <img class="m-r-20" style="height:30px;" src="/images/play/hero/logo.png" alt="" />  
+            <div class="tabs is-secondary is-white" style="min-width: auto;">
+                <ul>
+                    <li class="is-active"><a class="is-white">Tab 1</a></li>
+                    <li><a class="is-white">Tab 2</a></li>
+                    <li><a class="is-white">Tab 3</a></li>
+                    <li><a class="is-white">Tab 4</a></li>
+                 </ul>
+            </div>
+        </div>
+        <div class="flex p-x-100 p-y-54 flex-column">
+            <div class="flex justify-content-center align-content-center p-t-50 flex-column">
+                <h5 class="is-white" style="text-align: center"> FOR THE ADVENTURERS </h5>
+                <h1 class="is-white m-t-10" style="text-align: center"> More than a mountain. Are you ready? </h1>
+                <p class="is-white m-t-10" style="text-align: center"> Denali is six million acres of wild land, bisected by one ribbon of road culminating in North America's tallest peak. </p>
+                <div class="flex justify-content-center m-t-20">
+                <button class="button is-solid m-r-10">Book your trip</button>
+                <button class="button is-outline is-inverse m-r-10">Learn more</button>
+                </div>
+            </div>
+            <div class="m-t-51 br-10" style="height: 300px; background-image: url('/images/play/hero/hero-3.png'); background-size: cover;">
+            </div>
+        </div>
+    </div> 
+    </div>
+  `}
+/>
+
+export default ({ children }) => <Layout meta={meta}>{children}</Layout>;
