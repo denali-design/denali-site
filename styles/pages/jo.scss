@@ -1,0 +1,93 @@
+@font-face {
+  font-family: "SalvajeDisplay-Regular";
+  src: url("/fonts/SalvajeDisplay-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.jo {
+  width: 100%;
+  background-image: url("/images/fireworks.gif");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom right;
+  background-size: auto 100%;
+  background-color: #1b1c63;
+  overflow: auto;
+  padding: 120px;
+  .header {
+    overflow: hidden;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    word-break: break-word;
+    font-family: "SalvajeDisplay-Regular", serif;
+    color: #ffffff;
+    font-size: 120px;
+    letter-spacing: 0px;
+    line-height: 1.1;
+    text-align: left;
+  }
+  .kudos {
+    width: 116px;
+  }
+}
+
+.message-container {
+  border: 1px solid transparent;
+  border-radius: 50px;
+  p {
+    overflow: hidden;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    word-break: break-word;
+    font-weight: 500;
+    font-style: normal;
+    font-family: "Montserrat", serif;
+    color: #1b1b63;
+    font-size: 36px;
+    letter-spacing: 0px;
+    line-height: 1.3;
+    text-align: left;
+  }
+  .author {
+    overflow: visible;
+    white-space: pre;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "Montserrat", serif;
+    color: #1b1b63;
+    font-size: 36px;
+    letter-spacing: 0px;
+    line-height: 1.3;
+    text-align: left;
+  }
+  .header-down {
+    margin-top: 140px;
+  }
+}
+
+@media (max-width: 900px) {
+  .jo {
+    padding: 40px;
+    .header {
+      font-size: 32px;
+      margin-bottom: 20px !important;
+    }
+    .kudos {
+      margin-bottom: 20px !important;
+    }
+  }
+  .message-container {
+    padding: 20px !important;
+    border-radius: 14px;
+    p {
+      font-size: 24px;
+    }
+    .author {
+      font-size: 24px;
+    }
+  }
+  .header-down {
+    margin-top: 20px;
+  }
+}
