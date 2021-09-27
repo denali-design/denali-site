@@ -17,7 +17,7 @@ export default function Custom404() {
         />
         <div className="flex flex-column align-items-center m-b-80">
           <h1>Oops, you're lost in space.</h1>
-          <p className="m-b-20">We can't find the page you're looking for...</p>
+          <p className="m-b-20">We can't find the page you're looking for.</p>
           <a href="/" className="button is-solid">
             Go Home
           </a>
