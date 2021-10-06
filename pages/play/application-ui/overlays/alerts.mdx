@@ -1,0 +1,140 @@
+import Layout from "../../../../layouts/PlayDetailLayout";
+import CodeBox from "../../../../components/CodeBox";
+
+export const meta = {
+  title: "Alerts",
+  description:
+    "Alerts for multiple forms of notifications on a UI.",
+  breadcrumbs: ["Application Ui", "Overlays"],
+};
+
+### Default Block Level Alert
+
+<CodeBox
+  height="100px"
+  source={`
+    <div class="alert is-block is-info flex align-items-center">
+        <span class="d-icon d-information-circle"></span>
+        <div>
+            <h5 class="m-b-0">This is a title</h5>
+        </div>
+        <span class="link close is-secondary">
+            <span class="d-icon d-close is-sub"></span>
+        </span>
+    </div>
+  `}
+/>
+
+---
+
+### Block Level Alert with Context
+
+<CodeBox
+  height="100px"
+  source={`
+    <div class="alert is-block is-info">
+        <span class="d-icon d-information-circle"></span>
+        <div>
+            <h5>This is a title</h5>
+            <p>This is a description for the alert context.</p>
+        </div>
+        <span class="link close is-secondary">
+            <span class="d-icon d-close is-sub"></span>
+        </span>
+    </div>
+`}
+/>
+
+---
+
+### Inline Alert
+
+<CodeBox
+  height="100px"
+  source={`
+    <div class="alert is-inline has-bg-status-info align-items-center">
+        <p class="is-bold is-white" style="flex-grow:1;">Masks are required for everyone, regardless of location or vaccination status</p>
+        <span class="link m-l-auto p-0 ">
+            <span class="d-icon d-close is-sub is-white"></span>
+        </span>
+    </div>
+`}
+/>
+
+---
+
+### Default Notification Alert
+
+<CodeBox
+  height="150px"
+  source={`
+    <div class="alert is-info m-0 m-auto">
+    <span class="d-icon d-information-circle"></span>
+    <div>
+        <h5>Masks are required for everyone, regardless of location or vaccination status</h5>
+    </div>
+    <span class="link close is-secondary"
+        ><span class="d-icon d-close is-sub"></span
+    ></span>
+</div>
+`}
+/>
+
+---
+
+### Notification Alert with Context
+
+<CodeBox
+  height="150px"
+  source={`
+    <div class="alert is-info" style="width:100%;">
+    <span class="d-icon d-information-circle"></span>
+    <div>
+        <h5>Masks are required for everyone, regardless of location or vaccination status</h5>
+        <p>Additional details are available at www.nps.gov/coronavirus. Before visiting, please check the park website to determine its operating status. Please recreate responsibly.</p>
+    </div>
+    <span class="link close is-secondary"
+        ><span class="d-icon d-close is-sub"></span
+    ></span>
+</div>
+`}
+/>
+
+---
+
+### Default Toast Alert
+
+<CodeBox
+  height="100px"
+  source={`
+    <div class="box has-bg-grey-800 br-6 flex space-between p-x-20 p-y-20 align-items-center" style="width:100%; height:52px;">
+    <p class="is-white"> Membership application sent! </p>
+    <div>
+        <button class="button is-text is-white" style="min-width: 70px;"> Undo </button>
+        <i class="d-icon d-close is-default is-grey-100"></i>
+    </div>
+</div>
+`}
+/>
+
+---
+
+### Toast Alert with context
+
+<CodeBox
+  height="100px"
+  source={`
+    <div class="box has-bg-grey-800 br-6 p-x-12 p-y-8 m-0 m-auto" style="width:500px; min-height:80px;"">
+        <div class="flex space-between align-items-center">
+            <p class="is-white is-bold"> Membership application sent! </p>
+            <div>
+                <button class="button is-text is-white" style="min-width: 70px;"> Undo </button>
+                <i class="d-icon d-close is-default is-grey-100"></i>
+            </div>
+        </div>
+    <p class="is-white font-12">You will recieve your I.D. Card through USPS. Please allow 3-5 Business Days.</p>
+    </div>
+`}
+/>
+
+export default ({ children }) => <Layout meta={meta}>{children}</Layout>;
