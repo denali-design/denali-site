@@ -19,7 +19,7 @@ export default function Develop() {
             <div className="xs-col-1-1 sm-col-1-1 md-col-1-2 lg-col-1-2 xl-col-1-2 p-60">
               <h6 className="upper m-b-20 is-grey-100 is-bold">Plug n’ play components</h6>
               <h1 className="m-b-20 is-grey-100">Jumpstart your project with Denali Play</h1>
-              <p className="is-large is-grey-100">Denali is availbe as a CSS, React, and Ember framework. If you don’t see your platform don’t fret - we’re working on adding additional platforms.</p>
+              <p className="is-large is-grey-100">Denali is available as a CSS, React, and Ember framework. If you don’t see your platform don’t fret - we’re working on adding additional platforms.</p>
             </div>
             <div className="xs-hide sm-hide md-col-1-2 lg-col-1-2 xl-col-1-2 bg-size-cover" style={{ backgroundImage: 'linear-gradient(90deg, rgba(1,110,255,1) 0%, rgba(1,110,255,0) 60%, rgba(1,110,255,0) 75%, rgba(1,110,255,1) 99%, rgba(1,110,255,1) 100%), url("/images/play/play-cover.png")', backgroundPosition: 'center left' }}></div>
           </div>
