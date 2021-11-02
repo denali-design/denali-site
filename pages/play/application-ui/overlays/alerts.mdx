@@ -11,16 +11,28 @@ export const meta = {
 ### Default Block Level Alert
 
 <CodeBox
-  height="100px"
+  height="200px"
   source={`
-    <div class="alert is-block is-info flex align-items-center">
-        <span class="d-icon d-information-circle"></span>
-        <div>
-            <h5 class="m-b-0">This is a title</h5>
+    <div class="has-bg-grey-100 h-50">
+    <nav class="nav">
+    <div class="nav-left">
+        <img class="nav-brand" src="/images/play/hero/logo.png" alt="" />
+    </div>
+    <div class="nav-responsive">
+        <div class="nav-center">
+            <a class="nav-item is-active">Visit</a>
+            <a class="nav-item">Activities</a>
+            <a class="nav-item">Learn</a>
+            <a class="nav-item">Donate</a>
         </div>
-        <span class="link close is-secondary">
-            <span class="d-icon d-close is-sub"></span>
-        </span>
+    </div>
+    </nav>
+    <div class="alert is-block is-warning m-0 m-auto m-t-16 p-r-20" style="width: fit-content">
+        <span class="d-icon d-warning"></span>
+        <div>
+            <h5 class="m-b-0">Masks are required for everyone, regardless of location or vaccination status.</h5>
+        </div>
+    </div>
     </div>
   `}
 />
@@ -30,17 +42,30 @@ export const meta = {
 ### Block Level Alert with Context
 
 <CodeBox
-  height="100px"
+  height="200px"
   source={`
-    <div class="alert is-block is-info">
+  <div class="has-bg-grey-100 h-50">
+   <nav class="nav">
+    <div class="nav-left">
+        <img class="nav-brand" src="/images/play/hero/logo.png" alt="" />
+    </div>
+    <div class="nav-responsive">
+        <div class="nav-center">
+            <a class="nav-item is-active">Visit</a>
+            <a class="nav-item">Activities</a>
+            <a class="nav-item">Learn</a>
+            <a class="nav-item">Donate</a>
+        </div>
+    </div>
+    </nav>
+    <div class="alert is-block is-info m-0 m-auto m-t-16 p-r-20" style="width: fit-content">
         <span class="d-icon d-information-circle"></span>
         <div>
-            <h5>This is a title</h5>
-            <p>This is a description for the alert context.</p>
+            <h5 class="m-b-0">Masks are required for everyone, regardless of location or vaccination status.</h5>
+            <p>Additional details are available at www.nps.gov/coronavirus. Before visiting</p>
+            <p>please check the park website to determine its operating status. Please recreate responsibly.</p>
         </div>
-        <span class="link close is-secondary">
-            <span class="d-icon d-close is-sub"></span>
-        </span>
+    </div>
     </div>
 `}
 />
@@ -50,13 +75,28 @@ export const meta = {
 ### Inline Alert
 
 <CodeBox
-  height="100px"
+  height="150px"
   source={`
-    <div class="alert is-inline has-bg-status-info align-items-center">
-        <p class="is-bold is-white" style="flex-grow:1;">Masks are required for everyone, regardless of location or vaccination status</p>
+    <div class="has-bg-grey-100 h-50">
+    <nav class="nav">
+    <div class="nav-left">
+        <img class="nav-brand" src="/images/play/hero/logo.png" alt="" />
+    </div>
+    <div class="nav-responsive">
+        <div class="nav-center">
+            <a class="nav-item is-active">Visit</a>
+            <a class="nav-item">Activities</a>
+            <a class="nav-item">Learn</a>
+            <a class="nav-item">Donate</a>
+        </div>
+    </div>
+    </nav>
+    <div class="alert is-inline has-bg-status-danger align-items-center">
+        <p class="is-bold is-white flex-auto">Masks are required for everyone, regardless of location or vaccination status</p>
         <span class="link m-l-auto p-0 ">
             <span class="d-icon d-close is-sub is-white"></span>
         </span>
+    </div>
     </div>
 `}
 />
@@ -66,16 +106,35 @@ export const meta = {
 ### Default Notification Alert
 
 <CodeBox
-  height="150px"
+  height="250px"
   source={`
-    <div class="alert is-info m-0 m-auto">
-    <span class="d-icon d-information-circle"></span>
+   <div class="has-bg-grey-100 h-50" style="position: relative;">
+    <nav class="nav">
+    <div class="nav-left">
+        <img class="nav-brand" src="/images/play/hero/logo.png" alt="" />
+    </div>
+    <div class="nav-responsive">
+        <div class="nav-center">
+            <a class="nav-item is-active">Visit</a>
+            <a class="nav-item">Activities</a>
+            <a class="nav-item">Learn</a>
+            <a class="nav-item">Donate</a>
+        </div>
+    </div>
+    </nav>
+    <div style="position: absolute;
+    top: 45px;
+    width: 100%;">
+    <div class="alert is-warning m-0 m-auto">
+    <span class="d-icon d-warning"></span>
     <div>
         <h5>Masks are required for everyone, regardless of location or vaccination status</h5>
     </div>
     <span class="link close is-secondary"
         ><span class="d-icon d-close is-sub"></span
     ></span>
+</div>
+</div>
 </div>
 `}
 />
@@ -85,9 +144,25 @@ export const meta = {
 ### Notification Alert with Context
 
 <CodeBox
-  height="150px"
+  height="250px"
   source={`
-    <div class="alert is-info" style="width:100%;">
+    <div class="has-bg-grey-100 h-50" style="position: relative;">
+    <nav class="nav">
+    <div class="nav-left">
+        <img class="nav-brand" src="/images/play/hero/logo.png" alt="" />
+    </div>
+    <div class="nav-responsive">
+        <div class="nav-center">
+            <a class="nav-item is-active">Visit</a>
+            <a class="nav-item">Activities</a>
+            <a class="nav-item">Learn</a>
+            <a class="nav-item">Donate</a>
+        </div>
+    </div>
+    </nav>
+    <div class="w-full" style="position: absolute;
+    top: 45px;">
+    <div class="alert is-info m-0 m-auto" style="width: 80%">
     <span class="d-icon d-information-circle"></span>
     <div>
         <h5>Masks are required for everyone, regardless of location or vaccination status</h5>
@@ -97,6 +172,8 @@ export const meta = {
         ><span class="d-icon d-close is-sub"></span
     ></span>
 </div>
+</div>
+</div>
 `}
 />
 
@@ -105,14 +182,18 @@ export const meta = {
 ### Default Toast Alert
 
 <CodeBox
-  height="100px"
+  height="150px"
   source={`
-    <div class="box has-bg-grey-800 br-6 flex space-between p-x-20 p-y-20 align-items-center" style="width:100%; height:52px;">
+    <div class="has-bg-grey-100 h-50">
+    <div class="box has-bg-grey-800 br-6 flex space-between p-x-20 p-y-20 align-items-center" style="position: fixed;
+    bottom: 10px;
+    right: 30px; height:52px;">
     <p class="is-white"> Membership application sent! </p>
     <div>
         <button class="button is-text is-white" style="min-width: 70px;"> Undo </button>
         <i class="d-icon d-close is-default is-grey-100"></i>
     </div>
+</div>
 </div>
 `}
 />
@@ -122,9 +203,13 @@ export const meta = {
 ### Toast Alert with context
 
 <CodeBox
-  height="100px"
+  height="150px"
   source={`
-    <div class="box has-bg-grey-800 br-6 p-x-12 p-y-8 m-0 m-auto" style="width:500px; min-height:80px;"">
+    <div class="has-bg-grey-100 h-50">
+    <div class="box has-bg-grey-800 br-6 p-x-12 p-y-8 m-0 m-auto" style="    position: fixed;
+    min-height: 80px;
+    bottom: 10px;
+    left: 30px;">
         <div class="flex space-between align-items-center">
             <p class="is-white is-bold"> Membership application sent! </p>
             <div>
@@ -133,6 +218,7 @@ export const meta = {
             </div>
         </div>
     <p class="is-white font-12">You will recieve your I.D. Card through USPS. Please allow 3-5 Business Days.</p>
+    </div>
     </div>
 `}
 />

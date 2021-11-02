@@ -93,6 +93,18 @@
                         "Type",
                         "Button"
                     ]
+                },
+                {
+                    "title": "Sign Up",
+                    "description": "Sign Up section to introduce product capabilities to new users.",
+                    "items": "1",
+                    "image": "/images/cards/sections/pricing.png",
+                    "link": "/play/marketing/page-sections/sign-up",
+                    "disabled": false,
+                    "tags": [
+                        "Type",
+                        "Buttons"
+                    ]
                 }
             ]
         }
