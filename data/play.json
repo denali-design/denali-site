@@ -62,9 +62,10 @@
                 {
                     "title": "Features",
                     "description": "Feature sections to show off your product’s best offerings.",
-                    "items": "1",
+                    "items": "2",
                     "image": "/images/cards/sections/features.png",
-                    "disabled": true,
+                    "link": "/play/marketing/page-sections/features",
+                    "disabled": false,
                     "tags": [
                         "Type",
                         "Box"
@@ -91,6 +92,18 @@
                     "tags": [
                         "Type",
                         "Button"
+                    ]
+                },
+                {
+                    "title": "Sign Up",
+                    "description": "Sign Up section to introduce product capabilities to new users.",
+                    "items": "1",
+                    "image": "/images/cards/sections/pricing.png",
+                    "link": "/play/marketing/page-sections/sign-up",
+                    "disabled": false,
+                    "tags": [
+                        "Type",
+                        "Buttons"
                     ]
                 }
             ]
@@ -132,10 +145,11 @@
                 },
                 {
                     "title": "Alerts",
-                    "description": "Complete landing pages with all the bells and whistles.",
-                    "items": "3",
+                    "description": "Alerts for multiple forms of notifications on a UI.",
+                    "items": "7",
                     "image": "/images/cards/components/alerts.png",
-                    "disabled": true,
+                    "link": "/play/application-ui/overlays/alerts",
+                    "disabled": false,
                     "tags": [
                         "Alerts",
                         "Links",

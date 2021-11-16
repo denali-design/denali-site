@@ -1,0 +1,60 @@
+import Layout from "../../../../layouts/PlayDetailLayout";
+import CodeBox from "../../../../components/CodeBox";
+
+export const meta = {
+  title: "Sign Up",
+  description:
+    "Sign Up section to introduce product capabilities to new users.",
+  breadcrumbs: ["Full Page", "Sign Up"],
+};
+
+### Welcome
+
+<CodeBox
+  height="600px"
+  source={`
+    <div class="has-bg-grey-100 p-20 h-full">
+     <div class="row flexbr-6">
+         <div class="box bg-size-cover col-1-2 sm-col-1-2 xs-col-1-1 p-x-57 p-t-100" style="background-image: url('/images/play/hero/hero-1.png');
+                background-position: bottom;
+                box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, .4);
+                border-radius: 0;">
+            <div class="flex justify-content-center align-content-center p-t-43 flex-column">
+                <h1 class="is-white m-t-10" style="text-align: center"> More than a mountain. Are you ready? </h1>
+                <p class="is-white m-t-30" style="text-align: center"> Denali is six million acres of wild land, bisected by one ribbon of road culminating in North America's tallest peak. </p>
+            </div>
+        </div>
+        <div class="box col-1-2 sm-col-1-2 xs-col-1-1 p-x-40 p-y-50" style="border-radius:0; border: none;">
+            <h2> Sign Up </h2>
+            <div class="input-group is-stacked responsive m-t-12">
+                <label>Name</label>
+                <div class="input w-full" >
+                    <input type="text" placeholder="Enter Full Name" />
+                </div>
+            </div>
+            <div class="input-group is-stacked responsive m-t-20">
+                <label>Email</label>
+                <div class="input w-full">
+                    <input type="text" placeholder="Enter Email Address" />
+                </div>
+            </div>
+            <div class="input-group is-stacked responsive m-t-20">
+                <label>Password</label>
+                <div class="input w-full">
+                    <input type="password" placeholder="Enter Password"/>
+                </div>
+            </div>
+            <div class="checkbox m-t-20">
+                <input id="denali-checkbox-1" type="checkbox" value="value1" />
+                <label for="denali-checkbox-1">I agree to the Denali Terms & Privacy Policy</label>
+            </div>
+            <div class="m-t-20">
+                <button class="button is-solid"> Get Started </button>
+            </div>
+        </div>
+      </div>
+     </div>
+  `}
+/>
+
+export default ({ children }) => <Layout meta={meta}>{children}</Layout>;

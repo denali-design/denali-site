@@ -1,0 +1,84 @@
+import Layout from "../../../../layouts/PlayDetailLayout";
+import CodeBox from "../../../../components/CodeBox";
+
+export const meta = {
+  title: "Features",
+  description:
+    "Feature sections to show off your product’s best offerings.",
+  breadcrumbs: ["Page Sections", "Features"],
+};
+
+### Alternating features
+
+<CodeBox
+  height="900px"
+  source={`
+    <div>
+    <div class="has-bg-grey-200 p-0" >
+    <div class="flex tablet-down-flex-column p-x-28 p-y-60">
+        <div class="xs-col-12-12 md-col-6-12 p-b-10 p-x-40">
+            <img class="nav-brand" src="/images/play/features/feature-1.png" alt="" />
+        </div>
+        <div class="xs-col-12-12 md-col-6-12 p-x-40" >
+            <box class="has-bg-brand-100 flex align-items-center justify-content-center br-6 h-8 w-8"><i class="d-icon d-store is-default is-brand-500"></i></box>
+            <p class="is-grey-700 m-t-28 font-12"> ESSENTIALS </p>
+            <h3 class="m-t-6">Eating & Sleeping</h3>
+            <p class="m-t-20 font-12"> Located next to the Denali Visitor Center, the Morino Grill is the only sit-down restaurant in the park. Snacks can be purchased at the Wilderness Access Center. </p>
+            <button class="button is-solid m-t-20">Learn More</button>
+        </div>
+    </div> 
+    </div>
+    <div class="has-bg-white p-0" >
+    <div class="flex tablet-down-flex-column p-x-28 p-y-60">
+        <div class="xs-col-12-12 md-col-6-12 p-x-40 p-b-10" >
+            <box class="has-bg-brand-100 flex align-items-center justify-content-center br-6 h-8 w-8"><i class="d-icon d-pets is-default is-brand-500"></i></box>
+            <p class="is-grey-700 m-t-28 font-12"> ESSENTIALS </p>
+            <h3 class="m-t-6">Sled Dogs</h3>
+            <p class="m-t-20 font-12"> Located next to the Denali Visitor Center, the Morino Grill is the only sit-down restaurant in the park. Snacks can be purchased at the Wilderness Access Center. </p>
+            <button class="button is-solid m-t-20">Learn More</button>
+        </div>
+        <div class="xs-col-12-12 md-col-6-12 p-x-40">
+            <img class="nav-brand" src="/images/play/features/feature-2.png" alt="" />
+        </div>
+    </div> 
+    </div>
+    </div>
+  `}
+/>
+
+
+---
+
+### Feature columns with icons
+
+<CodeBox
+  height="400px"
+  source={`
+    <div>
+    <div class="has-bg-white p-0" >
+    <div class="flex tablet-down-flex-column p-x-28 p-y-60">
+        <div class=" p-r-46 p-b-10" >
+            <div class="m-b-10"><box class="has-bg-brand-100 flex align-items-center justify-content-center br-6 h-8 w-8"><i class="d-icon d-store is-default is-brand-500"></i></box></div>
+            <span class="chips is-small has-bg-brand-500 is-bold is-white m-t-22">Essentials</span>
+            <h2 class="m-t-18">Eating & Sleeping</h2>
+            <p class="m-t-9">Located next to the Denali Visitor Center, the Morino Grill is the only sit-down restaurant in the park. Snacks can be purchased at the Wilderness Access Center.</p>
+        </div>
+         <div class="p-r-46 p-b-10" >
+            <div class="m-b-10"><box class="has-bg-brand-100 flex align-items-center justify-content-center br-6 h-8 w-8"><i class="d-icon d-photo-solid is-default is-brand-500"></i></box></div>
+             <span class="chips is-small has-bg-brand-500 is-bold is-white m-t-22">Planning</span>
+            <h2 class="m-t-18">Places to go</h2>
+            <p class="m-t-9">6 million acres of wild lands. A single, 92-mile long road traveling into the park. The places to go for adventure, solitude and recreation are nearly endless.</p>
+        </div>
+         <div class="p-b-10">
+            <div class="m-b-10 "><box class="has-bg-brand-100 flex align-items-center justify-content-center br-6 h-8 w-8"><i class="d-icon d-tools is-default is-brand-500"></i></box></div>
+             <span class="chips is-small has-bg-brand-500 is-bold is-white m-t-22">Activities</span>
+            <h2 class="m-t-18">Mountaineering</h2>
+            <p class="m-t-9">Ready to test your mountaineering and wilderness skills on North America's highest peak? Or maybe you are eyeing the vertical rock and ice walls of the Ruth Gorge. </p>
+        </div>
+    </div> 
+    </div>
+    </div>
+  `}
+/>
+
+export default ({ children }) => <Layout meta={meta}>{children}</Layout>;
