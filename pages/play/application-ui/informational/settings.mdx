@@ -1,0 +1,96 @@
+import Layout from "../../../../layouts/PlayDetailLayout";
+import CodeBox from "../../../../components/CodeBox";
+
+export const meta = {
+  title: "Settings",
+  description:
+    "Settings templates to plug right into your product.",
+  breadcrumbs: ["Informational", "Settings"],
+};
+
+### Account Settings
+
+<CodeBox
+  height="470px"
+  source={`
+    <div class="box">
+        <h3> Update your Account Settings </h3>
+        <div class="box flex has-bg-grey-100 space-between m-t-20">
+          <div class="flex"><p class="bold">Full Name </p><span class="m-l-40">Jonathan Denali</span></div>
+          <span class="link is-small">Edit</span>
+        </div>
+        <div class="box flex has-bg-grey-100 space-between m-t-6">
+          <div class="flex"><p class="bold">Email </p><span class="m-l-40">jdenali@denali.design</span></div>
+          <span class="link is-small">Edit</span>
+        </div>
+        <div class="box flex has-bg-grey-100 space-between m-t-6">
+          <p class="bold">Password </p>
+          <span class="link is-small">Change Password</span>
+        </div>
+        <div class="box flex has-bg-grey-100 space-between m-t-6">
+          <p class="bold">Display Avatar</p>
+          <label class="switch m-0">
+            <input type="checkbox" checked="" />
+            <span class="slider"></span>
+            <span class="off label">Off</span>
+            <span class="on label">On</span>
+          </label>
+        </div>
+        <div class="box flex has-bg-grey-100 space-between m-t-6">
+          <p class="bold">Delete my account </p>
+          <span class="link is-status-danger">Delete Account</span>
+        </div>
+    </div>
+  `}
+/>
+
+---
+
+### Integrations
+
+<CodeBox
+  height="470px"
+  source={`
+    <div class="box">
+        <h3> Connect more to your account </h3>
+        <div class="box has-bg-grey-100 m-t-20">
+          <div class="flex space-between"> 
+            <i class="d-icon d-facebook is-default m-t-4 "></i>
+            <div class="m-l-10">
+              <p class="bold">Facebook Ads</p>
+              <p>Facebook ads are paid messages that businesses place on Facebook. A paid ad lets
+               you target a particular demographic, and you can be as specific or as broad as you'd like. </p>
+            </div>
+            <div class="flex align-items-center m-l-20">
+                <button class="button is-solid"> Connect </button>
+            </div>
+          </div>
+          <hr>
+          <div class="flex space-between"> 
+            <i class="d-icon d-github is-default m-t-4 "></i>
+            <div class="m-l-10">
+              <p class="bold">Github</p>
+              <p>GitHub is a web-based version-control and collaboration platform for 
+               software developers. Explore our products, sign up for an account, and connect with the world's largest development community.</p>
+            </div>
+            <div class="flex align-items-center m-l-20">
+                <button class="button is-ghost"> Disconnect </button>
+            </div>
+          </div>
+          <hr>
+          <div class="flex space-between "> 
+            <i class="d-icon d-google is-default m-t-4 "></i>
+            <div class="m-l-10">
+              <p class="bold">Google Ads</p>
+              <p>Online advertising platform developed by Google, where advertisers bid to display 
+               brief advertisements, service offerings, product listings, or videos to web users.</p>
+            </div>
+            <div class="flex align-items-center m-l-20">
+                <button class="button is-solid"> Connect </button>
+            </div>
+          </div>
+    </div>
+  `}
+/>
+
+export default ({ children }) => <Layout meta={meta}>{children}</Layout>;
