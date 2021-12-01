@@ -8,7 +8,8 @@
                     "description": "Complete landing pages with all the bells and whistles.",
                     "items": "1",
                     "image": "/images/cards/pages/landing-page.png",
-                    "disabled": true,
+                    "disabled": false,
+                    "link": "/play/marketing/full-page/landing",
                     "tags": [
                         "Navbar",
                         "Button",
@@ -178,7 +179,8 @@
                     "description": "",
                     "items": "1",
                     "image": "/images/cards/pages/settings.png",
-                    "disabled": true,
+                    "link": "/play/application-ui/informational/settings",
+                    "disabled": false,
                     "tags": [
                         "Table",
                         "Nav",
