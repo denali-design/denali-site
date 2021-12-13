@@ -1,0 +1,159 @@
+import Layout from "../../../../layouts/PlayDetailLayout";
+import CodeBox from "../../../../components/CodeBox";
+
+export const meta = {
+  title: "Data Tables",
+  description:
+    "Orangize large amounts of data with data table pages.",
+  breadcrumbs: ["Application Ui", "Data Tables"],
+};
+
+### Default Data Table
+
+<CodeBox
+  height="200px"
+  source={`
+    <div class="has-bg-grey-100">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th class="is-sorted is-sorted__descend">Name</th>
+                    <th>Email</th>
+                    <th>Location</th>
+                    <th>Zip Code</th>
+                    <th style="text-align: right;">Income</th>
+                    <th class="is-center">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Sherri Mora</th>
+                    <td>sherri.mora@yahoo.com</td>
+                    <td>New York, NY</td>
+                    <td class="is-mono">28374-3456</td>
+                    <td class="is-mono" style="text-align: right;">$103,093.00</td>
+                    <td class="is-center"><a href="#"><span class="d-icon d-more-vertical is-small"></span></a></td>
+                </tr>
+                <tr>
+                    <th>Amiee Dudle</th>
+                    <td>amiee.dudley@yahoo.com</td>
+                    <td>Los Angeles, CA</td>
+                    <td class="is-mono">32384-5904</td>
+                    <td class="is-mono" style="text-align: right;">$99,594.00</td>
+                    <td class="is-center"><a href="#"><span class="d-icon d-more-vertical is-small"></span></a></td>
+                </tr>
+                <tr>
+                    <th>Willa Dunlap</th>
+                    <td>willa.dunlap@yahoo.com</td>
+                    <td>San Francisco, CA</td>
+                    <td class="is-mono">37489-4321</td>
+                    <td class="is-mono" style="text-align: right;">$1,023,034.00</td>
+                    <td class="is-center"><a href="#"><span class="d-icon d-more-vertical is-small"></span></a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+  `}
+/>
+
+---
+
+### Striped Data Table
+
+<CodeBox
+  height="250px"
+  source={`
+    <div class="has-bg-grey-100 p-20 br-5">
+     <table class="table is-striped">
+            <thead>
+                <tr>
+                    <th class="is-sorted is-sorted__descend">Name</th>
+                    <th>Email</th>
+                    <th>Location</th>
+                    <th>Zip Code</th>
+                    <th style="text-align: right;">Income</th>
+                    <th class="is-center">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Sherri Mora</th>
+                    <td>sherri.mora@yahoo.com</td>
+                    <td>New York, NY</td>
+                    <td class="is-mono">28374-3456</td>
+                    <td class="is-mono" style="text-align: right;">$103,093.00</td>
+                    <td class="is-center"><a href="#"><span class="d-icon d-more-vertical is-small"></span></a></td>
+                </tr>
+                <tr>
+                    <th>Amiee Dudle</th>
+                    <td>amiee.dudley@yahoo.com</td>
+                    <td>Los Angeles, CA</td>
+                    <td class="is-mono">32384-5904</td>
+                    <td class="is-mono" style="text-align: right;">$99,594.00</td>
+                    <td class="is-center"><a href="#"><span class="d-icon d-more-vertical is-small"></span></a></td>
+                </tr>
+                <tr>
+                    <th>Willa Dunlap</th>
+                    <td>willa.dunlap@yahoo.com</td>
+                    <td>San Francisco, CA</td>
+                    <td class="is-mono">37489-4321</td>
+                    <td class="is-mono" style="text-align: right;">$1,023,034.00</td>
+                    <td class="is-center"><a href="#"><span class="d-icon d-more-vertical is-small"></span></a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+`}
+/>
+
+---
+
+### Card Data Table
+
+<CodeBox
+  height="250px"
+  source={`
+    <div >
+     <table class="table is-cards">
+            <thead>
+                <tr>
+                    <th class="is-sorted is-sorted__descend">Name</th>
+                    <th>Email</th>
+                    <th>Location</th>
+                    <th>Zip Code</th>
+                    <th style="text-align: right;">Income</th>
+                    <th class="is-center">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="has-bg-grey-100">
+                    <th>Sherri Mora</th>
+                    <td>sherri.mora@yahoo.com</td>
+                    <td>New York, NY</td>
+                    <td class="is-mono">28374-3456</td>
+                    <td class="is-mono" style="text-align: right;">$103,093.00</td>
+                    <td class="is-center"><a href="#"><span class="d-icon d-more-vertical is-small"></span></a></td>
+                </tr>
+                <tr class="has-bg-grey-100">
+                    <th>Amiee Dudle</th>
+                    <td>amiee.dudley@yahoo.com</td>
+                    <td>Los Angeles, CA</td>
+                    <td class="is-mono">32384-5904</td>
+                    <td class="is-mono" style="text-align: right;">$99,594.00</td>
+                    <td class="is-center"><a href="#"><span class="d-icon d-more-vertical is-small"></span></a></td>
+                </tr>
+                <tr class="has-bg-grey-100">
+                    <th>Willa Dunlap</th>
+                    <td>willa.dunlap@yahoo.com</td>
+                    <td>San Francisco, CA</td>
+                    <td class="is-mono">37489-4321</td>
+                    <td class="is-mono" style="text-align: right;">$1,023,034.00</td>
+                    <td class="is-center"><a href="#"><span class="d-icon d-more-vertical is-small"></span></a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+`}
+/>
+
+export default ({ children }) => <Layout meta={meta}>{children}</Layout>;

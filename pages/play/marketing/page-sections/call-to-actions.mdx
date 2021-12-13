@@ -1,0 +1,130 @@
+import Layout from "../../../../layouts/PlayDetailLayout";
+import CodeBox from "../../../../components/CodeBox";
+
+export const meta = {
+  title: "Call to Actions",
+  description: "Call to action banners to increase those conversion rates.",
+  breadcrumbs: ["Page Sections", "Call to Actions"],
+};
+
+### Headline and buttons
+
+<CodeBox
+  height="191px"
+  source={`
+    <div class="box p-x-90 p-y-40 m-0 m-auto has-bg-brand-500 br-14">
+      <h4 class="is-white m-b-10 m-5" style="opacity: .8;">FOR THE ADVENTURERS</h4>
+      <div class="flex space-between tablet-down-flex-column">
+        <h1 class="is-white m-5">
+          More than a mountain. 
+          Are you ready?
+        </h1>
+        <div class="flex m-5">
+          <button class="button is-solid m-r-10">Book your trip</button>
+          <button class="button is-outline is-inverse m-r-10">Learn more</button>
+        </div>
+      </div>
+    </div>
+  `}
+/>
+
+---
+
+### Descriptive text and button
+
+<CodeBox
+  height="280px"
+  source={`
+    <div class="box p-x-50 p-y-40 br-14 has-bg-brand-500 m-0 m-auto">
+      <h4 class="is-white m-b-10 m-5" style="opacity: .8;">FOR THE ADVENTURERS</h4>
+      <div class="flex space-between tablet-down-flex-column">
+        <div class="m-5">
+          <h1 class="is-white m-b-10">
+            More than a mountain. 
+            Are you ready?
+          </h1>
+          <p class="is-white">Denali is six million acres of wild land, bisected by one ribbon of road culminating in North America's tallest peak. Ready to take it on? </p>
+        </div>
+        <div class="flex align-items-center m-5">
+          <button class="button is-solid m-r-10">Book your trip</button>
+          <button class="button is-outline is-inverse m-r-10">Learn more</button>
+        </div>
+      </div>
+    </div>
+  `}
+/>
+
+---
+
+### Widescreen with text
+
+<CodeBox
+  height="320px"
+  source={`
+    <div class="box p-x-50 p-y-40 br-14 has-bg-brand-500 m-0 m-auto" tyle="text-align:center";>
+      <h1 class="is-white m-b-20">
+        Are you ready?
+        <br>
+        Denali is more than a mountain.
+      </h1>
+      <p class="is-white m-b-30">Denali is six million acres of wild land, bisected by one ribbon of road culminating in North America's tallest peak. Ready to take it on? </p>
+      <button class="button is-solid m-r-10">Book your trip</button>
+      <button class="button is-outline is-inverse m-r-10">Learn more</button>
+    </div>
+  `}
+/>
+
+---
+
+### Widescreen with background image
+
+<CodeBox
+  height="334px"
+  source={`
+  <div class="box p-x-50 p-y-40 br-14 has-bg-brand-500 m-0 m-auto" style="
+    background-size: cover;
+    background-position: bottom;
+    box-shadow:inset 0 0 0 2000px rgba(0, 43, 102, .8);
+    background-image: url('/images/play/mountain.png');">
+    <div style="text-align: center";>
+      <h1 class="is-white m-b-20">
+        Are you ready?
+        <br>
+        Denali is more than a mountain.
+      </h1>
+      <p class="is-white m-b-30">Denali is six million acres of wild land, bisected by one ribbon of road culminating in North America's tallest peak. Ready to take it on? </p>
+      <button class="button is-solid m-r-10">Book your trip</button>
+      <button class="button is-outline is-inverse m-r-10">Learn more</button>
+    </div>
+  </div>
+  `}
+/>
+
+---
+
+### Text with image split
+
+<CodeBox
+  height="370px"
+  source={`
+  <div class="box flex tablet-down-flex-column p-0 br-14 has-bg-brand-500 m-0 m-auto" style="overflow: hidden;">
+    <div class="p-x-50 p-y-40 m-0 m-auto">
+      <h4 class="is-white m-b-10" style="opacity: .8;">FOR THE ADVENTURERS</h4>
+      <h1 class="is-white m-b-10">
+          Denali is more than a mountain.
+      </h1>
+      <p class="is-white m-b-20">Denali is six million acres of wild land, bisected by one ribbon of road down the middle.</p>
+      <button class="button is-solid m-r-10">Book your trip</button>
+      <button class="button is-outline is-inverse m-r-10">Learn more</button>
+    </div>
+    <div class="min-w-84 min-h-70" style="
+    min-width: 420px;
+    min-height: 350px;
+    background-size: cover;
+    background-image: url('/images/play/climbers.png');">
+    </div>
+  </div>
+  `}
+/>
+
+export default ({ children }) => <Layout meta={meta}>{children}</Layout>;
