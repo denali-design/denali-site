@@ -89,7 +89,8 @@
                     "description": "Call to action banners to increase those conversion rates.",
                     "items": "1",
                     "image": "/images/cards/sections/call-to-action.png",
-                    "disabled": true,
+                    "link": "/play/marketing/page-sections/call-to-actions",
+                    "disabled": false,
                     "tags": [
                         "Type",
                         "Button"
