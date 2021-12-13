@@ -167,7 +167,8 @@
                     "description": "Orangize large amounts of data with data table pages.",
                     "items": "1",
                     "image": "/images/cards/components/table.png",
-                    "disabled": true,
+                    "link": "/play/application-ui/informational/datatables",
+                    "disabled": false,
                     "tags": [
                         "Table",
                         "Nav",
