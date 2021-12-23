@@ -1,0 +1,257 @@
+import Layout from "../../../../layouts/PlayDetailLayout";
+import CodeBox from "../../../../components/CodeBox";
+
+export const meta = {
+  title: "Content",
+  description:
+    "Content sections for housing related text, images, links, and more together.",
+  breadcrumbs: ["Page Sections", "Content"],
+};
+
+### 3 column cards
+
+<CodeBox
+  height="850px"
+  source={`
+    <div class="has-bg-grey-100">
+      <div class="flex justify-content-center align-content-center p-t-50 flex-column">
+        <div class="box has-bg-brand-100 flex align-items-center justify-content-center m-0 m-auto br-6 h-6 w-6"><i class="d-icon d-book is-default"></i></div>
+        <h1 class="m-t-22" style="text-align: center">Writer’s Corner </h1>
+        <p class="m-t-16" style="text-align: center"> In summer of 2017, Denali archaeologists working on a Section 106 compliance survey close to the historic McKinley Park Station site discovered a piece of history: a two-inch pocket watch with the inscription “WM ALLMAN MCPARK ALASKA.” Who was WM ALLMAN?</p>
+      </div>
+      <div class="m-t-44 row">
+        <div class="col-1-3 p-10">
+          <div class="box">
+            <img class="nav-brand h-36" src="/images/play/content-cards/3-column-cards/blog-1-1.png" alt="">
+            <h4 class="m-t-20" style="text-overflow: ellipsis;"> “Rigging” History: Mountain Denali’s Origin Story </h4>
+            <p class="m-t-10">By <span class="link"> George Vancouver </span> in <span class="link"> Park History </span> </p>
+            <p class="m-t-16"> Letters from over 100 years ago reveal some interesting twists to the question of who first proposed a national park in the area of Mount McKinley (Denali) and an apparent attempt at some revisionist history by then-Alaska Governor Thomas Riggs.</p>
+            <footer>
+              <div class="flex justify-content-center m-t-20">
+                <button class="button is-outline m-r-10">Book your trip</button>
+                <button class="button is-outline is-default has-icon m-r-5">
+                    <i class="d-icon d-bookmark is-small"></i>
+                </button>
+                <button class="button is-outline is-default has-icon">
+                    <i class="d-icon d-share is-small"></i>
+                </button>
+              </div>
+            </footer>
+          </div>
+        </div>  
+        <div class="col-1-3 p-10">
+          <div class="box">
+            <img class="nav-brand h-36" src="/images/play/content-cards/3-column-cards/blog-1-2.png" alt="">
+            <h4 class="m-t-20" style="text-overflow: ellipsis;"> Back in Time: A Watch and an Early Denali Resident</h4>
+            <p class="m-t-10">By <span class="link"> Frank Densmore </span> in <span class="link"> Park History </span> </p>
+            <p class="m-t-16"> On the morning of October 23rd, 1939, the Superintendent’s Residence caught on fire and was destroyed. Not long after the flames expired, criminal accusations of arson, insurance fraud, and narcotics possession were leveled by the park clerk’s wife.</p>
+            <footer>
+              <div class="flex justify-content-center m-t-20">
+                <button class="button is-outline m-r-10">Book your trip</button>
+                <button class="button is-outline is-default has-icon m-r-5">
+                    <i class="d-icon d-bookmark is-small"></i>
+                </button>
+                <button class="button is-outline is-default has-icon">
+                    <i class="d-icon d-share is-small"></i>
+                </button>
+              </div>
+            </footer>
+          </div>
+        </div>
+        <div class="col-1-3 p-10">
+          <div class="box">
+            <img class="nav-brand h-36" src="/images/play/content-cards/3-column-cards/blog-1-3.png" alt="">
+            <h4 class="m-t-20" style="text-overflow: ellipsis;"> Disaster and Scandal: 1939 Residence Fire </h4>
+            <p class="m-t-10">By <span class="link"> Alfred Brooks </span> in <span class="link"> Park History </span> </p>
+            <p class="m-t-16"> Letters from over 100 years ago reveal some interesting twists to the question of who first proposed a national park in the area of Mount McKinley (Denali) and an apparent attempt at some revisionist history by then-Alaska Governor Thomas Riggs.</p>
+            <footer>
+              <div class="flex justify-content-center m-t-20">
+                <button class="button is-outline m-r-10">Book your trip</button>
+                <button class="button is-outline is-default has-icon m-r-5">
+                    <i class="d-icon d-bookmark is-small"></i>
+                </button>
+                <button class="button is-outline is-default has-icon">
+                    <i class="d-icon d-share is-small"></i>
+                </button>
+              </div>
+           </footer>
+          </div>
+        </div>
+      </div>
+    </div>
+  `}
+/>
+
+---
+
+### 2 column cards
+
+<CodeBox
+  height="750px"
+  source={`
+    <div class="has-bg-grey-100">
+      <div class="flex justify-content-center align-content-center p-t-50 flex-column p-x-20">
+        <div class="flex align" style="align-items: baseline;">
+          <div class="box has-bg-brand-100 flex align-items-center justify-content-center m-10 br-6 h-6 w-6 m-l-0">
+            <i class="d-icon d-book is-default"></i>
+          </div>
+          <h1 class="m-t-22" style="text-align: center">Writer’s Corner </h1>
+        </div>
+        <p class="m-t-16" > From nuggets on Denali’s storied history to present day climbing tips and trips check out our writer’s corner article for interesting reads.</p>
+        <hr class="m-y-30" />
+      </div>
+      <div class="row">
+        <div class="col-1-2 p-10">
+          <div class="box">
+            <img src="/images/play/content-cards/2-column-cards/blog-2-1.png" alt="">
+            <p class="m-t-20"> PARK HISTORY </p>
+            <h4 class="m-t-6" style="text-overflow: ellipsis;"> “Rigging” History: Denali’s Origin Story as told by climbers</h4>
+            <footer class="m-t-20">
+              <div class="flex  m-t-20">
+                <img class="w-7 h-7 m-r-10 br-circle" src="/images/play/download.jpeg" alt="" />
+                <div>
+                  <p>By <span class="link"> George Vancouver </span> </p>
+                  <p> Aug 20, 2021 </p>
+                </div>
+              </div>
+            </footer>
+          </div>
+        </div>  
+        <div class="col-1-2 p-10">
+          <div class="box">
+            <img  src="/images/play/content-cards/2-column-cards/blog-2-2.png" alt="">
+            <p class="m-t-20"> PARK HISTORY </p>
+            <h4 class="m-t-6" style="text-overflow: ellipsis;"> Back in Time: A Watch and an Early Denali Resident</h4>
+            <footer class="m-t-20">
+              <div class="flex  m-t-20">
+                <img class="w-7 h-7 m-r-10 br-circle " src="/images/play/download.jpeg" alt="" />
+                <div>
+                  <p>By <span class="link"> Frank Densmore </span> </p>
+                  <p> Aug 20, 2021 </p>
+                </div>
+              </div> 
+           </footer>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+`}
+/>
+
+---
+
+### Image and text split
+
+<CodeBox
+  height="780px"
+  source={`
+    <div class="has-bg-grey-100 p-x-20">
+      <div class="flex justify-content-center align-content-center p-t-50 flex-column">
+        <div class="flex" style="align-items: baseline;">
+          <div class="box has-bg-brand-100 flex align-items-center justify-content-center m-10 br-6 h-6 w-6 m-l-0"><i class="d-icon d-book is-default"></i></div>
+          <h1 class="m-t-22" style="text-align: center">Writer’s Corner </h1>
+        </div>
+        <p class="m-t-16" > From nuggets on Denali’s storied history to present day climbing tips and trips check out our writer’s corner article for interesting reads.</p>
+        <hr class="m-y-30" />
+      </div>
+      <div>
+        <div class="m-x-20 p-y-10 flex">
+          <img class="nav-brand" src="/images/play/content-cards/img-text-split/blog-3-1.png" alt="" style="width:338px; height:192px;" />
+          <div class="p-l-40">
+            <h4> “Rigging” History: Denali’s Origin Story </h4>
+            <div class="flex  m-t-16">
+              <img class="w-7 h-7 m-r-10 br-circle " src="/images/play/download.jpeg" alt="" />
+              <p>By <span class="link"> George Vancouver </span> in <span class="link"> Park History </span> </p>
+            </div>            
+            <p class="m-t-16"> Letters from over 100 years ago reveal some interesting twists to the question of who first proposed a national park in the area of Mount McKinley (Denali) and an apparent attempt at some revisionist history by then-Alaska Governor Thomas Riggs.</p>
+            <button class="button is-outline m-t-20">Keep reading</button>
+          </div>
+        </div>
+        <hr class="m-y-30"/>
+        <div class="m-x-20 p-y-10 flex">
+          <img class="nav-brand" src="/images/play/content-cards/img-text-split/blog-3-2.png" alt="" style="width:338px; height:192px;" />
+          <div class="p-l-40">
+            <h4> Disaster and Scandal: 1939 Residence Fire </h4>
+            <div class="flex  m-t-16">
+              <img class="w-7 h-7 m-r-10 br-circle " src="/images/play/download.jpeg" alt="" />
+              <p>By <span class="link"> Frank Densmore </span> in <span class="link"> Park History </span> </p>
+            </div> 
+            <p class="m-t-16"> On the morning of October 23rd, 1939, the Superintendent’s Residence caught on fire and was destroyed. Not long after the flames expired, criminal accusations of arson, insurance fraud, and narcotics possession were leveled by the park clerk’s wife. </p>
+            <button class="button is-outline m-t-20">Keep reading</button>
+          <div>
+        </div>
+      </div>
+    </div>
+  `}
+/>
+
+---
+
+### Text columns
+
+<CodeBox
+  height="550px"
+  source={`
+    <div class="has-bg-grey-100 p-x-20">
+      <div class="flex" style="align-items: baseline;">
+        <div class="box has-bg-brand-100 flex align-items-center justify-content-center m-10 br-6 h-6 w-6 m-l-0"><i class="d-icon d-book is-default"></i></div>
+          <h1 class="m-t-22" style="text-align: center">Writer’s Corner </h1>
+        </div>
+        <p class="m-t-16" > From nuggets on Denali’s storied history to present day climbing tips and trips check out our writer’s corner article for interesting reads.</p>
+        <hr class="m-y-30" />
+        <div class="row">
+          <div class="col-1-3 p-10">
+            <div class="box has-bg-grey-100" style="border: none;">
+              <p> PARK HISTORY </p>
+              <h4 class="m-t-20" style="text-overflow: ellipsis;"> “Rigging” History: Denali’s Origin Story </h4>
+              <p class="m-t-16">Letters from over 100 years ago reveal some interesting twists to the questio… </p>
+              <button class="button is-outline m-t-10">
+                Keep reading
+              </button>
+              <footer>
+                <div>
+                  <p>By <span class="link"> George Vancouver </span> </p>
+                  <p> Aug 20, 2021 </p>
+                </div>
+              </footer>
+            </div>
+          </div>  
+          <div class="col-1-3 p-10">
+            <div class="box has-bg-grey-100" style="border: none;">
+              <p> PARK HISTORY </p>
+              <h4 class="m-t-20" style="text-overflow: ellipsis;"> Back in Time: A Watch and a Denali Resident</h4>
+              <p class="m-t-16">In summer of 2017, Denali archaeologists working on a Sectio…  </p>
+              <button class="button is-outline m-t-10">
+                Keep reading
+              </button>
+              <footer>
+                <div>
+                  <p>By <span class="link"> George Vancouver </span> </p>
+                  <p> Aug 20, 2021 </p>
+                </div>  
+              </footer>
+            </div>
+          </div>
+          <div class="col-1-3 p-10">
+            <div class="box has-bg-grey-100" style="border: none;">
+              <p> PARK HISTORY </p>
+              <h4 class="m-t-20" style="text-overflow: ellipsis;"> Disaster and Scandal: 1939 Residence Fire </h4>
+              <p class="m-t-16"> On the morning of October 23rd, 1939, the Superintendent’s Residence caug… </p>
+              <button class="button is-outline m-t-10">
+                Keep reading
+              </button>
+              <footer>
+                <div>
+                  <p>By <span class="link"> George Vancouver </span> </p>
+                  <p> Aug 20, 2021 </p>
+                </div>  
+              </footer>
+            </div>
+          </div>
+        </div>
+    </div>
+  `}
+/>
+
+export default ({ children }) => <Layout meta={meta}>{children}</Layout>;
