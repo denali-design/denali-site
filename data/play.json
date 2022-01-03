@@ -52,7 +52,8 @@
                     "description": "Content sections for housing related text, images, links, and more together.",
                     "items": "3",
                     "image": "/images/cards/sections/content.png",
-                    "disabled": true,
+                    "link": "/play/marketing/page-sections/content",
+                    "disabled": false,
                     "tags": [
                         "Type",
                         "Buttons",
