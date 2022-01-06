@@ -78,7 +78,8 @@
                     "description": "Blog post sections to house your latest thoughts and musings.",
                     "items": "2",
                     "image": "/images/cards/sections/blog-posts.png",
-                    "disabled": true,
+                    "link": "/play/marketing/page-sections/blog-posts",
+                    "disabled": false,
                     "tags": [
                         "Type",
                         "Image",
