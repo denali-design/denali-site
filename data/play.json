@@ -195,7 +195,8 @@
                     "title": "Welcome",
                     "description": "Welcome sections to introduce product capabilities to new users.",
                     "image": "/images/cards/coming-soon.png",
-                    "disabled": true
+                    "link": "/play/application-ui/informational/welcome",
+                    "disabled": false
                 }
             ]
         }
