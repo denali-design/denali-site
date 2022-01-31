@@ -1,0 +1,60 @@
+import Layout from "../../../../layouts/PlayDetailLayout";
+import CodeBox from "../../../../components/CodeBox";
+
+export const meta = {
+  title: "Onboarding",
+  description:
+    "Welcome sections to introduce product capabilities to new users.",
+  breadcrumbs: ["Informational", "Onboarding"],
+};
+
+### Onboarding
+
+<CodeBox
+  height="1530px"
+  source={`
+    <div class="has-bg-grey-100 p-20">
+        <div class="box" style="border:none;">
+            <div class="has-bg-grey-100 p-2 m-auto shadow-1" style="width: 386px; text-align:center;">
+                <div class="box bg-size-cover" style="height: 246px; 
+                        background-image: url('/images/play/Onboarding-img-1.png');
+                        background-position: bottom;
+                        border:none;">
+                </div>
+                <i class="d-icon d-more-horizontal-solid is-default m-t-10 is-brand-300"></i>
+                <h3 class="m-t-20"> Ready to Travel </h3>
+                <p class="m-t-7 font-12 is-grey-700 m-x-70">Choose your destination, plan your trip, pick the best place for your vacation.</p>
+                <button class="button is-solid m-y-30"> Get Started</button>
+            </div>
+        </div>
+        <div class="box m-t-10" style="border:none;">
+            <div class="has-bg-grey-100 p-2 m-auto shadow-1" style="width: 386px; text-align:center;">
+                <div class="box bg-size-cover" style="height: 246px; 
+                        background-image: url('/images/play/Onboarding-img-2.png');
+                        background-position: bottom;
+                        border:none;">
+                </div>
+                <i class="d-icon d-more-horizontal-solid is-default m-t-10 is-brand-300"></i>
+                <h3 class="m-t-20"> Select a Date </h3>
+                <p class="m-t-7 font-12 is-grey-700 m-x-70">Select the day, book your ticket. We give you the best price, guaranteed.</p>
+                <button class="button is-solid m-y-30"> Next</button>
+            </div>
+        </div>
+        <div class="box m-t-10" style="border:none;">
+            <div class="has-bg-grey-100 p-2 m-auto shadow-1" style="width: 386px; text-align:center;">
+                <div class="box bg-size-cover" style="height: 246px; 
+                        background-image: url('/images/play/Onboarding-img-3.png');
+                        background-position: bottom;
+                        border:none;">
+                </div>
+                <i class="d-icon d-more-horizontal-solid is-default m-t-10 is-brand-300"></i>
+                <h3 class="m-t-20"> Explore the World </h3>
+                <p class="m-t-7 font-12 is-grey-700 m-x-70">Discover new places and share these moments with your family.</p>
+                <button class="button is-solid m-y-30">Next</button>
+            </div>
+        </div>
+    </div>
+  `}
+/>
+
+export default ({ children }) => <Layout meta={meta}>{children}</Layout>;
