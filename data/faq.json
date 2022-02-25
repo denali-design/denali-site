@@ -7,7 +7,7 @@
         },
         {
             "q": "What are specific examples of production use and who has adopted Denali?",
-            "a": "Denali has been used internally at Verizon Media on several products and a few open-source ones as well. Navi, Screwdriver, and Yahoo Knowledge - COVID Tracker. Check out our Gallery page for more examples",
+            "a": "Denali has been used internally at Yahoo on several products and a few open-source ones as well. Navi, Screwdriver, and Yahoo Knowledge - COVID Tracker. Check out our Gallery page for more examples",
             "resources": [
                 {
                     "name": "Gallery",
@@ -19,7 +19,7 @@
         },
         {
             "q": "What impact does Denali have on frontend performance?",
-            "a": "From our knowledge at Verizon Media, we understand a heavy front end can be costly so one of our main goals is to keep our CSS footprint small. Our web components file size is currently 189kb and theme file ~23kb. We are activity monitoring this file size and will continue to reduce it when possible.",
+            "a": "From our knowledge at Yahoo, we understand a heavy front end can be costly so one of our main goals is to keep our CSS footprint small. Our web components file size is currently 189kb and theme file ~23kb. We are activity monitoring this file size and will continue to reduce it when possible.",
             "resources": []
         },
         {

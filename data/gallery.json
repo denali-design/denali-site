@@ -14,7 +14,7 @@
         {
             "title": "Developer Network - Mail",
             "date": "Mar 24, 2021",
-            "author": "YDN team at Verizon Media",
+            "author": "YDN team at Yahoo",
             "color": "#f2f2f2",
             "image": "/images/gallery/dev-network-mail.png",
             "link": "https://developer.verizonmedia.com/mail/",
@@ -27,7 +27,7 @@
         {
             "title": "Yahoo Hack Together",
             "date": "Feb 22, 2021",
-            "author": "Open Source Team at Verizon Media",
+            "author": "Open Source Team at Yahoo",
             "color": "#7759FF",
             "image": "/images/gallery/yahoo-hack-together.png",
             "link": "https://yahoo.github.io/hacktogether/",
@@ -54,7 +54,7 @@
         {
             "title": "Yahoo COVID Dashboard",
             "date": "Jul 20, 2020",
-            "author": "A few great people at Verizon Media",
+            "author": "A few great people at Yahoo",
             "color": "#7E1FFF",
             "image": "/images/gallery/yahoo-covid.png",
             "link": "https://github.com/yahoo/covid-19-dashboard",

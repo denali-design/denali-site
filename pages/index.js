@@ -429,7 +429,7 @@ const Index = () => {
                   <i className="d-icon d-verizon-check"></i>
                 </div>
                 <div className="context">
-                  <p className="company">Verizon Media</p>
+                  <p className="company">Yahoo</p>
                   <p className="category">Enterprise tools</p>
                 </div>
               </div>
