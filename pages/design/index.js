@@ -61,7 +61,7 @@ export default function Design() {
                                         </div>
                                         <div className="xs-col-1-1 sm-col-1-1 md-col-1-2 lg-col-1-3 xl-col-1-3">
                                             <DetailCard
-                                                title='Iconongraphy'
+                                                title='Iconography'
                                                 description='Learn how to implement icons within your products.'
                                                 link='/design/principles/iconography'
                                                 image='/images/design/cards/icons.png'

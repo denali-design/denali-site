@@ -50,7 +50,7 @@
                 {
                     "title": "Content",
                     "description": "Content sections for housing related text, images, links, and more together.",
-                    "items": "3",
+                    "items": "4",
                     "image": "/images/cards/sections/content.png",
                     "link": "/play/marketing/page-sections/content",
                     "disabled": false,
@@ -76,7 +76,7 @@
                 {
                     "title": "Blog Posts",
                     "description": "Blog post sections to house your latest thoughts and musings.",
-                    "items": "2",
+                    "items": "1",
                     "image": "/images/cards/sections/blog-posts.png",
                     "link": "/play/marketing/page-sections/blog-posts",
                     "disabled": false,
@@ -89,7 +89,7 @@
                 {
                     "title": "Call To Action",
                     "description": "Call to action banners to increase those conversion rates.",
-                    "items": "1",
+                    "items": "5",
                     "image": "/images/cards/sections/call-to-action.png",
                     "link": "/play/marketing/page-sections/call-to-actions",
                     "disabled": false,
@@ -168,7 +168,7 @@
                 {
                     "title": "Data Table",
                     "description": "Orangize large amounts of data with data table pages.",
-                    "items": "1",
+                    "items": "3",
                     "image": "/images/cards/components/table.png",
                     "link": "/play/application-ui/informational/datatables",
                     "disabled": false,
@@ -180,8 +180,8 @@
                 },
                 {
                     "title": "Settings",
-                    "description": "",
-                    "items": "1",
+                    "description": "Settings templates to plug right into your product.",
+                    "items": "2",
                     "image": "/images/cards/pages/settings.png",
                     "link": "/play/application-ui/informational/settings",
                     "disabled": false,
@@ -194,6 +194,7 @@
                 {
                     "title": "Welcome",
                     "description": "Welcome sections to introduce product capabilities to new users.",
+                    "items": "1",
                     "image": "/images/cards/coming-soon.png",
                     "link": "/play/application-ui/informational/welcome",
                     "disabled": false
