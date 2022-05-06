@@ -9,7 +9,7 @@
     "deploy": "npm run build && npm run export"
   },
   "dependencies": {
-    "@denali-design/icons": "^1.0.0",
+    "@denali-design/icons": "^1.2.0",
     "@mdx-js/loader": "^1.6.22",
     "@next/mdx": "^10.0.9",
     "aos": "^3.0.0-beta.6",
