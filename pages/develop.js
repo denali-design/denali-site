@@ -275,7 +275,7 @@ export default function Develop() {
               <div className="xs-col-1-1 sm-col-1-1 md-col-1-3 lg-col-1-3 xl-col-1-3">
                 <a 
                   className="flex flex-column p-40 shadow-3 br-lg m-5"
-                  href="mailto:denali@verizonmedia.com"
+                  href="mailto:denali@yahooinc.com"
                 >
                   <div className="h-12 w-12 has-bg-brand-300 br-circle flex justify-content-center align-items-center">
                     <span className="d-icon d-mail-new is-medium is-grey-100"></span>

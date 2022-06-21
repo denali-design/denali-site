@@ -1,4 +1,8 @@
 export default function Footer() {
+
+    const date = new Date()
+    const year = date.getFullYear()
+
     return (
         <footer className="footer inverse">
 
@@ -48,7 +52,7 @@ export default function Footer() {
                 </ul>
             </div>
             <div className="footer-social flex space-between">
-                <p className="is-small is-grey-100">Copyright © 2021, Verizon Media</p>
+                <p className="is-small is-grey-100">Copyright © {year}, Yahoo</p>
                 <div>
                     <a href="https://medium.com/denali-design" target="_blank" rel="noreferrer noopener" className="is-secondary m-l-16"><span className="d-icon d-medium is-small"></span></a>
                     <a href="https://twitter.com/denali_design" target="_blank" rel="noreferrer noopener" className="is-secondary m-l-16"><span className="d-icon d-twitter is-small"></span></a>
