@@ -9,7 +9,7 @@ export default function ResourceCard(props) {
                 target="_blank"
             >
                 <div className={`br-circle h-9 w-9 flex justify-content-center align-items-center ${props.disabled ? 'has-bg-grey-400' : 'has-bg-brand-100'}`} style={{minWidth: '45px'}}>
-                    <span className={`d-icon d-${props.icon} ${props.disabled ? 'is-grey-700' : 'is-brand-300'}`}></span>
+                    <span className={`flex d-icon d-${props.icon} ${props.disabled ? 'is-grey-700' : 'is-brand-300'}`}></span>
                 </div>
                 <div className="m-l-10">
                     <div className="flex align-items-center m-b-4">
